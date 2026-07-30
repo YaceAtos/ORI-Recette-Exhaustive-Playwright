@@ -1,0 +1,35 @@
+{
+  "canonicalId": "ORI-750::CT-ERR-02::R263",
+  "issueKey": "ORI-750",
+  "caseId": "CT-ERR-02",
+  "module": "MP5 > SP5.2",
+  "priority": "P1",
+  "type": "Erreur",
+  "scenario": "Scenario 16 - Agence inconnue : notification d'erreur",
+  "route": "https://orion-int2.itsap.net/sap/pages/planning",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 3,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Emettre le message avec un idAgence inconnu\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 2,
+    "misses": [
+      {
+        "text": "Message"
+      },
+      {
+        "text": "erreur + notification "
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-7dc09-onnue-notification-d-erreur-orion-headed"
+}

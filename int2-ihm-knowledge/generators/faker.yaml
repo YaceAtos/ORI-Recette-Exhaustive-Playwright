@@ -1,0 +1,8 @@
+faker:
+  providers:
+    person.first_name: faker.person.firstName
+    person.last_name: faker.person.lastName
+    person.birth_date: faker.date.birthdate
+    company.siren: faker.fr.siren
+    company.siret: custom.fr.siret_from_siren
+    authentication.email: faker.internet.email

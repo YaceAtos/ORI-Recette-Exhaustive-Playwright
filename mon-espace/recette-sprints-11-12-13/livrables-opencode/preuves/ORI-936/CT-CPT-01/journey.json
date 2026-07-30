@@ -1,0 +1,38 @@
+{
+  "canonicalId": "ORI-936::CT-CPT-01::R150",
+  "issueKey": "ORI-936",
+  "caseId": "CT-CPT-01",
+  "module": "MP3 > SP3.4",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_INT_CPTS_1 - Affichage par defaut de l'ecran a la date du jour",
+  "route": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 4,
+  "totalSteps": 4,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 3,
+    "misses": [
+      {
+        "text": "Onglet"
+      },
+      {
+        "text": "Soldes au"
+      },
+      {
+        "text": "Compteurs"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "assertion-low",
+  "rules": [
+    "RG_INT_CPTS_1",
+    "RG_INT_CPTT_1c"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-ee1d8-e-l-ecran-a-la-date-du-jour-orion-headed"
+}

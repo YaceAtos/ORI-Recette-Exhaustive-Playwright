@@ -1,0 +1,9 @@
+synthetic:
+  strategy:
+    default: deterministic_hash
+    seed_env: INT2_DATASET_RUN_SEED
+  policies:
+    allow_unicode: false
+    unique_per_route: true
+    unique_per_field: true
+    unique_per_variant: true

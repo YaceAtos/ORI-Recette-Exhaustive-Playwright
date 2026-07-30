@@ -1,0 +1,30 @@
+{
+  "canonicalId": "ORI-933::CT-HAB-F4-05::R59",
+  "issueKey": "ORI-933",
+  "caseId": "CT-HAB-F4-05",
+  "module": "SP1.5",
+  "priority": "P2",
+  "type": "Variante",
+  "scenario": "SC7: Statut non renseigne - droit special Non accorde sur profil inclus",
+  "route": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 2,
+  "blocker": {
+    "step": 0,
+    "reason": "Donnée absente: aucun enregistrement dans INT2 (fixture non seedée)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 0,
+    "misses": []
+  },
+  "severity": null,
+  "status": "blocked-data",
+  "rules": [
+    "RG_HAB_DPRDS_004"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-cdc99-n-accorde-sur-profil-inclus-orion-headed"
+}

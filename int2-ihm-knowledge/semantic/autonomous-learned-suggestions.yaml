@@ -1,0 +1,135 @@
+generated_at: '2026-07-30T13:39:41.779Z'
+source: continuous-learning-agent
+learned_aliases:
+  address:
+    - alias: adresse principale de la prestation
+      count: 1
+      route_count: 1
+  agency:
+    - alias: opérationnel agence
+      count: 1
+      route_count: 1
+    - alias: agence
+      count: 1
+      route_count: 1
+  code:
+    - alias: code
+      count: 3
+      route_count: 3
+    - alias: rechercher par code ou libellé
+      count: 1
+      route_count: 1
+    - alias: identifiant
+      count: 1
+      route_count: 1
+  company:
+    - alias: société
+      count: 1
+      route_count: 1
+  date:
+    - alias: jj/mm/aaaa
+      count: 1
+      route_count: 1
+  description:
+    - alias: description
+      count: 3
+      route_count: 3
+    - alias: décrivez la fonction du profil
+      count: 1
+      route_count: 1
+  label:
+    - alias: libellé
+      count: 1
+      route_count: 1
+    - alias: libellé commercial
+      count: 1
+      route_count: 1
+  lastName:
+    - alias: 'ex: conseil départemental de la sarthe'
+      count: 1
+      route_count: 1
+    - alias: 'ex: cd72'
+      count: 1
+      route_count: 1
+  legalId:
+    - alias: '123456789'
+      count: 1
+      route_count: 1
+    - alias: '12345678901234'
+      count: 1
+      route_count: 1
+  number:
+    - alias: durée rendez-vous commercial (min)
+      count: 1
+      route_count: 1
+  person.email:
+    - alias: e-mail
+      count: 1
+      route_count: 1
+  person.last_name:
+    - alias: prénom
+      count: 2
+      route_count: 2
+    - alias: nom d'usage
+      count: 2
+      route_count: 2
+    - alias: saisissez un nom ou un identifiant
+      count: 2
+      route_count: 1
+    - alias: rechercher par nom ou code
+      count: 2
+      route_count: 1
+    - alias: nom
+      count: 1
+      route_count: 1
+    - alias: nom du profil
+      count: 1
+      route_count: 1
+    - alias: nom de la catégorie
+      count: 1
+      route_count: 1
+    - alias: rechercher par nom
+      count: 1
+      route_count: 1
+  phone:
+    - alias: numéro
+      count: 1
+      route_count: 1
+  radioType:
+    - alias: intervenant
+      count: 1
+      route_count: 1
+  search:
+    - alias: rechercher
+      count: 13
+      route_count: 12
+    - alias: rechercher un collaborateur
+      count: 1
+      route_count: 1
+    - alias: rechercher un lead
+      count: 1
+      route_count: 1
+    - alias: rechercher un contact
+      count: 1
+      route_count: 1
+    - alias: rechercher un client pro
+      count: 1
+      route_count: 1
+    - alias: rechercher un organisme
+      count: 1
+      route_count: 1
+    - alias: rechercher un profil
+      count: 1
+      route_count: 1
+  unknown:
+    - alias: indicatif
+      count: 1
+      route_count: 1
+    - alias: profil à inclure
+      count: 1
+      route_count: 1
+  url:
+    - alias: https://www.exemple.fr
+      count: 1
+      route_count: 1
+

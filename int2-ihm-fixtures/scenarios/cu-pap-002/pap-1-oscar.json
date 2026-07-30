@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "description": "PAP n°1 — OSCAR : Aide ménagère + Aide mobilité, PEC 50%, mensuel",
+    "chaine": "cu-pap-002",
+    "step": "1-3b",
+    "idempotent": false,
+    "requires": ["scenarios/cu-pap-002/prerequis-of-cda"]
+  },
+  "data": {
+    "beneficiaire": "TEST_AUTO_Beneficiaire_CARSAT",
+    "ecran0": {
+      "action": "Clic bouton 'Ajouter une aide'"
+    },
+    "ecran1_ajout_aide": {
+      "ofSelectionne": "CARSAT Normandie",
+      "typeAide": "OSCAR",
+      "cdaSelectionne": "OSCAR CARSAT Normandie"
+    },
+    "ecran2_decision_of": {
+      "dateDebut": "+1d",
+      "dateFin": "+365d",
+      "numeroDecision": "DEC-2026-OSCAR-001"
+    },
+    "ecran3_personnalisation": {
+      "activites": [
+        {
+          "nom": "Aide ménagère à domicile",
+          "format": "Horaire",
+          "volumeJO": 20,
+          "tauxPecJO": 50,
+          "montantPecJO_attendu": 13.55,
+          "tarifFactJO_snapshot": 27.10,
+          "volumeDJF": 5,
+          "tauxPecDJF": 50,
+          "montantPecDJF_attendu": 15.20,
+          "tarifFactDJF_snapshot": 30.40,
+          "periodicite": "Mensuel"
+        },
+        {
+          "nom": "Aide à la mobilité",
+          "format": "Horaire",
+          "volumeJO": 10,
+          "tauxPecJO": 50,
+          "montantPecJO_attendu": 16.00,
+          "tarifFactJO_snapshot": 32.00,
+          "periodicite": "Mensuel"
+        }
+      ]
+    }
+  },
+  "assertions": {
+    "pap_cree": true,
+    "calcul_bidirectionnel": "taux 50% × base remb → montant PEC calculé automatiquement",
+    "tarifs_snapshot_cda": "tarifs hérités du CDA, non modifiables",
+    "statut_pap": "Actif"
+  }
+}

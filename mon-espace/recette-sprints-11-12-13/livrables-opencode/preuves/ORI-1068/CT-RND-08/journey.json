@@ -1,0 +1,40 @@
+{
+  "canonicalId": "ORI-1068::CT-RND-08::R237",
+  "issueKey": "ORI-1068",
+  "caseId": "CT-RND-08",
+  "module": "MP4 > SP4.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_BSN_QUAL_05/09 / CA-05/CA-08 - Versionning : conservation de la version du JSON",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Sauvegarder partiellement un besoin (version V1)\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 3,
+    "misses": [
+      {
+        "text": "Besoin"
+      },
+      {
+        "text": "Besoin"
+      },
+      {
+        "text": "Formulaire"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_BSN_QUAL_05"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-66793-ation-de-la-version-du-JSON-orion-headed"
+}

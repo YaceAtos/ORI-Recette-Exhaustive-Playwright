@@ -1,0 +1,48 @@
+{
+  "canonicalId": "ORI-657::CT-PIM-D-08::R87",
+  "issueKey": "ORI-657",
+  "caseId": "CT-PIM-D-08",
+  "module": "MP2 > SP2.1",
+  "priority": "P1",
+  "type": "Variante",
+  "scenario": "CA19 a CA22: Famille parente (desactivee si sous-familles) + conversion sous-famille/racine",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 6,
+  "totalSteps": 10,
+  "blocker": {
+    "step": 7,
+    "reason": "Étape \"Retirer la Famille parente (retour premier niveau)\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 4,
+    "total": 9,
+    "misses": [
+      {
+        "text": "Modale"
+      },
+      {
+        "text": "Modale"
+      },
+      {
+        "text": "Couleur"
+      },
+      {
+        "text": "Couleur"
+      },
+      {
+        "text": "Enregistrement"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_FAM_UPD_14",
+    "RG_FAM_UPD_15",
+    "RG_FAM_UPD_16"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-955b8-version-sous-famille-racine-orion-headed"
+}

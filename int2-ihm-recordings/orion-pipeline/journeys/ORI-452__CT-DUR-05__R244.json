@@ -1,0 +1,37 @@
+{
+  "canonicalId": "ORI-452::CT-DUR-05::R244",
+  "issueKey": "ORI-452",
+  "caseId": "CT-DUR-05",
+  "module": "MP5 > SP5.2",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "RG_CTR_INT_01 - Seuil differencie par famille de produits (table DMN)",
+  "route": "https://orion-int2.itsap.net/sap/pages/planning",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 2,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Provoquer un meme ecart sur 2 interventions de familles differentes\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 2,
+    "misses": [
+      {
+        "text": "Ecarts"
+      },
+      {
+        "text": "ecart depasse le seuil de la famille ; pas de notification si l"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_CTR_INT_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-c4564-ille-de-produits-table-DMN--orion-headed"
+}

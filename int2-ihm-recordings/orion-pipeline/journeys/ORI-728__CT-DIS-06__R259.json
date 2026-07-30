@@ -1,0 +1,37 @@
+{
+  "canonicalId": "ORI-728::CT-DIS-06::R259",
+  "issueKey": "ORI-728",
+  "caseId": "CT-DIS-06",
+  "module": "MP5 > SP5.2",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "RG_CRT_SIN_07 - Perimetre de la verification serie : recurrents pris en compte, ponctuels ignores",
+  "route": "https://orion-int2.itsap.net/sap/pages/planning",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 3,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Emettre le message avec conflits uniquement ponctuels\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 2,
+    "misses": [
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Disponibilite"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_CRT_SIN_07"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-9eca4-en-compte-ponctuels-ignores-orion-headed"
+}

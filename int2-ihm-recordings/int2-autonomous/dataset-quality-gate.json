@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-07-30T13:39:41.464Z",
+  "thresholds": {
+    "minTerms": 30,
+    "minUniqueRatio": 0.9,
+    "minSemanticProfiles": 10
+  },
+  "stats": {
+    "termsCount": 36,
+    "uniqueCount": 36,
+    "uniqueRatio": 1,
+    "invalidTerms": [],
+    "sampleTerms": [
+      "DU",
+      "MA",
+      "RO",
+      "SI",
+      "LA",
+      "AN",
+      "LE",
+      "DE",
+      "RA",
+      "NA",
+      "CLI",
+      "PRO",
+      "DEV",
+      "PAP",
+      "AIDE",
+      "OF",
+      "CDA",
+      "PLA",
+      "FAC",
+      "PAIE"
+    ],
+    "semanticProfiles": 12
+  },
+  "checks": [
+    {
+      "label": "min_terms",
+      "passed": true,
+      "details": "36 >= 30"
+    },
+    {
+      "label": "min_unique_ratio",
+      "passed": true,
+      "details": "1 >= 0.9"
+    },
+    {
+      "label": "invalid_terms",
+      "passed": true,
+      "details": "0 invalid term(s)"
+    },
+    {
+      "label": "min_semantic_profiles",
+      "passed": true,
+      "details": "12 >= 10"
+    }
+  ],
+  "status": "pass"
+}

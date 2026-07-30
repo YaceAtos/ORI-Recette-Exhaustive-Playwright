@@ -1,0 +1,28 @@
+{
+  "canonicalId": "ORI-956::CT-ABH-16::R179",
+  "issueKey": "ORI-956",
+  "caseId": "CT-ABH-16",
+  "module": "MP3 > SP3.4",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "Reutilisation des RG sur les ecrans Modification et Visualisation d'une absence",
+  "route": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 5,
+  "progressedSteps": 2,
+  "totalSteps": 5,
+  "blocker": {
+    "step": 3,
+    "reason": "Étape \"Tenter d'enregistrer\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 1,
+    "total": 1,
+    "misses": []
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-250bf-Visualisation-d-une-absence-orion-headed"
+}

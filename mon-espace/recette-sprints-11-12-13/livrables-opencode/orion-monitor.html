@@ -1,0 +1,52 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Orion — Moniteur temps réel des agents</title>
+<style>
+:root{--navy:#0E1E30;--panel:#152A42;--blue:#3CA0FF;--cyan:#3CBCC3;--green:#3ED88F;--orange:#F29F3D;--red:#FF6B63;--muted:#8FA6BF;--line:#22405f}
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:ui-monospace,'SF Mono',Menlo,monospace;background:var(--navy);color:#DCE7F2;height:100vh;display:flex;flex-direction:column;overflow:hidden}
+header{background:#0A1626;padding:12px 20px;display:flex;align-items:center;gap:16px;border-bottom:1px solid var(--line)}
+header .t{font-size:16px;font-weight:800}header .t b{color:var(--cyan)}
+#pulse{width:10px;height:10px;border-radius:50%;background:var(--green);box-shadow:0 0 10px var(--green);animation:p 1.2s infinite}@keyframes p{50%{opacity:.3}}
+header .phase{margin-left:auto;font-size:13px;color:var(--cyan)}
+main{flex:1;display:grid;grid-template-columns:340px 1fr;overflow:hidden}
+.side{background:var(--panel);border-right:1px solid var(--line);padding:16px;overflow-y:auto}
+.side h3{font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin:14px 0 8px}
+.proc{display:flex;align-items:center;gap:10px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;margin-bottom:7px;font-size:13px}
+.led{width:11px;height:11px;border-radius:50%;flex-shrink:0}.led.on{background:var(--green);box-shadow:0 0 8px var(--green)}.led.off{background:#3a4a5c}
+.kpi{display:flex;justify-content:space-between;padding:6px 0;font-size:13px;border-bottom:1px dashed var(--line)}.kpi b{color:var(--blue)}
+.progress{height:14px;background:#0A1626;border-radius:7px;overflow:hidden;margin-top:8px}.progress i{display:block;height:100%;background:linear-gradient(90deg,var(--cyan),var(--green));transition:width .5s}
+.agent{margin-top:10px;padding:10px;background:#0A1626;border-radius:8px;border-left:3px solid var(--green);font-size:13px}.agent .l{color:var(--muted);font-size:10px;text-transform:uppercase}
+.console{padding:16px 20px;overflow-y:auto;background:#0A1626;font-size:12.5px;line-height:1.6}
+.console .ln{white-space:pre-wrap;color:#B7C9DC}.console .ln.p{color:var(--cyan);font-weight:700;margin-top:6px}.console .ln.a{color:var(--green)}.console .ln.ok{color:#9be6bf}.console .ln.w{color:var(--orange)}
+footer{background:#0A1626;padding:6px 20px;font-size:11px;color:var(--muted);border-top:1px solid var(--line);text-align:right}
+</style></head><body>
+<header><span id="pulse"></span><div class="t">Atos · <b>Orion</b> — Moniteur temps réel des agents</div><div class="phase" id="phase">…</div></header>
+<main>
+ <div class="side">
+  <h3>Processus autonomes</h3><div id="procs"></div>
+  <h3>Progression</h3>
+  <div class="kpi">Parcours exécutés <b><span id="j">0</span>/252</b></div>
+  <div class="kpi">Vidéos MP4 <b><span id="v">0</span></b></div>
+  <div class="kpi">Dernier cas <b><span id="lc">—</span></b></div>
+  <div class="progress"><i id="bar" style="width:0%"></i></div>
+  <div class="agent"><div class="l">Agent en cours</div><div id="agent">—</div></div>
+  <h3 style="margin-top:16px">Liens</h3>
+  <div style="font-size:12px"><a href="orion-dashboard.html?live" target="_blank" style="color:var(--cyan)">▶ Dashboard vidéos</a></div>
+ </div>
+ <div class="console" id="console"></div>
+</main>
+<footer id="foot">connexion…</footer>
+<script>
+function cls(l){if(/=====/.test(l))return'ln p';if(/▶ AGENT/.test(l))return'ln a';if(/✅|terminé|TERMINÉES/.test(l))return'ln ok';if(/⚠️|❌|ERREUR/.test(l))return'ln w';return'ln';}
+async function tick(){try{const r=await fetch('monitor.json?t='+Date.now());const d=await r.json();
+ document.getElementById('phase').textContent='PHASE '+d.phase;
+ document.getElementById('j').textContent=d.journeys;document.getElementById('v').textContent=d.videos;
+ document.getElementById('lc').textContent=d.lastCase||'—';document.getElementById('agent').textContent=d.agent;
+ document.getElementById('bar').style.width=Math.min(100,Math.round(d.journeys/d.total*100))+'%';
+ const P=[['orchestrateur','Orchestrateur maître'],['serveur','Serveur dashboard'],['run','Run Playwright 252'],['watcher','Watcher live MP4'],['harvester','Agent retrieval']];
+ document.getElementById('procs').innerHTML=P.map(([k,n])=>'<div class="proc"><span class="led '+(d.proc[k]?'on':'off')+'"></span>'+n+'</div>').join('');
+ document.getElementById('console').innerHTML=d.logTail.map(l=>'<div class="'+cls(l)+'">'+l.replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]))+'</div>').join('');
+ document.getElementById('console').scrollTop=1e9;
+ document.getElementById('pulse').style.background=d.done?'#3CA0FF':'var(--green)';
+ document.getElementById('foot').textContent=(d.done?'✅ TERMINÉ · ':'● en cours · ')+new Date(d.at).toLocaleTimeString('fr-FR');
+}catch(e){document.getElementById('foot').textContent='en attente du moniteur…';}}
+tick();setInterval(tick,2000);
+</script></body></html>

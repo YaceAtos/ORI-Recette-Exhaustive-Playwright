@@ -1,0 +1,43 @@
+{
+  "canonicalId": "ORI-1068::CT-RND-07::R236",
+  "issueKey": "ORI-1068",
+  "caseId": "CT-RND-07",
+  "module": "MP4 > SP4.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_BSN_QUAL_06/07 / CA-06 - Qualification complete (statut 'Qualifie' + fermeture + refresh)",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Completer toutes les etapes\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Toutes"
+      },
+      {
+        "text": "Toutes"
+      },
+      {
+        "text": "Enregistrer"
+      },
+      {
+        "text": "Qualifie"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_BSN_QUAL_06"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-a2b89-Qualifie-fermeture-refresh--orion-headed"
+}

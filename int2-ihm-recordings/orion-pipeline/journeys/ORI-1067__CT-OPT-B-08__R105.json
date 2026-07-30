@@ -1,0 +1,38 @@
+{
+  "canonicalId": "ORI-1067::CT-OPT-B-08::R105",
+  "issueKey": "ORI-1067",
+  "caseId": "CT-OPT-B-08",
+  "module": "MP2 > SP2.1",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "CA14: Famille associee filtree (racines actives marque uniquement)",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 7,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Cliquer champ Famille associee\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 3,
+    "total": 5,
+    "misses": [
+      {
+        "text": "Vitres"
+      },
+      {
+        "text": "Jardinage"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_OPT_CREATE_10",
+    "RG_OPT_CREATE_11"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-49fe4--actives-marque-uniquement--orion-headed"
+}

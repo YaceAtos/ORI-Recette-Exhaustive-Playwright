@@ -1,0 +1,31 @@
+{
+  "canonicalId": "ORI-1036::CT-HAB-F6-02::R63",
+  "issueKey": "ORI-1036",
+  "caseId": "CT-HAB-F6-02",
+  "module": "SP1.5",
+  "priority": "P1",
+  "type": "Variante",
+  "scenario": "SC2: Droit LECTURE SEULE -> sticky bar absente, matrice non modifiable",
+  "route": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 8,
+  "blocker": {
+    "step": 0,
+    "reason": "Donnée absente: aucun enregistrement dans INT2 (fixture non seedée)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 0,
+    "misses": []
+  },
+  "severity": null,
+  "status": "blocked-data",
+  "rules": [
+    "RG_HAB_DPRME_002",
+    "RG_EDIT_DROITS_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-fe584-ente-matrice-non-modifiable-orion-headed"
+}

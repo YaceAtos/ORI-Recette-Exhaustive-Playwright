@@ -1,0 +1,49 @@
+{
+  "canonicalId": "ORI-1067::CT-OPT-B-07::R104",
+  "issueKey": "ORI-1067",
+  "caseId": "CT-OPT-B-07",
+  "module": "MP2 > SP2.1",
+  "priority": "P2",
+  "type": "Erreur",
+  "scenario": "CA13: Quantite facturable invalide (< 1 ou > 9999)",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 16,
+  "progressedSteps": 7,
+  "totalSteps": 8,
+  "blocker": {
+    "step": 8,
+    "reason": "Étape \"Corriger a 5\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 6,
+    "misses": [
+      {
+        "text": "Quantite"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Quantite"
+      },
+      {
+        "text": "Quantite"
+      },
+      {
+        "text": "Quantite"
+      },
+      {
+        "text": "Quantite"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_OPT_CREATE_09"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-3595b-turable-invalide-1-ou-9999--orion-headed"
+}

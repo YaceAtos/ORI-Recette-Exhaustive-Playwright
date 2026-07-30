@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-07-30T13:39:41.569Z",
+  "expectedCount": 0,
+  "discoveredCount": 15,
+  "matchedCount": 0,
+  "missingCount": 0,
+  "unexpectedCount": 15,
+  "coverageRate": 100,
+  "missing": [],
+  "unexpected": [
+    "/crm/pages/clients-professionnels",
+    "/crm/pages/clients-prospects",
+    "/crm/pages/leads",
+    "/facturation-paie/facturation/pages/table-des-faits",
+    "/facturation-paie/reglementaire/pages/organisme-financeur",
+    "/gestion-admin/pages/collaborateur",
+    "/gestion-marque/configuration/pages/categories",
+    "/gestion-marque/configuration/pages/dmn",
+    "/gestion-marque/habilitation/pages/habilitation-profils",
+    "/gestion-marque/habilitation/pages/habilitation-users",
+    "/gestion-marque/structure/pages/marque",
+    "/gestion-marque/structure/pages/structure",
+    "/offres-tarifs/pages/catalogue/familles",
+    "/offres-tarifs/pages/catalogue/options",
+    "/sap/pages/planning"
+  ]
+}

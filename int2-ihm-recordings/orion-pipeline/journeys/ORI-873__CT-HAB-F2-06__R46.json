@@ -1,0 +1,30 @@
+{
+  "canonicalId": "ORI-873::CT-HAB-F2-06::R46",
+  "issueKey": "ORI-873",
+  "caseId": "CT-HAB-F2-06",
+  "module": "SP1.5",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "SC10: Ascenseur lateral si nombre de cas d usage important",
+  "route": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 0,
+    "reason": "Donnée absente: aucun enregistrement dans INT2 (fixture non seedée)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 0,
+    "misses": []
+  },
+  "severity": null,
+  "status": "blocked-data",
+  "rules": [
+    "RG_HAB_DPRCU_005"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-8204f-re-de-cas-d-usage-important-orion-headed"
+}

@@ -1,0 +1,32 @@
+{
+  "canonicalId": "ORI-91::CT-NOTIF-07::R141",
+  "issueKey": "ORI-91",
+  "caseId": "CT-NOTIF-07",
+  "module": "MP3 > SP3.3",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "Bloc Competences reserve aux intervenants (absent pour operationnel agence)",
+  "route": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Creer/notifier un intervenant avec competences\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 1,
+    "total": 2,
+    "misses": [
+      {
+        "text": "Operationnel"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-93385-t-pour-operationnel-agence--orion-headed"
+}

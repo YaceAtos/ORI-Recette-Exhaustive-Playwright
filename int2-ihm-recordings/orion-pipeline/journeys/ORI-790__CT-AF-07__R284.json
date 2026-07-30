@@ -1,0 +1,43 @@
+{
+  "canonicalId": "ORI-790::CT-AF-07::R284",
+  "issueKey": "ORI-790",
+  "caseId": "CT-AF-07",
+  "module": "MP6 > SP6.1",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_PAP_NAV_04 / CA_PAP_NAV_05/06 - Sortie sans validation apres modifications : modale de confirmation",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 5,
+  "progressedSteps": 1,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 2,
+    "reason": "Étape \"Cliquer sur la fleche retour / 'Selection des activites'\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Modifications"
+      },
+      {
+        "text": "Tentative"
+      },
+      {
+        "text": "Modale"
+      },
+      {
+        "text": "Quitter sans enregistrer"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_PAP_NAV_04"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-654c0-ions-modale-de-confirmation-orion-headed"
+}

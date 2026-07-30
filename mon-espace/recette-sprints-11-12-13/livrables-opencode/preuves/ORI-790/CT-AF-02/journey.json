@@ -1,0 +1,37 @@
+{
+  "canonicalId": "ORI-790::CT-AF-02::R279",
+  "issueKey": "ORI-790",
+  "caseId": "CT-AF-02",
+  "module": "MP6 > SP6.1",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_PAP_NAV_02 / CA_PAP_NAV_02/03 - Fil d'Ariane et retour a la liste",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 1,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 2,
+    "reason": "Étape \"Cliquer sur le lien 'Selection des activites'\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 2,
+    "misses": [
+      {
+        "text": "Ariane affiche (fleche + "
+      },
+      {
+        "text": "Retour"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_PAP_NAV_02"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-e288b-Ariane-et-retour-a-la-liste-orion-headed"
+}

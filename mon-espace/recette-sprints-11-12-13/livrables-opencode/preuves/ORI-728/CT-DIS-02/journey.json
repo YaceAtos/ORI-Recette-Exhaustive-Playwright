@@ -1,0 +1,41 @@
+{
+  "canonicalId": "ORI-728::CT-DIS-02::R255",
+  "issueKey": "ORI-728",
+  "caseId": "CT-DIS-02",
+  "module": "MP5 > SP5.2",
+  "priority": "P1",
+  "type": "Erreur",
+  "scenario": "RG_CRT_SIN_07/09 / Scenario 17 - Intervenant indisponible pour la serie : creation bloquee + notification",
+  "route": "https://orion-int2.itsap.net/sap/pages/planning",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Emettre le message avec intervenant indisponible pour la serie\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 3,
+    "misses": [
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "intervenant idIntervenant n"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_CRT_SIN_07",
+    "RG_CRT_SIN_09"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-4fc57-eation-bloquee-notification-orion-headed"
+}

@@ -1,0 +1,40 @@
+{
+  "canonicalId": "ORI-956::CT-ABH-05::R168",
+  "issueKey": "ORI-956",
+  "caseId": "CT-ABH-05",
+  "module": "MP3 > SP3.4",
+  "priority": "P1",
+  "type": "Erreur",
+  "scenario": "RG_INT_ABAHCT_1 cas 2c - Heure debut >= heure fin (CA D15)",
+  "route": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 10,
+  "progressedSteps": 2,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 3,
+    "reason": "Étape \"Tenter d'enregistrer\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 3,
+    "misses": [
+      {
+        "text": "Heures"
+      },
+      {
+        "text": "heure de fin doit etre superieure a l"
+      },
+      {
+        "text": "Egalite"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_INT_ABAHCT_1"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-e92c8-ure-debut-heure-fin-CA-D15--orion-headed"
+}

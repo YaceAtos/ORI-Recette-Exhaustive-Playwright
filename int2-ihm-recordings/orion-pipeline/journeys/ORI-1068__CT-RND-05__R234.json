@@ -1,0 +1,44 @@
+{
+  "canonicalId": "ORI-1068::CT-RND-05::R234",
+  "issueKey": "ORI-1068",
+  "caseId": "CT-RND-05",
+  "module": "MP4 > SP4.2",
+  "priority": "P1",
+  "type": "Erreur",
+  "scenario": "RG_BSN_QUAL_03/07 - Validation des champs et completude d'etape",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 5,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Laisser un champ obligatoire vide\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Valeur"
+      },
+      {
+        "text": "Erreurs"
+      },
+      {
+        "text": "Valeurs"
+      },
+      {
+        "text": "Complete"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_BSN_QUAL_03",
+    "RG_BSN_QUAL_07"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-f1b3e-hamps-et-completude-d-etape-orion-headed"
+}

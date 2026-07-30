@@ -1,0 +1,6 @@
+testing:
+  visual:
+    checks:
+      - validation-state-visible
+      - success-state-visible
+      - form-error-highlight

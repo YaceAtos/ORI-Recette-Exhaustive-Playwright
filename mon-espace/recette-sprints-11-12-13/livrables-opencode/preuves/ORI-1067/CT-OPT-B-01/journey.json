@@ -1,0 +1,56 @@
+{
+  "canonicalId": "ORI-1067::CT-OPT-B-01::R98",
+  "issueKey": "ORI-1067",
+  "caseId": "CT-OPT-B-01",
+  "module": "MP2 > SP2.1",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "CA01+CA02: Acces formulaire creation (habilitations + pre-remplissage defauts)",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 2,
+  "totalSteps": 8,
+  "blocker": {
+    "step": 3,
+    "reason": "Étape \"Cliquer Creer\" nécessite une action persistante (Creer) — bloquée par garde non-persistance"
+  },
+  "assertion": {
+    "met": 1,
+    "total": 8,
+    "misses": [
+      {
+        "text": "Session"
+      },
+      {
+        "text": "Bouton"
+      },
+      {
+        "text": "Modale"
+      },
+      {
+        "text": "Champs"
+      },
+      {
+        "text": "Periodicite"
+      },
+      {
+        "text": "Session"
+      },
+      {
+        "text": "Bouton"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_OPT_CREATE_01",
+    "RG_OPT_CREATE_02",
+    "RG_OPT_CREATE_12",
+    "RG_OPT_CREATE_14",
+    "RG_OPT_CREATE_09"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-f3985-ns-pre-remplissage-defauts--orion-headed"
+}

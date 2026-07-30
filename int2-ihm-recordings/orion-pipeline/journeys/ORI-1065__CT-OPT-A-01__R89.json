@@ -1,0 +1,55 @@
+{
+  "canonicalId": "ORI-1065::CT-OPT-A-01::R89",
+  "issueKey": "ORI-1065",
+  "caseId": "CT-OPT-A-01",
+  "module": "MP2 > SP2.1",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "CA01+CA02: Affichage liste - avec habilitations (actives+inactives) vs sans habilitations (actives seules)",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 5,
+  "totalSteps": 9,
+  "blocker": {
+    "step": 6,
+    "reason": "Étape \"Se connecter Responsable Agence\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 6,
+    "misses": [
+      {
+        "text": "Session"
+      },
+      {
+        "text": "Colonnes"
+      },
+      {
+        "text": "Bouton"
+      },
+      {
+        "text": "Session"
+      },
+      {
+        "text": "Bouton"
+      },
+      {
+        "text": "Aucune"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_OPT_LIST_02",
+    "RG_OPT_LIST_03",
+    "RG_OPT_LIST_04",
+    "RG_OPT_LIST_05",
+    "RG_OPT_LIST_06",
+    "RG_OPT_LIST_07",
+    "RG_OPT_LIST_11"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-2ec74-bilitations-actives-seules--orion-headed"
+}

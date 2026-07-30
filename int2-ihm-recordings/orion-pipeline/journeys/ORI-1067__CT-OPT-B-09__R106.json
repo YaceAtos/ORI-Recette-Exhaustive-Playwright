@@ -1,0 +1,52 @@
+{
+  "canonicalId": "ORI-1067::CT-OPT-B-09::R106",
+  "issueKey": "ORI-1067",
+  "caseId": "CT-OPT-B-09",
+  "module": "MP2 > SP2.1",
+  "priority": "P2",
+  "type": "Variante",
+  "scenario": "CA15+CA18: Annuler creation (rien enregistre) + erreur technique (modale conservee)",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 4,
+  "progressedSteps": 1,
+  "totalSteps": 9,
+  "blocker": {
+    "step": 2,
+    "reason": "Étape \"Cliquer croix de fermeture\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 7,
+    "misses": [
+      {
+        "text": "Formulaire"
+      },
+      {
+        "text": "Modale"
+      },
+      {
+        "text": "Modale"
+      },
+      {
+        "text": "Formulaire"
+      },
+      {
+        "text": "Erreur"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Modale"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_OPT_CREATE_16"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-47160-technique-modale-conservee--orion-headed"
+}

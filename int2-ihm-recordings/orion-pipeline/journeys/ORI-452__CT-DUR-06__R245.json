@@ -1,0 +1,37 @@
+{
+  "canonicalId": "ORI-452::CT-DUR-06::R245",
+  "issueKey": "ORI-452",
+  "caseId": "CT-DUR-06",
+  "module": "MP5 > SP5.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_CTR_INT_02 - Contenu et attributs de la notification creee (DMN criteres + statut)",
+  "route": "https://orion-int2.itsap.net/sap/pages/planning",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Declencher une notification (cas non conforme)\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 2,
+    "total": 4,
+    "misses": [
+      {
+        "text": "En cours"
+      },
+      {
+        "text": "Criteres de notification sur les interventions"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_CTR_INT_02"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-54707--creee-DMN-criteres-statut--orion-headed"
+}

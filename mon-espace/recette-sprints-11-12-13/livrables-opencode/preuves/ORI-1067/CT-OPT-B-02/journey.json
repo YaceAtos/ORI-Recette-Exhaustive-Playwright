@@ -1,0 +1,47 @@
+{
+  "canonicalId": "ORI-1067::CT-OPT-B-02::R99",
+  "issueKey": "ORI-1067",
+  "caseId": "CT-OPT-B-02",
+  "module": "MP2 > SP2.1",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "CA03+CA04: Creation option avec succes (statut Actif + statut Inactif)",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 6,
+  "progressedSteps": 1,
+  "totalSteps": 9,
+  "blocker": {
+    "step": 2,
+    "reason": "Étape \"Cliquer Enregistrer\" nécessite une action persistante (Enregistrer) — bloquée par garde non-persistance"
+  },
+  "assertion": {
+    "met": 4,
+    "total": 9,
+    "misses": [
+      {
+        "text": "Champs"
+      },
+      {
+        "text": "Enregistrement"
+      },
+      {
+        "text": "Modale"
+      },
+      {
+        "text": "Enregistrement"
+      },
+      {
+        "text": "Session"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_OPT_CREATE_12",
+    "RG_OPT_CREATE_13"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-76528-tatut-Actif-statut-Inactif--orion-headed"
+}

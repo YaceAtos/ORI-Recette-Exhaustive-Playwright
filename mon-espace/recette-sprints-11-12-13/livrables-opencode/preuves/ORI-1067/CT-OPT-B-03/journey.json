@@ -1,0 +1,43 @@
+{
+  "canonicalId": "ORI-1067::CT-OPT-B-03::R100",
+  "issueKey": "ORI-1067",
+  "caseId": "CT-OPT-B-03",
+  "module": "MP2 > SP2.1",
+  "priority": "P1",
+  "type": "Erreur",
+  "scenario": "CA05: Doublon de code bloque (message exact)",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 8,
+  "progressedSteps": 2,
+  "totalSteps": 7,
+  "blocker": {
+    "step": 3,
+    "reason": "Étape \"Cliquer Enregistrer\" nécessite une action persistante (Enregistrer) — bloquée par garde non-persistance"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Champs"
+      },
+      {
+        "text": "Enregistrer"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Modale"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_OPT_CREATE_03"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-84104--code-bloque-message-exact--orion-headed"
+}

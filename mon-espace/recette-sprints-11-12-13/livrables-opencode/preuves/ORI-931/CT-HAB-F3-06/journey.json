@@ -1,0 +1,31 @@
+{
+  "canonicalId": "ORI-931::CT-HAB-F3-06::R53",
+  "issueKey": "ORI-931",
+  "caseId": "CT-HAB-F3-06",
+  "module": "SP1.5",
+  "priority": "P2",
+  "type": "Variante",
+  "scenario": "SC13: Droit maitre non herite, Statut non renseigne malgre blocage",
+  "route": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 3,
+  "blocker": {
+    "step": 0,
+    "reason": "Donnée absente: aucun enregistrement dans INT2 (fixture non seedée)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 0,
+    "misses": []
+  },
+  "severity": null,
+  "status": "blocked-data",
+  "rules": [
+    "RG_HAB_DPRDF_005",
+    "RG_HAB_DPRDF_004"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-eeaf0-on-renseigne-malgre-blocage-orion-headed"
+}

@@ -1,0 +1,34 @@
+{
+  "canonicalId": "ORI-452::CT-DUR-03::R242",
+  "issueKey": "ORI-452",
+  "caseId": "CT-DUR-03",
+  "module": "MP5 > SP5.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_CTR_INT_01 / Scenario 3 - Duree de realisation conforme : aucune notification",
+  "route": "https://orion-int2.itsap.net/sap/pages/planning",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 3,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Recevoir les pointages donnant une duree realisee dans la plage tolere\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 1,
+    "misses": [
+      {
+        "text": "Aucune"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_CTR_INT_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-11e30-onforme-aucune-notification-orion-headed"
+}

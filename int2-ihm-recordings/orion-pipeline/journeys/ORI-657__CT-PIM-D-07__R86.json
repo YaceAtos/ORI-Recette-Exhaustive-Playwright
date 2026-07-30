@@ -1,0 +1,50 @@
+{
+  "canonicalId": "ORI-657::CT-PIM-D-07::R86",
+  "issueKey": "ORI-657",
+  "caseId": "CT-PIM-D-07",
+  "module": "MP2 > SP2.1",
+  "priority": "P2",
+  "type": "Variante",
+  "scenario": "CA17+CA18: Perimetre marque + suppression icone/couleur -> valeurs par defaut",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 7,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Connecte Admin Marque A\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 6,
+    "misses": [
+      {
+        "text": "Session"
+      },
+      {
+        "text": "Seules"
+      },
+      {
+        "text": "Modale"
+      },
+      {
+        "text": "Couleur"
+      },
+      {
+        "text": "Enregistrement"
+      },
+      {
+        "text": "Couleur"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_FAM_UPD_02",
+    "RG_FAM_UPD_13"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-46e16-ouleur---valeurs-par-defaut-orion-headed"
+}

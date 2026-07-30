@@ -1,0 +1,38 @@
+{
+  "canonicalId": "ORI-769::CT-LOC-07::R205",
+  "issueKey": "ORI-769",
+  "caseId": "CT-LOC-07",
+  "module": "MP4 > SP4.1",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "Localisation en lecture seule pour un RDV annule ou passe (historique)",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 4,
+  "totalSteps": 4,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Drawer"
+      },
+      {
+        "text": "Localisation"
+      },
+      {
+        "text": "Drawer"
+      },
+      {
+        "text": "Localisation"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "assertion-low",
+  "rules": [],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-3502c-annule-ou-passe-historique--orion-headed"
+}

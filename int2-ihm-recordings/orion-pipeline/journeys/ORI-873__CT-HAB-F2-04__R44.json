@@ -1,0 +1,30 @@
+{
+  "canonicalId": "ORI-873::CT-HAB-F2-04::R44",
+  "issueKey": "ORI-873",
+  "caseId": "CT-HAB-F2-04",
+  "module": "SP1.5",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "SC8: Selection par defaut a l ouverture - premier CU sans filtre niveau 2",
+  "route": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 3,
+  "blocker": {
+    "step": 0,
+    "reason": "Donnée absente: aucun enregistrement dans INT2 (fixture non seedée)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 0,
+    "misses": []
+  },
+  "severity": null,
+  "status": "blocked-data",
+  "rules": [
+    "RG_HAB_DPRCU_004"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-a99af-ier-CU-sans-filtre-niveau-2-orion-headed"
+}

@@ -1,0 +1,48 @@
+/* ═══════════════════════════════════════════════════════
+   BREADCRUMB
+   ═══════════════════════════════════════════════════════ */
+
+.orion-bc {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-family: var(--font-body);
+}
+
+.orion-bc__item {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0;
+  color: var(--color-on-surface-variant);
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 150ms;
+}
+
+.orion-bc__item:hover {
+  color: var(--color-on-surface);
+  text-decoration: underline;
+}
+
+.orion-bc__item--active {
+  color: var(--color-on-surface);
+  cursor: default;
+}
+
+.orion-bc__item--active:hover {
+  color: var(--color-on-surface);
+  text-decoration: none;
+}
+
+.orion-bc__sep {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: var(--color-on-surface-variant);
+  width: 13px;
+  text-align: center;
+  flex-shrink: 0;
+  user-select: none;
+}

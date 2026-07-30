@@ -1,0 +1,37 @@
+{
+  "canonicalId": "ORI-368::CT-BSN-05::R211",
+  "issueKey": "ORI-368",
+  "caseId": "CT-BSN-05",
+  "module": "MP4 > SP4.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_BSN_ABAND_01 / CA1-16-18 - Regle d'abandon selon presence de devis",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 3,
+  "totalSteps": 3,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 3,
+    "misses": [
+      {
+        "text": "Action"
+      },
+      {
+        "text": "Action"
+      },
+      {
+        "text": "Action"
+      }
+    ]
+  },
+  "severity": "moyen",
+  "status": "assertion-low",
+  "rules": [
+    "RG_BSN_ABAND_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-e24fb-don-selon-presence-de-devis-orion-headed"
+}

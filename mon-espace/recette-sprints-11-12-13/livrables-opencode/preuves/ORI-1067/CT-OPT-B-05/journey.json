@@ -1,0 +1,42 @@
+{
+  "canonicalId": "ORI-1067::CT-OPT-B-05::R102",
+  "issueKey": "ORI-1067",
+  "caseId": "CT-OPT-B-05",
+  "module": "MP2 > SP2.1",
+  "priority": "P1",
+  "type": "Erreur",
+  "scenario": "CA07+CA08+CA09+CA10+CA16: Controles code (filtrage auto, normalisation, min 3, max 20, backend)",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 20,
+  "progressedSteps": 10,
+  "totalSteps": 10,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Automatiquement"
+      },
+      {
+        "text": "Caractere"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Enregistrement"
+      }
+    ]
+  },
+  "severity": "moyen",
+  "status": "assertion-low",
+  "rules": [
+    "RG_OPT_CREATE_04",
+    "RG_OPT_CREATE_15",
+    "RG_OPT_CREATE_05"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-fb5dc-ation-min-3-max-20-backend--orion-headed"
+}

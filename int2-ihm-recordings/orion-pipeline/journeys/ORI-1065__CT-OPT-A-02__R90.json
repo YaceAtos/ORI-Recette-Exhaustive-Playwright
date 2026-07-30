@@ -1,0 +1,47 @@
+{
+  "canonicalId": "ORI-1065::CT-OPT-A-02::R90",
+  "issueKey": "ORI-1065",
+  "caseId": "CT-OPT-A-02",
+  "module": "MP2 > SP2.1",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "CA03: Recherche par libelle commercial ou code (partielle, insensible casse)",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 16,
+  "progressedSteps": 8,
+  "totalSteps": 8,
+  "blocker": null,
+  "assertion": {
+    "met": 1,
+    "total": 7,
+    "misses": [
+      {
+        "text": "nettoy"
+      },
+      {
+        "text": "Resultat"
+      },
+      {
+        "text": "Nettoy"
+      },
+      {
+        "text": "Resultats"
+      },
+      {
+        "text": "Aucune"
+      },
+      {
+        "text": "Message"
+      }
+    ]
+  },
+  "severity": null,
+  "status": "passed",
+  "rules": [
+    "RG_OPT_LIST_08",
+    "RG_OPT_LIST_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-ca315-partielle-insensible-casse--orion-headed"
+}

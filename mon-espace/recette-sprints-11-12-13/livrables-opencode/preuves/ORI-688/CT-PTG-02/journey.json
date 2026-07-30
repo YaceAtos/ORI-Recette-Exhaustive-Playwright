@@ -1,0 +1,40 @@
+{
+  "canonicalId": "ORI-688::CT-PTG-02::R248",
+  "issueKey": "ORI-688",
+  "caseId": "CT-PTG-02",
+  "module": "MP5 > SP5.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_PLA_HRD_01 - Icone selon le type de pointage (Aucun pointage / Scan QR / Manuel / Force)",
+  "route": "https://orion-int2.itsap.net/sap/pages/planning",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 4,
+  "totalSteps": 4,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Aucun pointage"
+      },
+      {
+        "text": "Scan QR code"
+      },
+      {
+        "text": "Pointage manuel"
+      },
+      {
+        "text": "Force"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "assertion-low",
+  "rules": [
+    "RG_PLA_HRD_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-8f5b5-ntage-Scan-QR-Manuel-Force--orion-headed"
+}

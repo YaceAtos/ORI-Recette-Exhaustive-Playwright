@@ -1,0 +1,5 @@
+locale:
+  code: us
+  date_formats: [MM/dd/yyyy, yyyy-MM-dd]
+  phone_prefix: '+1'
+  sample_cities: [New York, Austin, Seattle, Boston, Denver]

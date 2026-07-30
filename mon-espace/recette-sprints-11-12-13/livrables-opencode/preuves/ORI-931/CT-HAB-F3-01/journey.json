@@ -1,0 +1,31 @@
+{
+  "canonicalId": "ORI-931::CT-HAB-F3-01::R48",
+  "issueKey": "ORI-931",
+  "caseId": "CT-HAB-F3-01",
+  "module": "SP1.5",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "SC1+SC2: En-tete matrice des droits + tableau 5 colonnes avec tooltips",
+  "route": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 8,
+  "blocker": {
+    "step": 0,
+    "reason": "Donnée absente: aucun enregistrement dans INT2 (fixture non seedée)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 0,
+    "misses": []
+  },
+  "severity": null,
+  "status": "blocked-data",
+  "rules": [
+    "RG_HAB_DPRDF_001",
+    "RG_HAB_DPRDF_002"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-acbb3-au-5-colonnes-avec-tooltips-orion-headed"
+}

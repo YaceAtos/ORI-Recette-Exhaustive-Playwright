@@ -1,0 +1,31 @@
+{
+  "canonicalId": "ORI-1036::CT-HAB-F6-05::R66",
+  "issueKey": "ORI-1036",
+  "caseId": "CT-HAB-F6-05",
+  "module": "SP1.5",
+  "priority": "P1",
+  "type": "Variante",
+  "scenario": "SC10+SC11+SC12: Navigation hors ecran avec modifications non enregistrees",
+  "route": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 8,
+  "blocker": {
+    "step": 0,
+    "reason": "Donnée absente: aucun enregistrement dans INT2 (fixture non seedée)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 0,
+    "misses": []
+  },
+  "severity": null,
+  "status": "blocked-data",
+  "rules": [
+    "RG_HAB_DPRME_005",
+    "RG_EDIT_NAV_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-03dcd-ifications-non-enregistrees-orion-headed"
+}

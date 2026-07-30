@@ -1,0 +1,34 @@
+{
+  "canonicalId": "ORI-368::CT-BSN-07::R213",
+  "issueKey": "ORI-368",
+  "caseId": "CT-BSN-07",
+  "module": "MP4 > SP4.2",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "RG_BSN_CONSULT_01 / CA-A19 - Action Consulter d'un besoin Abandonne (lecture seule)",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 3,
+  "totalSteps": 3,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 2,
+    "misses": [
+      {
+        "text": "Formulaire"
+      },
+      {
+        "text": "Actions"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "assertion-low",
+  "rules": [
+    "RG_BSN_CONSULT_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-73694-in-Abandonne-lecture-seule--orion-headed"
+}

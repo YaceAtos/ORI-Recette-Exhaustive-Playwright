@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "description": "OF et CDA réels sur env DEV — adaptés depuis CU-PAP-002",
+    "chaine": "cu-pap-002",
+    "step": "prerequis",
+    "idempotent": true,
+    "note": "Données réelles env orion-dev1 (pas CARSAT Normandie mais CARSAT Aquitaine)"
+  },
+  "of": {
+    "nom": "CARSAT Aquitaine",
+    "nomUsuel": "CARSAT AQ",
+    "typeDT1": "Caisse de retraite",
+    "zone": "Multi zones",
+    "statut": "Actif"
+  },
+  "of_alternatives": [
+    { "nom": "Conseil Départemental de la Gironde", "nomUsuel": "CD 33", "type": "Conseil départemental" },
+    { "nom": "CAF 33", "type": "CAF" },
+    { "nom": "URSSAF Nouvelle-Aquitaine", "nomUsuel": "URSSAF NA", "type": "URSSAF" }
+  ]
+}

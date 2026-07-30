@@ -1,0 +1,30 @@
+{
+  "canonicalId": "ORI-1036::CT-HAB-F6-08::R69",
+  "issueKey": "ORI-1036",
+  "caseId": "CT-HAB-F6-08",
+  "module": "SP1.5",
+  "priority": "P1",
+  "type": "Integration",
+  "scenario": "SC19+SC20: Confirmation enregistrement (succes Keycloak + erreur technique)",
+  "route": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 12,
+  "blocker": {
+    "step": 0,
+    "reason": "Donnée absente: aucun enregistrement dans INT2 (fixture non seedée)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 0,
+    "misses": []
+  },
+  "severity": null,
+  "status": "blocked-data",
+  "rules": [
+    "RG_HAB_DPRME_006"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-4d9c8--Keycloak-erreur-technique--orion-headed"
+}

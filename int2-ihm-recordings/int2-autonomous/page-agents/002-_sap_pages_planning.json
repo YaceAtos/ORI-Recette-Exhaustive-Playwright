@@ -1,0 +1,294 @@
+{
+  "pageId": "/sap/pages/planning",
+  "pageUrl": "https://orion-int2.itsap.net/sap/pages/planning",
+  "agentId": "page-agent-002",
+  "runAt": "2026-07-21T08:20:15.943Z",
+  "success": true,
+  "error": null,
+  "extract": {
+    "title": "Orion",
+    "url": "https://orion-int2.itsap.net/sap/pages/planning",
+    "headings": [
+      {
+        "text": "Planning",
+        "tag": "h3",
+        "id": null,
+        "className": "planning-header-container__header__title",
+        "role": null
+      }
+    ],
+    "buttons": [
+      {
+        "text": "add Créer",
+        "tag": "button",
+        "id": null,
+        "className": "mdc-button mat-mdc-button-base mdc-button--unelevated mat-mdc-unelevated-button mat-unthemed",
+        "role": null
+      },
+      {
+        "text": "Intervenants",
+        "tag": "button",
+        "id": "mat-button-toggle-0-button",
+        "className": "mat-button-toggle-button mat-focus-indicator",
+        "role": "radio"
+      },
+      {
+        "text": "Clients",
+        "tag": "button",
+        "id": "mat-button-toggle-1-button",
+        "className": "mat-button-toggle-button mat-focus-indicator",
+        "role": "radio"
+      },
+      {
+        "text": "Opérationnels agence",
+        "tag": "button",
+        "id": "mat-button-toggle-2-button",
+        "className": "mat-button-toggle-button mat-focus-indicator",
+        "role": "radio"
+      },
+      {
+        "text": "keyboard_arrow_left",
+        "tag": "button",
+        "id": null,
+        "className": "btn-icon-outlined btn-icon-lg",
+        "role": null
+      },
+      {
+        "text": "keyboard_arrow_right",
+        "tag": "button",
+        "id": null,
+        "className": "btn-icon-outlined btn-icon-lg",
+        "role": null
+      },
+      {
+        "text": "filter_list Filtrer",
+        "tag": "button",
+        "id": null,
+        "className": "mdc-button mat-mdc-button-base mat-badge mat-tonal-button mat-unthemed mat-badge-overlap mat-badge-above mat-badge-after mat-badge-medium mat-badge-hidden",
+        "role": null
+      },
+      {
+        "text": "search",
+        "tag": "button",
+        "id": null,
+        "className": "btn-icon-tonal",
+        "role": null
+      },
+      {
+        "text": "auto_awesome",
+        "tag": "button",
+        "id": null,
+        "className": "mdc-fab mat-mdc-fab-base mat-mdc-fab mat-mdc-button-base chatbot-fab mat-accent",
+        "role": null
+      }
+    ],
+    "links": [
+      {
+        "text": "calendar_today Planning",
+        "href": "/sap/pages/planning"
+      },
+      {
+        "text": "Leads",
+        "href": "https://orion-int2.itsap.net/crm/pages/leads"
+      },
+      {
+        "text": "Clients & Prospects",
+        "href": "https://orion-int2.itsap.net/crm/pages/clients-prospects"
+      },
+      {
+        "text": "Devis & Contrats",
+        "href": ""
+      },
+      {
+        "text": "Reglements & Factures",
+        "href": ""
+      },
+      {
+        "text": "Entités juridiques",
+        "href": "https://orion-int2.itsap.net/crm/pages/clients-professionnels"
+      },
+      {
+        "text": "Intervenants",
+        "href": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur"
+      },
+      {
+        "text": "Temps de travail",
+        "href": ""
+      },
+      {
+        "text": "Paie & Préparation paie",
+        "href": ""
+      },
+      {
+        "text": "Compétences & Aptitudes",
+        "href": ""
+      },
+      {
+        "text": "Organismes financeurs",
+        "href": "https://orion-int2.itsap.net/facturation-paie/reglementaire/pages/organisme-financeur"
+      },
+      {
+        "text": "Partenaires/Apporteurs",
+        "href": ""
+      },
+      {
+        "text": "Rétrocommissions",
+        "href": ""
+      },
+      {
+        "text": "Suivi crédits",
+        "href": ""
+      },
+      {
+        "text": "Zone de couverture",
+        "href": ""
+      },
+      {
+        "text": "Familles & produits",
+        "href": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles"
+      },
+      {
+        "text": "Option & frais",
+        "href": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options"
+      },
+      {
+        "text": "Recrutement",
+        "href": ""
+      },
+      {
+        "text": "Contrats de travail",
+        "href": ""
+      },
+      {
+        "text": "Méd. du travail / URSSAF",
+        "href": ""
+      },
+      {
+        "text": "Règles & Droit du salarié",
+        "href": ""
+      },
+      {
+        "text": "check_circle Suivi qualité",
+        "href": ""
+      },
+      {
+        "text": "Table des faits",
+        "href": "https://orion-int2.itsap.net/facturation-paie/facturation/pages/table-des-faits"
+      },
+      {
+        "text": "Marques",
+        "href": "https://orion-int2.itsap.net/gestion-marque/structure/pages/marque"
+      },
+      {
+        "text": "Structures",
+        "href": "https://orion-int2.itsap.net/gestion-marque/structure/pages/structure"
+      },
+      {
+        "text": "Profils",
+        "href": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils"
+      },
+      {
+        "text": "Utilisateurs",
+        "href": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-users"
+      },
+      {
+        "text": "Droit & Habilitations",
+        "href": ""
+      },
+      {
+        "text": "DMN (Règles)",
+        "href": "https://orion-int2.itsap.net/gestion-marque/configuration/pages/dmn"
+      },
+      {
+        "text": "Catégories (SAP)",
+        "href": "https://orion-int2.itsap.net/gestion-marque/configuration/pages/categories"
+      },
+      {
+        "text": "settings Paramètres",
+        "href": ""
+      },
+      {
+        "text": "Menu",
+        "href": "/sap/"
+      }
+    ],
+    "fields": [
+      {
+        "tag": "input",
+        "type": "search",
+        "name": null,
+        "id": "mat-input-0",
+        "role": null,
+        "label": "Rechercher",
+        "placeholder": "Rechercher",
+        "ariaLabel": null,
+        "autocomplete": null,
+        "required": false,
+        "disabled": false,
+        "readonly": false
+      },
+      {
+        "tag": "input",
+        "type": "input",
+        "name": null,
+        "id": "mat-input-2",
+        "role": null,
+        "label": null,
+        "placeholder": null,
+        "ariaLabel": null,
+        "autocomplete": null,
+        "required": false,
+        "disabled": false,
+        "readonly": true
+      },
+      {
+        "tag": "mat-select",
+        "type": "mat-select",
+        "name": null,
+        "id": "mat-select-1",
+        "role": "combobox",
+        "label": null,
+        "placeholder": null,
+        "ariaLabel": null,
+        "autocomplete": null,
+        "required": false,
+        "disabled": false,
+        "readonly": false
+      },
+      {
+        "tag": "mat-select",
+        "type": "mat-select",
+        "name": null,
+        "id": "mat-select-0",
+        "role": "combobox",
+        "label": null,
+        "placeholder": null,
+        "ariaLabel": null,
+        "autocomplete": null,
+        "required": false,
+        "disabled": false,
+        "readonly": false
+      }
+    ],
+    "options": [],
+    "tables": [],
+    "dialogs": [],
+    "alerts": [],
+    "visibleTextBlocks": [
+      "Rechercher search",
+      "notifications sms",
+      "account_circle John Doe Software Engineer"
+    ],
+    "counters": {
+      "headings": 1,
+      "buttons": 9,
+      "links": 32,
+      "fields": 4,
+      "options": 0,
+      "tables": 0,
+      "dialogs": 0,
+      "alerts": 0,
+      "textBlocks": 3
+    }
+  }
+}

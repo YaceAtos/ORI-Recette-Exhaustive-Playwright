@@ -1,0 +1,32 @@
+{
+  "canonicalId": "ORI-769::CT-LOC-02::R200",
+  "issueKey": "ORI-769",
+  "caseId": "CT-LOC-02",
+  "module": "MP4 > SP4.1",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RDV sans adresse renseignee : etat vide de la zone localisation",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 2,
+  "totalSteps": 2,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 2,
+    "misses": [
+      {
+        "text": "Drawer"
+      },
+      {
+        "text": "Aucune adresse renseignee"
+      }
+    ]
+  },
+  "severity": "moyen",
+  "status": "assertion-low",
+  "rules": [],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-4fe79-ide-de-la-zone-localisation-orion-headed"
+}

@@ -1,0 +1,1513 @@
+PROGRAMME ORION • OUI CARE
+1- JEUX DE DONNEES & PROFILS
+Pour Orion, un jeu de données de test doit couvrir toute la chaîne métier : Structure → Catalogue →
+Collaborateurs → Commercial → Planning → Facturation/Aides → Paie, avec les profils,
+habilitations, données API, données Kafka, données mobiles et données de sécurité. Cette
+structuration est cohérente avec le périmètre du plan de test Orion : MP1 Structure, SP1.5
+Habilitations, MP2 Catalogue, MP3 Collaborateurs, MP4 Commercial, MP5 Planning, MP6
+Facturation, MP7 Paie, ainsi que Web Angular, Mobile Hyperion, APIs REST, Kafka et batchs.
+Plusieurs familles de données nécessaires : marques, sociétés, établissements, agences, profils,
+utilisateurs, droits, produits, intervenants, contrats, compétences, clients, prospects, devis,
+interventions, séries RRULE, aides, PEC, OF, CDA, PAP, facturation et paie.
+
+1.1. Jeux de données MP1 — Structure / Organisation
+Le module MP1 couvre les données de structure nécessaires aux autres modules : marques,
+sociétés, établissements et agences. Le volume minimal identifié est : 2 marques, 3 sociétés, 5
+agences, avec SIREN valides, hiérarchie complète et unicité des SIREN.
+Catégorie
+
+Données nécessaires
+
+Objectif de test
+
+Cas à couvrir
+
+Marques
+
+Code marque, libellé, statut
+actif/inactif
+
+Tester la création et la
+consultation des marques
+
+Marque active, marque inactive,
+doublon, suppression impossible si
+rattachements
+
+Sociétés
+
+SIREN, raison sociale, adresse,
+statut juridique
+
+Tester la structure légale
+
+SIREN valide, SIREN invalide,
+doublon SIREN, société sans
+agence
+
+Établissements
+
+SIRET, adresse, société de
+rattachement
+
+Tester l’arborescence
+société/établissement
+
+SIRET valide, SIRET invalide,
+établissement fermé,
+établissement actif
+
+Agences
+
+Code agence, rattachement
+marque/société, zone
+géographique
+
+Alimenter MP3, MP4, MP5,
+MP6
+
+Agence active, inactive, multiagences, agence sans
+collaborateur
+
+Zones de
+couverture
+
+Secteurs, codes postaux, zones
+IRIS si applicable
+
+Tester la couverture
+géographique
+
+Zone couverte, zone non couverte,
+chevauchement de zones
+
+Hiérarchie
+
+Marque → Société →
+Établissement → Agence
+
+Tester les dépendances
+inter-modules
+
+Désactivation cascade,
+consultation multi-niveaux
+
+Données
+invalides
+
+SIREN/SIRET incorrects,
+rattachement absent
+
+Tester les contrôles
+
+Rejet attendu, messages d’erreur,
+impossibilité de sauvegarde
+
+Objectif : garantir que tous les modules disposent d’une base organisationnelle fiable avant de tester les
+parcours métier. Pour rappel, MP1 est un prérequis dans plusieurs parcours d’intégration, notamment
+l’administration de structure complète et les scénarios cross-modules.
+
+1.2 Jeux de données SP1.5 — Habilitations / Profils / Droits
+Les données SP1.5 attendues sont : profils, utilisateurs, droits, avec au minimum 5 profils, 10 utilisateurs, 1
+utilisateur par persona x 2 agences, et synchronisation Keycloak.
+Catégorie
+
+Données nécessaires
+
+Objectif de test
+
+Cas à couvrir
+
+Profils
+
+Admin Orion, Responsable agence,
+Opérationnel, Commercial, Intervenant,
+Facturation, Paie, RH, Support
+
+Tester les droits
+par persona
+
+Accès autorisé, accès
+interdit, visibilité partielle
+
+Utilisateurs
+
+Comptes de test par profil
+
+Connexion et
+parcours dédiés
+
+Connexion OK, compte
+désactivé, mot de passe
+expiré
+
+Droits
+fonctionnels
+
+Lecture, création, modification,
+suppression, validation
+
+Vérifier les
+permissions
+
+CRUD complet, lecture
+seule, interdiction
+suppression
+
+Périmètre
+agence
+
+Utilisateur mono-agence, multiagences, siège, franchise
+
+Tester les cônes
+de visibilité
+
+Données agence A visibles,
+agence B masquées
+
+Sessions
+
+Session active, session expirée,
+utilisateur désactivé
+
+Tester la sécurité
+
+Reconnexion bloquée,
+session invalidée
+
+Keycloak
+
+Synchronisation rôles/utilisateurs
+
+Tester le SSO et
+les rôles
+
+Rôle absent, rôle modifié,
+utilisateur supprimé
+
+Droits
+négatifs
+
+Accès à données RH, paie, facturation
+non autorisé
+
+Tester la
+confidentialité
+
+Commercial ne voit pas
+paie, intervenant ne voit
+pas RH
+
+Objectif : vérifier que chaque profil a exactement les droits nécessaires, ni plus ni moins. Chaque
+profil doit avoir les permissions bien définies, “pas plus, pas moins”, et on doit prévoir aussi des tests sur
+la désactivation d’un utilisateur avec impacts Keycloak.
+
+1.3 Jeux de données MP2 — Catalogue / PIM
+Les données MP2 attendues sont : catégories, familles, produits, packages, avec un minimum de 3
+catégories (Services à domicile, Services de confort et Services spécialisés), 5 familles (Ménage,
+Repassage, Jardinage, Garde d'enfants et Aide à la mobilité), 10 produits (Ménage standard, Ménage
+premium, Repassage, Jardinage léger, Jardinage expert, Garde enfant journée, Garde enfant soirée, Aide
+repas, Aide mobilité et Accompagnement administratif) et des taux de TVA 5,5 %, 10 %, 20 %.
+Catégorie
+
+Données nécessaires
+
+Objectif de test
+
+Cas à couvrir
+
+Catégories
+
+Services à la personne, aide,
+ménage, garde, jardinage
+
+Structurer le
+catalogue
+
+Catégorie active/inactive
+
+Familles
+
+Famille produit,
+regroupement métier
+
+Tester l’organisation
+PIM
+
+Famille avec produits, famille
+vide
+
+Produits
+
+Ménage 2h, aide à domicile,
+garde enfant, jardinage
+
+Alimenter devis,
+planning, facturation
+
+Produit actif, produit inactif,
+produit non facturable
+
+Packages
+
+Offres groupées, options
+
+Tester les offres
+combinées
+
+Package complet, option
+obligatoire, option facultative
+
+TVA
+
+5,5 %, 10 %, 20 %
+
+Tester la cohérence
+fiscale
+
+TVA correcte, TVA manquante,
+incohérence TVA
+
+Tarification
+
+Prix standard, prix agence,
+prix remisé
+
+Tester devis/facture
+
+Tarif nominal, remise, tarif expiré
+
+Données
+invalides
+
+Produit sans TVA, produit
+sans famille
+
+Tester les contrôles
+
+Rejet attendu
+
+Le module MP2 – Catalogue Produits (PIM) doit couvrir les catégories, familles, produits, packages et
+règles de TVA afin de valider la structure du catalogue, la tarification et les impacts sur les autres modules
+(MP4 Commercial, MP5 Planning, MP6 Facturation).
+Les volumes minimaux de 3 catégories, 5 familles et 10 produits ne sont pas choisis au hasard. Ils
+permettent de tester un nombre suffisant de cas fonctionnels.
+3 catégories : Permet de vérifier la gestion de la hiérarchie du catalogue, les filtres, la navigation et le
+rattachement des familles à plusieurs catégories. Une seule catégorie ne permettrait pas de tester les
+règles de classification.
+5 familles : Permet de tester les rattachements catégorie → famille, les contrôles de cohérence et la
+récupération des familles par les modules consommateurs (MP4 et MP5).
+10 produits : Permet de couvrir plusieurs types de prestations, différents tarifs, états (actif/inactif),
+options, packages et scénarios de devis/facturation. Le risque « TVA incorrecte » est d'ailleurs identifié
+comme critique sur MP2.
+
+Objectif : Garantir que les produits utilisés dans MP4, MP5 et MP6 sont cohérents, facturables et
+utilisables dans les scénarios bout-en-bout. Le MP2 intervient dans les parcours d’intégration, notamment
+Catalogue → Prestation → Facturation.
+
+1.4 Jeux de données MP3 — Collaborateurs / Intervenants / RH
+Les données MP3 attendues sont : intervenants, contrats, compétences, avec au minimum 10
+intervenants, 10 contrats CDI/CDD/CDDU, compétences variées, et conformité CCN
+
+Catégorie
+Intervenants
+Contrats
+Compétences
+Disponibilités
+Absences
+Zones
+Données GTA
+Données
+invalides
+
+Données nécessaires
+Nom, prénom,
+matricule, agence,
+statut
+CDI, CDD, CDDU
+
+Objectif de test
+Alimenter le planning
+
+Cas à couvrir
+Intervenant actif, inactif,
+suspendu
+
+Tester règles RH
+
+Ménage, aide toilette,
+garde enfant,
+jardinage
+Jours travaillés,
+plages horaires
+Congés, maladie,
+formation, autre
+absence
+Secteur géographique
+de l’intervenant
+Heures prévues,
+heures réalisées
+
+Tester le matching MP5
+
+Contrat actif, contrat expiré,
+contrat futur
+Compétence
+compatible/incompatible
+
+Contrat sans agence,
+compétence absente
+
+Tester rejets
+
+Tester planification
+Tester
+annulation/remplacement
+Tester distance/matching
+Alimenter MP7
+
+Disponible, indisponible,
+partiellement disponible
+Absence validée, brouillon,
+annulée
+Intervenant proche, éloigné,
+hors zone
+Heures normales,
+dépassement, absence
+pointage
+Impossible à planifier
+
+Les événements Kafka MP3 identifiés incluent notamment collaborateur, congé et autre_absence, avec
+comportement attendu selon les cas nominaux et cas d’erreur.
+
+1.5 Jeux de données MP4 — Commercial / CRM / Client
+Les données MP4 attendues sont : clients PP/Pro, prospects, devis, avec un minimum de 20 clients
+particuliers, 5 clients professionnels, 10 prospects, 5 devis, statuts variés et anonymisation RGPD.
+
+Catégorie
+Leads
+Prospects
+Clients
+particuliers
+
+Données nécessaires
+Demande initiale, canal,
+besoin
+Prospect qualifié, agence
+couvrante
+Identité, adresse,
+coordonnées
+
+Objectif de test
+Tester entrée
+commerciale
+Tester transformation
+lead/prospect
+Tester cycle client PP
+
+Cas à couvrir
+Lead complet,
+incomplet
+Prospect avec zone
+couverte, non couverte
+Client actif, inactif,
+doublon
+
+Clients
+professionnels
+Adresses
+Devis
+Contrats
+Données RGPD
+Données
+invalides
+
+SIRET, raison sociale,
+contact
+Adresse de facturation,
+adresse de prestation
+Produit, tarif, remise,
+statut
+Contrat signé, en attente,
+résilié
+Données anonymisées,
+consentements
+
+Tester client Pro
+
+Client incomplet, email
+invalide
+
+Tester validation
+
+Tester couverture agence
+Tester proposition
+commerciale
+Préparer
+planning/facturation
+Tester conformité
+
+SIRET valide, SIRET
+invalide
+Adresse couverte/non
+couverte
+Devis brouillon,
+envoyé, accepté, refusé
+Contrat actif, non signé,
+expiré
+Donnée masquée,
+donnée sensible
+protégée
+Rejet attendu
+
+Les événements Kafka MP4 explicitement cités incluent client et client_pro, avec création PP, création
+Pro, cas incomplet et SIRET invalide.
+
+1.6 Jeux de données MP5 — Planning / Interventions / Matching
+Le module MP5 est présenté comme le cœur opérationnel d’Orion : il centralise les données venant de
+MP1, MP2, MP3 et MP4 pour construire et optimiser les plannings
+
+Catégorie
+Interventions
+unitaires
+Interventions
+récurrentes
+Statuts
+intervention
+Affectations
+
+Données nécessaires
+Client, intervenant, service,
+créneau
+Série RRULE, fréquence,
+date début/fin
+Simulée, pourvue, réalisée,
+annulée
+Intervenant affecté,
+remplaçant
+Matching
+Client, besoin, compétence,
+distance, disponibilité
+Absences
+Intervenant absent sur
+intervention
+Notifications Client, intervenant,
+opérationnel
+Pointages
+Heure début, heure fin,
+correction
+
+Objectif de test
+Tester création intervention
+
+Planning
+multi-vues
+Données
+invalides
+
+Tester ergonomie
+
+Vue jour, semaine, mois,
+agence, intervenant
+Créneau passé, intervenant
+sans contrat
+
+Tester générations
+automatiques
+Tester cycle de vie
+Tester remplacement
+Tester moteur matching
+Tester
+annulation/remplacement
+Tester alertes
+Alimenter MP6/MP7
+
+Tester contrôles
+
+Cas à couvrir
+Création OK, conflit
+planning
+Hebdomadaire,
+mensuel, fin de série
+Passage statut à statut
+Remplacement
+disponible/indisponible
+Scoring simple,
+contraintes multiples
+Intervention annulée
+ou réaffectée
+Notification
+envoyée/non envoyée
+Pointage normal,
+retard, correction
+manuelle
+Filtres, recherche,
+affichage
+Rejet attendu
+
+Ce module MP5 croise les données clients et contractuelles du MP4, les intervenants et compétences du
+MP3, les agences du MP1 et les produits du MP2 afin de proposer un planning optimisé.
+
+1.7 Jeux de données MP6 — Facturation / Aides / Organismes Financeurs
+Ce module MP6 est définit comme le module Facturation & Aides, intégré avec MP1/SP1.5, MP2, MP3,
+MP4, MP5 et MP7.
+
+Catégorie
+Organismes
+Financeurs
+Établissements
+financeurs
+Prises en charge
+CDA
+PAP
+Heures facturables
+Factures
+Exports comptables
+Données
+réglementaires
+Données invalides
+
+Données nécessaires
+OF APA, PCH, PAJE,
+mutuelle
+Établissement lié à OF
+PEC client, montant,
+période
+Contrats d’aide, règles,
+durée
+Plan d’aide personnalisé
+Heures issues du
+planning/pointage
+Facture client, facture
+aidée
+Écritures, lots, statuts
+Seuils, plafonds, règles
+
+Objectif de test
+Tester référentiel
+aide
+Tester
+rattachement
+Tester aide
+financière
+Tester règles
+d’aide
+Alimenter
+facturation
+Tester facturation
+Tester génération
+facture
+Tester intégration
+compta
+Tester conformité
+
+PEC sans client, PAP sans Tester rejet
+CDA
+
+Cas à couvrir
+OF actif, inactif, fermé
+Établissement actif/inactif
+PEC active, expirée,
+plafond atteint
+CDA valide, modifié,
+expiré
+PAP créé, modifié, rejeté
+Heure réalisée, annulée,
+corrigée
+Facture complète, avoir,
+rejet
+Export OK, export rejeté
+Dépassement plafond,
+règle manquante
+Blocage attendu
+
+Le MP6 doit être testé avec des données simples mais aussi des cas complexes : aide unique, cumul
+d’aides, dépassement de plafond, période expirée, modification de CDA après validation du PAP, rejet
+financeur, facture avec annulation ou correction d’intervention.
+
+1.8 Jeux de données MP7 — Paie / Export heures
+Le module MP7 est intégré à MP1/SP1.5, MP3, MP5 et MP6, avec notamment la relation facturation ↔
+paie.
+
+Catégorie
+Heures réalisées
+
+Données nécessaires
+Pointages issus MP5
+
+Objectif de test
+Alimenter paie
+
+Contrats
+collaborateur
+Absences
+
+CDI, CDD, CDDU
+
+Tester règles paie
+
+Congés, maladie,
+indisponibilités
+Heures, primes,
+majorations
+
+Tester impact
+paie
+Tester calculs
+
+Variables de paie
+
+Cas à couvrir
+Heures normales,
+heures corrigées
+Contrat actif/expiré
+Absence payée/non
+payée
+Heures dimanche, nuit,
+jour férié
+
+Export paie
+Données de
+contrôle
+Données invalides
+
+Lot mensuel, fichier,
+statut
+Écart prévu/réalisé
+Pointage manquant,
+contrat absent
+
+Tester
+transmission
+Tester cohérence
+GTA
+Tester rejet
+
+Export OK, export
+rejeté
+Écart toléré, écart
+bloquant
+Blocage export
+
+Objectif : vérifier que les heures issues du planning et des pointages sont cohérentes avant export paie,
+et que les données sensibles sont visibles uniquement par les profils autorisés.
+
+1.9 Jeux de données inter-modules / E2E
+Dans ce projet Orion la matrice dépendance inter-modules est décrite comme suite : MP1 Structure,
+SP1.5 Habilitations, MP2 Catalogue, MP3 Collaborateurs, MP4 Commercial, MP5 Planning, MP6
+Facturation et MP7 Paie. Nous avons aussi la liste de plusieurs tests d’intégration : onboarding
+complet, cycle de vie intervenant, commercial bout-en-bout, admin structure complète, catalogueprestation-facturation, aides financières E2E, modification cascade et régression transverse.
+
+Parcours E2E
+Onboarding client
+complet
+Cycle de vie intervenant
+Commercial bout-enbout
+Admin structure
+complète
+Catalogue → prestation
+→ facturation
+Aides financières E2E
+Modification cascade
+Régression transverse
+
+Données nécessaires
+Agence, produit, prospect, client, devis, contrat,
+planning, facture
+Agence, intervenant, contrat, compétence,
+planning, pointage, paie
+Produit, prospect, devis, contrat, intervention,
+facture
+Marque, société, agence, profils, utilisateurs,
+droits
+Produit, contrat, intervention réalisée, facture
+
+Modules couverts
+MP1, MP2, MP4,
+MP5, MP6
+MP1, MP3, MP5, MP7
+
+Client, OF, PEC, CDA, PAP, intervention,
+facture
+Modification collaborateur/client/contrat et
+impact planning/facturation
+Profils, accès, planning, clients, interventions
+
+MP4, MP5, MP6
+
+MP2, MP4, MP5, MP6
+MP1, SP1.5
+MP2, MP4, MP5, MP6
+
+MP3, MP4, MP5, MP6
+MP1, SP1.5, MP4,
+MP5
+
+Les scenarios-transverses-e2e-LMO précisent que les scénarios transverses E2E doivent simuler des flux
+métier réels, chaque étape produisant des données consommées par l’étape suivante, avec une cible de
+transformation en tests Playwright automatisés
+
+1.10 Jeux de données API / Kafka / Contract Testing
+Les entités Kafka comme collaborateur, congé, autre_absence, client Particulier et client_pro, avec cas
+nominaux et cas d’erreur, ainsi que des tests de résilience Kafka : consumer lag, messages hors ordre,
+doublons, broker down, crash consumer et poison pill
+
+Type de donnée
+Événements
+collaborateur
+Événements congé
+
+Données nécessaires
+Création, modification, suppression
+logique
+Congé validé, brouillon, annulé
+
+Objectif
+Tester publication/consommation
+Kafka
+Tester impact planning
+
+Événements absence
+Événements client
+Événements client Pro
+Doublons
+Hors ordre
+Poison pill
+Volume Kafka
+
+Absence saisie, annulée
+Client PP complet, incomplet
+SIRET valide/invalide
+Même événement envoyé plusieurs
+fois
+Événement ancien après événement
+récent
+Message invalide
+10 000 événements
+
+Tester remplacement/suppression
+Tester propagation MP4
+Tester rejet ou propagation
+Tester idempotence
+Tester règle “dernier updated_at
+gagne”
+Tester DLQ
+Tester rattrapage sans perte
+
+1.11 Jeux de données Mobile Hyperion
+Dans le tableau ci-dessous, Les Jeux de données mobile Hyperion, notamment les parcours de
+connexion, synchronisation offline, consultation planning, pointage et mode hors connexion.
+
+Catégorie
+Compte intervenant
+mobile
+Planning journée
+Intervention passée
+Intervention future
+Données offline
+
+Données nécessaires
+Intervenant actif avec planning
+
+Objectif de test
+Connexion mobile
+Consultation planning
+Pointage
+Contrôle métier
+Mode hors connexion
+
+Delta sync
+
+Interventions du jour
+Intervention à pointer
+Consultation sans pointage
+Planning synchronisé avant coupure
+réseau
+Données modifiées côté serveur
+
+Full sync
+Erreurs réseau
+
+Grand volume de données
+Perte réseau, reprise
+
+Synchronisation
+incrémentale
+Synchronisation complète
+Résilience mobile
+
+1.12 Jeux de données sécurité / habilitations négatives
+Profil
+Commercial
+Intervenant
+Opérationnel agence A
+Responsable agence
+Admin Orion
+Gestionnaire Paie
+QA/Testeur
+Utilisateur désactivé
+
+Données à tester
+Données paie
+Données d’autres intervenants
+Données agence B
+Données de son périmètre
+Tous référentiels
+Données salariales
+Données de test uniquement
+Connexion et session
+
+Résultat attendu
+Accès interdit
+Accès interdit
+Accès interdit sauf multi-agence
+Accès autorisé limité
+Accès autorisé
+Accès autorisé
+Accès contrôlé
+Accès bloqué
+
+Ces jeux de données sont indispensables pour démontrer que les habilitations sont conformes et que les
+données sensibles sont protégées.
+
+1.13 Jeux de données performance / volumétrie
+Domaine
+Structure
+Collaborateurs
+Planning
+RRULE
+Mobile
+
+Données nécessaires
+Plusieurs marques, sociétés, agences
+Centaines ou milliers d’intervenants
+Planning semaine multi-agences
+Nombreuses séries récurrentes
+Plusieurs milliers d’entités à synchroniser
+
+Objectif
+Tester affichage hiérarchie
+Tester recherche et matching
+Tester chargement planning
+Tester batch génération
+Tester full sync / delta sync
+
+Kafka
+Facturation
+Paie
+
+Gros volume d’événements
+Grand nombre de factures
+Export mensuel conséquent
+
+Tester consumer lag
+Tester génération lots
+Tester export et contrôle
+
+1.14 Jeux de données de non-régression
+Famille
+Régression MP1
+Régression SP1.5
+Régression MP2
+Régression MP3
+Régression MP4
+Régression MP5
+Régression MP6
+Régression MP7
+Régression E2E
+
+Données nécessaires
+Structures stables
+Profils et droits stables
+Catalogue stable
+Intervenants et contrats stables
+Clients, prospects, devis
+Interventions et planning
+Factures, aides, PAP, CDA
+Heures et exports
+Chaîne client complète
+
+Objectif
+Vérifier absence de régression organisation
+Vérifier habilitations
+Vérifier produits/tarifs
+Vérifier RH
+Vérifier CRM
+Vérifier planning
+Vérifier facturation
+Vérifier paie
+Vérifier bout-en-bout
+
+1.15 Synthèse minimale des volumes recommandés
+Pour couvrir les scénarios E2E, sécurité, erreurs et performance, les volumes explicitement recommandés
+sont : MP1 avec 2 marques, 3 sociétés, 5 agences ; SP1.5 avec 5 profils, 10 utilisateurs ; MP2 avec 3
+catégories, 5 familles, 10 produits ; MP3 avec 10 intervenants et 10 contrats ; MP4 avec 20 clients
+particuliers, 5 clients professionnels, 10 prospects et 5 devis.
+
+Module
+MP1 Structure
+SP1.5
+Habilitations
+MP2 Catalogue
+MP3
+Collaborateurs
+MP4
+Commercial
+MP5 Planning
+MP6 Facturation
+MP7 Paie
+
+Volume minimal
+documentaire
+2 marques, 3 sociétés, 5
+agences
+5 profils, 10 utilisateurs
+3 catégories, 5 familles, 10
+produits
+10 intervenants, 10 contrats
+20 PP, 5 Pro, 10 prospects,
+5 devis
+Non entièrement détaillé
+dans l’extrait
+Non entièrement détaillé
+dans l’extrait
+Non entièrement détaillé
+dans l’extrait
+
+Volume QA recommandé
+Ajouter établissements, zones, agences
+actives/inactives
+Ajouter 1 compte par profil métier + cas multiagences
+Ajouter packages, options, TVA, tarifs
+Ajouter absences, compétences, disponibilités
+Ajouter contrats, adresses, statuts, cas RGPD
+Prévoir interventions unitaires, séries RRULE,
+pointages, remplacements
+Prévoir OF, PEC, CDA, PAP, factures, avoirs
+Prévoir heures, variables, exports, anomalies
+
+1.16 Matrice de Données de Test Orion
+Cette matrice présente une vue d'ensemble structurée des données de test pour le projet
+Orion, avec des détails sur les modules, entités, profils utilisateurs et cas de test associés. Elle
+sert de référence pour la validation fonctionnelle, sécuritaire et les scénarios E2E.
+•
+Chaque module (MP1 à MP7 et Kafka MP3) détaille les entités clés, leurs données
+minimales, profils utilisateurs et cas nominal, erreur, sécurité et E2E.
+• Les données couvrent des domaines variés comme marques, sociétés, utilisateurs,
+produits, intervenants, clients, factures, paie et événements Kafka.
+• La matrice est prête pour intégration avec Xray, Playwright, Jira, Confluence et reflète
+les sources des plans de test et stratégies associées.
+NB : (Voir Tableau Matrice Donnée Test Orion - prête pour Xray, Playwright, Jira,
+Confluence et E2E)
+
+1.17 Vue finale : référentiel complet à préparer
+Pour tester correctement Orion, ces 15 familles de jeux de données doivent donc être
+préparés :
+1. Données de structure MP1
+2. Données d’habilitation SP1.5
+3. Données catalogue MP2
+4. Données collaborateurs MP3
+5. Données clients/prospects/devis MP4
+6. Données contrats commerciaux
+7. Données planning MP5
+8. Données interventions et pointages
+9. Données absences/remplacements
+10. Données aides financières MP6
+11. Données PAP/CDA/OF/PEC
+12. Données facturation/comptabilité
+13. Données paie MP7
+14. Données API/Kafka/Contract Testing
+15. Données E2E, sécurité, performance et non-régression
+
+2- PROFILS ORION
+2.1
+Matrice des Profils Orion à demander
+Profil
+
+Description
+
+Principaux
+modules
+
+Données manipulées
+
+Admin Orion
+
+Administration complète de
+la plateforme
+
+MP1, SP1.5
+
+Utilisateurs, habilitations,
+organisations, paramètres
+
+Très élevé
+
+Admin Marque
+
+Administration d'une marque MP1, MP6
+
+Structures, agences,
+référentiels financiers
+
+Très élevé
+
+Admin Société
+
+Gestion d'une société
+
+MP1
+
+Données juridiques
+SIREN/SIRET
+
+Très élevé
+
+Responsable
+Habilitations
+
+Gestion des profils et droits
+
+SP1.5
+
+Droits, rôles, visibilité
+
+Très élevé
+
+Responsable
+Agence
+
+Pilotage d'une agence
+
+MP3, MP4, MP5, Clients, collaborateurs, KPI
+MP6
+agence
+
+Élevé
+
+Gérant Franchise
+
+Vision multi-agences
+
+Tous
+
+Données consolidées multiagences
+
+Élevé
+
+Opérationnel
+Agence
+
+Gestion quotidienne de
+l'activité
+
+MP4, MP5
+
+Interventions, planning,
+affectations
+
+Élevé
+
+Coordinateur
+Planning
+
+Organisation des tournées
+
+MP5
+
+Planning et interventions
+
+Élevé
+
+Gestionnaire
+Remplacement
+
+Gestion des
+absences/remplacements
+
+MP3, MP5
+
+Disponibilités
+collaborateurs
+
+Élevé
+
+Commercial
+Agence
+
+Prospection et vente
+
+MP4
+
+Prospects, devis, contrats
+
+Élevé
+
+Responsable
+Commercial
+
+Pilotage commercial
+
+MP4
+
+Portefeuille clients,
+reporting
+
+Élevé
+
+Gestionnaire
+Catalogue
+
+Administration du catalogue MP2
+
+Produits, services, TVA
+
+Moyen
+
+Responsable Offre
+
+Gestion des offres
+commerciales
+
+Services, packages,
+tarification
+
+Moyen
+
+Gestionnaire
+Gestion RH des intervenants MP3
+Collaborateurs RH
+
+Contrats, compétences,
+absences
+
+Élevé
+
+Responsable RH
+
+Pilotage RH
+
+MP3, MP7
+
+Données RH sensibles
+
+Très élevé
+
+Intervenant
+
+Réalisation des prestations
+
+MP5 Hyperion
+
+Son planning, ses pointages
+
+Standard
+
+MP2, MP4
+
+Niveau de sécurité
+
+Intervenant
+Référent
+
+Intervenant avec
+responsabilités
+additionnelles
+
+MP5
+
+Planning et équipes terrain
+
+Standard
+
+Gestionnaire
+Facturation
+
+Facturation clients
+
+MP6
+
+Factures, OF, PAP, CDA,
+aides
+
+Élevé
+
+Responsable
+Facturation
+
+Contrôle financier
+
+MP6
+
+Facturation et
+encaissements
+
+Très élevé
+
+Gestionnaire
+Organismes
+Financeurs
+
+Gestion APA/PCH/PAJE
+
+MP6
+
+Données d'aides financières
+
+Très élevé
+
+Gestionnaire PAP
+
+Gestion des Plans d'Aide
+
+MP6
+
+Données bénéficiaires
+
+Très élevé
+
+Gestionnaire CDA Gestion des Contrats d'Aide
+
+MP6
+
+Données réglementaires
+
+Très élevé
+
+Gestionnaire Paie Production de la paie
+
+MP7
+
+Salaires, heures, exports
+paie
+
+Très élevé
+
+Responsable Paie Validation et supervision
+
+MP7
+
+Données salariales
+
+Très élevé
+
+Contrôle de
+Gestion
+
+Reporting financier
+
+MP6, MP7
+
+Tableaux de bord et
+indicateurs
+
+Élevé
+
+Comptabilité
+
+Traitement comptable
+
+MP6
+
+Écritures et exports
+comptables
+
+Élevé
+
+Service Client
+(SRC)
+
+Support clients
+
+MP4, MP5
+
+Dossiers clients,
+réclamations
+
+Élevé
+
+Gestionnaire
+Réclamations
+
+Traitement des litiges
+
+MP4, MP5
+
+Réclamations et suivi
+qualité
+
+Élevé
+
+Gestionnaire
+Sinistres
+
+Gestion des incidents
+
+MP5
+
+Dossiers sinistres
+
+Élevé
+
+Formateur Orion
+
+Formation des utilisateurs
+
+Lecture multimodules
+
+Environnement
+pédagogique
+
+Moyen
+
+Support Applicatif
+Assistance utilisateurs
+N1
+
+Tous
+
+Consultation limitée
+
+Moyen
+
+Support Applicatif
+Analyse fonctionnelle
+N2
+
+Tous
+
+Diagnostic fonctionnel
+
+Élevé
+
+Support Applicatif
+Support expert
+N3
+
+Tous
+
+Données techniques
+avancées
+
+Élevé
+
+Product Owner
+
+Gestion du produit
+
+Tous
+
+Vision transverse métier
+
+Élevé
+
+Business Analyst
+
+Analyse fonctionnelle
+
+Tous
+
+Consultation transverse
+
+Élevé
+
+QA / Testeur
+
+Validation Fonctionnels
+
+Tous
+
+Jeux de données de test
+
+Moyen
+
+QA Automation
+Lead
+
+Tests automatisés Playwright Tous
+
+Données de test multiprofils
+
+Élevé
+
+Architecte
+Solution
+
+Architecture transverse
+
+Configuration globale
+
+Très élevé
+
+Développeur
+
+Développement des modules Module concerné Données techniques
+
+Moyen
+
+DevOps
+
+Infrastructure et
+déploiement
+
+Tous
+
+Configuration système
+
+Très élevé
+
+Auditeur /
+Compliance
+
+Contrôles réglementaires
+
+Lecture
+transverse
+
+Historique et traçabilité
+
+Élevé
+
+Tous
+
+2.2- Classification sécurité recommandée
+Niveau
+
+Description
+
+Standard
+
+Accès uniquement à ses propres données opérationnelles
+
+Moyen
+
+Consultation ou administration limitée d'un domaine métier
+
+Élevé
+
+Accès à des données métier sensibles de plusieurs utilisateurs
+
+Très élevé
+
+Administration, habilitations, RH, paie ou données financières sensibles
+
+2.3- Profils prioritaires pour les tests E2E Playwright Orion
+Pour la couverture QA automatisée du projet Orion, ci-dessous le minimum les comptes de test:
+1. Admin Orion
+2. Responsable Agence
+3. Opérationnel Agence
+4. Commercial Agence
+5. Gestionnaire Catalogue
+6. Gestionnaire RH
+7. Intervenant Hyperion
+8. Gestionnaire Facturation
+9. Gestionnaire Paie
+10. Contrôleur de Gestion
+
+11. Service Client
+12. Gérant Franchise
+Cette sélection couvre la totalité de la chaîne métier :
+MP1 Structure → MP2 Catalogue → MP3 Collaborateurs → MP4 Commercial → MP5 Planning → MP6
+Facturation/Aides → MP7 Paie
+
+

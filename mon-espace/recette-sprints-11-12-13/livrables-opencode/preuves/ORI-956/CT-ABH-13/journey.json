@@ -1,0 +1,43 @@
+{
+  "canonicalId": "ORI-956::CT-ABH-13::R176",
+  "issueKey": "ORI-956",
+  "caseId": "CT-ABH-13",
+  "module": "MP3 > SP3.4",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_INT_ABACAD_1 (B) - Calcul et affichage de la duree en heures (dates =) (CA F6-F8)",
+  "route": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 15,
+  "progressedSteps": 5,
+  "totalSteps": 5,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 5,
+    "misses": [
+      {
+        "text": "Heures"
+      },
+      {
+        "text": "Duree : 03:30"
+      },
+      {
+        "text": "Heures"
+      },
+      {
+        "text": "Duree : 09:00"
+      },
+      {
+        "text": "Duree : 03:00"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "assertion-low",
+  "rules": [
+    "RG_INT_ABACAD_1"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-3544e-e-en-heures-dates-CA-F6-F8--orion-headed"
+}

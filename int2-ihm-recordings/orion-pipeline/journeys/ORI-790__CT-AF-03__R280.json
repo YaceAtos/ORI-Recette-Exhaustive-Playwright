@@ -1,0 +1,31 @@
+{
+  "canonicalId": "ORI-790::CT-AF-03::R280",
+  "issueKey": "ORI-790",
+  "caseId": "CT-AF-03",
+  "module": "MP6 > SP6.1",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_PAP_HER_01/02 - Bandeau 'Herite du CDA' et champs en lecture seule",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 4,
+  "totalSteps": 4,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 1,
+    "misses": [
+      {
+        "text": "Herite du CDA"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "assertion-low",
+  "rules": [
+    "RG_PAP_HER_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-fce65--et-champs-en-lecture-seule-orion-headed"
+}

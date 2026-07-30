@@ -1,0 +1,63 @@
+/* ═══════════════════════════════════════════════════════
+   TABS
+   ═══════════════════════════════════════════════════════ */
+
+.orion-tabs {
+  display: flex;
+  align-items: stretch;
+  background: var(--color-surface);
+  font-family: var(--font-body);
+  border-bottom: 1px solid var(--color-outline);
+  width: fit-content;
+}
+
+.orion-tabs__item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 0 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: var(--color-on-surface);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 100ms;
+  white-space: nowrap;
+}
+
+/* Hover */
+.orion-tabs__item:hover {
+  background: rgba(29, 32, 36, 0.08);
+}
+
+/* Focus */
+.orion-tabs__item:focus-visible {
+  background: rgba(29, 32, 36, 0.10);
+}
+
+/* ── Active indicator ── */
+.orion-tabs__item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  border-radius: 2px 2px 0 0;
+  background: transparent;
+  transition: background-color 150ms;
+}
+
+.orion-tabs__item--active::after {
+  background: var(--color-primary-active);
+}
+
+.orion-tabs__item--active:hover::after {
+  background: var(--color-primary);
+}

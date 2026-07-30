@@ -1,0 +1,5 @@
+locale:
+  code: fr
+  date_formats: [dd/MM/yyyy]
+  phone_prefix: '+33'
+  sample_cities: [Paris, Lyon, Bordeaux, Lille, Nantes]

@@ -1,0 +1,34 @@
+{
+  "canonicalId": "ORI-783::CT-ETAB-05::R18",
+  "issueKey": "ORI-783",
+  "caseId": "CT-ETAB-05",
+  "module": "MP1 > SP1.1",
+  "priority": "P1",
+  "type": "Erreur",
+  "scenario": "SIRET verrouille sur etab ACTIF (RG_ETAB_SIRET_MODIF_INTERDITE_SI_ACTIF)",
+  "route": "https://orion-int2.itsap.net/gestion-marque/structure/pages/structure",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 2,
+  "progressedSteps": 5,
+  "totalSteps": 5,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 2,
+    "misses": [
+      {
+        "text": "Modale"
+      },
+      {
+        "text": "Bouton"
+      }
+    ]
+  },
+  "severity": "moyen",
+  "status": "assertion-low",
+  "rules": [
+    "RG_ETAB_SIRET_MODIF_INTERDITE_SI_ACTIF"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-8266e-T-MODIF-INTERDITE-SI-ACTIF--orion-headed"
+}

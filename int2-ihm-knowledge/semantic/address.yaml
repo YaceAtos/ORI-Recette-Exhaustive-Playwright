@@ -1,0 +1,24 @@
+address:
+  street:
+    semantic_type: address.street
+    aliases: [street, address, adresse, line1, address_line_1]
+    confidence_keywords: [street, adresse, address, line]
+    datatype: string
+
+  city:
+    semantic_type: address.city
+    aliases: [city, ville, commune]
+    confidence_keywords: [city, ville]
+    datatype: string
+
+  postal_code:
+    semantic_type: address.postal_code
+    aliases: [postal_code, zip, zipcode, code_postal]
+    confidence_keywords: [postal, zip, code_postal]
+    datatype: string
+
+  country:
+    semantic_type: address.country
+    aliases: [country, pays, nation]
+    confidence_keywords: [country, pays]
+    datatype: string

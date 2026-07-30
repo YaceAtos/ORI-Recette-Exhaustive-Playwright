@@ -1,0 +1,40 @@
+{
+  "canonicalId": "ORI-1068::CT-RND-02::R231",
+  "issueKey": "ORI-1068",
+  "caseId": "CT-RND-02",
+  "module": "MP4 > SP4.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "Types de widgets supportes et mapping Design System Orion",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 5,
+  "progressedSteps": 4,
+  "totalSteps": 4,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Modale"
+      },
+      {
+        "text": "Chaque"
+      },
+      {
+        "text": "Libelles"
+      },
+      {
+        "text": "Saisie"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "assertion-low",
+  "rules": [
+    "RG_BSN_QUAL_03"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-3228c-mapping-Design-System-Orion-orion-headed"
+}

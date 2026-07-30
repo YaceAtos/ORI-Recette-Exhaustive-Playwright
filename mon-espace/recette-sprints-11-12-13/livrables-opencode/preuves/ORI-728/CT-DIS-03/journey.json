@@ -1,0 +1,40 @@
+{
+  "canonicalId": "ORI-728::CT-DIS-03::R256",
+  "issueKey": "ORI-728",
+  "caseId": "CT-DIS-03",
+  "module": "MP5 > SP5.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_CRT_SIN_08 / Scenario 18 - Disponible pour la serie mais indisponible pour une occurrence (Non pourvue)",
+  "route": "https://orion-int2.itsap.net/sap/pages/planning",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Emettre le message avec intervenant disponible serie mais en conflit s\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 3,
+    "misses": [
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Interventions"
+      },
+      {
+        "text": "Non pourvue"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_CRT_SIN_08"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-94272-une-occurrence-Non-pourvue--orion-headed"
+}

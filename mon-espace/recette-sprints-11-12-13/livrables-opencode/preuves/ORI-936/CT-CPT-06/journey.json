@@ -1,0 +1,40 @@
+{
+  "canonicalId": "ORI-936::CT-CPT-06::R155",
+  "issueKey": "ORI-936",
+  "caseId": "CT-CPT-06",
+  "module": "MP3 > SP3.4",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_INT_CPTD_1 - Colonne 'Acquis' : valeur, format et info-bulle",
+  "route": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 1,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 2,
+    "reason": "Étape \"Lire la valeur 'Acquis' d'un compteur\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 3,
+    "misses": [
+      {
+        "text": "Valeur"
+      },
+      {
+        "text": "Format"
+      },
+      {
+        "text": "Droits acquis depuis le debut de la periode de reference"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_INT_CPTD_1"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-ce794-valeur-format-et-info-bulle-orion-headed"
+}

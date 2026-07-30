@@ -1,0 +1,43 @@
+{
+  "canonicalId": "ORI-773::CT-STE-COORD-06::R10",
+  "issueKey": "ORI-773",
+  "caseId": "CT-STE-COORD-06",
+  "module": "MP1 > SP1.1",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "Bouton Suivant: navigation multi-etapes sans enregistrement",
+  "route": "https://orion-int2.itsap.net/gestion-marque/structure/pages/structure",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 2,
+  "progressedSteps": 4,
+  "totalSteps": 5,
+  "blocker": {
+    "step": 5,
+    "reason": "Étape \"Revenir a l etape Coordonnees Legales\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Modification"
+      },
+      {
+        "text": "Passage"
+      },
+      {
+        "text": "Ancienne"
+      },
+      {
+        "text": "Modale"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_GEN_SUIV_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-42e2a--etapes-sans-enregistrement-orion-headed"
+}

@@ -1,0 +1,31 @@
+{
+  "canonicalId": "ORI-1308::CT-HAB-F7-04::R74",
+  "issueKey": "ORI-1308",
+  "caseId": "CT-HAB-F7-04",
+  "module": "SP1.5",
+  "priority": "P1",
+  "type": "Variante",
+  "scenario": "SC7: Droit fin HERITE - elevation Lecture seule a Lecture/Ecriture (2 autorisations)",
+  "route": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 6,
+  "blocker": {
+    "step": 0,
+    "reason": "Donnée absente: aucun enregistrement dans INT2 (fixture non seedée)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 0,
+    "misses": []
+  },
+  "severity": null,
+  "status": "blocked-data",
+  "rules": [
+    "RG_HAB_DPRDF_027",
+    "RG_HAB_DPRDF_026"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-ae382-e-Ecriture-2-autorisations--orion-headed"
+}

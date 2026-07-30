@@ -1,0 +1,46 @@
+{
+  "canonicalId": "ORI-368::CT-BSN-06::R212",
+  "issueKey": "ORI-368",
+  "caseId": "CT-BSN-06",
+  "module": "MP4 > SP4.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_BSN_MODIF_01 / CA-A08-A11 - Action Modifier : chargement du formulaire de la famille",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 5,
+  "progressedSteps": 0,
+  "totalSteps": 5,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Cliquer Modifier sur un besoin 'A qualifier'\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 5,
+    "misses": [
+      {
+        "text": "Modale"
+      },
+      {
+        "text": "Formulaire"
+      },
+      {
+        "text": "Modale"
+      },
+      {
+        "text": "Formulaire"
+      },
+      {
+        "text": "Blocage"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_BSN_MODIF_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-15284-du-formulaire-de-la-famille-orion-headed"
+}

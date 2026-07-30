@@ -1,0 +1,7 @@
+ui:
+  material:
+    hints:
+      - mat-option
+      - mat-select
+      - mdc-text-field
+      - role=combobox

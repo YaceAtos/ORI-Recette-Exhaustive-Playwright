@@ -1,0 +1,46 @@
+{
+  "canonicalId": "ORI-773::CT-STE-COORD-07::R11",
+  "issueKey": "ORI-773",
+  "caseId": "CT-STE-COORD-07",
+  "module": "MP1 > SP1.1",
+  "priority": "P2",
+  "type": "Variante",
+  "scenario": "Calcul etat de la fiche apres modification (RG_STE_ETATFICHE_01)",
+  "route": "https://orion-int2.itsap.net/gestion-marque/structure/pages/structure",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 2,
+  "progressedSteps": 2,
+  "totalSteps": 6,
+  "blocker": {
+    "step": 3,
+    "reason": "Étape \"Enregistrer\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 1,
+    "total": 6,
+    "misses": [
+      {
+        "text": "Informations"
+      },
+      {
+        "text": "Adresse"
+      },
+      {
+        "text": "Donnees"
+      },
+      {
+        "text": "Informations"
+      },
+      {
+        "text": "Informations"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_STE_ETATFICHE_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-a846c-cation-RG-STE-ETATFICHE-01--orion-headed"
+}

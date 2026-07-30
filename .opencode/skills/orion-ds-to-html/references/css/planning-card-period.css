@@ -1,0 +1,152 @@
+/* ═══════════════════════════════════════════════════════
+   PLANNING CARD PERIOD
+   ═══════════════════════════════════════════════════════ */
+
+.orion-pcp {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  border-radius: 4px;
+  cursor: default;
+  font-family: var(--font-body), 'Inter', sans-serif;
+  outline: none;
+  border: 2px solid transparent;
+  transition: border-color 150ms;
+}
+
+.orion-pcp:hover,
+.orion-pcp:focus {
+  border-color: var(--pcp-color);
+}
+
+/* ── Sideline ── */
+.orion-pcp__sideline {
+  flex-shrink: 0;
+  width: 4px;
+  background: var(--pcp-color);
+  border-radius: 2px 0 0 2px;
+}
+
+/* ── Body ── */
+.orion-pcp__body {
+  flex: 1;
+  position: relative;
+  min-width: 0;
+  background: var(--pcp-hatched);
+  background-size: 17px 17px;
+  border-radius: 0 2px 2px 0;
+}
+
+/* ── Label ── */
+.orion-pcp__label {
+  position: relative;
+  padding: 4px 6px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0;
+  color: var(--pcp-color);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.orion-pcp__label-text {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+.orion-pcp__time {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: inherit;
+}
+
+/* ═══ Format: Vertical ═══ */
+.orion-pcp--vertical {
+  flex-direction: row;
+  width: 315px;
+  min-height: 209px;
+}
+
+.orion-pcp--vertical .orion-pcp__sideline {
+  width: 4px;
+  height: auto;
+  border-radius: 2px 0 0 2px;
+}
+
+.orion-pcp--vertical .orion-pcp__body {
+  border-radius: 0 2px 2px 0;
+}
+
+/* ═══ Format: Horizontal ═══ */
+.orion-pcp--horizontal {
+  flex-direction: column;
+  width: 315px;
+  min-height: 209px;
+}
+
+.orion-pcp--horizontal .orion-pcp__sideline {
+  width: 100%;
+  height: 4px;
+  border-radius: 2px 2px 0 0;
+}
+
+.orion-pcp--horizontal .orion-pcp__body {
+  border-radius: 0 0 2px 2px;
+}
+
+/* ═══ Format: Small ═══ */
+.orion-pcp--small {
+  width: 315px;
+  border: none;
+  border-radius: 0;
+}
+
+.orion-pcp--small .orion-pcp__sideline {
+  display: none;
+}
+
+.orion-pcp--small .orion-pcp__body {
+  border-top: 2px solid var(--pcp-color);
+  border-radius: 0;
+}
+
+.orion-pcp--small .orion-pcp__label {
+  padding: 2px 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.orion-pcp--small:hover .orion-pcp__body,
+.orion-pcp--small:focus .orion-pcp__body {
+  outline: 2px solid var(--pcp-color);
+  outline-offset: -2px;
+}
+
+/* ═══ Type: Astreinte ═══ */
+.orion-pcp--astreinte {
+  --pcp-color: var(--color-on-warning);
+  --pcp-hatched: repeating-linear-gradient(
+    -45deg,
+    var(--color-surface),
+    var(--color-surface) 6px,
+    var(--color-warning-container) 6px,
+    var(--color-warning-container) 12px
+  );
+}
+
+/* ═══ Type: Absence ═══ */
+.orion-pcp--absence {
+  --pcp-color: var(--color-on-info);
+  --pcp-hatched: repeating-linear-gradient(
+    -45deg,
+    var(--color-surface),
+    var(--color-surface) 6px,
+    var(--color-info-container) 6px,
+    var(--color-info-container) 12px
+  );
+}

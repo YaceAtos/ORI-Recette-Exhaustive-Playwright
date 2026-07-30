@@ -1,0 +1,40 @@
+{
+  "canonicalId": "ORI-750::CT-ERR-01::R270",
+  "issueKey": "ORI-750",
+  "caseId": "CT-ERR-01",
+  "module": "MP5 > SP5.2",
+  "priority": "P1",
+  "type": "Erreur",
+  "scenario": "RG_CRT_SIN_01 / Scenarios 11-12 - Message non conforme (champ manquant ou incoherence) : notification d'erreur",
+  "route": "https://orion-int2.itsap.net/sap/pages/planning",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 5,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Emettre un message avec un champ obligatoire manquant\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 1,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Message"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_CRT_SIN_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-d4265-rence-notification-d-erreur-orion-headed"
+}

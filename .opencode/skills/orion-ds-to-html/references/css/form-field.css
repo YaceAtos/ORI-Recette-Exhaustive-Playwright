@@ -1,0 +1,353 @@
+/* ═══════════════════════════════════════════════════════
+   FORM FIELD
+   ═══════════════════════════════════════════════════════ */
+
+.orion-ff {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: var(--font-body), 'Inter', sans-serif;
+}
+
+.orion-ff__wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 40px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-muted-dark);
+  border-radius: var(--radius-md, 6px);
+  transition: border-color 150ms;
+  cursor: text;
+}
+
+/* ── Label ── */
+.orion-ff__label {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--color-on-surface-variant);
+  pointer-events: none;
+  transition: all 150ms ease;
+  background: transparent;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: calc(100% - 56px);
+}
+
+/* Label floated */
+.orion-ff--float .orion-ff__label {
+  top: 0;
+  transform: translateY(-50%);
+  font-size: 12px;
+  line-height: 16px;
+  padding: 0 4px;
+  background: var(--color-surface);
+  left: 12px;
+  max-width: calc(100% - 32px);
+}
+
+/* ── Input ── */
+.orion-ff__input {
+  flex: 1;
+  min-width: 0;
+  height: 38px;
+  padding: 0 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: var(--color-on-surface, #1d2024);
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: inherit;
+  border-radius: var(--radius-md, 6px);
+}
+
+.orion-ff__input::placeholder {
+  color: transparent;
+}
+
+.orion-ff--float .orion-ff__input::placeholder {
+  color: var(--color-on-surface-variant);
+}
+
+.orion-ff__input--with-trailing {
+  padding-right: 0;
+}
+
+/* ── Custom select ── */
+.orion-ff__select-trigger {
+  flex: 1;
+  min-width: 0;
+  height: 38px;
+  padding: 0 40px 0 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 38px;
+  color: var(--color-on-surface, #1d2024);
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: var(--radius-md, 6px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.orion-ff__select-trigger--placeholder {
+  color: var(--color-on-surface-variant);
+}
+
+.orion-ff__dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: var(--color-surface);
+  border-radius: var(--radius-md, 6px);
+  box-shadow:
+    0 2px 4px -2px rgba(0, 0, 0, 0.06),
+    0 4px 8px -2px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  display: none;
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.orion-ff--select-open .orion-ff__dropdown {
+  display: block;
+}
+
+.orion-ff__dropdown-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--color-on-surface, #1d2024);
+  cursor: pointer;
+  transition: background-color 100ms;
+}
+
+.orion-ff__dropdown-item:hover {
+  background: rgba(29, 32, 36, 0.06);
+}
+
+.orion-ff__dropdown-item--selected {
+  font-weight: 500;
+  background: rgba(29, 32, 36, 0.04);
+}
+
+.orion-ff__dropdown-check {
+  width: 16px;
+  height: 16px;
+  color: var(--color-primary, #013aba);
+  flex-shrink: 0;
+}
+
+.orion-ff__dropdown-item:not(.orion-ff__dropdown-item--selected) .orion-ff__dropdown-check {
+  display: none;
+}
+
+/* ── Textarea ── */
+.orion-ff--textarea .orion-ff__wrapper {
+  align-items: flex-start;
+  min-height: 69px;
+}
+
+.orion-ff--textarea .orion-ff__label {
+  top: 10px;
+  transform: none;
+}
+
+.orion-ff--textarea.orion-ff--float .orion-ff__label {
+  top: 0;
+  transform: translateY(-50%);
+}
+
+.orion-ff__textarea {
+  flex: 1;
+  min-width: 0;
+  min-height: 49px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--color-on-surface, #1d2024);
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: inherit;
+  resize: vertical;
+  border-radius: var(--radius-md, 6px);
+}
+
+.orion-ff__textarea::placeholder {
+  color: transparent;
+}
+
+.orion-ff--float .orion-ff__textarea::placeholder {
+  color: var(--color-on-surface-variant);
+}
+
+.orion-ff__resize-handle {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  pointer-events: none;
+  color: var(--color-on-surface-variant);
+}
+
+/* ── Trailing icon ── */
+.orion-ff__trailing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 40px;
+  height: 38px;
+  color: var(--color-on-surface-variant);
+  pointer-events: none;
+}
+
+.orion-ff__trailing-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.orion-ff--select .orion-ff__trailing {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+
+/* ═══ States ═══ */
+
+/* ── Hover ── */
+.orion-ff__wrapper:hover {
+  border-color: var(--color-on-surface, #1d2024);
+}
+
+/* ── Focus ── */
+.orion-ff--focus .orion-ff__wrapper {
+  border-width: 2px;
+  border-color: var(--color-primary, #013aba);
+}
+
+.orion-ff--focus .orion-ff__label {
+  color: var(--color-primary, #013aba);
+}
+
+.orion-ff--focus .orion-ff__trailing {
+  color: var(--color-primary, #013aba);
+}
+
+.orion-ff--focus .orion-ff__input,
+.orion-ff--focus .orion-ff__select-trigger,
+.orion-ff--focus .orion-ff__textarea {
+  height: 36px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.orion-ff--focus.orion-ff--textarea .orion-ff__textarea {
+  height: auto;
+  min-height: 47px;
+  padding: 7px 15px;
+}
+
+.orion-ff--focus .orion-ff__input {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.orion-ff--focus .orion-ff__select-trigger {
+  padding-left: 15px;
+}
+
+/* ── Disabled ── */
+.orion-ff--disabled .orion-ff__wrapper {
+  border-color: rgba(115, 129, 162, 0.38);
+  cursor: default;
+}
+
+.orion-ff--disabled .orion-ff__wrapper:hover {
+  border-color: rgba(115, 129, 162, 0.38);
+}
+
+.orion-ff--disabled .orion-ff__label {
+  color: rgba(29, 32, 36, 0.38);
+}
+
+.orion-ff--disabled .orion-ff__input,
+.orion-ff--disabled .orion-ff__select-trigger,
+.orion-ff--disabled .orion-ff__textarea {
+  color: rgba(29, 32, 36, 0.38);
+  cursor: default;
+}
+
+.orion-ff--disabled .orion-ff__trailing {
+  color: rgba(72, 84, 109, 0.38);
+}
+
+/* ── Error ── */
+.orion-ff--error .orion-ff__wrapper {
+  border-color: var(--color-error-text);
+}
+
+.orion-ff--error .orion-ff__wrapper:hover {
+  border-color: var(--color-error-text);
+}
+
+.orion-ff--error .orion-ff__label {
+  color: var(--color-error-text);
+}
+
+.orion-ff--error .orion-ff__trailing {
+  color: var(--color-error-text);
+}
+
+.orion-ff--error.orion-ff--focus .orion-ff__wrapper {
+  border-color: var(--color-error-text);
+}
+
+.orion-ff--error.orion-ff--focus .orion-ff__label {
+  color: var(--color-error-text);
+}
+
+.orion-ff--error.orion-ff--focus .orion-ff__trailing {
+  color: var(--color-error-text);
+}
+
+/* ── Helper text ── */
+.orion-ff__helper {
+  margin-top: 4px;
+  padding: 0 16px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: var(--color-on-surface-variant);
+}
+
+.orion-ff--error .orion-ff__helper {
+  color: var(--color-error-text);
+}
+
+/* ── Icon settings ── */
+.orion-ff .material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 20;
+}

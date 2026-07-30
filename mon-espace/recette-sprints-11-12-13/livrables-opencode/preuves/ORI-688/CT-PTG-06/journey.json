@@ -1,0 +1,45 @@
+{
+  "canonicalId": "ORI-688::CT-PTG-06::R252",
+  "issueKey": "ORI-688",
+  "caseId": "CT-PTG-06",
+  "module": "MP5 > SP5.2",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "Mise a jour de l'etat des pointages a la reception/forcage d'un pointage",
+  "route": "https://orion-int2.itsap.net/sap/pages/planning",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 1,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 2,
+    "reason": "Étape \"Recevoir un pointage declare, rafraichir\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Aucun pointage"
+      },
+      {
+        "text": "Manuel"
+      },
+      {
+        "text": "Force"
+      },
+      {
+        "text": "Affichage"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_PLA_HRD_01",
+    "RG_PLAI_BAI_01",
+    "RG_PLA_RAF_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-ae6ef-ption-forcage-d-un-pointage-orion-headed"
+}

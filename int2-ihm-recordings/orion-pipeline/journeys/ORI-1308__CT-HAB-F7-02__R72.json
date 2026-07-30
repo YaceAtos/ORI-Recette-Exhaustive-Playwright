@@ -1,0 +1,31 @@
+{
+  "canonicalId": "ORI-1308::CT-HAB-F7-02::R72",
+  "issueKey": "ORI-1308",
+  "caseId": "CT-HAB-F7-02",
+  "module": "SP1.5",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "SC3+SC4: Droit fin non herite - transitions Non accorde <-> Lecture/Ecriture",
+  "route": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 7,
+  "blocker": {
+    "step": 0,
+    "reason": "Donnée absente: aucun enregistrement dans INT2 (fixture non seedée)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 0,
+    "misses": []
+  },
+  "severity": null,
+  "status": "blocked-data",
+  "rules": [
+    "RG_HAB_DPRDF_022",
+    "RG_HAB_DPRDF_023"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-05ab1--accorde---Lecture-Ecriture-orion-headed"
+}

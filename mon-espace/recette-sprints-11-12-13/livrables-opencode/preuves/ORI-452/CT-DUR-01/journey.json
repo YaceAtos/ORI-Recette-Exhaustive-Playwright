@@ -1,0 +1,38 @@
+{
+  "canonicalId": "ORI-452::CT-DUR-01::R240",
+  "issueKey": "ORI-452",
+  "caseId": "CT-DUR-01",
+  "module": "MP5 > SP5.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_CTR_INT_01 / Scenario 1 - Duree de realisation trop longue : notification generee",
+  "route": "https://orion-int2.itsap.net/sap/pages/planning",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 3,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Recevoir les pointages debut/fin donnant une duree realisee > planifie\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 2,
+    "misses": [
+      {
+        "text": "Pointages"
+      },
+      {
+        "text": "intervention, message "
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_CTR_INT_01",
+    "RG_CTR_INT_02"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-f3078-longue-notification-generee-orion-headed"
+}

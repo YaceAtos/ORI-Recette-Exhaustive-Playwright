@@ -1,0 +1,38 @@
+{
+  "canonicalId": "ORI-769::CT-LOC-03::R201",
+  "issueKey": "ORI-769",
+  "caseId": "CT-LOC-03",
+  "module": "MP4 > SP4.1",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "Source de l'adresse affichee : RDV a domicile vs RDV en agence",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 4,
+  "totalSteps": 4,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Drawer"
+      },
+      {
+        "text": "Adresse"
+      },
+      {
+        "text": "Drawer"
+      },
+      {
+        "text": "Adresse"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "assertion-low",
+  "rules": [],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-703b9-a-domicile-vs-RDV-en-agence-orion-headed"
+}

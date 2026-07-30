@@ -1,0 +1,40 @@
+{
+  "canonicalId": "ORI-723::CT-DUR-01::R109",
+  "issueKey": "ORI-723",
+  "caseId": "CT-DUR-01",
+  "module": "MP3 > SP3.2",
+  "priority": "P1",
+  "type": "Erreur",
+  "scenario": "RG_CONT_Hhebdo_13 - Controles de saisie des heures hebdomadaires (obligatoire, > 0, format, bornes)",
+  "route": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 7,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Laisser hebdo vide, tenter passage onglet suivant\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 3,
+    "misses": [
+      {
+        "text": "Veuillez saisir un nombre d"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Bloquant"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_CONT_Hhebdo_13"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-4fa3c-bligatoire-0-format-bornes--orion-headed"
+}

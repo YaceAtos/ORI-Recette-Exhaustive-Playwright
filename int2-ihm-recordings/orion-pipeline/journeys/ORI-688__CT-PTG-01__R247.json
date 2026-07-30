@@ -1,0 +1,31 @@
+{
+  "canonicalId": "ORI-688::CT-PTG-01::R247",
+  "issueKey": "ORI-688",
+  "caseId": "CT-PTG-01",
+  "module": "MP5 > SP5.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_PLA_HRD_01 - Presence des 2 icones (debut et fin) sur la carte d'intervention",
+  "route": "https://orion-int2.itsap.net/sap/pages/planning",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 3,
+  "totalSteps": 3,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 1,
+    "misses": [
+      {
+        "text": "Intervenants"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "assertion-low",
+  "rules": [
+    "RG_PLA_HRD_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-08a89-sur-la-carte-d-intervention-orion-headed"
+}

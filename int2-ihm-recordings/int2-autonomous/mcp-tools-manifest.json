@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-07-24T13:25:29.298Z",
+  "namespace": "int2",
+  "mode": "stdio-mcp-runtime",
+  "server": {
+    "command": "npm run agent:int2:mcp:server",
+    "transport": "stdio"
+  },
+  "tools": [
+    {
+      "name": "int2.search",
+      "description": "Query the INT2 retrieval index and return ranked page routes.",
+      "command": "npm run agent:int2:search -- \"<query>\"",
+      "inputs": [
+        "query(string)",
+        "topK(number, optional)"
+      ],
+      "output": "int2-ihm-recordings/int2-autonomous/search-results.json"
+    },
+    {
+      "name": "int2.knowledge.search",
+      "description": "Query only ingested knowledge sources (local knowledge + external loop-engineering docs).",
+      "command": "npm run agent:int2:knowledge:search -- \"<query>\"",
+      "inputs": [
+        "query(string)",
+        "topK(number, optional)"
+      ],
+      "output": "int2-ihm-recordings/int2-autonomous/knowledge-search-results.json"
+    },
+    {
+      "name": "int2.retrieval.reindex",
+      "description": "Rebuild retrieval index from discovery graph and page agent extracts.",
+      "command": "npm run agent:int2:retrieval:index",
+      "inputs": [],
+      "output": "int2-ihm-recordings/int2-autonomous/retrieval-index.json"
+    },
+    {
+      "name": "int2.popup.qa_loop",
+      "description": "Run deep popup QA loop: inspect each action button, open dialogs, fill real-like data, and validate evidence.",
+      "command": "npm run agent:int2:popup:qa",
+      "inputs": [
+        "strict(boolean, optional)",
+        "allowSubmit(boolean, optional)"
+      ],
+      "output": "int2-ihm-recordings/int2-autonomous/popup-qa-loop-report.json"
+    },
+    {
+      "name": "int2.coverage.diff",
+      "description": "Compare expected routes from docs against discovered routes from graph.",
+      "command": "npm run agent:int2:coverage:diff",
+      "inputs": [],
+      "output": "int2-ihm-recordings/int2-autonomous/coverage-diff.json"
+    },
+    {
+      "name": "int2.dataset.quality_gate",
+      "description": "Validate dataset quality and fail pipeline when thresholds are not met.",
+      "command": "npm run agent:int2:dataset:quality",
+      "inputs": [],
+      "output": "int2-ihm-recordings/int2-autonomous/dataset-quality-gate.json"
+    },
+    {
+      "name": "int2.repair.plan",
+      "description": "Analyze manifests and graph errors, then generate autonomous repair plan.",
+      "command": "npm run agent:int2:repair",
+      "inputs": [],
+      "output": "int2-ihm-recordings/int2-autonomous/autonomous-repair-plan.json"
+    },
+    {
+      "name": "int2.learning.refresh",
+      "description": "Learn from semantic profiles and extraction artifacts to suggest new aliases.",
+      "command": "npm run agent:int2:learning",
+      "inputs": [],
+      "output": "int2-ihm-recordings/int2-autonomous/continuous-learning-report.json"
+    }
+  ]
+}

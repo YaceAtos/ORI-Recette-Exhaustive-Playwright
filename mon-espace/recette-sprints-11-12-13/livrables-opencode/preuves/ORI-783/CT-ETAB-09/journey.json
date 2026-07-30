@@ -1,0 +1,47 @@
+{
+  "canonicalId": "ORI-783::CT-ETAB-09::R22",
+  "issueKey": "ORI-783",
+  "caseId": "CT-ETAB-09",
+  "module": "MP1 > SP1.1",
+  "priority": "P2",
+  "type": "Erreur",
+  "scenario": "Controles format: longueur max, dates, alphanumeriques",
+  "route": "https://orion-int2.itsap.net/gestion-marque/structure/pages/structure",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 8,
+  "progressedSteps": 4,
+  "totalSteps": 6,
+  "blocker": {
+    "step": 5,
+    "reason": "Étape \"Corriger tous les champs\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 6,
+    "misses": [
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Messages"
+      },
+      {
+        "text": "Enregistrement"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-9a090-r-max-dates-alphanumeriques-orion-headed"
+}

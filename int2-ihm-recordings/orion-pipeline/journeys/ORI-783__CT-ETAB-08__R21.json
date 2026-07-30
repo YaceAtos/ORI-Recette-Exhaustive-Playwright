@@ -1,0 +1,50 @@
+{
+  "canonicalId": "ORI-783::CT-ETAB-08::R21",
+  "issueKey": "ORI-783",
+  "caseId": "CT-ETAB-08",
+  "module": "MP1 > SP1.1",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "Bouton Suivant + Calcul etat fiche (RG_ETAB_ETATFICHE_01)",
+  "route": "https://orion-int2.itsap.net/gestion-marque/structure/pages/structure",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 2,
+  "progressedSteps": 4,
+  "totalSteps": 7,
+  "blocker": {
+    "step": 5,
+    "reason": "Étape \"Enregistrer\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 6,
+    "misses": [
+      {
+        "text": "Passage"
+      },
+      {
+        "text": "Ancienne"
+      },
+      {
+        "text": "Modale"
+      },
+      {
+        "text": "Modification"
+      },
+      {
+        "text": "Persistee"
+      },
+      {
+        "text": "Informations"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_GEN_SUIV_01",
+    "RG_ETAB_ETATFICHE_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-a835d-fiche-RG-ETAB-ETATFICHE-01--orion-headed"
+}

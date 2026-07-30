@@ -1,0 +1,8 @@
+ui:
+  html:
+    signal_weights:
+      label: 0.35
+      placeholder: 0.20
+      aria: 0.20
+      name: 0.15
+      autocomplete: 0.10

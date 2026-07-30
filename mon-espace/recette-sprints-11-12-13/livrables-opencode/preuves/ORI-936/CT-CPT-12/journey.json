@@ -1,0 +1,37 @@
+{
+  "canonicalId": "ORI-936::CT-CPT-12::R161",
+  "issueKey": "ORI-936",
+  "caseId": "CT-CPT-12",
+  "module": "MP3 > SP3.4",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "Conformite maquette et lecture seule des champs de l'ecran principal",
+  "route": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 3,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Comparer l'ecran a la maquette (colonnes, ordre, boutons)\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 2,
+    "misses": [
+      {
+        "text": "Colonnes"
+      },
+      {
+        "text": "Affichage"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_INT_CPTT_1c"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-64246-champs-de-l-ecran-principal-orion-headed"
+}

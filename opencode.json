@@ -1,0 +1,21 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "autoupdate": false,
+  "instructions": [
+    "LANGUE — REGLE ABSOLUE NON NEGOCIABLE : Tu dois reflechir, raisonner, rediger, commenter, nommer, et repondre EXCLUSIVEMENT en francais. Si tu detectes que tu as produit un mot en anglais (hors nom propre de technologie), corrige-toi immediatement. Cette regle prime sur toutes les autres.",
+    "Toujours lire AGENTS.md avant de commencer une tache.",
+    "LECTURE DES FICHIERS BINAIRES (PDF, Word, Excel, PowerPoint) — L'outil Read natif ne peut PAS lire ces formats. Utiliser Python avec les bibliotheques pdfplumber, python-docx, openpyxl, python-pptx, markitdown. Verifier d'abord le chemin Python dans .opencode/memory/python-config.md. Si ce fichier n'existe pas, chercher python dans les chemins connus Windows (%LOCALAPPDATA%/Programs/Python/Python3*/python.exe). Charger la skill input-preprocessor pour les instructions detaillees d'extraction."
+  ],
+  "mcp": {
+    "atlassian-itsap-orion": {
+      "type": "remote",
+      "url": "https://mcp.atlassian.com/v1/mcp",
+      "enabled": true
+    },
+    "figma-itsap-orion": {
+      "type": "remote",
+      "url": "http://127.0.0.1:3845/mcp",
+      "enabled": true
+    }
+  }
+}

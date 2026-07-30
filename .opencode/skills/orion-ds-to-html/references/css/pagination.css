@@ -1,0 +1,170 @@
+/* ═══════════════════════════════════════════════════════
+   PAGINATION
+   ═══════════════════════════════════════════════════════ */
+
+.orion-pg {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-family: var(--font-body), sans-serif;
+  user-select: none;
+}
+
+/* ── Left group ── */
+.orion-pg__info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.orion-pg__label,
+.orion-pg__range {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: var(--color-on-surface);
+  white-space: nowrap;
+}
+
+/* ── Custom select ── */
+.orion-pg__select-wrap {
+  position: relative;
+  width: 70px;
+}
+
+.orion-pg__select-trigger {
+  width: 100%;
+  height: 40px;
+  border: 1px solid var(--color-outline);
+  border-radius: var(--radius-md);
+  background: transparent;
+  padding: 0 30px 0 16px;
+  font-family: var(--font-body), sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  color: var(--color-on-surface-variant);
+  cursor: pointer;
+  outline: none;
+  transition: border-color 150ms;
+  white-space: nowrap;
+}
+
+.orion-pg__select-trigger:hover {
+  border-color: var(--color-on-surface-variant);
+}
+
+.orion-pg__select-wrap--open .orion-pg__select-trigger {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 1px var(--color-primary);
+}
+
+.orion-pg__select-icon {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  color: var(--color-on-surface-variant);
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.orion-pg__dropdown {
+  position: absolute;
+  bottom: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  box-shadow:
+    0 2px 4px -2px rgba(0, 0, 0, 0.06),
+    0 4px 8px -2px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  display: none;
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.orion-pg__select-wrap--open .orion-pg__dropdown {
+  display: block;
+}
+
+.orion-pg__dropdown-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--color-on-surface);
+  cursor: pointer;
+  transition: background-color 100ms;
+}
+
+.orion-pg__dropdown-item:hover {
+  background: rgba(29, 32, 36, 0.06);
+}
+
+.orion-pg__dropdown-item--selected {
+  font-weight: 500;
+  background: rgba(29, 32, 36, 0.04);
+}
+
+.orion-pg__dropdown-check {
+  width: 16px;
+  height: 16px;
+  color: var(--color-primary);
+  flex-shrink: 0;
+}
+
+.orion-pg__dropdown-item:not(.orion-pg__dropdown-item--selected) .orion-pg__dropdown-check {
+  display: none;
+}
+
+/* ── Nav buttons ── */
+.orion-pg__nav {
+  display: flex;
+  align-items: center;
+}
+
+.orion-pg__btn {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  border-radius: var(--radius-sm);
+  color: var(--color-on-surface);
+  cursor: pointer;
+  padding: 0;
+  transition: background 150ms;
+}
+
+.orion-pg__btn:hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.orion-pg__btn:active {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.orion-pg__btn:disabled {
+  color: var(--color-disabled);
+  cursor: default;
+  background: none;
+}
+
+.orion-pg__btn:disabled:hover {
+  background: none;
+}
+
+.orion-pg .material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 20;
+}

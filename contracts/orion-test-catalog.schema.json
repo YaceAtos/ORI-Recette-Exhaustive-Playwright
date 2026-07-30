@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orion.local/contracts/orion-test-catalog.schema.json",
+  "title": "Catalogue local des cas de test Orion",
+  "type": "object",
+  "required": ["schemaVersion", "mode", "source", "count", "issueKeys", "cases"],
+  "properties": {
+    "schemaVersion": { "const": "1.0" },
+    "mode": { "const": "local-only" },
+    "source": { "type": "string", "minLength": 1 },
+    "count": { "type": "integer", "minimum": 1 },
+    "issueKeys": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^ORI-[0-9]+$" },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "cases": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["sourceRow", "canonicalId", "caseId", "issueKey", "scenario", "steps", "expectedSteps", "references"],
+        "properties": {
+          "sourceRow": { "type": "integer", "minimum": 5 },
+          "canonicalId": { "type": "string", "pattern": "^ORI-[0-9]+::CT-.+::R[0-9]+$" },
+          "caseId": { "type": "string", "pattern": "^CT-" },
+          "issueKey": { "type": "string", "pattern": "^ORI-[0-9]+$" },
+          "scenario": { "type": "string", "minLength": 1 },
+          "steps": { "type": "array", "items": { "type": "string" } },
+          "expectedSteps": { "type": "array", "items": { "type": "string" } },
+          "references": {
+            "type": "object",
+            "required": ["testPlan", "testExecution", "testSet", "testCase"]
+          }
+        }
+      }
+    }
+  }
+}

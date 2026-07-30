@@ -1,0 +1,56 @@
+{
+  "canonicalId": "ORI-657::CT-PIM-D-01::R80",
+  "issueKey": "ORI-657",
+  "caseId": "CT-PIM-D-01",
+  "module": "MP2 > SP2.1",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "CA01+CA02: Acces formulaire modification (habilitations + pre-remplissage)",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 4,
+  "progressedSteps": 2,
+  "totalSteps": 8,
+  "blocker": {
+    "step": 3,
+    "reason": "Étape \"Cliquer Modifier\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 8,
+    "misses": [
+      {
+        "text": "Session"
+      },
+      {
+        "text": "Bouton"
+      },
+      {
+        "text": "Modale"
+      },
+      {
+        "text": "Champs"
+      },
+      {
+        "text": "Footer"
+      },
+      {
+        "text": "Session"
+      },
+      {
+        "text": "Consultation"
+      },
+      {
+        "text": "Bouton"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_FAM_UPD_01",
+    "RG_FAM_UPD_02"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-c8ba4-ilitations-pre-remplissage--orion-headed"
+}

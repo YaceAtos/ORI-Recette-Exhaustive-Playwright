@@ -1,0 +1,47 @@
+{
+  "canonicalId": "ORI-1067::CT-OPT-B-04::R101",
+  "issueKey": "ORI-1067",
+  "caseId": "CT-OPT-B-04",
+  "module": "MP2 > SP2.1",
+  "priority": "P1",
+  "type": "Erreur",
+  "scenario": "CA06: Bouton Enregistrer desactive si champs obligatoires manquants ou invalides",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 12,
+  "progressedSteps": 8,
+  "totalSteps": 8,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 6,
+    "misses": [
+      {
+        "text": "Formulaire"
+      },
+      {
+        "text": "Bouton"
+      },
+      {
+        "text": "Bouton"
+      },
+      {
+        "text": "Bouton"
+      },
+      {
+        "text": "Libelle"
+      },
+      {
+        "text": "Message"
+      }
+    ]
+  },
+  "severity": "moyen",
+  "status": "assertion-low",
+  "rules": [
+    "RG_OPT_CREATE_17",
+    "RG_OPT_CREATE_06"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-53402-ires-manquants-ou-invalides-orion-headed"
+}

@@ -1,0 +1,52 @@
+/* ═══════════════════════════════════════════════════════
+   TAG
+   ═══════════════════════════════════════════════════════ */
+
+.orion-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+/* ── Sizes ── */
+.orion-tag--sm {
+  height: 24px;
+  padding: 4px 6px;
+}
+
+.orion-tag--lg {
+  height: 32px;
+  padding: 6px;
+}
+
+/* ── Colors ── */
+.orion-tag--info    { background: var(--color-info-container); color: var(--color-on-info); }
+.orion-tag--success { background: var(--color-success-container); color: var(--color-on-success); }
+.orion-tag--warning { background: var(--color-warning-container); color: var(--color-on-warning); }
+.orion-tag--error   { background: var(--color-error-container); color: var(--color-on-error); }
+.orion-tag--neutral { background: var(--color-neutral-container); color: var(--color-on-surface); }
+.orion-tag--brand   { background: var(--color-primary-container); color: var(--color-primary); }
+
+/* ── Icon ── */
+.orion-tag__icon {
+  flex-shrink: 0;
+  display: block;
+  color: inherit;
+}
+
+.orion-tag__icon--lg {
+  width: 20px;
+  height: 20px;
+}
+
+.orion-tag__icon--sm {
+  width: 16px;
+  height: 16px;
+}

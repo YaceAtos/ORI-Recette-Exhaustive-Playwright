@@ -1,0 +1,31 @@
+{
+  "canonicalId": "ORI-1036::CT-HAB-F6-06::R67",
+  "issueKey": "ORI-1036",
+  "caseId": "CT-HAB-F6-06",
+  "module": "SP1.5",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "SC13 a SC17: Drawer verification - affichage + suppression modif + blocage maitre",
+  "route": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 9,
+  "blocker": {
+    "step": 0,
+    "reason": "Donnée absente: aucun enregistrement dans INT2 (fixture non seedée)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 0,
+    "misses": []
+  },
+  "severity": null,
+  "status": "blocked-data",
+  "rules": [
+    "RG_HAB_DPRME_006",
+    "RG_EDIT_DRAWER_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-3b576-ession-modif-blocage-maitre-orion-headed"
+}

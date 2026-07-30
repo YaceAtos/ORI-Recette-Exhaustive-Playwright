@@ -1,0 +1,46 @@
+{
+  "canonicalId": "ORI-995::CT-ABD-01::R223",
+  "issueKey": "ORI-995",
+  "caseId": "CT-ABD-01",
+  "module": "MP4 > SP4.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "Disponibilite de l'action Abandonner selon le statut et les devis associes",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 1,
+  "totalSteps": 5,
+  "blocker": {
+    "step": 2,
+    "reason": "Étape \"'Qualification en cours'\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 5,
+    "misses": [
+      {
+        "text": "Action"
+      },
+      {
+        "text": "Disponible"
+      },
+      {
+        "text": "Disponible"
+      },
+      {
+        "text": "Action"
+      },
+      {
+        "text": "Action"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_BSN_ABAND_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-fcdc3-tatut-et-les-devis-associes-orion-headed"
+}

@@ -1,0 +1,35 @@
+{
+  "canonicalId": "ORI-745::CT-UX-02::R191",
+  "issueKey": "ORI-745",
+  "caseId": "CT-UX-02",
+  "module": "MP4 > SP4.1",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "Icones 'Agence' (Storefront) et 'Duree' sur la Vue generale RDV Commercial",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 4,
+  "totalSteps": 4,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 3,
+    "misses": [
+      {
+        "text": "Storefront"
+      },
+      {
+        "text": "Drawer"
+      },
+      {
+        "text": "Nouvel"
+      }
+    ]
+  },
+  "severity": "moyen",
+  "status": "assertion-low",
+  "rules": [],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-f3dae-Vue-generale-RDV-Commercial-orion-headed"
+}

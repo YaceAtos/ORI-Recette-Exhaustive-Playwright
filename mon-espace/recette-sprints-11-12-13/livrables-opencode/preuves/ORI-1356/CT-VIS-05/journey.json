@@ -1,0 +1,43 @@
+{
+  "canonicalId": "ORI-1356::CT-VIS-05::R185",
+  "issueKey": "ORI-1356",
+  "caseId": "CT-VIS-05",
+  "module": "MP3 > SP3.4",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_INT_ABSANN_1 - Annulation d'une absence -> statut 'Annule' et bascule vers l'onglet Cloturés",
+  "route": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 1,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 2,
+    "reason": "Étape \"Cliquer sur 'A annuler'\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Absence"
+      },
+      {
+        "text": "A annuler"
+      },
+      {
+        "text": "Annule"
+      },
+      {
+        "text": "A valider"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_INT_ABSANN_1"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-e9ac7-cule-vers-l-onglet-Cloturés-orion-headed"
+}

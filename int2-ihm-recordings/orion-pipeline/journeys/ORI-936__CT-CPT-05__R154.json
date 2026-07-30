@@ -1,0 +1,34 @@
+{
+  "canonicalId": "ORI-936::CT-CPT-05::R154",
+  "issueKey": "ORI-936",
+  "caseId": "CT-CPT-05",
+  "module": "MP3 > SP3.4",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_INT_CPTT_1c / CA-CPT-04 - Alerte rouge 'X demande(s) en attente de validation'",
+  "route": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 3,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 4,
+    "reason": "Étape \"Comparer avec un compteur sans demande en attente\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 1,
+    "misses": [
+      {
+        "text": "X demande(s) en attente de validation"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_INT_CPTT_1c"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-14bfd-s-en-attente-de-validation--orion-headed"
+}

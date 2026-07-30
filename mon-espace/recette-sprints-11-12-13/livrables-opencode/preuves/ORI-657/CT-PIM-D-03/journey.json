@@ -1,0 +1,58 @@
+{
+  "canonicalId": "ORI-657::CT-PIM-D-03::R82",
+  "issueKey": "ORI-657",
+  "caseId": "CT-PIM-D-03",
+  "module": "MP2 > SP2.1",
+  "priority": "P1",
+  "type": "Erreur",
+  "scenario": "CA05 a CA08: Controles format code + unicite code/nom (frontend + backend)",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 8,
+  "progressedSteps": 4,
+  "totalSteps": 10,
+  "blocker": {
+    "step": 5,
+    "reason": "Étape \"Cliquer Enregistrer\" nécessite une action persistante (Enregistrer) — bloquée par garde non-persistance"
+  },
+  "assertion": {
+    "met": 1,
+    "total": 9,
+    "misses": [
+      {
+        "text": "Caractere"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Bouton"
+      },
+      {
+        "text": "Enregistrer"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Enregistrer"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Modale"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_FAM_UPD_03",
+    "RG_FAM_UPD_04",
+    "RG_FAM_UPD_05",
+    "RG_FAM_UPD_12"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-acca8--code-nom-frontend-backend--orion-headed"
+}

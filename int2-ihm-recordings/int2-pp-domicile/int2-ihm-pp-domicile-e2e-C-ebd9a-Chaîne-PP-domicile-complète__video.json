@@ -1,0 +1,8 @@
+{
+  "source_webm": "test-results/int2-ihm-pp-domicile-e2e-C-ebd9a-Chaîne-PP-domicile-complète/video.webm",
+  "mp4": "int2-ihm-recordings/int2-pp-domicile/int2-ihm-pp-domicile-e2e-C-ebd9a-Chaîne-PP-domicile-complète__video.mp4",
+  "duration_seconds": 15.560000,
+  "chapter_screenshots_dir": "test-results/int2-ihm-pp-domicile-e2e-C-ebd9a-Chaîne-PP-domicile-complète/chapters",
+  "chapter_screenshots_count": 0,
+  "generated_at": "2026-07-21T09:55:06Z"
+}

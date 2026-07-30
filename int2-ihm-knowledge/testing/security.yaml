@@ -1,0 +1,7 @@
+testing:
+  security:
+    invalid_inputs:
+      - '<script>'
+      - "' OR 1=1 --"
+      - '../../etc/passwd'
+    enabled_by_default: false

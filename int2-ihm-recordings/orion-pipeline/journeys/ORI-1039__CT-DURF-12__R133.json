@@ -1,0 +1,38 @@
+{
+  "canonicalId": "ORI-1039::CT-DURF-12::R133",
+  "issueKey": "ORI-1039",
+  "caseId": "CT-DURF-12",
+  "module": "MP3 > SP3.2",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "Accessibilite et etats des champs (focus, tab, aria, etats desactives)",
+  "route": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 5,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Naviguer au clavier (Tab) sur l'ensemble des champs\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 3,
+    "misses": [
+      {
+        "text": "Message"
+      },
+      {
+        "text": "ecran annonce l"
+      },
+      {
+        "text": "Champs"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-b599b--tab-aria-etats-desactives--orion-headed"
+}

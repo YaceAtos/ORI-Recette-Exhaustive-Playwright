@@ -1,0 +1,225 @@
+/* ═══════════════════════════════════════════════════════
+   ROW ITEM
+   ═══════════════════════════════════════════════════════ */
+
+/* ── Row Item base ── */
+.orion-ri {
+  display: flex;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  border-bottom: 1px solid var(--color-outline);
+  background: var(--color-surface);
+  transition: background-color 0.15s;
+  box-sizing: border-box;
+}
+
+.orion-ri:hover {
+  background: var(--color-primary-container);
+}
+
+/* ── Types ── */
+
+/* Default */
+.orion-ri--default {
+  padding: 14px 16px;
+  gap: 12px;
+  width: 100px;
+}
+
+/* Expandable */
+.orion-ri--expandable {
+  padding: 14px 16px;
+  gap: 8px;
+  cursor: pointer;
+}
+
+/* Indentation levels (padding-left) */
+.orion-ri--level-1 { padding-left: 16px; }
+.orion-ri--level-2 { padding-left: 40px; }
+.orion-ri--level-3 { padding-left: 64px; }
+.orion-ri--level-4 { padding-left: 88px; }
+.orion-ri--level-5 { padding-left: 112px; }
+.orion-ri--level-6 { padding-left: 136px; }
+.orion-ri--level-7 { padding-left: 160px; }
+
+/* Tag */
+.orion-ri--tag {
+  padding: 12px 16px;
+  gap: 16px;
+  width: 100px;
+}
+
+/* Icon */
+.orion-ri--icon {
+  padding: 6px 14px;
+  height: 48px;
+  width: 64px;
+  justify-content: flex-end;
+}
+
+/* Checkbox */
+.orion-ri--checkbox {
+  padding: 4px 14px;
+  justify-content: flex-end;
+}
+
+/* User */
+.orion-ri--user {
+  padding: 0 14px;
+  height: 48px;
+  gap: 8px;
+}
+
+/* ── Text ── */
+.orion-ri__text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: var(--color-on-surface-variant);
+  white-space: nowrap;
+}
+
+/* ── Chevron expandable ── */
+.orion-ri__chevron {
+  width: 16px;
+  height: 16px;
+  color: var(--color-on-surface-variant);
+  flex-shrink: 0;
+  transition: transform 0.2s;
+}
+
+.orion-ri--expanded .orion-ri__chevron {
+  transform: rotate(90deg);
+}
+
+/* ── Small icon (workspaces, info) ── */
+.orion-ri__icon-sm {
+  width: 16px;
+  height: 16px;
+  color: var(--color-on-surface-variant);
+  flex-shrink: 0;
+}
+
+/* ── Action icon (3 dots) ── */
+.orion-ri__icon-action {
+  width: 24px;
+  height: 24px;
+  color: var(--color-on-surface-variant);
+  flex-shrink: 0;
+}
+
+/* ── Expandable content (icon + text + tag + number) ── */
+.orion-ri__content {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ── Tag inline ── */
+.orion-ri__tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  height: 24px;
+  padding: 4px 6px;
+  border-radius: 6px;
+  background: var(--color-info-container);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: var(--color-on-info);
+  white-space: nowrap;
+}
+
+.orion-ri__tag .orion-ri__icon-sm {
+  color: var(--color-on-info);
+}
+
+/* ── Tags container ── */
+.orion-ri__tags {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ── Number (tertiary text) ── */
+.orion-ri__number {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--color-disabled-dark);
+  white-space: nowrap;
+}
+
+/* ── Checkbox ── */
+.orion-ri__checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.orion-ri__checkbox-box {
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--color-on-surface-variant);
+  border-radius: 2px;
+  background: transparent;
+  transition: background 0.15s, border-color 0.15s;
+  position: relative;
+}
+
+.orion-ri__checkbox-box--checked {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.orion-ri__checkbox-box--checked::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  width: 4px;
+  height: 8px;
+  border: solid var(--color-on-primary);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* ── Avatar (User) ── */
+.orion-ri__avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  background: var(--color-primary-container-hover);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.orion-ri__avatar-initials {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  color: var(--color-primary-dark);
+  letter-spacing: 0;
+}
+
+/* ── Icon placeholder (Icon type) ── */
+.orion-ri__icon-placeholder {
+  width: 36px;
+  height: 36px;
+  border-radius: 4px;
+  background: var(--color-primary-container);
+}
+
+/* ── Icon settings ── */
+.orion-ri .material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 20;
+}

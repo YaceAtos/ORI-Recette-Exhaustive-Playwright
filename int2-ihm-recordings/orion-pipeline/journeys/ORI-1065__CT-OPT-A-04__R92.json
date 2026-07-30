@@ -1,0 +1,37 @@
+{
+  "canonicalId": "ORI-1065::CT-OPT-A-04::R92",
+  "issueKey": "ORI-1065",
+  "caseId": "CT-OPT-A-04",
+  "module": "MP2 > SP2.1",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "CA07: Colonne Periodicite conditionnelle (Recurrent vs Ponctuel)",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 3,
+  "totalSteps": 3,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 3,
+    "misses": [
+      {
+        "text": "Periodicite"
+      },
+      {
+        "text": "Mensuel"
+      },
+      {
+        "text": "Trimestriel"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "assertion-low",
+  "rules": [
+    "RG_OPT_LIST_13"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-a6107-elle-Recurrent-vs-Ponctuel--orion-headed"
+}

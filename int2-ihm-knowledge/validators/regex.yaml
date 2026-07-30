@@ -1,0 +1,6 @@
+regex:
+  person.first_name: "^[A-Za-zÀ-ÿ' -]+$"
+  person.last_name: "^[A-Za-zÀ-ÿ' -]+$"
+  authentication.email: "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$"
+  company.siren: "^[0-9]{9}$"
+  company.siret: "^[0-9]{14}$"

@@ -1,0 +1,41 @@
+{
+  "canonicalId": "ORI-728::CT-DIS-05::R258",
+  "issueKey": "ORI-728",
+  "caseId": "CT-DIS-05",
+  "module": "MP5 > SP5.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "Scenarios 8/9 - Message sans intervenant (listeIdsIntervenants vide) : verification sautee",
+  "route": "https://orion-int2.itsap.net/sap/pages/planning",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Emettre le message sans intervenant (statut Planifiee)\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Non pourvue"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Simulee"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-40c27-ts-vide-verification-sautee-orion-headed"
+}

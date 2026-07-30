@@ -1,0 +1,32 @@
+{
+  "canonicalId": "ORI-769::CT-LOC-05::R203",
+  "issueKey": "ORI-769",
+  "caseId": "CT-LOC-05",
+  "module": "MP4 > SP4.1",
+  "priority": "P2",
+  "type": "Erreur",
+  "scenario": "Adresse non geocodable : affichage texte sans pin precis",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 2,
+  "totalSteps": 2,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 2,
+    "misses": [
+      {
+        "text": "Drawer"
+      },
+      {
+        "text": "Adresse"
+      }
+    ]
+  },
+  "severity": "moyen",
+  "status": "assertion-low",
+  "rules": [],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-e38ab-chage-texte-sans-pin-precis-orion-headed"
+}

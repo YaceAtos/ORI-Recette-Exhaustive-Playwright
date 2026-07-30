@@ -1,0 +1,40 @@
+{
+  "canonicalId": "ORI-1039::CT-DURF-01::R122",
+  "issueKey": "ORI-1039",
+  "caseId": "CT-DURF-01",
+  "module": "MP3 > SP3.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_CONT_Hhebdo_13 - Champ heures hebdomadaires : affichage, saisie UI, format et messages",
+  "route": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 20,
+  "progressedSteps": 5,
+  "totalSteps": 5,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Caracteres"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Message"
+      }
+    ]
+  },
+  "severity": "moyen",
+  "status": "assertion-low",
+  "rules": [
+    "RG_CONT_Hhebdo_13"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-b56a3-aisie-UI-format-et-messages-orion-headed"
+}

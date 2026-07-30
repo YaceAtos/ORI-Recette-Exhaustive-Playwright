@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "description": "Entités de référence connues sur env dev1 — utilisées comme base par les tests",
+    "env": "dev1",
+    "last_verified": "2026-06-09",
+    "warning": "Les UUIDs peuvent changer après un redéploiement — vérifier via le listing IHM"
+  },
+  "clients": {
+    "nathanRousseau": {
+      "id": "b5501392-09e2-4068-a361-8fe3010ab191",
+      "nom": "ROUSSEAU",
+      "prenom": "Nathan",
+      "nomComplet": "Nathan ROUSSEAU",
+      "telephone": "+33 6 78 90 00 20",
+      "email": "n.rousseau1020@email.fr"
+    }
+  },
+  "of": {
+    "cd33": {
+      "id": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
+      "nom": "Conseil Départemental de la Gironde",
+      "nomUsuel": "CD 33",
+      "type": "Conseil départemental",
+      "zone": "33 - Gironde",
+      "statut": "Actif"
+    },
+    "carsatAq": {
+      "nom": "CARSAT Aquitaine",
+      "nomUsuel": "CARSAT AQ",
+      "type": "Caisse de retraite",
+      "zone": "Multi zones",
+      "statut": "Actif"
+    },
+    "caf33": {
+      "nom": "Caisse d'Allocations Familiales de la Gironde",
+      "nomUsuel": "CAF 33",
+      "type": "CAF",
+      "zone": "33 - Gironde",
+      "statut": "Actif"
+    },
+    "cd64": {
+      "nom": "Conseil Départemental des Pyrénées-Atlantiques",
+      "nomUsuel": "CD 64",
+      "type": "Conseil départemental",
+      "zone": "64 - Pyrénées-Atlantiques",
+      "statut": "Actif"
+    },
+    "urssafNa": {
+      "nom": "URSSAF Nouvelle-Aquitaine",
+      "nomUsuel": "URSSAF NA",
+      "type": "URSSAF",
+      "zone": "75 - Nouvelle-Aquitaine",
+      "statut": "Actif"
+    }
+  },
+  "cda": {
+    "apaGironde2026": {
+      "ofId": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
+      "libelle": "APA - Conseil départemental de la Gironde 2026",
+      "typeAide": "APA",
+      "dates": { "debut": "2025-07-01", "fin": "2026-06-30" },
+      "description": "Aide personnalisée d'autonomie à domicile pour les personnes âgées en perte d'autonomie",
+      "activites": [
+        { "nom": "Cadre de vie", "format": "Forfait", "tarifNormal": 25.00, "tarifDimanche": 31.25 },
+        { "nom": "Soutien personnalisé", "format": "Horaire", "baseRemb": 23.50, "tarifNormal": 28.00, "tarifDimanche": 35.00 },
+        { "nom": "Vie quotidienne", "format": "Abonnement", "tarifNormal": 24.00, "tarifDimanche": 30.00 },
+        { "nom": "Mobilité et lien social", "format": "Trajet", "tarifKmNormal": 0.35, "distanceMax": 30, "forfaitNormal": 5.00 }
+      ]
+    }
+  }
+}

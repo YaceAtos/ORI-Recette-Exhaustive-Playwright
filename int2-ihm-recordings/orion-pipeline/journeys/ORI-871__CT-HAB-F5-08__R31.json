@@ -1,0 +1,30 @@
+{
+  "canonicalId": "ORI-871::CT-HAB-F5-08::R31",
+  "issueKey": "ORI-871",
+  "caseId": "CT-HAB-F5-08",
+  "module": "SP1.5",
+  "priority": "P1",
+  "type": "Variante",
+  "scenario": "SC8: Compteur = ecart par rapport a etat initial (pas cumul d actions)",
+  "route": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 6,
+  "blocker": {
+    "step": 0,
+    "reason": "Donnée absente: aucun enregistrement dans INT2 (fixture non seedée)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 0,
+    "misses": []
+  },
+  "severity": null,
+  "status": "blocked-data",
+  "rules": [
+    "RG_HAB_DPRME_014"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-a2087-nitial-pas-cumul-d-actions--orion-headed"
+}

@@ -1,0 +1,46 @@
+{
+  "canonicalId": "ORI-956::CT-ABH-11::R174",
+  "issueKey": "ORI-956",
+  "caseId": "CT-ABH-11",
+  "module": "MP3 > SP3.4",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_INT_ABACAD_1 (A) - Calcul et affichage de la duree en jours (modes de decompte) (CA F1-F4)",
+  "route": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 5,
+  "progressedSteps": 2,
+  "totalSteps": 5,
+  "blocker": {
+    "step": 3,
+    "reason": "Étape \"Cas avec ferie chome dans la periode (13-15/07)\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 5,
+    "misses": [
+      {
+        "text": "Periode"
+      },
+      {
+        "text": "Duree : 5 jour(s) jours ouvres"
+      },
+      {
+        "text": "Duree : 2 jour(s) jours ouvres"
+      },
+      {
+        "text": "Duree : 4 jour(s) jours ouvres"
+      },
+      {
+        "text": "Duree : 7 jour(s) jours calendaires"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_INT_ABACAD_1"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-265d5-modes-de-decompte-CA-F1-F4--orion-headed"
+}

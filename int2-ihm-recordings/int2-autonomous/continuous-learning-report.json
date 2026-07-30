@@ -1,0 +1,361 @@
+{
+  "generatedAt": "2026-07-30T13:39:41.779Z",
+  "learnedIntents": 17,
+  "learnedAliases": 38,
+  "outputYaml": "int2-ihm-knowledge/semantic/autonomous-learned-suggestions.yaml",
+  "intents": {
+    "address": [
+      {
+        "alias": "adresse principale de la prestation",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/crm/pages/clients-prospects"
+        ]
+      }
+    ],
+    "agency": [
+      {
+        "alias": "opérationnel agence",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/gestion-admin/pages/collaborateur"
+        ]
+      },
+      {
+        "alias": "agence",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/crm/pages/clients-prospects"
+        ]
+      }
+    ],
+    "code": [
+      {
+        "alias": "code",
+        "count": 3,
+        "routeCount": 3,
+        "routes": [
+          "/gestion-marque/configuration/pages/categories",
+          "/offres-tarifs/pages/catalogue/familles",
+          "/offres-tarifs/pages/catalogue/options"
+        ]
+      },
+      {
+        "alias": "rechercher par code ou libellé",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/offres-tarifs/pages/catalogue/options"
+        ]
+      },
+      {
+        "alias": "identifiant",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/gestion-marque/structure/pages/marque"
+        ]
+      }
+    ],
+    "company": [
+      {
+        "alias": "société",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/gestion-admin/pages/collaborateur"
+        ]
+      }
+    ],
+    "date": [
+      {
+        "alias": "jj/mm/aaaa",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/gestion-admin/pages/collaborateur"
+        ]
+      }
+    ],
+    "description": [
+      {
+        "alias": "description",
+        "count": 3,
+        "routeCount": 3,
+        "routes": [
+          "/gestion-marque/configuration/pages/categories",
+          "/offres-tarifs/pages/catalogue/familles",
+          "/offres-tarifs/pages/catalogue/options"
+        ]
+      },
+      {
+        "alias": "décrivez la fonction du profil",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/gestion-marque/habilitation/pages/habilitation-profils"
+        ]
+      }
+    ],
+    "label": [
+      {
+        "alias": "libellé",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/offres-tarifs/pages/catalogue/options"
+        ]
+      },
+      {
+        "alias": "libellé commercial",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/offres-tarifs/pages/catalogue/options"
+        ]
+      }
+    ],
+    "lastName": [
+      {
+        "alias": "ex: conseil départemental de la sarthe",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/facturation-paie/reglementaire/pages/organisme-financeur"
+        ]
+      },
+      {
+        "alias": "ex: cd72",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/facturation-paie/reglementaire/pages/organisme-financeur"
+        ]
+      }
+    ],
+    "legalId": [
+      {
+        "alias": "123456789",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/facturation-paie/reglementaire/pages/organisme-financeur"
+        ]
+      },
+      {
+        "alias": "12345678901234",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/facturation-paie/reglementaire/pages/organisme-financeur"
+        ]
+      }
+    ],
+    "number": [
+      {
+        "alias": "durée rendez-vous commercial (min)",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/offres-tarifs/pages/catalogue/familles"
+        ]
+      }
+    ],
+    "person.email": [
+      {
+        "alias": "e-mail",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/crm/pages/clients-prospects"
+        ]
+      }
+    ],
+    "person.last_name": [
+      {
+        "alias": "prénom",
+        "count": 2,
+        "routeCount": 2,
+        "routes": [
+          "/crm/pages/clients-prospects",
+          "/gestion-admin/pages/collaborateur"
+        ]
+      },
+      {
+        "alias": "nom d'usage",
+        "count": 2,
+        "routeCount": 2,
+        "routes": [
+          "/crm/pages/clients-prospects",
+          "/gestion-admin/pages/collaborateur"
+        ]
+      },
+      {
+        "alias": "saisissez un nom ou un identifiant",
+        "count": 2,
+        "routeCount": 1,
+        "routes": [
+          "/gestion-marque/structure/pages/marque"
+        ]
+      },
+      {
+        "alias": "rechercher par nom ou code",
+        "count": 2,
+        "routeCount": 1,
+        "routes": [
+          "/gestion-marque/configuration/pages/categories"
+        ]
+      },
+      {
+        "alias": "nom",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/offres-tarifs/pages/catalogue/familles"
+        ]
+      },
+      {
+        "alias": "nom du profil",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/gestion-marque/habilitation/pages/habilitation-profils"
+        ]
+      },
+      {
+        "alias": "nom de la catégorie",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/gestion-marque/configuration/pages/categories"
+        ]
+      },
+      {
+        "alias": "rechercher par nom",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/gestion-marque/configuration/pages/dmn"
+        ]
+      }
+    ],
+    "phone": [
+      {
+        "alias": "numéro",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/crm/pages/clients-prospects"
+        ]
+      }
+    ],
+    "radioType": [
+      {
+        "alias": "intervenant",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/gestion-admin/pages/collaborateur"
+        ]
+      }
+    ],
+    "search": [
+      {
+        "alias": "rechercher",
+        "count": 13,
+        "routeCount": 12,
+        "routes": [
+          "/crm/pages/clients-professionnels",
+          "/crm/pages/clients-prospects",
+          "/crm/pages/leads",
+          "/facturation-paie/reglementaire/pages/organisme-financeur",
+          "/gestion-admin/pages/collaborateur",
+          "/gestion-marque/configuration/pages/categories",
+          "/gestion-marque/habilitation/pages/habilitation-profils",
+          "/gestion-marque/structure/pages/marque",
+          "/gestion-marque/structure/pages/structure",
+          "/offres-tarifs/pages/catalogue/familles"
+        ]
+      },
+      {
+        "alias": "rechercher un collaborateur",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/gestion-admin/pages/collaborateur"
+        ]
+      },
+      {
+        "alias": "rechercher un lead",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/crm/pages/leads"
+        ]
+      },
+      {
+        "alias": "rechercher un contact",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/crm/pages/clients-prospects"
+        ]
+      },
+      {
+        "alias": "rechercher un client pro",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/crm/pages/clients-professionnels"
+        ]
+      },
+      {
+        "alias": "rechercher un organisme",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/facturation-paie/reglementaire/pages/organisme-financeur"
+        ]
+      },
+      {
+        "alias": "rechercher un profil",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/gestion-marque/habilitation/pages/habilitation-profils"
+        ]
+      }
+    ],
+    "unknown": [
+      {
+        "alias": "indicatif",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/crm/pages/clients-prospects"
+        ]
+      },
+      {
+        "alias": "profil à inclure",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/gestion-marque/habilitation/pages/habilitation-profils"
+        ]
+      }
+    ],
+    "url": [
+      {
+        "alias": "https://www.exemple.fr",
+        "count": 1,
+        "routeCount": 1,
+        "routes": [
+          "/facturation-paie/reglementaire/pages/organisme-financeur"
+        ]
+      }
+    ]
+  }
+}

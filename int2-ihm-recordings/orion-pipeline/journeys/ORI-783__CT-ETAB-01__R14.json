@@ -1,0 +1,46 @@
+{
+  "canonicalId": "ORI-783::CT-ETAB-01::R14",
+  "issueKey": "ORI-783",
+  "caseId": "CT-ETAB-01",
+  "module": "MP1 > SP1.1",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "Ouverture modale + pre-remplissage Aspects Juridiques",
+  "route": "https://orion-int2.itsap.net/gestion-marque/structure/pages/structure",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 1,
+  "totalSteps": 9,
+  "blocker": {
+    "step": 2,
+    "reason": "Étape \"Cliquer Modifier encadre Aspects Juridiques\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Aspects"
+      },
+      {
+        "text": "Modale"
+      },
+      {
+        "text": "Header"
+      },
+      {
+        "text": "Entite"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_GEN_ENR_01",
+    "RG_GEN_SUIV_01",
+    "RG_ETAB_ETATFICHE_01",
+    "RG_STRUCT_OBLG_4_TAB"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-e4f72-plissage-Aspects-Juridiques-orion-headed"
+}

@@ -1,0 +1,33 @@
+{
+  "canonicalId": "ORI-872::CT-HAB-F1-01::R33",
+  "issueKey": "ORI-872",
+  "caseId": "CT-HAB-F1-01",
+  "module": "SP1.5",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "SC1+SC2: Affichage bloc en-tete en Lecture/Ecriture (sans et avec profil inclus)",
+  "route": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 8,
+  "blocker": {
+    "step": 0,
+    "reason": "Donnée absente: aucun enregistrement dans INT2 (fixture non seedée)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 0,
+    "misses": []
+  },
+  "severity": null,
+  "status": "blocked-data",
+  "rules": [
+    "RG_HAB_DPREN_001",
+    "RG_HAB_DPREN_002",
+    "RG_HAB_DPREN_003",
+    "RG_HAB_DPREN_004"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-cdb99-sans-et-avec-profil-inclus--orion-headed"
+}

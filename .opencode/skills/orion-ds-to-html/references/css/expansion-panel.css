@@ -1,0 +1,259 @@
+/* ═══════════════════════════════════════════════════════
+   EXPANSION PANEL
+   ═══════════════════════════════════════════════════════ */
+
+.orion-ep {
+  position: relative;
+  width: 400px;
+  border-radius: var(--radius-md, 6px);
+  background: var(--color-surface);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.08);
+  font-family: var(--font-body), 'Inter', sans-serif;
+  overflow: hidden;
+}
+
+/* ── Header ── */
+.orion-ep__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 48px;
+  padding: 12px 12px 12px 24px;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  outline: none;
+}
+
+/* State layer */
+.orion-ep__header::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: transparent;
+  transition: background 150ms;
+}
+
+.orion-ep__header:hover::after {
+  background: rgba(29, 32, 36, 0.08);
+}
+
+.orion-ep__header:focus-visible::after {
+  background: rgba(29, 32, 36, 0.10);
+}
+
+/* ── Header left ── */
+.orion-ep__header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.orion-ep__title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: var(--color-on-surface, #1d2024);
+  white-space: nowrap;
+}
+
+.orion-ep__description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: var(--color-on-surface-variant, #535862);
+  white-space: nowrap;
+}
+
+/* ── Tag ── */
+.orion-ep__tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  height: 24px;
+  padding: 4px 6px;
+  border-radius: 6px;
+  background: var(--color-info-container);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: var(--color-on-info);
+  white-space: nowrap;
+}
+
+.orion-ep--disabled .orion-ep__tag {
+  background: var(--color-neutral-container);
+  color: var(--color-on-surface, #1d2024);
+}
+
+/* ── Header right ── */
+.orion-ep__header-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ── Toggle ── */
+.orion-ep__toggle {
+  position: relative;
+  width: 40px;
+  height: 22px;
+  border-radius: 40px;
+  background: var(--color-outline-variant);
+  padding: 2px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  flex-shrink: 0;
+}
+
+.orion-ep__toggle--active {
+  background: var(--color-primary, #013aba);
+}
+
+.orion-ep__toggle-handle {
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background: var(--color-surface);
+  transition: left 200ms;
+}
+
+.orion-ep__toggle--active .orion-ep__toggle-handle {
+  left: 20px;
+}
+
+/* ── Header component slot ── */
+.orion-ep__header-component {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.orion-ep__header-icon {
+  width: 24px;
+  height: 24px;
+  color: var(--color-on-surface-variant, #535862);
+}
+
+/* ── Chevron ── */
+.orion-ep__chevron {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.orion-ep__chevron-icon {
+  width: 24px;
+  height: 24px;
+  color: var(--color-on-surface-variant, #535862);
+  transition: transform 200ms;
+}
+
+.orion-ep--open .orion-ep__chevron-icon {
+  transform: rotate(180deg);
+}
+
+/* ── Divider ── */
+.orion-ep__divider {
+  height: 1px;
+  width: 100%;
+  background: var(--color-outline);
+}
+
+/* ── Body / Content ── */
+.orion-ep__body {
+  display: none;
+}
+
+.orion-ep--open .orion-ep__body {
+  display: block;
+}
+
+.orion-ep__content {
+  padding: 16px 24px;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-on-surface-variant, #535862);
+}
+
+/* ── Actions ── */
+.orion-ep__actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 16px 16px 16px 24px;
+}
+
+.orion-ep__actions-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ── Action button (filled sm) ── */
+.orion-ep__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  height: 36px;
+  padding: 0 14px;
+  border: none;
+  border-radius: var(--radius-sm, 4px);
+  background: var(--color-primary, #013aba);
+  color: var(--color-on-primary, #ffffff);
+  font-family: var(--font-body), 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  outline: none;
+  transition: background-color 150ms;
+}
+
+.orion-ep__btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: transparent;
+  transition: background 150ms;
+}
+
+.orion-ep__btn:hover::after {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.orion-ep__btn:focus-visible::after {
+  background: rgba(255, 255, 255, 0.10);
+}
+
+/* ── Disabled ── */
+.orion-ep--disabled {
+  opacity: 0.38;
+  pointer-events: none;
+}
+
+.orion-ep--disabled .orion-ep__header {
+  cursor: default;
+}
+
+.orion-ep--disabled .orion-ep__header::after {
+  display: none;
+}
+
+/* ── Icon settings ── */
+.orion-ep .material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}

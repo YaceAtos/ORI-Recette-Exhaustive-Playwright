@@ -1,0 +1,64 @@
+person:
+  first_name:
+    semantic_type: person.first_name
+    aliases: [firstname, first_name, given_name, prenom, fname, userFirstName]
+    confidence_keywords: [first, given, prenom, name]
+    datatype: string
+    html:
+      autocomplete: [given-name]
+      input_types: [text]
+    generators:
+      realistic:
+        locale:
+          fr: [Jean, Pierre, Sophie, Emma, Chloe]
+          us: [John, Emily, Michael]
+      edge_cases: ['', A, Jean-Pierre, O'Connor]
+    validation:
+      required: true
+      min_length: 2
+      max_length: 80
+      regex: "^[A-Za-zÀ-ÿ' -]+$"
+
+  last_name:
+    semantic_type: person.last_name
+    aliases: [lastname, last_name, family_name, nom, surname, userLastName]
+    confidence_keywords: [last, family, nom, surname]
+    datatype: string
+    html:
+      autocomplete: [family-name]
+      input_types: [text]
+    generators:
+      realistic:
+        locale:
+          fr: [Martin, Durand, Bernard, Garnier]
+          us: [Smith, Johnson, Brown]
+      edge_cases: ['', B, Martin-Dupont, O'Brien]
+    validation:
+      required: true
+      min_length: 2
+      max_length: 120
+      regex: "^[A-Za-zÀ-ÿ' -]+$"
+
+  birth_date:
+    semantic_type: person.birth_date
+    aliases: [dob, birth_date, birthday, date_naissance, dateofbirth]
+    confidence_keywords: [birth, birthday, date, naissance, dob]
+    datatype: date
+    accepted_formats: [dd/MM/yyyy, yyyy-MM-dd, MM/dd/yyyy]
+    validation:
+      min_age: 18
+      max_age: 90
+
+  gender:
+    semantic_type: person.gender
+    aliases: [gender, sexe, civilite, sex]
+    datatype: select
+    possible_values:
+      male: [homme, male, m]
+      female: [femme, female, f]
+      other: [autre, other, x]
+
+  nationality:
+    semantic_type: person.nationality
+    aliases: [nationality, nationalite, country_of_origin]
+    datatype: string

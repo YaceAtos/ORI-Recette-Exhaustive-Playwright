@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "description": "PAP n°2 — Forfait prévention : Petit travaux, 200€, période",
+    "chaine": "cu-pap-002",
+    "step": "4-6",
+    "idempotent": false,
+    "requires": ["scenarios/cu-pap-002/prerequis-of-cda"]
+  },
+  "data": {
+    "beneficiaire": "TEST_AUTO_Beneficiaire_CARSAT",
+    "ecran0": {
+      "action": "Clic bouton 'Ajouter une aide' (2e PAP même bénéficiaire)"
+    },
+    "ecran1_ajout_aide": {
+      "ofSelectionne": "CARSAT Normandie",
+      "typeAide": "Forfait prévention",
+      "cdaSelectionne": "Forfait prév. CARSAT Normandie"
+    },
+    "ecran2_decision_of": {
+      "dateDebut": "+1d",
+      "dateFin": "+365d",
+      "numeroDecision": "DEC-2026-FORF-001"
+    },
+    "ecran3_personnalisation": {
+      "activites": [
+        {
+          "nom": "Petit travaux",
+          "format": "Forfait",
+          "montantForfait": 200.00,
+          "tarifFactJO_snapshot": 32.00,
+          "periodicite": "Période"
+        }
+      ]
+    }
+  },
+  "assertions": {
+    "pap_cree": true,
+    "format_forfait": "montant fixe en €, pas de volume horaire",
+    "periodicite_mapping": "ODY 'date d'effet' → ORION 'Période'",
+    "multi_pap_meme_beneficiaire": true,
+    "statut_pap": "Actif"
+  }
+}

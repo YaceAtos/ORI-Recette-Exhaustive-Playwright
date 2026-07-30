@@ -1,0 +1,433 @@
+{
+  "pageId": "/facturation-paie/reglementaire/pages/organisme-financeur",
+  "pageUrl": "https://orion-int2.itsap.net/facturation-paie/reglementaire/pages/organisme-financeur",
+  "agentId": "page-agent-006",
+  "runAt": "2026-07-21T08:20:18.314Z",
+  "success": true,
+  "error": null,
+  "extract": {
+    "title": "Orion",
+    "url": "https://orion-int2.itsap.net/facturation-paie/reglementaire/pages/organisme-financeur",
+    "headings": [
+      {
+        "text": "Organismes financeurs",
+        "tag": "h3",
+        "id": null,
+        "className": "list-header__title text-neutral-default",
+        "role": null
+      }
+    ],
+    "buttons": [
+      {
+        "text": "upload Import CSV",
+        "tag": "button",
+        "id": null,
+        "className": "mdc-button mat-mdc-button-base mat-tonal-button mat-unthemed",
+        "role": null
+      },
+      {
+        "text": "download Export CSV",
+        "tag": "button",
+        "id": null,
+        "className": "mdc-button mat-mdc-button-base mat-tonal-button mat-unthemed",
+        "role": null
+      },
+      {
+        "text": "add Créer",
+        "tag": "button",
+        "id": null,
+        "className": "mdc-button mat-mdc-button-base mdc-button--unelevated mat-mdc-unelevated-button mat-unthemed",
+        "role": null
+      },
+      {
+        "text": "Réinitialiser les filtres",
+        "tag": "button",
+        "id": null,
+        "className": "mdc-button mat-mdc-button-base mat-mdc-button mat-unthemed",
+        "role": null
+      },
+      {
+        "text": "Nom",
+        "tag": "div",
+        "id": null,
+        "className": "mat-sort-header-container mat-focus-indicator",
+        "role": "button"
+      },
+      {
+        "text": "Nom usuel",
+        "tag": "div",
+        "id": null,
+        "className": "mat-sort-header-container mat-focus-indicator",
+        "role": "button"
+      },
+      {
+        "text": "Type",
+        "tag": "div",
+        "id": null,
+        "className": "mat-sort-header-container mat-focus-indicator",
+        "role": "button"
+      },
+      {
+        "text": "Zone géographique",
+        "tag": "div",
+        "id": null,
+        "className": "mat-sort-header-container mat-focus-indicator",
+        "role": "button"
+      },
+      {
+        "text": "Statut",
+        "tag": "div",
+        "id": null,
+        "className": "mat-sort-header-container mat-focus-indicator",
+        "role": "button"
+      },
+      {
+        "text": "Modifié le",
+        "tag": "div",
+        "id": null,
+        "className": "mat-sort-header-container mat-focus-indicator",
+        "role": "button"
+      },
+      {
+        "text": "auto_awesome",
+        "tag": "button",
+        "id": null,
+        "className": "mdc-fab mat-mdc-fab-base mat-mdc-fab mat-mdc-button-base chatbot-fab mat-accent",
+        "role": null
+      }
+    ],
+    "links": [
+      {
+        "text": "calendar_today Planning",
+        "href": "https://orion-int2.itsap.net/sap/pages/planning"
+      },
+      {
+        "text": "Leads",
+        "href": "https://orion-int2.itsap.net/crm/pages/leads"
+      },
+      {
+        "text": "Clients & Prospects",
+        "href": "https://orion-int2.itsap.net/crm/pages/clients-prospects"
+      },
+      {
+        "text": "Devis & Contrats",
+        "href": ""
+      },
+      {
+        "text": "Reglements & Factures",
+        "href": ""
+      },
+      {
+        "text": "Entités juridiques",
+        "href": "https://orion-int2.itsap.net/crm/pages/clients-professionnels"
+      },
+      {
+        "text": "Intervenants",
+        "href": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur"
+      },
+      {
+        "text": "Temps de travail",
+        "href": ""
+      },
+      {
+        "text": "Paie & Préparation paie",
+        "href": ""
+      },
+      {
+        "text": "Compétences & Aptitudes",
+        "href": ""
+      },
+      {
+        "text": "Organismes financeurs",
+        "href": "/facturation-paie/reglementaire/pages/organisme-financeur"
+      },
+      {
+        "text": "Partenaires/Apporteurs",
+        "href": ""
+      },
+      {
+        "text": "Rétrocommissions",
+        "href": ""
+      },
+      {
+        "text": "Suivi crédits",
+        "href": ""
+      },
+      {
+        "text": "Zone de couverture",
+        "href": ""
+      },
+      {
+        "text": "Familles & produits",
+        "href": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles"
+      },
+      {
+        "text": "Option & frais",
+        "href": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options"
+      },
+      {
+        "text": "Recrutement",
+        "href": ""
+      },
+      {
+        "text": "Contrats de travail",
+        "href": ""
+      },
+      {
+        "text": "Méd. du travail / URSSAF",
+        "href": ""
+      },
+      {
+        "text": "Règles & Droit du salarié",
+        "href": ""
+      },
+      {
+        "text": "check_circle Suivi qualité",
+        "href": ""
+      },
+      {
+        "text": "Table des faits",
+        "href": "https://orion-int2.itsap.net/facturation-paie/facturation/pages/table-des-faits"
+      },
+      {
+        "text": "Marques",
+        "href": "https://orion-int2.itsap.net/gestion-marque/structure/pages/marque"
+      },
+      {
+        "text": "Structures",
+        "href": "https://orion-int2.itsap.net/gestion-marque/structure/pages/structure"
+      },
+      {
+        "text": "Profils",
+        "href": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils"
+      },
+      {
+        "text": "Utilisateurs",
+        "href": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-users"
+      },
+      {
+        "text": "Droit & Habilitations",
+        "href": ""
+      },
+      {
+        "text": "DMN (Règles)",
+        "href": "https://orion-int2.itsap.net/gestion-marque/configuration/pages/dmn"
+      },
+      {
+        "text": "Catégories (SAP)",
+        "href": "https://orion-int2.itsap.net/gestion-marque/configuration/pages/categories"
+      },
+      {
+        "text": "settings Paramètres",
+        "href": ""
+      },
+      {
+        "text": "Partenariats",
+        "href": "/facturation-paie/reglementaire/pages"
+      }
+    ],
+    "fields": [
+      {
+        "tag": "input",
+        "type": "search",
+        "name": null,
+        "id": "mat-input-0",
+        "role": null,
+        "label": "Rechercher",
+        "placeholder": "Rechercher",
+        "ariaLabel": null,
+        "autocomplete": null,
+        "required": false,
+        "disabled": false,
+        "readonly": false
+      },
+      {
+        "tag": "input",
+        "type": "input",
+        "name": null,
+        "id": "mat-input-1",
+        "role": null,
+        "label": "Rechercher un organisme",
+        "placeholder": "Rechercher un organisme",
+        "ariaLabel": null,
+        "autocomplete": null,
+        "required": false,
+        "disabled": false,
+        "readonly": false
+      },
+      {
+        "tag": "mat-select",
+        "type": "mat-select",
+        "name": null,
+        "id": "mat-select-0",
+        "role": "combobox",
+        "label": null,
+        "placeholder": null,
+        "ariaLabel": null,
+        "autocomplete": null,
+        "required": false,
+        "disabled": false,
+        "readonly": false
+      },
+      {
+        "tag": "mat-select",
+        "type": "mat-select",
+        "name": null,
+        "id": "mat-select-1",
+        "role": "combobox",
+        "label": null,
+        "placeholder": null,
+        "ariaLabel": null,
+        "autocomplete": null,
+        "required": false,
+        "disabled": false,
+        "readonly": false
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": null,
+        "id": "mat-mdc-checkbox-0-input",
+        "role": null,
+        "label": null,
+        "placeholder": null,
+        "ariaLabel": null,
+        "autocomplete": null,
+        "required": false,
+        "disabled": false,
+        "readonly": false
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": null,
+        "id": "mat-mdc-checkbox-1-input",
+        "role": null,
+        "label": null,
+        "placeholder": null,
+        "ariaLabel": null,
+        "autocomplete": null,
+        "required": false,
+        "disabled": false,
+        "readonly": false
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": null,
+        "id": "mat-mdc-checkbox-2-input",
+        "role": null,
+        "label": null,
+        "placeholder": null,
+        "ariaLabel": null,
+        "autocomplete": null,
+        "required": false,
+        "disabled": false,
+        "readonly": false
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": null,
+        "id": "mat-mdc-checkbox-3-input",
+        "role": null,
+        "label": null,
+        "placeholder": null,
+        "ariaLabel": null,
+        "autocomplete": null,
+        "required": false,
+        "disabled": false,
+        "readonly": false
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": null,
+        "id": "mat-mdc-checkbox-4-input",
+        "role": null,
+        "label": null,
+        "placeholder": null,
+        "ariaLabel": null,
+        "autocomplete": null,
+        "required": false,
+        "disabled": false,
+        "readonly": false
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": null,
+        "id": "mat-mdc-checkbox-5-input",
+        "role": null,
+        "label": null,
+        "placeholder": null,
+        "ariaLabel": null,
+        "autocomplete": null,
+        "required": false,
+        "disabled": false,
+        "readonly": false
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": null,
+        "id": "mat-mdc-checkbox-6-input",
+        "role": null,
+        "label": null,
+        "placeholder": null,
+        "ariaLabel": null,
+        "autocomplete": null,
+        "required": false,
+        "disabled": false,
+        "readonly": false
+      },
+      {
+        "tag": "mat-select",
+        "type": "mat-select",
+        "name": null,
+        "id": "mat-select-2",
+        "role": "combobox",
+        "label": null,
+        "placeholder": null,
+        "ariaLabel": null,
+        "autocomplete": null,
+        "required": false,
+        "disabled": false,
+        "readonly": false
+      }
+    ],
+    "options": [],
+    "tables": [
+      {
+        "headers": [
+          "Nom",
+          "Nom usuel",
+          "Type",
+          "Zone géographique",
+          "Statut",
+          "Modifié le"
+        ],
+        "rows": 7
+      }
+    ],
+    "dialogs": [],
+    "alerts": [],
+    "visibleTextBlocks": [
+      "Rechercher search",
+      "notifications sms",
+      "account_circle John Doe Software Engineer",
+      "Réinitialiser les filtres Rechercher un organisme search Type Sélectionner... Zone géographique Sélectionner..."
+    ],
+    "counters": {
+      "headings": 1,
+      "buttons": 11,
+      "links": 32,
+      "fields": 12,
+      "options": 0,
+      "tables": 1,
+      "dialogs": 0,
+      "alerts": 0,
+      "textBlocks": 4
+    }
+  }
+}

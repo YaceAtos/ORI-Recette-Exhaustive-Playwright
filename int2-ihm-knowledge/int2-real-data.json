@@ -1,0 +1,1042 @@
+{
+  "generatedAt": "2026-07-30T13:05:38.640Z",
+  "base": "https://orion-int2.itsap.net",
+  "pages": {
+    "structure": {
+      "module": "MP1",
+      "key": "structure",
+      "url": "https://orion-int2.itsap.net/gestion-marque/structure/pages/structure",
+      "headings": [
+        "Structures"
+      ],
+      "rowCount": 15,
+      "columns": {
+        "Nom": [
+          "chevron_right home_work O2 Angers Est 498849207",
+          "chevron_right home_work O2 Bordeaux Centre 511779787",
+          "chevron_right home_work O2 Boulogne Billancourt 500547757",
+          "chevron_right home_work O2 Clermont 489868513",
+          "home_work O2 CORSE (En construction)",
+          "chevron_right home_work O2 Développement 452022858",
+          "chevron_right home_work O2 Dijon 483468674",
+          "chevron_right home_work O2 Grenoble Nord 511289696",
+          "chevron_right home_work O2 Lille Est 429143910",
+          "chevron_right home_work O2 Lyon Centre 511460487",
+          "chevron_right home_work O2 Lyon Presqu'île 498178532",
+          "chevron_right home_work O2 Marseille Sud 491056701",
+          "chevron_right home_work O2 Metz 498041532",
+          "chevron_right home_work O2 Montpellier Est 492132691",
+          "chevron_right home_work O2 Nantes Centre 492912522"
+        ],
+        "Entités rattachées": [
+          "1 Établissement",
+          "3 Établissements",
+          "2 Établissements"
+        ],
+        "Représentant légal": [
+          "Antoine CHEVALIER",
+          "Eric THOMAS",
+          "Valérie SIMON",
+          "Claire BONNET",
+          "Denise BARRE-GUERIN",
+          "Barbara MOSER",
+          "Philippe MOREAU",
+          "Laurent FOURNIER",
+          "Catherine LEROY",
+          "Isabelle DURAND",
+          "Marie DUPONT",
+          "Stéphane ROUX",
+          "Anne WEBER",
+          "David MARTINEZ",
+          "Sophie MARTIN"
+        ],
+        "Statut administratif": [
+          "mode_standby Actif",
+          "mode_night Inactif"
+        ],
+        "État de la fiche": [
+          "Complète",
+          "Incomplète"
+        ]
+      },
+      "searchTerms": [
+        "Angers",
+        "Est",
+        "498849207",
+        "Bordeaux",
+        "Centre",
+        "511779787",
+        "Boulogne",
+        "Billancourt",
+        "500547757",
+        "Clermont",
+        "489868513",
+        "CORSE",
+        "construction",
+        "Développement",
+        "452022858",
+        "Dijon",
+        "483468674",
+        "Grenoble",
+        "Nord",
+        "511289696",
+        "Lille",
+        "429143910",
+        "Lyon",
+        "511460487",
+        "Presqu",
+        "île",
+        "498178532",
+        "Marseille",
+        "Sud",
+        "491056701",
+        "Metz",
+        "498041532",
+        "Montpellier",
+        "492132691",
+        "Nantes",
+        "492912522",
+        "CHEVALIER",
+        "THOMAS",
+        "SIMON",
+        "BONNET"
+      ],
+      "codes": [
+        "CORSE",
+        "CHEVALIER",
+        "THOMAS",
+        "SIMON",
+        "BONNET",
+        "BARRE-GUERIN",
+        "BARRE",
+        "GUERIN",
+        "MOSER",
+        "MOREAU",
+        "FOURNIER",
+        "LEROY",
+        "DURAND",
+        "DUPONT",
+        "ROUX",
+        "WEBER",
+        "MARTINEZ",
+        "MARTIN"
+      ],
+      "identifiers": [
+        "498849207",
+        "511779787",
+        "500547757",
+        "489868513",
+        "452022858",
+        "483468674",
+        "511289696",
+        "429143910",
+        "511460487",
+        "498178532",
+        "491056701",
+        "498041532",
+        "492132691",
+        "492912522"
+      ],
+      "options": [],
+      "duplicates": [
+        {
+          "term": "Établissement",
+          "count": 12
+        },
+        {
+          "term": "Est",
+          "count": 3
+        },
+        {
+          "term": "Centre",
+          "count": 3
+        },
+        {
+          "term": "Lyon",
+          "count": 2
+        },
+        {
+          "term": "Établissements",
+          "count": 2
+        }
+      ],
+      "nomenclature": [
+        {
+          "prefix": "BARRE-",
+          "count": 1
+        }
+      ],
+      "empty": false
+    },
+    "profils": {
+      "module": "MP1-SP1.5",
+      "key": "profils",
+      "url": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils",
+      "headings": [
+        "Profils"
+      ],
+      "rowCount": 1,
+      "columns": {
+        "Nom profil": [
+          "block Aucun élément à afficher"
+        ]
+      },
+      "searchTerms": [],
+      "codes": [],
+      "identifiers": [],
+      "options": [],
+      "duplicates": [],
+      "nomenclature": [],
+      "empty": false
+    },
+    "familles": {
+      "module": "MP2",
+      "key": "familles",
+      "url": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+      "headings": [
+        "Familles et produits"
+      ],
+      "rowCount": 4,
+      "columns": {
+        "Nom": [
+          "workspaces MARTIN",
+          "chevron_right workspaces Menage",
+          "chevron_right workspaces O2 Pro Menage",
+          "chevron_right workspaces Repassage"
+        ],
+        "Code": [
+          "QA3100",
+          "FAM-001",
+          "FAM-002",
+          "FAM-003"
+        ],
+        "Nature": [
+          "Famille"
+        ],
+        "Éléments": [
+          "0",
+          "2"
+        ],
+        "Statut": [
+          "mode_standby Actif"
+        ],
+        "Date de modification": [
+          "7/21/26, 8:30 AM",
+          "7/20/26, 11:55 AM"
+        ]
+      },
+      "searchTerms": [
+        "workspaces",
+        "MARTIN",
+        "Menage",
+        "Pro",
+        "Repassage",
+        "FAM-001",
+        "FAM",
+        "FAM-002",
+        "FAM-003",
+        "QA3100"
+      ],
+      "codes": [
+        "MARTIN",
+        "FAM-001",
+        "FAM",
+        "FAM-002",
+        "FAM-003"
+      ],
+      "identifiers": [],
+      "options": [],
+      "duplicates": [
+        {
+          "term": "FAM",
+          "count": 3
+        },
+        {
+          "term": "Menage",
+          "count": 2
+        }
+      ],
+      "nomenclature": [
+        {
+          "prefix": "FAM-",
+          "count": 3
+        }
+      ],
+      "empty": false
+    },
+    "options": {
+      "module": "MP2",
+      "key": "options",
+      "url": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options",
+      "headings": [
+        "Options"
+      ],
+      "rowCount": 10,
+      "columns": {
+        "Libellé": [
+          "Depoussierage complet",
+          "Nettoyage vitres interieur",
+          "Grand menage cuisine",
+          "Desinfection des points de contact",
+          "Kit produits menagers",
+          "Repassage chemises premium",
+          "Repassage linge plat",
+          "Lessive ecologique",
+          "Nettoyage balcon et exterieur",
+          "Petit bricolage domicile"
+        ],
+        "Code": [
+          "OPT-001",
+          "OPT-002",
+          "OPT-003",
+          "OPT-004",
+          "OPT-005",
+          "OPT-006",
+          "OPT-007",
+          "OPT-008",
+          "OPT-009",
+          "OPT-010"
+        ],
+        "Applicable à": [
+          "Tous"
+        ],
+        "Taxes": [
+          "Normal",
+          "Intermédiaire",
+          "Réduit",
+          "Exonéré"
+        ],
+        "Unité": [
+          "Forfaitaire"
+        ],
+        "Statut": [
+          "mode_standby Actif"
+        ],
+        "Dernière modification": [
+          "7/20/26, 11:55 AM"
+        ]
+      },
+      "searchTerms": [
+        "Depoussierage",
+        "complet",
+        "Nettoyage",
+        "vitres",
+        "interieur",
+        "Grand",
+        "menage",
+        "cuisine",
+        "Desinfection",
+        "des",
+        "points",
+        "contact",
+        "Kit",
+        "menagers",
+        "Repassage",
+        "chemises",
+        "premium",
+        "linge",
+        "plat",
+        "Lessive",
+        "ecologique",
+        "balcon",
+        "exterieur",
+        "Petit",
+        "bricolage",
+        "domicile",
+        "OPT-001",
+        "OPT",
+        "OPT-002",
+        "OPT-003",
+        "OPT-004",
+        "OPT-005",
+        "OPT-006",
+        "OPT-007",
+        "OPT-008",
+        "OPT-009",
+        "OPT-010",
+        "Réduit",
+        "Exonéré",
+        "Intermédiaire"
+      ],
+      "codes": [
+        "OPT-001",
+        "OPT",
+        "OPT-002",
+        "OPT-003",
+        "OPT-004",
+        "OPT-005",
+        "OPT-006",
+        "OPT-007",
+        "OPT-008",
+        "OPT-009",
+        "OPT-010"
+      ],
+      "identifiers": [],
+      "options": [],
+      "duplicates": [
+        {
+          "term": "Normal",
+          "count": 6
+        },
+        {
+          "term": "Nettoyage",
+          "count": 2
+        },
+        {
+          "term": "Repassage",
+          "count": 2
+        },
+        {
+          "term": "Intermédiaire",
+          "count": 2
+        }
+      ],
+      "nomenclature": [
+        {
+          "prefix": "OPT-",
+          "count": 10
+        }
+      ],
+      "empty": false
+    },
+    "collaborateur": {
+      "module": "MP3",
+      "key": "collaborateur",
+      "url": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+      "headings": [
+        "Collaborateurs"
+      ],
+      "rowCount": 15,
+      "columns": {
+        "Nom": [
+          "DURAND",
+          "MARTIN",
+          "MOREAU",
+          "CARREL",
+          "TRÉVOUX",
+          "PERRIN",
+          "BOYER",
+          "RICHARD",
+          "DUBOIS",
+          "GAUTHIER",
+          "BONNET",
+          "DUPONT"
+        ],
+        "Prénom": [
+          "Emma",
+          "Alice",
+          "Sofia",
+          "Lucien",
+          "Maëlle",
+          "Victor",
+          "Louise",
+          "Hugo",
+          "Raphaël",
+          "Clara",
+          "Ethan",
+          "Lucas",
+          "Jules"
+        ],
+        "Type": [
+          "Opérationnel agence",
+          "Intervenant"
+        ],
+        "Date de naissance": [
+          "2/2/85",
+          "1/1/84",
+          "1/1/90",
+          "10/2/98",
+          "3/14/87",
+          "7/14/90",
+          "1/19/83",
+          "12/10/98",
+          "2/28/88",
+          "7/12/95",
+          "6/1/84",
+          "3/22/02",
+          "4/7/86",
+          "3/21/90",
+          "8/8/96"
+        ],
+        "Statut du collaborateur": [
+          "info En cours de recrutement"
+        ],
+        "Etat de la fiche": [
+          "Incomplète",
+          "Complète"
+        ],
+        "Dernière modification": [
+          "7/21/26, 8:36 AM",
+          "7/21/26, 8:35 AM",
+          "7/21/26, 8:33 AM",
+          "11/10/25, 11:15 AM",
+          "11/10/25, 11:08 AM",
+          "11/10/25, 11:05 AM",
+          "11/10/25, 11:03 AM",
+          "11/10/25, 11:00 AM"
+        ],
+        "Téléphone": [
+          "+33 6 77 88 99 00",
+          "+33 6 24 25 26 27",
+          "+33 6 57 58 59 60",
+          "+33 6 88 88 77 77",
+          "+33 6 98 76 54 32",
+          "+33 6 80 81 82 83",
+          "+33 6 45 46 47 48",
+          "+33 6 50 40 30 20",
+          "+33 6 12 34 56 78",
+          "+33 6 72 73 74 75"
+        ]
+      },
+      "searchTerms": [
+        "DURAND",
+        "MARTIN",
+        "MOREAU",
+        "CARREL",
+        "TRÉVOUX",
+        "PERRIN",
+        "BOYER",
+        "RICHARD",
+        "DUBOIS",
+        "GAUTHIER",
+        "BONNET",
+        "DUPONT",
+        "Sofia",
+        "Lucien",
+        "Maëlle",
+        "Victor",
+        "Louise",
+        "Hugo",
+        "Raphaël",
+        "Clara",
+        "Ethan",
+        "Lucas",
+        "Jules",
+        "Emma",
+        "Alice",
+        "Opérationnel",
+        "agence",
+        "Incomplète",
+        "Complète",
+        "Intervenant"
+      ],
+      "codes": [
+        "DURAND",
+        "MARTIN",
+        "MOREAU",
+        "CARREL",
+        "TRÉVOUX",
+        "PERRIN",
+        "BOYER",
+        "RICHARD",
+        "DUBOIS",
+        "GAUTHIER",
+        "BONNET",
+        "DUPONT"
+      ],
+      "identifiers": [],
+      "options": [],
+      "duplicates": [
+        {
+          "term": "Intervenant",
+          "count": 12
+        },
+        {
+          "term": "Complète",
+          "count": 10
+        },
+        {
+          "term": "Incomplète",
+          "count": 5
+        },
+        {
+          "term": "MARTIN",
+          "count": 3
+        },
+        {
+          "term": "Opérationnel",
+          "count": 3
+        },
+        {
+          "term": "agence",
+          "count": 3
+        },
+        {
+          "term": "DURAND",
+          "count": 2
+        },
+        {
+          "term": "Emma",
+          "count": 2
+        },
+        {
+          "term": "Alice",
+          "count": 2
+        }
+      ],
+      "nomenclature": [],
+      "empty": false
+    },
+    "planning": {
+      "module": "MP5",
+      "key": "planning",
+      "url": "https://orion-int2.itsap.net/sap/pages/planning",
+      "headings": [
+        "Planning"
+      ],
+      "rowCount": 0,
+      "columns": {},
+      "searchTerms": [],
+      "codes": [],
+      "identifiers": [],
+      "options": [],
+      "duplicates": [],
+      "nomenclature": [],
+      "empty": true
+    },
+    "clients": {
+      "module": "MP4",
+      "key": "clients",
+      "url": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+      "headings": [
+        "Clients et prospects"
+      ],
+      "rowCount": 10,
+      "columns": {
+        "Référence client": [
+          "mat-0008",
+          "mat-0003",
+          "mat-0019",
+          "mat-0009",
+          "mat-0006",
+          "mat-0015",
+          "mat-0007",
+          "mat-0010",
+          "mat-0004",
+          "mat-0005"
+        ],
+        "Nom": [
+          "FONTAINE",
+          "FOURNIER",
+          "NOEL",
+          "ROUSSEAU",
+          "BONNET",
+          "MASSON",
+          "LAMBERT",
+          "GUERIN",
+          "GIRARD",
+          "DUBOIS"
+        ],
+        "Prénom": [
+          "Léa",
+          "Lucas",
+          "Catherine",
+          "Nathan",
+          "Emma",
+          "Valérie",
+          "Enzo",
+          "Julien",
+          "Manon",
+          "Hugo"
+        ],
+        "Statut": [
+          "Prospect",
+          "Actif",
+          "2 Statuts keyboard_arrow_down"
+        ],
+        "Téléphone": [
+          "+33 6 67 89 00 19",
+          "+33 6 98 76 54 32",
+          "+33 6 99 00 10 30",
+          "+33 6 78 90 00 20",
+          "+33 6 45 67 00 17",
+          "+33 6 99 00 10 26",
+          "+33 6 56 78 00 18",
+          "+33 1 45 10 21 01",
+          "+33 6 23 45 00 15",
+          "+33 6 34 56 00 16"
+        ],
+        "Agence": [
+          "Lyon Confluence",
+          "Paris Centre",
+          "Marseille Vieux-Port, +1"
+        ],
+        "Dernière modification": [
+          "7/20/26, 8:40 AM",
+          "7/19/26, 9:40 PM",
+          "7/18/26, 9:40 AM",
+          "7/15/26, 9:40 AM",
+          "7/10/26, 9:40 AM",
+          "7/5/26, 9:40 AM",
+          "6/30/26, 9:40 AM",
+          "6/28/26, 9:40 AM"
+        ]
+      },
+      "searchTerms": [
+        "mat-0008",
+        "mat-0003",
+        "mat-0019",
+        "mat-0009",
+        "mat-0006",
+        "mat-0015",
+        "mat-0007",
+        "mat-0010",
+        "mat-0004",
+        "mat-0005",
+        "FONTAINE",
+        "FOURNIER",
+        "NOEL",
+        "ROUSSEAU",
+        "BONNET",
+        "MASSON",
+        "LAMBERT",
+        "GUERIN",
+        "GIRARD",
+        "DUBOIS",
+        "Léa",
+        "Lucas",
+        "Catherine",
+        "Nathan",
+        "Emma",
+        "Valérie",
+        "Enzo",
+        "Julien",
+        "Manon",
+        "Hugo",
+        "Statuts",
+        "down",
+        "Marseille",
+        "Vieux",
+        "Port",
+        "Lyon",
+        "Confluence",
+        "Paris",
+        "Centre",
+        "Prospect"
+      ],
+      "codes": [
+        "FONTAINE",
+        "FOURNIER",
+        "NOEL",
+        "ROUSSEAU",
+        "BONNET",
+        "MASSON",
+        "LAMBERT",
+        "GUERIN",
+        "GIRARD",
+        "DUBOIS"
+      ],
+      "identifiers": [],
+      "options": [],
+      "duplicates": [
+        {
+          "term": "Prospect",
+          "count": 7
+        },
+        {
+          "term": "Paris",
+          "count": 6
+        },
+        {
+          "term": "Centre",
+          "count": 6
+        },
+        {
+          "term": "Lyon",
+          "count": 3
+        },
+        {
+          "term": "Confluence",
+          "count": 3
+        }
+      ],
+      "nomenclature": [],
+      "empty": false
+    },
+    "organisme-financeur": {
+      "module": "MP6",
+      "key": "organisme-financeur",
+      "url": "https://orion-int2.itsap.net/facturation-paie/pages/organisme-financeur",
+      "headings": [],
+      "rowCount": 0,
+      "columns": {},
+      "searchTerms": [],
+      "codes": [],
+      "identifiers": [],
+      "options": [],
+      "duplicates": [],
+      "nomenclature": [],
+      "empty": true
+    }
+  },
+  "byModule": {
+    "MP1": {
+      "searchTerms": [
+        "Angers",
+        "Est",
+        "498849207",
+        "Bordeaux",
+        "Centre",
+        "511779787",
+        "Boulogne",
+        "Billancourt",
+        "500547757",
+        "Clermont",
+        "489868513",
+        "CORSE",
+        "construction",
+        "Développement",
+        "452022858",
+        "Dijon",
+        "483468674",
+        "Grenoble",
+        "Nord",
+        "511289696",
+        "Lille",
+        "429143910",
+        "Lyon",
+        "511460487",
+        "Presqu",
+        "île",
+        "498178532",
+        "Marseille",
+        "Sud",
+        "491056701",
+        "Metz",
+        "498041532",
+        "Montpellier",
+        "492132691",
+        "Nantes",
+        "492912522",
+        "CHEVALIER",
+        "THOMAS",
+        "SIMON",
+        "BONNET"
+      ],
+      "codes": [
+        "CORSE",
+        "CHEVALIER",
+        "THOMAS",
+        "SIMON",
+        "BONNET",
+        "BARRE-GUERIN",
+        "BARRE",
+        "GUERIN",
+        "MOSER",
+        "MOREAU",
+        "FOURNIER",
+        "LEROY",
+        "DURAND",
+        "DUPONT",
+        "ROUX",
+        "WEBER",
+        "MARTINEZ",
+        "MARTIN"
+      ],
+      "identifiers": [
+        "498849207",
+        "511779787",
+        "500547757",
+        "489868513",
+        "452022858",
+        "483468674",
+        "511289696",
+        "429143910",
+        "511460487",
+        "498178532",
+        "491056701",
+        "498041532",
+        "492132691",
+        "492912522"
+      ]
+    },
+    "MP2": {
+      "searchTerms": [
+        "workspaces",
+        "MARTIN",
+        "Menage",
+        "Pro",
+        "Repassage",
+        "FAM-001",
+        "FAM",
+        "FAM-002",
+        "FAM-003",
+        "QA3100",
+        "Depoussierage",
+        "complet",
+        "Nettoyage",
+        "vitres",
+        "interieur",
+        "Grand",
+        "menage",
+        "cuisine",
+        "Desinfection",
+        "des",
+        "points",
+        "contact",
+        "Kit",
+        "menagers",
+        "chemises",
+        "premium",
+        "linge",
+        "plat",
+        "Lessive",
+        "ecologique",
+        "balcon",
+        "exterieur",
+        "Petit",
+        "bricolage",
+        "domicile",
+        "OPT-001",
+        "OPT",
+        "OPT-002",
+        "OPT-003",
+        "OPT-004",
+        "OPT-005",
+        "OPT-006",
+        "OPT-007",
+        "OPT-008",
+        "OPT-009",
+        "OPT-010",
+        "Réduit",
+        "Exonéré",
+        "Intermédiaire"
+      ],
+      "codes": [
+        "MARTIN",
+        "FAM-001",
+        "FAM",
+        "FAM-002",
+        "FAM-003",
+        "OPT-001",
+        "OPT",
+        "OPT-002",
+        "OPT-003",
+        "OPT-004",
+        "OPT-005",
+        "OPT-006",
+        "OPT-007",
+        "OPT-008",
+        "OPT-009",
+        "OPT-010"
+      ],
+      "identifiers": []
+    },
+    "MP3": {
+      "searchTerms": [
+        "DURAND",
+        "MARTIN",
+        "MOREAU",
+        "CARREL",
+        "TRÉVOUX",
+        "PERRIN",
+        "BOYER",
+        "RICHARD",
+        "DUBOIS",
+        "GAUTHIER",
+        "BONNET",
+        "DUPONT",
+        "Sofia",
+        "Lucien",
+        "Maëlle",
+        "Victor",
+        "Louise",
+        "Hugo",
+        "Raphaël",
+        "Clara",
+        "Ethan",
+        "Lucas",
+        "Jules",
+        "Emma",
+        "Alice",
+        "Opérationnel",
+        "agence",
+        "Incomplète",
+        "Complète",
+        "Intervenant"
+      ],
+      "codes": [
+        "DURAND",
+        "MARTIN",
+        "MOREAU",
+        "CARREL",
+        "TRÉVOUX",
+        "PERRIN",
+        "BOYER",
+        "RICHARD",
+        "DUBOIS",
+        "GAUTHIER",
+        "BONNET",
+        "DUPONT"
+      ],
+      "identifiers": []
+    },
+    "MP5": {
+      "searchTerms": [],
+      "codes": [],
+      "identifiers": []
+    },
+    "MP4": {
+      "searchTerms": [
+        "mat-0008",
+        "mat-0003",
+        "mat-0019",
+        "mat-0009",
+        "mat-0006",
+        "mat-0015",
+        "mat-0007",
+        "mat-0010",
+        "mat-0004",
+        "mat-0005",
+        "FONTAINE",
+        "FOURNIER",
+        "NOEL",
+        "ROUSSEAU",
+        "BONNET",
+        "MASSON",
+        "LAMBERT",
+        "GUERIN",
+        "GIRARD",
+        "DUBOIS",
+        "Léa",
+        "Lucas",
+        "Catherine",
+        "Nathan",
+        "Emma",
+        "Valérie",
+        "Enzo",
+        "Julien",
+        "Manon",
+        "Hugo",
+        "Statuts",
+        "down",
+        "Marseille",
+        "Vieux",
+        "Port",
+        "Lyon",
+        "Confluence",
+        "Paris",
+        "Centre",
+        "Prospect"
+      ],
+      "codes": [
+        "FONTAINE",
+        "FOURNIER",
+        "NOEL",
+        "ROUSSEAU",
+        "BONNET",
+        "MASSON",
+        "LAMBERT",
+        "GUERIN",
+        "GIRARD",
+        "DUBOIS"
+      ],
+      "identifiers": []
+    },
+    "MP6": {
+      "searchTerms": [],
+      "codes": [],
+      "identifiers": []
+    }
+  }
+}

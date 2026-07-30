@@ -1,0 +1,33 @@
+# Dépendances (régénérables via npm install)
+node_modules/
+external-repos/
+
+# Résultats d'exécution lourds (régénérables)
+int2-ihm-test-results/
+int2-ihm-recordings/int2/
+int2-ihm-recordings/exhaustive/
+int2-ihm-recordings/chains/
+int2-ihm-recordings/working/
+screenshots/
+test-results/
+playwright-report/
+workspace-archives/
+
+# Preuves vidéo/binaires (régénérables par le run ; incluses dans le zip livrable)
+mon-espace/**/preuves/**/*.mp4
+mon-espace/**/preuves/**/*.webm
+mon-espace/**/preuves/**/trace.zip
+
+# Auth / secrets / temporaires
+.orion-auth/
+.env.int2.real
+*.log
+*.tmp.js
+int2-ihm-recordings/orion-pipeline/.dashboard-run.log
+int2-ihm-recordings/orion-pipeline/.live-stop
+
+# Système
+.DS_Store
+__MACOSX/
+*.zip
+!contracts/*.json

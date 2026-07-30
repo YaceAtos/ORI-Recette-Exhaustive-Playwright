@@ -1,0 +1,34 @@
+{
+  "canonicalId": "ORI-936::CT-CPT-11::R160",
+  "issueKey": "ORI-936",
+  "caseId": "CT-CPT-11",
+  "module": "MP3 > SP3.4",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_INT_CPTB_1 / CA-CPT-05/06 - Bouton MODIFIER selon habilitation",
+  "route": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 10,
+  "progressedSteps": 2,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 3,
+    "reason": "Étape \"Se connecter avec un utilisateur habilite\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 1,
+    "misses": [
+      {
+        "text": "Bouton"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_INT_CPTB_1"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-ea340-MODIFIER-selon-habilitation-orion-headed"
+}

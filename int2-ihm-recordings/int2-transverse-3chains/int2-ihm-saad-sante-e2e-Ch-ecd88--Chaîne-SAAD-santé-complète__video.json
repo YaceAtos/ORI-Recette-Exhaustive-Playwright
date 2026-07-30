@@ -1,0 +1,8 @@
+{
+  "source_webm": "test-results/int2-ihm-saad-sante-e2e-Ch-ecd88--Chaîne-SAAD-santé-complète/video.webm",
+  "mp4": "int2-ihm-recordings/int2-transverse-3chains/int2-ihm-saad-sante-e2e-Ch-ecd88--Chaîne-SAAD-santé-complète__video.mp4",
+  "duration_seconds": 10.280000,
+  "chapter_screenshots_dir": "test-results/int2-ihm-saad-sante-e2e-Ch-ecd88--Chaîne-SAAD-santé-complète/chapters",
+  "chapter_screenshots_count": 0,
+  "generated_at": "2026-07-21T15:48:53Z"
+}

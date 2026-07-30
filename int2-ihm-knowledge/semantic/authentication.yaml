@@ -1,0 +1,24 @@
+authentication:
+  email:
+    semantic_type: authentication.email
+    aliases: [email, e-mail, courriel, user_email]
+    confidence_keywords: [email, mail, courriel]
+    datatype: string
+
+  username:
+    semantic_type: authentication.username
+    aliases: [username, login, user_name, identifiant]
+    confidence_keywords: [username, login, identifiant]
+    datatype: string
+
+  password:
+    semantic_type: authentication.password
+    aliases: [password, mot_de_passe, passwd]
+    confidence_keywords: [password, mot, passe]
+    datatype: string
+
+  otp:
+    semantic_type: authentication.otp
+    aliases: [otp, one_time_password, code_sms, mfa_code]
+    confidence_keywords: [otp, mfa, verification, code]
+    datatype: numeric

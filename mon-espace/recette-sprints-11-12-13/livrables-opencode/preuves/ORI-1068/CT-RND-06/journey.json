@@ -1,0 +1,43 @@
+{
+  "canonicalId": "ORI-1068::CT-RND-06::R235",
+  "issueKey": "ORI-1068",
+  "caseId": "CT-RND-06",
+  "module": "MP4 > SP4.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_BSN_QUAL_06/07 / CA-04 - Enregistrement partiel (statut 'Qualification en cours')",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 5,
+  "progressedSteps": 1,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 2,
+    "reason": "Étape \"Cliquer Enregistrer\" nécessite une action persistante (Enregistrer) — bloquée par garde non-persistance"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Donnees"
+      },
+      {
+        "text": "Enregistrer"
+      },
+      {
+        "text": "Donnees"
+      },
+      {
+        "text": "Qualification en cours"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_BSN_QUAL_06"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-34bf7-tut-Qualification-en-cours--orion-headed"
+}

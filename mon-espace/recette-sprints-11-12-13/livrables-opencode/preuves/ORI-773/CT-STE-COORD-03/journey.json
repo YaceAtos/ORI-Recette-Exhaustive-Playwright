@@ -1,0 +1,43 @@
+{
+  "canonicalId": "ORI-773::CT-STE-COORD-03::R7",
+  "issueKey": "ORI-773",
+  "caseId": "CT-STE-COORD-03",
+  "module": "MP1 > SP1.1",
+  "priority": "P1",
+  "type": "Integration",
+  "scenario": "Heritage adresse vers etablissements principaux (RG_STE_ADRESS_HERIT_ETAB)",
+  "route": "https://orion-int2.itsap.net/gestion-marque/structure/pages/structure",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 2,
+  "progressedSteps": 1,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 2,
+    "reason": "Étape \"Enregistrer\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Adresse"
+      },
+      {
+        "text": "Modification"
+      },
+      {
+        "text": "Adresse"
+      },
+      {
+        "text": "Adresse"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_STE_ADRESS_HERIT_ETAB"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-cf352-x-RG-STE-ADRESS-HERIT-ETAB--orion-headed"
+}

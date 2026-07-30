@@ -1,0 +1,37 @@
+{
+  "canonicalId": "ORI-1065::CT-OPT-A-05::R93",
+  "issueKey": "ORI-1065",
+  "caseId": "CT-OPT-A-05",
+  "module": "MP2 > SP2.1",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "CA08: Conservation des filtres lors de la navigation vers fiche puis retour",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 5,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Appliquer filtres (Statut=Actif, Marche=Particulier)\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 2,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Seules"
+      },
+      {
+        "text": "Retour"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_OPT_LIST_09"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-2450e-tion-vers-fiche-puis-retour-orion-headed"
+}

@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-07-24T13:26:00.851Z",
+  "query": "loop engineering memory primitives",
+  "queryTokens": [
+    "loop",
+    "engineering",
+    "memory",
+    "primitives"
+  ],
+  "sourceFilter": [
+    "local-knowledge",
+    "external-loop-engineering"
+  ],
+  "totalMatches": 21,
+  "topK": 3,
+  "results": [
+    {
+      "id": "external::loop-engineering::external-repos/loop-engineering/docs/concepts.md",
+      "url": "file://external-repos/loop-engineering/docs/concepts.md",
+      "brique": "external-loop-engineering",
+      "sourceKind": "external-loop-engineering",
+      "sourcePath": "external-repos/loop-engineering/docs/concepts.md",
+      "score": 9.4628573,
+      "matchedTokens": [
+        "loop",
+        "engineering",
+        "memory",
+        "primitives"
+      ]
+    },
+    {
+      "id": "external::loop-engineering::external-repos/loop-engineering/README.md",
+      "url": "file://external-repos/loop-engineering/README.md",
+      "brique": "external-loop-engineering",
+      "sourceKind": "external-loop-engineering",
+      "sourcePath": "external-repos/loop-engineering/README.md",
+      "score": 8.36099923,
+      "matchedTokens": [
+        "loop",
+        "engineering",
+        "memory",
+        "primitives"
+      ]
+    },
+    {
+      "id": "external::loop-engineering::external-repos/loop-engineering/docs/primitives.md",
+      "url": "file://external-repos/loop-engineering/docs/primitives.md",
+      "brique": "external-loop-engineering",
+      "sourceKind": "external-loop-engineering",
+      "sourcePath": "external-repos/loop-engineering/docs/primitives.md",
+      "score": 7.88702673,
+      "matchedTokens": [
+        "loop",
+        "engineering",
+        "memory",
+        "primitives"
+      ]
+    }
+  ]
+}

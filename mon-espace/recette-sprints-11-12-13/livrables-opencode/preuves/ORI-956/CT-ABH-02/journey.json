@@ -1,0 +1,37 @@
+{
+  "canonicalId": "ORI-956::CT-ABH-02::R165",
+  "issueKey": "ORI-956",
+  "caseId": "CT-ABH-02",
+  "module": "MP3 > SP3.4",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_INT_ABAHCT_1 cas 1 - Dates differentes : heures grisees et remises a blanc (CA D11/D12)",
+  "route": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 5,
+  "progressedSteps": 2,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 3,
+    "reason": "Étape \"Corriger la date fin a 10/06\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 2,
+    "misses": [
+      {
+        "text": "Les heures ne peuvent etre renseignees que pour une absence sur une meme journee."
+      },
+      {
+        "text": "Champs"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_INT_ABAHCT_1"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-c75f4-remises-a-blanc-CA-D11-D12--orion-headed"
+}

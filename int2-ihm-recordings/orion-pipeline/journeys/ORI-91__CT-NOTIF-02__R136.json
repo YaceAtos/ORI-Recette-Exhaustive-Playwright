@@ -1,0 +1,34 @@
+{
+  "canonicalId": "ORI-91::CT-NOTIF-02::R136",
+  "issueKey": "ORI-91",
+  "caseId": "CT-NOTIF-02",
+  "module": "MP3 > SP3.3",
+  "priority": "P1",
+  "type": "Erreur",
+  "scenario": "RG_NOTIFCREA_02 - Non-emission si un champ obligatoire manque",
+  "route": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Creer un intervenant sans NIR\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 1,
+    "misses": [
+      {
+        "text": "Validation"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_NOTIFCREA_02"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-66ab5-un-champ-obligatoire-manque-orion-headed"
+}

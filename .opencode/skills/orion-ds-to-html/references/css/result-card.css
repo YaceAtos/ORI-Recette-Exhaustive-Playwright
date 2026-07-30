@@ -1,0 +1,291 @@
+/* ═══════════════════════════════════════════════════════
+   RESULT CARD
+   ═══════════════════════════════════════════════════════ */
+
+/* ═══════════ CONTAINER ═══════════ */
+.orion-rc {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 24px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-outline);
+  border-radius: 8px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  font-family: 'Inter', sans-serif;
+  width: 871px;
+  box-sizing: border-box;
+  transition: box-shadow 0.15s;
+  position: relative;
+}
+
+/* ── Hover overlay ── */
+.orion-rc::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+  background: var(--color-on-surface);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+}
+
+.orion-rc:not(.orion-rc--disabled):hover::after {
+  opacity: 0.04;
+}
+
+.orion-rc:not(.orion-rc--disabled):hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.orion-rc--disabled {
+  opacity: 0.38;
+  pointer-events: none;
+}
+
+/* ── Checkbox ── */
+.orion-rc__checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.orion-rc__checkbox-box {
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--color-on-surface-variant);
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.orion-rc__checkbox-box.orion-rc__checkbox-box--checked {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.orion-rc__checkbox-box.orion-rc__checkbox-box--checked::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  width: 4px;
+  height: 8px;
+  border: solid var(--color-on-primary);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* ── Avatar ── */
+.orion-rc__avatar {
+  width: 46px;
+  height: 46px;
+  border-radius: 100px;
+  background: var(--color-primary-container-hover);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: var(--color-primary-dark);
+}
+
+/* ── Body ── */
+.orion-rc__body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+  min-width: 0;
+}
+
+/* ── Header ── */
+.orion-rc__header {
+  display: flex;
+  align-items: center;
+  min-height: 36px;
+}
+
+.orion-rc__header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  min-width: 0;
+}
+
+.orion-rc__name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--color-on-surface-strong);
+  white-space: nowrap;
+}
+
+.orion-rc__code {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--color-on-surface-variant);
+  white-space: nowrap;
+}
+
+/* ── Actions ── */
+.orion-rc__actions {
+  display: none;
+  gap: 8px;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.orion-rc:not(.orion-rc--disabled):hover .orion-rc__actions {
+  display: flex;
+}
+
+.orion-rc__action-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: var(--color-on-surface-variant);
+  transition: background 0.15s;
+}
+
+.orion-rc__action-btn--tonal {
+  background: var(--color-primary-container);
+  color: var(--color-primary-dark);
+}
+
+.orion-rc__action-btn--tonal:hover {
+  background: var(--color-primary-container-hover);
+}
+
+.orion-rc__action-btn--outlined {
+  background: transparent;
+  border: 1px solid var(--color-muted-dark);
+}
+
+.orion-rc__action-btn--outlined:hover {
+  background: rgba(29, 32, 36, 0.06);
+}
+
+/* ── Tag ── */
+.orion-rc__tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  height: 24px;
+  padding: 4px 6px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.orion-rc__tag-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+/* ── Infos ── */
+.orion-rc__infos {
+  display: flex;
+  gap: 32px;
+  width: 100%;
+}
+
+.orion-rc__info-col {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.orion-rc__info-col--flex {
+  flex: 1;
+  min-width: 0;
+}
+
+.orion-rc__info-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.orion-rc__info-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  color: var(--color-on-surface-variant);
+}
+
+.orion-rc__info-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--color-on-surface-variant);
+  white-space: nowrap;
+}
+
+/* ── Tags row ── */
+.orion-rc__tags {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  padding: 4px 0;
+  flex-wrap: wrap;
+}
+
+/* ── Link ── */
+.orion-rc__link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--color-primary);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.orion-rc__link--sm {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.orion-rc__link:hover {
+  color: var(--color-primary-dark);
+}
+
+/* ── Note ── */
+.orion-rc__note-sep {
+  width: 100%;
+  height: 0;
+  border-top: 1px solid var(--color-outline-light);
+}
+
+.orion-rc__note {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--color-on-surface-subtle);
+  margin: 0;
+}

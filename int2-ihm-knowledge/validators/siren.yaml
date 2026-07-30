@@ -1,0 +1,8 @@
+siren:
+  semantic_type: company.siren
+  format: numeric
+  length: 9
+  checksum: luhn
+  examples:
+    valid: ['732829320']
+    invalid: ['123456789']

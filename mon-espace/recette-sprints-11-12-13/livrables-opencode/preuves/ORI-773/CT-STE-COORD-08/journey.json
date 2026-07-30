@@ -1,0 +1,47 @@
+{
+  "canonicalId": "ORI-773::CT-STE-COORD-08::R12",
+  "issueKey": "ORI-773",
+  "caseId": "CT-STE-COORD-08",
+  "module": "MP1 > SP1.1",
+  "priority": "P2",
+  "type": "Erreur",
+  "scenario": "Controles de format: longueur max, email, telephone",
+  "route": "https://orion-int2.itsap.net/gestion-marque/structure/pages/structure",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 10,
+  "progressedSteps": 5,
+  "totalSteps": 7,
+  "blocker": {
+    "step": 6,
+    "reason": "Étape \"Corriger tous les champs avec valeurs conformes\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 6,
+    "misses": [
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Enregistrement"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-c0d09-ongueur-max-email-telephone-orion-headed"
+}

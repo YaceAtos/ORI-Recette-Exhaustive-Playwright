@@ -1,0 +1,172 @@
+const fs = require('fs');
+const path = require('path');
+
+const rootDir = path.resolve(__dirname, '..');
+const pipelineDir = path.join(rootDir, 'int2-ihm-recordings', 'orion-pipeline');
+const deliverableDir = path.join(rootDir, 'mon-espace', 'recette-sprints-11-12-13', 'livrables-opencode');
+const preuvesDir = path.join(deliverableDir, 'preuves');
+const journeyDir = path.join(pipelineDir, 'journeys');
+
+const readJson = (p, fb) => { try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch { return fb; } };
+const safe = (s) => String(s).replace(/[^\w.-]/g, '_');
+const exists = (p) => { try { return fs.existsSync(p); } catch { return false; } };
+
+function build() {
+  const catalog = readJson(path.join(pipelineDir, 'test-catalog.json'), { cases: [], count: 0, issueKeys: [], rules: [] });
+  const bugCat = readJson(path.join(pipelineDir, 'bug-catalog.json'), { bugs: [] });
+  const bugByCanon = new Map(bugCat.bugs.map((b) => [b.canonicalId, b]));
+
+  const cases = catalog.cases.map((c) => {
+    const j = readJson(path.join(journeyDir, `${safe(c.canonicalId)}.json`), {});
+    const bug = bugByCanon.get(c.canonicalId) || null;
+    const relDir = ['preuves', c.issueKey, c.caseId].join('/');
+    const videoAbs = path.join(preuvesDir, c.issueKey, c.caseId, 'journey.mp4');
+    const annAbs = path.join(preuvesDir, c.issueKey, c.caseId, 'screenshot-annotated.png');
+    const shotAbs = path.join(preuvesDir, c.issueKey, c.caseId, 'screenshot.png');
+    const jiraSummary = (c.atlassian && c.atlassian.jira ? c.atlassian.jira.summary : '') || '';
+    return {
+      id: c.canonicalId, ori: c.issueKey, caseId: c.caseId, row: c.sourceRow,
+      module: c.module, moduleTop: (c.module || '').split('>')[0].trim(),
+      priority: c.priority, type: c.type, scenario: c.scenario, jira: jiraSummary,
+      status: j.status || 'non-exécuté', severity: bug ? bug.severity : null,
+      blocker: j.blocker ? j.blocker.reason : null,
+      progressed: j.progressedSteps || 0, total: j.totalSteps || (c.steps || []).length,
+      assertMet: (j.assertion || {}).met || 0, assertTotal: (j.assertion || {}).total || 0,
+      fieldsFilled: j.fieldsFilled || 0,
+      steps: c.steps || [], expected: c.expectedSteps || [], jdd: c.datasets || {}, rg: c.confluence.rules || [],
+      video: exists(videoAbs) ? `${relDir}/journey.mp4` : null,
+      screenshot: exists(annAbs) ? `${relDir}/screenshot-annotated.png` : (exists(shotAbs) ? `${relDir}/screenshot.png` : null),
+      phrase: `Je veux exécuter la couverture de test fonctionnelle du ticket ${c.issueKey} (cas ${c.caseId}).`,
+    };
+  });
+
+  const tickets = {};
+  for (const c of cases) {
+    if (!tickets[c.ori]) tickets[c.ori] = { ori: c.ori, jira: c.jira, moduleTop: c.moduleTop, cases: [] };
+    tickets[c.ori].cases.push(c);
+    if (!tickets[c.ori].jira && c.jira) tickets[c.ori].jira = c.jira;
+  }
+  const ticketList = Object.values(tickets).sort((a, b) => Number(a.ori.split('-')[1]) - Number(b.ori.split('-')[1]));
+
+  const kpi = {
+    cas: cases.length, tickets: ticketList.length, rg: catalog.rules.length,
+    passed: cases.filter((c) => c.status === 'passed').length,
+    blockedFlow: cases.filter((c) => /blocked-flow|assertion-low/.test(c.status)).length,
+    blockedData: cases.filter((c) => c.status === 'blocked-data').length,
+    videos: cases.filter((c) => c.video).length,
+    bloquant: cases.filter((c) => c.severity === 'bloquant').length,
+    moyen: cases.filter((c) => c.severity === 'moyen').length,
+    mineur: cases.filter((c) => c.severity === 'mineur').length,
+  };
+
+  // Données dans un JSON séparé (poll live sans recharger la page → la vidéo continue).
+  fs.writeFileSync(path.join(deliverableDir, 'orion-dashboard-data.json'),
+    JSON.stringify({ tickets: ticketList, kpi, generatedAt: new Date().toISOString() }));
+  fs.writeFileSync(path.join(deliverableDir, 'orion-dashboard.html'), TEMPLATE);
+  console.log(`Dashboard généré : mon-espace/.../orion-dashboard.html (+ data.json)`);
+  console.log(`  ${kpi.cas} scénarios · ${kpi.tickets} tickets · ${kpi.videos} vidéos MP4 · bugs ${kpi.bloquant}/${kpi.moyen}/${kpi.mineur}`);
+}
+
+const TEMPLATE = `<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Orion — Dashboard de recette Playwright</title>
+<style>
+:root{--navy:#17324D;--blue:#246BCE;--cyan:#3CBCC3;--green:#2E9D69;--orange:#F29F3D;--gold:#E0B000;--red:#D9534F;--ink:#243447;--muted:#65758B;--pale:#EEF4F8;--line:#D8E4EC;--bg:#F4F7FA}
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:'Aptos','Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--ink);height:100vh;display:flex;flex-direction:column;overflow:hidden}
+header{background:var(--navy);color:#fff;padding:10px 18px;display:flex;align-items:center;gap:18px;flex-shrink:0}
+header .brand{font-weight:800;font-size:18px}header .brand b{color:var(--cyan)}
+#live{background:#2E9D69;color:#fff;font-size:10px;font-weight:800;padding:2px 9px;border-radius:10px;margin-left:10px;display:none}
+.runbar{display:flex;align-items:center;gap:8px;margin-left:22px}
+.runbar select{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.2);border-radius:7px;padding:5px 8px;font-size:12px}
+.runbar select option{color:#17324D}
+.run{background:var(--green);color:#fff;border:0;border-radius:7px;padding:6px 12px;font-size:12px;font-weight:700;cursor:pointer}
+.run:hover{filter:brightness(1.08)}.stop{background:var(--red);color:#fff;border:0;border-radius:7px;padding:6px 10px;font-size:12px;font-weight:700;cursor:pointer}
+.runstatus{font-size:11px;color:#B9CBDD;min-width:120px}.runstatus.on{color:#7EE0B0;font-weight:700}
+.runmini{margin-left:6px;background:var(--green);color:#fff;border:0;border-radius:6px;padding:2px 8px;font-size:11px;cursor:pointer;flex-shrink:0}
+.runcase{background:var(--green);color:#fff;border:0;border-radius:7px;padding:6px 12px;font-size:12px;font-weight:700;cursor:pointer;margin:2px 0 6px}
+header .kpis{display:flex;gap:14px;margin-left:auto;flex-wrap:wrap}
+.kpi{background:rgba(255,255,255,.08);border-radius:8px;padding:4px 12px;text-align:center;min-width:64px}
+.kpi .v{font-size:18px;font-weight:800;line-height:1.1}.kpi .l{font-size:9px;color:#B9CBDD;text-transform:uppercase;letter-spacing:.5px}
+.kpi.g .v{color:#7EE0B0}.kpi.o .v{color:#FFCE86}.kpi.r .v{color:#FF9B96}.kpi.c .v{color:var(--cyan)}
+main{flex:1;display:grid;grid-template-columns:360px 1fr 340px;overflow:hidden}
+.col{overflow-y:auto;height:100%}.left{background:#fff;border-right:1px solid var(--line)}
+.search{position:sticky;top:0;background:#fff;padding:10px;border-bottom:1px solid var(--line);z-index:2}
+.search input{width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:8px;font-size:13px}
+.tk{border-bottom:1px solid var(--line)}.tk-h{display:flex;align-items:center;gap:8px;padding:10px 12px;cursor:pointer}
+.tk-h:hover{background:var(--pale)}.tk-h .ori{font-weight:800;color:var(--blue);font-size:12px;min-width:64px}
+.tk-h .sum{font-size:11px;color:var(--muted);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tk-h .cnt{font-size:10px;color:#fff;background:var(--navy);border-radius:10px;padding:1px 7px}
+.tk-body{display:none}.tk.open .tk-body{display:block}
+.sc{display:flex;align-items:center;gap:8px;padding:7px 12px 7px 20px;cursor:pointer;border-top:1px solid #F0F4F8}
+.sc:hover{background:var(--pale)}.sc.active{background:#E3EEFB;border-left:3px solid var(--blue)}
+.dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+.dot.passed{background:var(--green)}.dot.blocked-flow,.dot.assertion-low{background:var(--orange)}.dot.blocked-data{background:var(--muted)}.dot.non{background:#C3CEDA}
+.sev{width:9px;height:9px;border-radius:2px}.sev.bloquant{background:var(--red)}.sev.moyen{background:var(--orange)}.sev.mineur{background:var(--gold)}
+.sc .cid{font-weight:700;font-size:11px;min-width:96px}.sc .txt{font-size:11px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sc .cam{font-size:11px;opacity:.35}.sc .cam.on{opacity:1;color:var(--blue)}
+.center{background:var(--bg);padding:16px;display:flex;flex-direction:column;gap:12px}
+.player{background:#000;border-radius:12px;overflow:hidden;position:relative;aspect-ratio:16/9;display:flex;align-items:center;justify-content:center}
+.player video,.player img{width:100%;height:100%;object-fit:contain;background:#000}
+.player .ph{color:#7a8aa0;font-size:14px;text-align:center;padding:20px}
+.det{background:#fff;border-radius:12px;padding:16px;box-shadow:0 1px 3px rgba(23,50,77,.08)}
+.det h2{font-size:17px;color:var(--navy)}.det .meta{font-size:11px;color:var(--muted);margin-bottom:10px}
+.badge{display:inline-block;font-size:10px;font-weight:800;color:#fff;padding:2px 9px;border-radius:10px;text-transform:uppercase}
+.badge.passed{background:var(--green)}.badge.blocked-flow,.badge.assertion-low{background:var(--orange)}.badge.blocked-data{background:var(--muted)}.badge.non{background:#9AA8B6}
+.badge.bloquant{background:var(--red)}.badge.moyen{background:var(--orange)}.badge.mineur{background:var(--gold)}
+.phrase{background:var(--pale);border:1px dashed var(--blue);border-radius:8px;padding:9px 12px;font-size:12px;color:var(--navy);margin:10px 0;display:flex;align-items:center;gap:8px}
+.phrase code{flex:1;font-family:ui-monospace,monospace}.copy{cursor:pointer;font-size:10px;background:var(--blue);color:#fff;border:0;border-radius:6px;padding:4px 8px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:10px}
+.block{background:#F9FBFD;border:1px solid var(--line);border-radius:8px;padding:10px}
+.block h4{font-size:11px;text-transform:uppercase;color:var(--blue);letter-spacing:.5px;margin-bottom:6px}
+.block ol{margin-left:16px;font-size:11.5px;line-height:1.5}.block p{font-size:11.5px;line-height:1.5}
+.blocker{background:#FDECEA;border:1px solid var(--red);border-radius:8px;padding:9px 12px;font-size:11.5px;color:#8A2A24;margin-top:10px}
+.right{background:#fff;border-left:1px solid var(--line);padding:14px}
+.right h3{font-size:12px;text-transform:uppercase;color:var(--navy);letter-spacing:.5px;margin:6px 0 10px}
+.bar{height:10px;border-radius:6px;background:var(--pale);overflow:hidden;display:flex;margin-bottom:6px}.bar i{display:block;height:100%}
+.legend{font-size:11px;color:var(--muted);display:flex;flex-direction:column;gap:4px;margin-bottom:14px}
+.legend span{display:flex;align-items:center;gap:6px}.legend b{margin-left:auto;color:var(--ink)}
+.hist{display:flex;flex-direction:column;gap:6px}.hist .h{display:flex;align-items:center;gap:8px;padding:7px 9px;border:1px solid var(--line);border-radius:8px;cursor:pointer;font-size:11px}
+.hist .h:hover{background:var(--pale)}.hist .h .cam{color:var(--blue)}
+footer{background:var(--navy);color:#B9CBDD;font-size:10px;padding:6px 18px;text-align:right;flex-shrink:0}
+</style></head><body>
+<header><div class="brand">Atos · <b>Orion</b> — Recette Playwright<span id="live">● LIVE</span></div>
+<div class="runbar">
+ <select id="viewmode" title="Mode navigateur"><option value="headless">👁 Invisible</option><option value="corner">🪟 Coin</option><option value="headed">🖥 Visible</option></select>
+ <button class="run" onclick="runAll()">▶ Lancer TOUT</button>
+ <button class="stop" onclick="stopRun()">⏹ Stop</button>
+ <span id="runstatus" class="runstatus">prêt</span>
+</div>
+<div class="kpis" id="kpis"></div></header>
+<main>
+ <div class="col left"><div class="search"><input id="q" placeholder="Filtrer par ticket, cas, mot-clé…" oninput="render()"></div><div id="tickets"></div></div>
+ <div class="col center">
+  <div class="player" id="player"><div class="ph">◀ Sélectionne un scénario fonctionnel à gauche pour lire sa vidéo MP4 de parcours réel sur INT2</div></div>
+  <div class="det" id="det"><h2>Dashboard de recette Orion</h2><p class="meta">Sprints 11 · 12 · 13 — INT2 — parcours Playwright autonomes, preuves vidéo par ticket.</p><p style="font-size:12px;color:var(--muted);margin-top:8px">Clique un scénario : sa vidéo se lit ici (streaming HTTP, sans interruption), avec le détail fonctionnel, les jeux de données, les résultats attendus et le point de blocage.</p></div>
+ </div>
+ <div class="col right"><h3>Couverture</h3><div id="cov"></div><h3>Historique des vidéos</h3><div class="hist" id="hist"></div></div>
+</main>
+<footer id="foot"></footer>
+<script>
+let DB={tickets:[],kpi:{}},active=null;
+const fmtStatus=s=>({'passed':'Passé','blocked-flow':'Bloqué flux','assertion-low':'Assertions faibles','blocked-data':'Bloqué données','non-exécuté':'Non exécuté'}[s]||s);
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+function kpis(){const k=DB.kpi;document.getElementById('kpis').innerHTML=[['c',k.cas,'Scénarios'],['c',k.tickets,'Tickets'],['g',k.passed,'Passés'],['o',k.blockedFlow,'Bloqués'],['',k.videos,'Vidéos MP4'],['r',k.bloquant,'Bloquants'],['o',k.moyen,'Moyens'],['',k.mineur,'Mineurs']].map(([c,v,l])=>'<div class="kpi '+c+'"><div class="v">'+(v||0)+'</div><div class="l">'+l+'</div></div>').join('');document.getElementById('foot').textContent='MàJ '+new Date(DB.generatedAt).toLocaleTimeString('fr-FR')+' · '+(k.cas||0)+' scénarios · '+(k.videos||0)+' vidéos MP4 · charte Atos';}
+function coverage(){const k=DB.kpi,tot=k.cas||1,seg=[[k.passed,'#2E9D69'],[k.blockedFlow,'#F29F3D'],[k.blockedData,'#65758B']];document.getElementById('cov').innerHTML='<div class="bar">'+seg.map(([v,c])=>'<i style="width:'+((v||0)/tot*100)+'%;background:'+c+'"></i>').join('')+'</div><div class="legend"><span><span class="dot passed"></span> Passés <b>'+(k.passed||0)+'</b></span><span><span class="dot blocked-flow"></span> Bloqués flux <b>'+(k.blockedFlow||0)+'</b></span><span><span class="dot blocked-data"></span> Bloqués données <b>'+(k.blockedData||0)+'</b></span><span><span class="sev bloquant"></span> Bugs bloquants <b>'+(k.bloquant||0)+'</b></span><span><span class="sev moyen"></span> Bugs moyens <b>'+(k.moyen||0)+'</b></span><span><span class="sev mineur"></span> Bugs mineurs <b>'+(k.mineur||0)+'</b></span></div>';}
+function render(){const q=(document.getElementById('q').value||'').toLowerCase(),host=document.getElementById('tickets'),openOris=new Set([...host.querySelectorAll('.tk.open')].map(t=>t.dataset.ori));host.innerHTML='';DB.tickets.forEach(t=>{const cs=t.cases.filter(c=>!q||(t.ori+' '+t.jira+' '+c.caseId+' '+c.scenario).toLowerCase().includes(q));if(!cs.length)return;const tk=document.createElement('div');tk.className='tk'+(q||openOris.has(t.ori)?' open':'');tk.dataset.ori=t.ori;tk.innerHTML='<div class="tk-h"><span class="ori">'+t.ori+'</span><span class="sum">'+esc(t.jira||t.moduleTop)+'</span><span class="cnt">'+cs.length+'</span><button class="runmini" onclick="event.stopPropagation();runTicket(\\''+t.ori+'\\')" title="Lancer la couverture 100% de ce ticket">▶</button></div><div class="tk-body"></div>';tk.querySelector('.tk-h').onclick=()=>tk.classList.toggle('open');const body=tk.querySelector('.tk-body');cs.forEach(c=>{const el=document.createElement('div');el.className='sc'+(active&&active.id===c.id?' active':'');el.dataset.id=c.id;el.innerHTML='<span class="dot '+(c.status||'non')+'"></span>'+(c.severity?'<span class="sev '+c.severity+'"></span>':'')+'<span class="cid">'+c.caseId+'</span><span class="txt">'+esc(c.scenario)+'</span><span class="cam'+(c.video?' on':'')+'">'+(c.video?'▶':'·')+'</span>';el.onclick=()=>play(c,el);body.appendChild(el);});host.appendChild(tk);});}
+function play(c,el){active=c;document.querySelectorAll('.sc.active').forEach(x=>x.classList.remove('active'));if(el)el.classList.add('active');const p=document.getElementById('player');if(c.video)p.innerHTML='<video src="'+c.video+'" controls autoplay muted loop playsinline></video>';else if(c.screenshot)p.innerHTML='<img src="'+c.screenshot+'">';else p.innerHTML='<div class="ph">Vidéo pas encore générée.<br>Elle apparaîtra automatiquement (dashboard live).</div>';const steps=c.steps.map(s=>'<li>'+esc(s)+'</li>').join(''),exp=c.expected.map(s=>'<li>'+esc(s)+'</li>').join(''),jdd=['standard','boundary','error'].map(k=>c.jdd[k]&&!/^N\\/?A/i.test(c.jdd[k])?'<b>'+({standard:'Standard',boundary:'Limite',error:'Erreur'}[k])+' :</b> '+esc(c.jdd[k]):'').filter(Boolean).join('<br>');document.getElementById('det').innerHTML='<h2>'+c.ori+' — '+c.caseId+' <span class="badge '+(c.status||'non')+'">'+fmtStatus(c.status)+'</span>'+(c.severity?' <span class="badge '+c.severity+'">bug '+c.severity+'</span>':'')+'</h2><p class="meta">'+esc(c.jira)+' · '+esc(c.module)+' · '+c.priority+' · '+c.type+' · Étapes '+c.progressed+'/'+c.total+' · Assertions '+c.assertMet+'/'+c.assertTotal+' · Champs '+c.fieldsFilled+'</p><div class="phrase"><code>'+esc(c.phrase)+'</code><button class="copy" onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent)">copier</button></div><button class="runcase" onclick="runCase(\\''+c.ori+'\\',\\''+c.caseId+'\\')">▶ Lancer ce cas ('+c.caseId+')</button><p style="font-size:12.5px;line-height:1.5"><b>Scénario fonctionnel :</b> '+esc(c.scenario)+'</p>'+(c.blocker?'<div class="blocker"><b>🧱 Point de blocage :</b> '+esc(c.blocker)+'</div>':'')+'<div class="grid2"><div class="block"><h4>Pas de test (actions)</h4><ol>'+steps+'</ol></div><div class="block"><h4>Résultats attendus</h4><ol>'+exp+'</ol></div></div>'+(jdd?'<div class="block" style="margin-top:10px"><h4>Jeux de données</h4><p>'+jdd+'</p></div>':'')+(c.rg.length?'<div class="block" style="margin-top:10px"><h4>Règles de gestion</h4><p>'+c.rg.map(esc).join(', ')+'</p></div>':'');}
+function history(){const vids=[];DB.tickets.forEach(t=>t.cases.forEach(c=>{if(c.video)vids.push(c)}));document.getElementById('hist').innerHTML=vids.slice(0,80).map(c=>'<div class="h" onclick="playById(\\''+c.id+'\\')"><span class="cam">▶</span><span class="dot '+(c.status||'non')+'"></span><b>'+c.ori+'</b> '+c.caseId+(c.severity?' <span class="sev '+c.severity+'" style="display:inline-block"></span>':'')+'</div>').join('')||'<p style="font-size:11px;color:var(--muted)">Aucune vidéo encore. Le run les génère au fil de l\\'eau.</p>';}
+function playById(id){for(const t of DB.tickets)for(const c of t.cases)if(c.id===id){const el=[...document.querySelectorAll('.sc')].find(x=>x.dataset.id===id);if(el){el.closest('.tk').classList.add('open');el.scrollIntoView({block:'center'});}play(c,el);return;}}
+async function load(first){try{const r=await fetch('orion-dashboard-data.json?t='+Date.now());DB=await r.json();kpis();coverage();render();history();if(first&&location.search.includes('live'))document.getElementById('live').style.display='inline-block';}catch(e){console.warn('load',e);}}
+async function api(p,b){const r=await fetch(p,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(b||{})});return r.json();}
+function flash(m){const s=document.getElementById('runstatus');if(s)s.textContent=m;}
+async function runAll(){const v=document.getElementById('viewmode').value;const r=await api('/api/run',{view:v});flash(r.ok?'▶ Run lancé (TOUT · '+v+')':(r.error||'occupé'));}
+async function runTicket(o){const v=document.getElementById('viewmode').value;const r=await api('/api/run',{grep:o+' - ',view:v});flash(r.ok?'▶ Run '+o+' ('+v+')':(r.error||'occupé'));}
+async function runCase(o,c){const v=document.getElementById('viewmode').value;const r=await api('/api/run',{grep:o+' - '+c,view:v});flash(r.ok?'▶ Run '+o+' '+c:(r.error||'occupé'));}
+async function stopRun(){await api('/api/stop',{});flash('⏹ arrêté');}
+async function pollStatus(){try{const r=await fetch('/api/status').then(x=>x.json());const s=document.getElementById('runstatus');if(!s)return;if(r.running){s.textContent='● en cours ('+r.view+') · '+r.journeys+' cas'+(r.last?' · '+r.last:'');s.className='runstatus on';}else{s.textContent=r.journeys?('prêt · '+r.journeys+' cas exécutés'):'prêt';s.className='runstatus';}}catch(e){}}
+setInterval(pollStatus,4000);pollStatus();
+load(true);
+if(location.search.includes('live'))setInterval(()=>load(false),15000);
+</script></body></html>`;
+
+build();

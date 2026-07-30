@@ -1,0 +1,96 @@
+/* ═══════════════════════════════════════════════════════
+   Orion Design System — Component CSS
+   Used with Tailwind CDN v4 via <style type="text/tailwindcss">
+   ═══════════════════════════════════════════════════════ */
+
+/* ── Theme tokens (from DESIGN.md) ── */
+@theme {
+  --color-primary: #013aba;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #eaf0ff;
+  --color-on-primary-container: #263f7a;
+  --color-surface: #ffffff;
+  --color-on-surface: #1d2024;
+  --color-on-surface-variant: #48546d;
+  --color-outline: #dee2e9;
+  --color-outline-dark: #373b44;
+  --color-neutral-container: #e6e8eb;
+  --color-muted: #8e96a3;
+  --color-dark-text: #121316;
+  --color-info-container: #e0e7ff;
+  --color-on-info: #150792;
+  --color-info-link: #3e2bc5;
+  --color-warning-container: #fff4e5;
+  --color-on-warning: #8f2800;
+  --color-error-container: #ffe5e5;
+  --color-on-error: #9f0712;
+  --color-success-container: #e8fdef;
+  --color-on-success: #017437;
+  --color-success-link: #015b2b;
+  --color-success-border: #008236;
+  --color-success-border-hover: #006a2b;
+  --color-success-dark: #0d7a3c;
+
+  /* Interaction states */
+  --color-primary-hover: #0130a0;
+  --color-primary-active: #0a359f;
+  --color-primary-pressed: #012d94;
+  --color-primary-dark: #0c3289;
+  --color-primary-container-hover: #ccdcff;
+  --color-primary-container-active: #dce6ff;
+  --color-primary-container-dark: #c0d4ff;
+  --color-primary-muted: #3557a0;
+  --color-error-text: #b2271e;
+  --color-error-text-hover: #9a211a;
+
+  /* Surface & text variants */
+  --color-on-surface-strong: #181d27;
+  --color-on-surface-subtle: #535862;
+  --color-surface-variant: #f8f9fb;
+  --color-surface-hover: #fafafa;
+
+  /* Outline variants */
+  --color-outline-light: #e7e8e9;
+  --color-outline-variant: #dcdfe3;
+  --color-outline-muted: #d0d5dd;
+
+  /* Muted & disabled variants */
+  --color-muted-dark: #7381a2;
+  --color-muted-variant: #7a859b;
+  --color-disabled: #9ca0a6;
+  --color-disabled-dark: #a4a7ae;
+  --color-disabled-light: #9ca3af;
+  --color-placeholder: #717680;
+
+  /* Misc */
+  --color-link: #3366cc;
+  --color-black: #000000;
+  --color-success-accent: #16a34a;
+
+  --font-body: 'Inter', sans-serif;
+
+  /* Spacing — from Figma layout/padding/* tokens */
+  --spacing-none: 0px;
+  --spacing-2xs: 2px;
+  --spacing-xs: 4px;
+  --spacing-sm: 6px;
+  --spacing-md: 8px;
+  --spacing-lg: 12px;
+  --spacing-xl: 14px;
+  --spacing-2xl: 16px;
+  --spacing-3xl: 18px;
+  --spacing-4xl: 20px;
+  --spacing-5xl: 24px;
+
+  /* Radius — from Figma layout/radius/* tokens */
+  --radius-sm: 6px;
+  --radius-full: 999px;
+  /* Button radius is component-scoped (button/filled/container/shape = 4px) */
+  --radius-button: 4px;
+}
+
+/* Material Symbols base settings */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 20;
+}
+

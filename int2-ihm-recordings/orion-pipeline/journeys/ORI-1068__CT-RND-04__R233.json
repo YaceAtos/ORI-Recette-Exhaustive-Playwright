@@ -1,0 +1,37 @@
+{
+  "canonicalId": "ORI-1068::CT-RND-04::R233",
+  "issueKey": "ORI-1068",
+  "caseId": "CT-RND-04",
+  "module": "MP4 > SP4.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_BSN_QUAL_02 / CA-03 - Champs conditionnels (affichage/masquage + reinitialisation)",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 5,
+  "progressedSteps": 3,
+  "totalSteps": 5,
+  "blocker": {
+    "step": 4,
+    "reason": "Étape \"Changer le champ source pour une valeur non declenchante\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 2,
+    "misses": [
+      {
+        "text": "Valeur"
+      },
+      {
+        "text": "Valeur"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_BSN_QUAL_02"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-7a64b--masquage-reinitialisation--orion-headed"
+}

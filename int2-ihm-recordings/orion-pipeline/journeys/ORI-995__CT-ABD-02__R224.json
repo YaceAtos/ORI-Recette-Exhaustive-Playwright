@@ -1,0 +1,41 @@
+{
+  "canonicalId": "ORI-995::CT-ABD-02::R224",
+  "issueKey": "ORI-995",
+  "caseId": "CT-ABD-02",
+  "module": "MP4 > SP4.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_BSN_ABAND_MOTIF_01 / CA-01 - Abandon avec un motif standard (different de 'Autre')",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 2,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 3,
+    "reason": "Étape \"Cliquer sur Valider\" nécessite une action persistante (Valider) — bloquée par garde non-persistance"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 3,
+    "misses": [
+      {
+        "text": "Modale"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Abandonne"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_BSN_ABAND_MOTIF_01",
+    "RG_BSN_ABAND_VALID_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-d4fba-tandard-different-de-Autre--orion-headed"
+}

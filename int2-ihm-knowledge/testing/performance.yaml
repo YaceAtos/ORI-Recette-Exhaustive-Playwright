@@ -1,0 +1,4 @@
+testing:
+  performance:
+    max_field_fill_ms: 500
+    max_create_flow_ms: 45000

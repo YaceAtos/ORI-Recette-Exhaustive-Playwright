@@ -1,0 +1,7 @@
+testing:
+  boundary:
+    string:
+      min_length_cases: [1, 2]
+      max_length_cases: [79, 80, 81]
+    numeric:
+      common_cases: [0, 1, 9, 10]

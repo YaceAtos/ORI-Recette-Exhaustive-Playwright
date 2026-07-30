@@ -1,0 +1,182 @@
+/* ═══════════════════════════════════════════════════════
+   SEARCH BAR
+   ═══════════════════════════════════════════════════════ */
+
+.orion-search {
+  position: relative;
+  width: 100%;
+  font-family: var(--font-body), sans-serif;
+}
+
+/* ── Input wrapper ── */
+.orion-search__wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-outline);
+  border-radius: var(--radius-md);
+  transition: border-color 150ms;
+  cursor: text;
+}
+
+.orion-search__wrapper:hover {
+  border-color: var(--color-on-surface);
+}
+
+/* ── Label ── */
+.orion-search__label {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--color-on-surface-variant);
+  pointer-events: none;
+  transition: all 150ms ease;
+  background: transparent;
+  padding: 0;
+}
+
+/* Label floated */
+.orion-search--float .orion-search__label {
+  top: 0;
+  transform: translateY(-50%);
+  font-size: 12px;
+  line-height: 16px;
+  padding: 0 4px;
+  background: var(--color-surface);
+  left: 12px;
+}
+
+.orion-search--focus .orion-search__label {
+  color: var(--color-primary);
+}
+
+/* ── Input ── */
+.orion-search__input {
+  flex: 1;
+  min-width: 0;
+  height: 38px;
+  padding: 0 0 0 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: var(--color-on-surface);
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: inherit;
+  border-radius: var(--radius-md);
+}
+
+.orion-search__input::placeholder {
+  color: transparent;
+}
+
+/* ── Trailing icon ── */
+.orion-search__trailing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 40px;
+  height: 38px;
+  color: var(--color-placeholder);
+  pointer-events: none;
+}
+
+.orion-search__icon {
+  width: 16px;
+  height: 16px;
+}
+
+/* ── Focus state ── */
+.orion-search--focus .orion-search__wrapper {
+  border: 2px solid var(--color-primary);
+}
+
+.orion-search--focus .orion-search__wrapper:hover {
+  border-color: var(--color-primary);
+}
+
+.orion-search--focus .orion-search__input {
+  height: 36px;
+  padding-left: 15px;
+}
+
+.orion-search--focus .orion-search__trailing {
+  height: 36px;
+}
+
+/* ── Dropdown ── */
+.orion-search__dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  box-shadow:
+    0 2px 4px -2px rgba(0, 0, 0, 0.06),
+    0 4px 8px -2px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  z-index: 10;
+  display: none;
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.orion-search--focus .orion-search__dropdown {
+  display: block;
+}
+
+.orion-search__dropdown:empty {
+  display: none;
+}
+
+/* ── Dropdown items ── */
+.orion-search__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--color-on-surface);
+  cursor: pointer;
+  transition: background-color 100ms;
+}
+
+.orion-search__item:hover {
+  background: rgba(29, 32, 36, 0.08);
+}
+
+.orion-search__item--selected {
+  background: rgba(29, 32, 36, 0.04);
+  font-weight: 500;
+}
+
+.orion-search__item--selected:hover {
+  background: rgba(29, 32, 36, 0.08);
+}
+
+.orion-search__check {
+  width: 16px;
+  height: 16px;
+  color: var(--color-primary);
+  flex-shrink: 0;
+}
+
+.orion-search__item:not(.orion-search__item--selected) .orion-search__check {
+  display: none;
+}
+
+.orion-search .material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 20;
+}

@@ -1,0 +1,318 @@
+{
+  "pageId": "/crm/pages/leads",
+  "pageUrl": "https://orion-int2.itsap.net/crm/pages/leads",
+  "agentId": "page-agent-003",
+  "runAt": "2026-07-21T08:20:15.943Z",
+  "success": true,
+  "error": null,
+  "extract": {
+    "title": "Orion",
+    "url": "https://orion-int2.itsap.net/crm/pages/leads",
+    "headings": [
+      {
+        "text": "Leads",
+        "tag": "h3",
+        "id": null,
+        "className": "lead-title",
+        "role": null
+      }
+    ],
+    "buttons": [
+      {
+        "text": "add Créer",
+        "tag": "button",
+        "id": null,
+        "className": "mdc-button mat-mdc-button-base mdc-button--unelevated mat-mdc-unelevated-button mat-unthemed",
+        "role": null
+      },
+      {
+        "text": "Réinitialiser les filtres",
+        "tag": "button",
+        "id": null,
+        "className": "mdc-button mat-mdc-button-base mat-mdc-button mat-unthemed",
+        "role": null
+      },
+      {
+        "text": "Nom",
+        "tag": "div",
+        "id": null,
+        "className": "mat-sort-header-container mat-focus-indicator mat-sort-header-sorted mat-sort-header-descending",
+        "role": "button"
+      },
+      {
+        "text": "Prénom",
+        "tag": "div",
+        "id": null,
+        "className": "mat-sort-header-container mat-focus-indicator mat-sort-header-descending",
+        "role": "button"
+      },
+      {
+        "text": "Email",
+        "tag": "div",
+        "id": null,
+        "className": "mat-sort-header-container mat-focus-indicator mat-sort-header-descending",
+        "role": "button"
+      },
+      {
+        "text": "Statut",
+        "tag": "div",
+        "id": null,
+        "className": "mat-sort-header-container mat-focus-indicator mat-sort-header-descending",
+        "role": "button"
+      },
+      {
+        "text": "Date de création",
+        "tag": "div",
+        "id": null,
+        "className": "mat-sort-header-container mat-focus-indicator mat-sort-header-descending",
+        "role": "button"
+      },
+      {
+        "text": "Dernière modification",
+        "tag": "div",
+        "id": null,
+        "className": "mat-sort-header-container mat-focus-indicator mat-sort-header-descending",
+        "role": "button"
+      },
+      {
+        "text": "auto_awesome",
+        "tag": "button",
+        "id": null,
+        "className": "mdc-fab mat-mdc-fab-base mat-mdc-fab mat-mdc-button-base chatbot-fab mat-accent",
+        "role": null
+      }
+    ],
+    "links": [
+      {
+        "text": "calendar_today Planning",
+        "href": "https://orion-int2.itsap.net/sap/pages/planning"
+      },
+      {
+        "text": "Leads",
+        "href": "/crm/pages/leads"
+      },
+      {
+        "text": "Clients & Prospects",
+        "href": "/crm/pages/clients-prospects"
+      },
+      {
+        "text": "Devis & Contrats",
+        "href": ""
+      },
+      {
+        "text": "Reglements & Factures",
+        "href": ""
+      },
+      {
+        "text": "Entités juridiques",
+        "href": "/crm/pages/clients-professionnels"
+      },
+      {
+        "text": "Intervenants",
+        "href": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur"
+      },
+      {
+        "text": "Temps de travail",
+        "href": ""
+      },
+      {
+        "text": "Paie & Préparation paie",
+        "href": ""
+      },
+      {
+        "text": "Compétences & Aptitudes",
+        "href": ""
+      },
+      {
+        "text": "Organismes financeurs",
+        "href": "https://orion-int2.itsap.net/facturation-paie/reglementaire/pages/organisme-financeur"
+      },
+      {
+        "text": "Partenaires/Apporteurs",
+        "href": ""
+      },
+      {
+        "text": "Rétrocommissions",
+        "href": ""
+      },
+      {
+        "text": "Suivi crédits",
+        "href": ""
+      },
+      {
+        "text": "Zone de couverture",
+        "href": ""
+      },
+      {
+        "text": "Familles & produits",
+        "href": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles"
+      },
+      {
+        "text": "Option & frais",
+        "href": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options"
+      },
+      {
+        "text": "Recrutement",
+        "href": ""
+      },
+      {
+        "text": "Contrats de travail",
+        "href": ""
+      },
+      {
+        "text": "Méd. du travail / URSSAF",
+        "href": ""
+      },
+      {
+        "text": "Règles & Droit du salarié",
+        "href": ""
+      },
+      {
+        "text": "check_circle Suivi qualité",
+        "href": ""
+      },
+      {
+        "text": "Table des faits",
+        "href": "https://orion-int2.itsap.net/facturation-paie/facturation/pages/table-des-faits"
+      },
+      {
+        "text": "Marques",
+        "href": "https://orion-int2.itsap.net/gestion-marque/structure/pages/marque"
+      },
+      {
+        "text": "Structures",
+        "href": "https://orion-int2.itsap.net/gestion-marque/structure/pages/structure"
+      },
+      {
+        "text": "Profils",
+        "href": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils"
+      },
+      {
+        "text": "Utilisateurs",
+        "href": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-users"
+      },
+      {
+        "text": "Droit & Habilitations",
+        "href": ""
+      },
+      {
+        "text": "DMN (Règles)",
+        "href": "https://orion-int2.itsap.net/gestion-marque/configuration/pages/dmn"
+      },
+      {
+        "text": "Catégories (SAP)",
+        "href": "https://orion-int2.itsap.net/gestion-marque/configuration/pages/categories"
+      },
+      {
+        "text": "settings Paramètres",
+        "href": ""
+      }
+    ],
+    "fields": [
+      {
+        "tag": "input",
+        "type": "search",
+        "name": null,
+        "id": "mat-input-0",
+        "role": null,
+        "label": "Rechercher",
+        "placeholder": "Rechercher",
+        "ariaLabel": null,
+        "autocomplete": null,
+        "required": false,
+        "disabled": false,
+        "readonly": false
+      },
+      {
+        "tag": "input",
+        "type": "search",
+        "name": "ng.form0.valeurRecherche",
+        "id": "mat-input-1",
+        "role": null,
+        "label": "Rechercher un lead",
+        "placeholder": null,
+        "ariaLabel": null,
+        "autocomplete": null,
+        "required": false,
+        "disabled": false,
+        "readonly": false
+      },
+      {
+        "tag": "mat-select",
+        "type": "mat-select",
+        "name": null,
+        "id": "mat-select-0",
+        "role": "combobox",
+        "label": null,
+        "placeholder": null,
+        "ariaLabel": null,
+        "autocomplete": null,
+        "required": false,
+        "disabled": false,
+        "readonly": false
+      },
+      {
+        "tag": "mat-select",
+        "type": "mat-select",
+        "name": null,
+        "id": "mat-select-1",
+        "role": "combobox",
+        "label": null,
+        "placeholder": null,
+        "ariaLabel": null,
+        "autocomplete": null,
+        "required": false,
+        "disabled": false,
+        "readonly": false
+      }
+    ],
+    "options": [],
+    "tables": [
+      {
+        "headers": [
+          "Nom",
+          "Prénom",
+          "Téléphone",
+          "Email",
+          "Statut",
+          "Date de création",
+          "Dernière modification"
+        ],
+        "rows": 11
+      }
+    ],
+    "dialogs": [],
+    "alerts": [
+      {
+        "text": "Abandonné",
+        "tag": "div",
+        "id": null,
+        "className": "error gap-md p-x-sm p-y-xs tag-container",
+        "role": null
+      },
+      {
+        "text": "Abandonné",
+        "tag": "div",
+        "id": null,
+        "className": "error gap-md p-x-sm p-y-xs tag-container",
+        "role": null
+      }
+    ],
+    "visibleTextBlocks": [
+      "Rechercher search",
+      "notifications sms",
+      "account_circle John Doe Software Engineer"
+    ],
+    "counters": {
+      "headings": 1,
+      "buttons": 9,
+      "links": 31,
+      "fields": 4,
+      "options": 0,
+      "tables": 1,
+      "dialogs": 0,
+      "alerts": 2,
+      "textBlocks": 3
+    }
+  }
+}

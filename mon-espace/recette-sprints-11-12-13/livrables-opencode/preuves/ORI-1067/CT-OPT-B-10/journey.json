@@ -1,0 +1,46 @@
+{
+  "canonicalId": "ORI-1067::CT-OPT-B-10::R107",
+  "issueKey": "ORI-1067",
+  "caseId": "CT-OPT-B-10",
+  "module": "MP2 > SP2.1",
+  "priority": "P2",
+  "type": "Variante",
+  "scenario": "CA17: Adaptation champ Taxe selon pack reglementaire du pays",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 7,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Se connecter marque France\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 5,
+    "misses": [
+      {
+        "text": "Session"
+      },
+      {
+        "text": "Formulaire"
+      },
+      {
+        "text": "Valeurs"
+      },
+      {
+        "text": "Session"
+      },
+      {
+        "text": "Formulaire"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_OPT_CREATE_07"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-e0829--pack-reglementaire-du-pays-orion-headed"
+}

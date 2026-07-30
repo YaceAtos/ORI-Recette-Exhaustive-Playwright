@@ -1,0 +1,38 @@
+{
+  "canonicalId": "ORI-956::CT-ABH-01::R164",
+  "issueKey": "ORI-956",
+  "caseId": "CT-ABH-01",
+  "module": "MP3 > SP3.4",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_INT_ABAHED/ABAHEF_1 - Visibilite des champs heure selon 'Heures possibles'",
+  "route": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 5,
+  "progressedSteps": 4,
+  "totalSteps": 4,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Combinaison"
+      },
+      {
+        "text": "Champs"
+      },
+      {
+        "text": "Combinaison"
+      },
+      {
+        "text": "il n"
+      }
+    ]
+  },
+  "severity": "moyen",
+  "status": "assertion-low",
+  "rules": [],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-8fa4b-ure-selon-Heures-possibles--orion-headed"
+}

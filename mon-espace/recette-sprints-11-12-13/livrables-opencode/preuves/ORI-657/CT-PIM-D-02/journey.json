@@ -1,0 +1,43 @@
+{
+  "canonicalId": "ORI-657::CT-PIM-D-02::R81",
+  "issueKey": "ORI-657",
+  "caseId": "CT-PIM-D-02",
+  "module": "MP2 > SP2.1",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "CA03+CA04+CA16: Modification nom et code avec succes + normalisation code",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 8,
+  "progressedSteps": 2,
+  "totalSteps": 6,
+  "blocker": {
+    "step": 3,
+    "reason": "Étape \"Cliquer Enregistrer\" nécessite une action persistante (Enregistrer) — bloquée par garde non-persistance"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 3,
+    "misses": [
+      {
+        "text": "Enregistrement"
+      },
+      {
+        "text": "Modale"
+      },
+      {
+        "text": "Nouveau"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_FAM_UPD_03",
+    "RG_FAM_UPD_04",
+    "RG_FAM_UPD_05",
+    "RG_FAM_UPD_10"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-7cb42-c-succes-normalisation-code-orion-headed"
+}

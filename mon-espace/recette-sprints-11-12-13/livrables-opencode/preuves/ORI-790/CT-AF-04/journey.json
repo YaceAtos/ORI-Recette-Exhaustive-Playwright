@@ -1,0 +1,40 @@
+{
+  "canonicalId": "ORI-790::CT-AF-04::R281",
+  "issueKey": "ORI-790",
+  "caseId": "CT-AF-04",
+  "module": "MP6 > SP6.1",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_PAP_PEC_01 / CA_PAP_PEC_01/02 - Calcul bidirectionnel taux PEC <-> montant PEC",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 15,
+  "progressedSteps": 5,
+  "totalSteps": 5,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Volume"
+      },
+      {
+        "text": "Montant"
+      },
+      {
+        "text": "Montant"
+      },
+      {
+        "text": "Reste a charge"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "assertion-low",
+  "rules": [
+    "RG_PAP_PEC_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-2bb3b-nnel-taux-PEC---montant-PEC-orion-headed"
+}

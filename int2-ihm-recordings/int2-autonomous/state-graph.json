@@ -1,0 +1,587 @@
+{
+  "generatedAt": "2026-07-24T13:28:41.350Z",
+  "baseUrl": "https://orion-int2.itsap.net",
+  "startPath": "/gestion-admin/pages/collaborateur",
+  "maxPages": 18,
+  "discoveredPages": 17,
+  "discoveredEdges": 16,
+  "nodes": [
+    {
+      "id": "/gestion-admin/pages/collaborateur",
+      "url": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+      "discoveredFrom": null,
+      "discoveredVia": "seed",
+      "semantic": {
+        "pageTitle": "Orion",
+        "headings": [
+          "Collaborateurs"
+        ],
+        "buttonLabels": [
+          "add Créer",
+          "Réinitialiser les filtres",
+          "Tous",
+          "Intervenant",
+          "Opérationnel agence",
+          "Nom",
+          "Prénom",
+          "Type",
+          "Date de naissance",
+          "Statut du collaborateur",
+          "Etat de la fiche",
+          "Dernière modification",
+          "auto_awesome"
+        ],
+        "counters": {
+          "buttons": 13,
+          "forms": 1,
+          "tables": 1,
+          "searchboxes": 2,
+          "dialogs": 0
+        }
+      }
+    },
+    {
+      "id": "/sap/pages/planning",
+      "url": "https://orion-int2.itsap.net/sap/pages/planning",
+      "discoveredFrom": "/gestion-admin/pages/collaborateur",
+      "discoveredVia": "calendar_today Planning",
+      "semantic": {
+        "pageTitle": "Orion",
+        "headings": [
+          "Planning"
+        ],
+        "buttonLabels": [
+          "add Créer",
+          "Intervenants",
+          "Clients",
+          "Opérationnels agence",
+          "keyboard_arrow_left",
+          "keyboard_arrow_right",
+          "filter_list Filtrer",
+          "search",
+          "auto_awesome"
+        ],
+        "counters": {
+          "buttons": 9,
+          "forms": 1,
+          "tables": 0,
+          "searchboxes": 1,
+          "dialogs": 0
+        }
+      }
+    },
+    {
+      "id": "/crm/pages/leads",
+      "url": "https://orion-int2.itsap.net/crm/pages/leads",
+      "discoveredFrom": "/gestion-admin/pages/collaborateur",
+      "discoveredVia": "Leads",
+      "semantic": {
+        "pageTitle": "Orion",
+        "headings": [
+          "Leads"
+        ],
+        "buttonLabels": [
+          "add Créer",
+          "Réinitialiser les filtres",
+          "Nom",
+          "Prénom",
+          "Email",
+          "Statut",
+          "Date de création",
+          "Dernière modification",
+          "auto_awesome"
+        ],
+        "counters": {
+          "buttons": 9,
+          "forms": 1,
+          "tables": 1,
+          "searchboxes": 2,
+          "dialogs": 0
+        }
+      }
+    },
+    {
+      "id": "/crm/pages/clients-prospects",
+      "url": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+      "discoveredFrom": "/gestion-admin/pages/collaborateur",
+      "discoveredVia": "Clients & Prospects",
+      "semantic": {
+        "pageTitle": "Orion",
+        "headings": [
+          "Clients et prospects"
+        ],
+        "buttonLabels": [
+          "add Créer",
+          "Réinitialiser les filtres",
+          "Référence client",
+          "Nom",
+          "Prénom",
+          "Statut",
+          "Agence",
+          "Dernière modification",
+          "keyboard_arrow_down",
+          "Marseille Vieux-Port, +1",
+          "auto_awesome"
+        ],
+        "counters": {
+          "buttons": 11,
+          "forms": 1,
+          "tables": 1,
+          "searchboxes": 2,
+          "dialogs": 0
+        }
+      }
+    },
+    {
+      "id": "/crm/pages/clients-professionnels",
+      "url": "https://orion-int2.itsap.net/crm/pages/clients-professionnels",
+      "discoveredFrom": "/gestion-admin/pages/collaborateur",
+      "discoveredVia": "Entités juridiques",
+      "semantic": {
+        "pageTitle": "Orion",
+        "headings": [
+          "Entités juridiques"
+        ],
+        "buttonLabels": [
+          "add Créer",
+          "Sites",
+          "Entités juridiques",
+          "Réinitialiser les filtres",
+          "filter_list Filtrer",
+          "Référence client",
+          "Dénomination",
+          "Type d'identité juridique",
+          "Identifiant légal",
+          "Agences",
+          "Ville",
+          "État",
+          "Dernière modification",
+          "auto_awesome"
+        ],
+        "counters": {
+          "buttons": 14,
+          "forms": 1,
+          "tables": 1,
+          "searchboxes": 2,
+          "dialogs": 0
+        }
+      }
+    },
+    {
+      "id": "/facturation-paie/reglementaire/pages/organisme-financeur",
+      "url": "https://orion-int2.itsap.net/facturation-paie/reglementaire/pages/organisme-financeur",
+      "discoveredFrom": "/gestion-admin/pages/collaborateur",
+      "discoveredVia": "Organismes financeurs",
+      "semantic": {
+        "pageTitle": "Orion",
+        "headings": [
+          "Organismes financeurs"
+        ],
+        "buttonLabels": [
+          "upload Import CSV",
+          "download Export CSV",
+          "add Créer",
+          "Réinitialiser les filtres",
+          "Nom",
+          "Nom usuel",
+          "Type",
+          "Zone géographique",
+          "Statut",
+          "Modifié le",
+          "auto_awesome"
+        ],
+        "counters": {
+          "buttons": 11,
+          "forms": 2,
+          "tables": 1,
+          "searchboxes": 2,
+          "dialogs": 0
+        }
+      }
+    },
+    {
+      "id": "/offres-tarifs/pages/catalogue/familles",
+      "url": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+      "discoveredFrom": "/gestion-admin/pages/collaborateur",
+      "discoveredVia": "Familles & produits",
+      "semantic": {
+        "pageTitle": "Orion",
+        "headings": [
+          "Familles et produits"
+        ],
+        "buttonLabels": [
+          "add Créer",
+          "Réinitialiser les filtres",
+          "Familles et produits",
+          "Packages",
+          "Nom",
+          "Code",
+          "Nature",
+          "Statut",
+          "Date de modification",
+          "chevron_right",
+          "chevron_right",
+          "chevron_right",
+          "auto_awesome"
+        ],
+        "counters": {
+          "buttons": 13,
+          "forms": 1,
+          "tables": 1,
+          "searchboxes": 2,
+          "dialogs": 0
+        }
+      }
+    },
+    {
+      "id": "/offres-tarifs/pages/catalogue/options",
+      "url": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options",
+      "discoveredFrom": "/gestion-admin/pages/collaborateur",
+      "discoveredVia": "Option & frais",
+      "semantic": {
+        "pageTitle": "Orion",
+        "headings": [
+          "Options"
+        ],
+        "buttonLabels": [
+          "add Créer",
+          "Réinitialiser les filtres",
+          "Libellé",
+          "Code",
+          "Applicable à",
+          "Taxes",
+          "Unité",
+          "Statut",
+          "Dernière modification",
+          "auto_awesome"
+        ],
+        "counters": {
+          "buttons": 10,
+          "forms": 1,
+          "tables": 1,
+          "searchboxes": 2,
+          "dialogs": 0
+        }
+      }
+    },
+    {
+      "id": "/facturation-paie/facturation/pages/table-des-faits",
+      "url": "https://orion-int2.itsap.net/facturation-paie/facturation/pages/table-des-faits",
+      "discoveredFrom": "/gestion-admin/pages/collaborateur",
+      "discoveredVia": "Table des faits",
+      "semantic": {
+        "pageTitle": "Orion",
+        "headings": [
+          "Table des faits"
+        ],
+        "buttonLabels": [
+          "Tous",
+          "Collecte",
+          "Anomalie",
+          "Archive",
+          "ID",
+          "Contrat",
+          "Client",
+          "Produit",
+          "Type",
+          "Statut",
+          "Date de collecte",
+          "auto_awesome"
+        ],
+        "counters": {
+          "buttons": 12,
+          "forms": 1,
+          "tables": 1,
+          "searchboxes": 2,
+          "dialogs": 0
+        }
+      }
+    },
+    {
+      "id": "/gestion-marque/structure/pages/marque",
+      "url": "https://orion-int2.itsap.net/gestion-marque/structure/pages/marque",
+      "discoveredFrom": "/gestion-admin/pages/collaborateur",
+      "discoveredVia": "Marques",
+      "semantic": {
+        "pageTitle": "Orion",
+        "headings": [
+          "Marques"
+        ],
+        "buttonLabels": [
+          "edit Modifier l'image de la marque",
+          "add Créer",
+          "Identifiant",
+          "Nom",
+          "Date d'archivage",
+          "auto_awesome"
+        ],
+        "counters": {
+          "buttons": 6,
+          "forms": 1,
+          "tables": 1,
+          "searchboxes": 2,
+          "dialogs": 0
+        }
+      }
+    },
+    {
+      "id": "/gestion-marque/structure/pages/structure",
+      "url": "https://orion-int2.itsap.net/gestion-marque/structure/pages/structure",
+      "discoveredFrom": "/gestion-admin/pages/collaborateur",
+      "discoveredVia": "Structures",
+      "semantic": {
+        "pageTitle": "Orion",
+        "headings": [
+          "Structures"
+        ],
+        "buttonLabels": [
+          "add Créer",
+          "Nom",
+          "chevron_right",
+          "chevron_right",
+          "chevron_right",
+          "chevron_right",
+          "chevron_right",
+          "chevron_right",
+          "chevron_right",
+          "chevron_right",
+          "chevron_right",
+          "chevron_right",
+          "chevron_right",
+          "chevron_right"
+        ],
+        "counters": {
+          "buttons": 17,
+          "forms": 1,
+          "tables": 1,
+          "searchboxes": 1,
+          "dialogs": 0
+        }
+      }
+    },
+    {
+      "id": "/gestion-marque/habilitation/pages/habilitation-profils",
+      "url": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils",
+      "discoveredFrom": "/gestion-admin/pages/collaborateur",
+      "discoveredVia": "Profils",
+      "semantic": {
+        "pageTitle": "Orion",
+        "headings": [
+          "Profils"
+        ],
+        "buttonLabels": [
+          "add Créer",
+          "Nom profil",
+          "auto_awesome"
+        ],
+        "counters": {
+          "buttons": 3,
+          "forms": 1,
+          "tables": 1,
+          "searchboxes": 2,
+          "dialogs": 0
+        }
+      }
+    },
+    {
+      "id": "/gestion-marque/habilitation/pages/habilitation-users",
+      "url": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-users",
+      "discoveredFrom": "/gestion-admin/pages/collaborateur",
+      "discoveredVia": "Utilisateurs",
+      "semantic": {
+        "pageTitle": "Orion",
+        "headings": [
+          "Utilisateurs"
+        ],
+        "buttonLabels": [
+          "auto_awesome"
+        ],
+        "counters": {
+          "buttons": 1,
+          "forms": 1,
+          "tables": 1,
+          "searchboxes": 2,
+          "dialogs": 0
+        }
+      }
+    },
+    {
+      "id": "/gestion-marque/configuration/pages/dmn",
+      "url": "https://orion-int2.itsap.net/gestion-marque/configuration/pages/dmn",
+      "discoveredFrom": "/gestion-admin/pages/collaborateur",
+      "discoveredVia": "DMN (Règles)",
+      "semantic": {
+        "pageTitle": "Orion",
+        "headings": [
+          "DMN (Règles)"
+        ],
+        "buttonLabels": [
+          "Réinitialiser les filtres",
+          "Nom",
+          "Version",
+          "Statut",
+          "Date de modification",
+          "Date de publication",
+          "auto_awesome"
+        ],
+        "counters": {
+          "buttons": 7,
+          "forms": 1,
+          "tables": 1,
+          "searchboxes": 2,
+          "dialogs": 0
+        }
+      }
+    },
+    {
+      "id": "/gestion-marque/configuration/pages/categories",
+      "url": "https://orion-int2.itsap.net/gestion-marque/configuration/pages/categories",
+      "discoveredFrom": "/gestion-admin/pages/collaborateur",
+      "discoveredVia": "Catégories (SAP)",
+      "semantic": {
+        "pageTitle": "Orion",
+        "headings": [
+          "Catégories"
+        ],
+        "buttonLabels": [
+          "add Créer",
+          "Réinitialiser les filtres",
+          "Nom de la catégorie",
+          "Code",
+          "Statut",
+          "Date de modification",
+          "auto_awesome"
+        ],
+        "counters": {
+          "buttons": 7,
+          "forms": 1,
+          "tables": 1,
+          "searchboxes": 2,
+          "dialogs": 0
+        }
+      }
+    },
+    {
+      "id": "/sap/",
+      "url": "https://orion-int2.itsap.net/sap/",
+      "discoveredFrom": "/sap/pages/planning",
+      "discoveredVia": "Menu",
+      "semantic": {
+        "pageTitle": "Orion",
+        "headings": [],
+        "buttonLabels": [
+          "auto_awesome"
+        ],
+        "counters": {
+          "buttons": 1,
+          "forms": 1,
+          "tables": 0,
+          "searchboxes": 1,
+          "dialogs": 0
+        }
+      }
+    },
+    {
+      "id": "/facturation-paie/reglementaire/pages",
+      "url": "https://orion-int2.itsap.net/facturation-paie/reglementaire/pages",
+      "discoveredFrom": "/facturation-paie/reglementaire/pages/organisme-financeur",
+      "discoveredVia": "Partenariats",
+      "semantic": {
+        "pageTitle": "Orion",
+        "headings": [],
+        "buttonLabels": [
+          "auto_awesome"
+        ],
+        "counters": {
+          "buttons": 1,
+          "forms": 1,
+          "tables": 0,
+          "searchboxes": 1,
+          "dialogs": 0
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "/gestion-admin/pages/collaborateur",
+      "to": "/sap/pages/planning",
+      "via": "calendar_today Planning"
+    },
+    {
+      "from": "/gestion-admin/pages/collaborateur",
+      "to": "/crm/pages/leads",
+      "via": "Leads"
+    },
+    {
+      "from": "/gestion-admin/pages/collaborateur",
+      "to": "/crm/pages/clients-prospects",
+      "via": "Clients & Prospects"
+    },
+    {
+      "from": "/gestion-admin/pages/collaborateur",
+      "to": "/crm/pages/clients-professionnels",
+      "via": "Entités juridiques"
+    },
+    {
+      "from": "/gestion-admin/pages/collaborateur",
+      "to": "/facturation-paie/reglementaire/pages/organisme-financeur",
+      "via": "Organismes financeurs"
+    },
+    {
+      "from": "/gestion-admin/pages/collaborateur",
+      "to": "/offres-tarifs/pages/catalogue/familles",
+      "via": "Familles & produits"
+    },
+    {
+      "from": "/gestion-admin/pages/collaborateur",
+      "to": "/offres-tarifs/pages/catalogue/options",
+      "via": "Option & frais"
+    },
+    {
+      "from": "/gestion-admin/pages/collaborateur",
+      "to": "/facturation-paie/facturation/pages/table-des-faits",
+      "via": "Table des faits"
+    },
+    {
+      "from": "/gestion-admin/pages/collaborateur",
+      "to": "/gestion-marque/structure/pages/marque",
+      "via": "Marques"
+    },
+    {
+      "from": "/gestion-admin/pages/collaborateur",
+      "to": "/gestion-marque/structure/pages/structure",
+      "via": "Structures"
+    },
+    {
+      "from": "/gestion-admin/pages/collaborateur",
+      "to": "/gestion-marque/habilitation/pages/habilitation-profils",
+      "via": "Profils"
+    },
+    {
+      "from": "/gestion-admin/pages/collaborateur",
+      "to": "/gestion-marque/habilitation/pages/habilitation-users",
+      "via": "Utilisateurs"
+    },
+    {
+      "from": "/gestion-admin/pages/collaborateur",
+      "to": "/gestion-marque/configuration/pages/dmn",
+      "via": "DMN (Règles)"
+    },
+    {
+      "from": "/gestion-admin/pages/collaborateur",
+      "to": "/gestion-marque/configuration/pages/categories",
+      "via": "Catégories (SAP)"
+    },
+    {
+      "from": "/sap/pages/planning",
+      "to": "/sap/",
+      "via": "Menu"
+    },
+    {
+      "from": "/facturation-paie/reglementaire/pages/organisme-financeur",
+      "to": "/facturation-paie/reglementaire/pages",
+      "via": "Partenariats"
+    }
+  ]
+}

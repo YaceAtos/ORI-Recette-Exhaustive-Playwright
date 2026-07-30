@@ -1,0 +1,2782 @@
+meta:
+  generatedAt: '2026-07-21T08:47:24.800Z'
+  source: int2-ihm-recordings/int2-autonomous/int2-multi-agent-exhaustive.yaml
+  baseUrl: https://orion-int2.itsap.net
+  mode: int2-super-report
+totals:
+  briques: 6
+  pages: 17
+  success_pages: 17
+  error_pages: 0
+  fields_total: 71
+  buttons_total: 145
+  links_total: 529
+briques:
+  - name: crm
+    page_count: 3
+  - name: facturation-paie
+    page_count: 3
+  - name: gestion-admin
+    page_count: 1
+  - name: gestion-marque
+    page_count: 6
+  - name: offres-tarifs
+    page_count: 2
+  - name: sap
+    page_count: 2
+global_semantic_coverage:
+  ui.search: 27
+  ui.select: 33
+  unknown: 8
+  person.last_name: 3
+communication:
+  - page_id: /crm/pages/clients-professionnels
+    related_pages:
+      - page: /crm/pages/clients-prospects
+        overlap: 12
+      - page: /gestion-admin/pages/collaborateur
+        overlap: 11
+      - page: /crm/pages/leads
+        overlap: 10
+      - page: /offres-tarifs/pages/catalogue/options
+        overlap: 10
+      - page: /facturation-paie/reglementaire/pages/organisme-financeur
+        overlap: 9
+      - page: /offres-tarifs/pages/catalogue/familles
+        overlap: 9
+      - page: /gestion-marque/configuration/pages/categories
+        overlap: 9
+      - page: /sap/pages/planning
+        overlap: 8
+  - page_id: /crm/pages/clients-prospects
+    related_pages:
+      - page: /gestion-admin/pages/collaborateur
+        overlap: 14
+      - page: /crm/pages/leads
+        overlap: 13
+      - page: /crm/pages/clients-professionnels
+        overlap: 12
+      - page: /offres-tarifs/pages/catalogue/familles
+        overlap: 11
+      - page: /offres-tarifs/pages/catalogue/options
+        overlap: 11
+      - page: /gestion-marque/configuration/pages/categories
+        overlap: 11
+      - page: /facturation-paie/reglementaire/pages/organisme-financeur
+        overlap: 10
+      - page: /sap/pages/planning
+        overlap: 9
+  - page_id: /crm/pages/leads
+    related_pages:
+      - page: /gestion-admin/pages/collaborateur
+        overlap: 14
+      - page: /crm/pages/clients-prospects
+        overlap: 13
+      - page: /offres-tarifs/pages/catalogue/familles
+        overlap: 12
+      - page: /gestion-marque/configuration/pages/categories
+        overlap: 12
+      - page: /offres-tarifs/pages/catalogue/options
+        overlap: 11
+      - page: /crm/pages/clients-professionnels
+        overlap: 10
+      - page: /facturation-paie/reglementaire/pages/organisme-financeur
+        overlap: 10
+      - page: /gestion-marque/configuration/pages/dmn
+        overlap: 10
+  - page_id: /facturation-paie/facturation/pages/table-des-faits
+    related_pages: []
+  - page_id: /facturation-paie/reglementaire/pages
+    related_pages: []
+  - page_id: /facturation-paie/reglementaire/pages/organisme-financeur
+    related_pages:
+      - page: /gestion-admin/pages/collaborateur
+        overlap: 11
+      - page: /crm/pages/leads
+        overlap: 10
+      - page: /crm/pages/clients-prospects
+        overlap: 10
+      - page: /offres-tarifs/pages/catalogue/familles
+        overlap: 10
+      - page: /gestion-marque/configuration/pages/categories
+        overlap: 10
+      - page: /crm/pages/clients-professionnels
+        overlap: 9
+      - page: /offres-tarifs/pages/catalogue/options
+        overlap: 9
+      - page: /gestion-marque/configuration/pages/dmn
+        overlap: 8
+  - page_id: /gestion-admin/pages/collaborateur
+    related_pages:
+      - page: /crm/pages/leads
+        overlap: 14
+      - page: /crm/pages/clients-prospects
+        overlap: 14
+      - page: /offres-tarifs/pages/catalogue/familles
+        overlap: 12
+      - page: /gestion-marque/configuration/pages/categories
+        overlap: 12
+      - page: /crm/pages/clients-professionnels
+        overlap: 11
+      - page: /facturation-paie/reglementaire/pages/organisme-financeur
+        overlap: 11
+      - page: /offres-tarifs/pages/catalogue/options
+        overlap: 11
+      - page: /gestion-marque/configuration/pages/dmn
+        overlap: 10
+  - page_id: /gestion-marque/configuration/pages/categories
+    related_pages:
+      - page: /offres-tarifs/pages/catalogue/familles
+        overlap: 13
+      - page: /gestion-admin/pages/collaborateur
+        overlap: 12
+      - page: /crm/pages/leads
+        overlap: 12
+      - page: /offres-tarifs/pages/catalogue/options
+        overlap: 12
+      - page: /crm/pages/clients-prospects
+        overlap: 11
+      - page: /gestion-marque/configuration/pages/dmn
+        overlap: 11
+      - page: /facturation-paie/reglementaire/pages/organisme-financeur
+        overlap: 10
+      - page: /crm/pages/clients-professionnels
+        overlap: 9
+  - page_id: /gestion-marque/configuration/pages/dmn
+    related_pages:
+      - page: /gestion-marque/configuration/pages/categories
+        overlap: 11
+      - page: /gestion-admin/pages/collaborateur
+        overlap: 10
+      - page: /crm/pages/leads
+        overlap: 10
+      - page: /offres-tarifs/pages/catalogue/familles
+        overlap: 10
+      - page: /crm/pages/clients-prospects
+        overlap: 9
+      - page: /offres-tarifs/pages/catalogue/options
+        overlap: 9
+      - page: /facturation-paie/reglementaire/pages/organisme-financeur
+        overlap: 8
+  - page_id: /gestion-marque/habilitation/pages/habilitation-profils
+    related_pages: []
+  - page_id: /gestion-marque/habilitation/pages/habilitation-users
+    related_pages: []
+  - page_id: /gestion-marque/structure/pages/marque
+    related_pages: []
+  - page_id: /gestion-marque/structure/pages/structure
+    related_pages:
+      - page: /offres-tarifs/pages/catalogue/familles
+        overlap: 8
+  - page_id: /offres-tarifs/pages/catalogue/familles
+    related_pages:
+      - page: /gestion-marque/configuration/pages/categories
+        overlap: 13
+      - page: /gestion-admin/pages/collaborateur
+        overlap: 12
+      - page: /crm/pages/leads
+        overlap: 12
+      - page: /crm/pages/clients-prospects
+        overlap: 11
+      - page: /offres-tarifs/pages/catalogue/options
+        overlap: 11
+      - page: /facturation-paie/reglementaire/pages/organisme-financeur
+        overlap: 10
+      - page: /gestion-marque/configuration/pages/dmn
+        overlap: 10
+      - page: /crm/pages/clients-professionnels
+        overlap: 9
+  - page_id: /offres-tarifs/pages/catalogue/options
+    related_pages:
+      - page: /gestion-marque/configuration/pages/categories
+        overlap: 12
+      - page: /gestion-admin/pages/collaborateur
+        overlap: 11
+      - page: /crm/pages/leads
+        overlap: 11
+      - page: /crm/pages/clients-prospects
+        overlap: 11
+      - page: /offres-tarifs/pages/catalogue/familles
+        overlap: 11
+      - page: /crm/pages/clients-professionnels
+        overlap: 10
+      - page: /facturation-paie/reglementaire/pages/organisme-financeur
+        overlap: 9
+      - page: /gestion-marque/configuration/pages/dmn
+        overlap: 9
+  - page_id: /sap/
+    related_pages: []
+  - page_id: /sap/pages/planning
+    related_pages:
+      - page: /crm/pages/clients-prospects
+        overlap: 9
+      - page: /crm/pages/clients-professionnels
+        overlap: 8
+pages:
+  - page_id: /crm/pages/clients-professionnels
+    page_url: https://orion-int2.itsap.net/crm/pages/clients-professionnels
+    agent_id: page-agent-005
+    success: true
+    error: null
+    related_pages:
+      - page: /crm/pages/clients-prospects
+        overlap: 12
+      - page: /gestion-admin/pages/collaborateur
+        overlap: 11
+      - page: /crm/pages/leads
+        overlap: 10
+      - page: /offres-tarifs/pages/catalogue/options
+        overlap: 10
+      - page: /facturation-paie/reglementaire/pages/organisme-financeur
+        overlap: 9
+      - page: /offres-tarifs/pages/catalogue/familles
+        overlap: 9
+      - page: /gestion-marque/configuration/pages/categories
+        overlap: 9
+      - page: /sap/pages/planning
+        overlap: 8
+    counters:
+      headings: 1
+      buttons: 14
+      links: 31
+      fields: 3
+      dialogs: 0
+      tables: 1
+      alerts: 0
+    semantic_coverage:
+      ui.search: 2
+      ui.select: 1
+    fields:
+      - label: Rechercher
+        placeholder: Rechercher
+        ariaLabel: null
+        name: null
+        id: mat-input-0
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: Rechercher un client pro
+        placeholder: null
+        ariaLabel: null
+        name: ng.form0.valeurRecherche
+        id: mat-input-1
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-0
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+    ui_elements:
+      headings:
+        - Entités juridiques
+      buttons:
+        - add Créer
+        - Sites
+        - Entités juridiques
+        - Réinitialiser les filtres
+        - filter_list Filtrer
+        - Référence client
+        - Dénomination
+        - Type d'identité juridique
+        - Identifiant légal
+        - Agences
+        - Ville
+        - État
+        - Dernière modification
+        - auto_awesome
+      table_headers:
+        - Référence client
+        - Dénomination
+        - Type d'identité juridique
+        - Identifiant légal
+        - Agences
+        - Ville
+        - État
+        - Dernière modification
+      option_samples: []
+      links:
+        - text: calendar_today Planning
+          href: https://orion-int2.itsap.net/sap/pages/planning
+        - text: Leads
+          href: /crm/pages/leads
+        - text: Clients & Prospects
+          href: /crm/pages/clients-prospects
+        - text: Devis & Contrats
+          href: ''
+        - text: Reglements & Factures
+          href: ''
+        - text: Entités juridiques
+          href: /crm/pages/clients-professionnels
+        - text: Intervenants
+          href: https://orion-int2.itsap.net/gestion-admin/pages/collaborateur
+        - text: Temps de travail
+          href: ''
+        - text: Paie & Préparation paie
+          href: ''
+        - text: Compétences & Aptitudes
+          href: ''
+        - text: Organismes financeurs
+          href: https://orion-int2.itsap.net/facturation-paie/reglementaire/pages/organisme-financeur
+        - text: Partenaires/Apporteurs
+          href: ''
+        - text: Rétrocommissions
+          href: ''
+        - text: Suivi crédits
+          href: ''
+        - text: Zone de couverture
+          href: ''
+        - text: Familles & produits
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles
+        - text: Option & frais
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options
+        - text: Recrutement
+          href: ''
+        - text: Contrats de travail
+          href: ''
+        - text: Méd. du travail / URSSAF
+          href: ''
+        - text: Règles & Droit du salarié
+          href: ''
+        - text: check_circle Suivi qualité
+          href: ''
+        - text: Table des faits
+          href: https://orion-int2.itsap.net/facturation-paie/facturation/pages/table-des-faits
+        - text: Marques
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/marque
+        - text: Structures
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/structure
+        - text: Profils
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils
+        - text: Utilisateurs
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-users
+        - text: Droit & Habilitations
+          href: ''
+        - text: DMN (Règles)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/dmn
+        - text: Catégories (SAP)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/categories
+        - text: settings Paramètres
+          href: ''
+  - page_id: /crm/pages/clients-prospects
+    page_url: https://orion-int2.itsap.net/crm/pages/clients-prospects
+    agent_id: page-agent-004
+    success: true
+    error: null
+    related_pages:
+      - page: /gestion-admin/pages/collaborateur
+        overlap: 14
+      - page: /crm/pages/leads
+        overlap: 13
+      - page: /crm/pages/clients-professionnels
+        overlap: 12
+      - page: /offres-tarifs/pages/catalogue/familles
+        overlap: 11
+      - page: /offres-tarifs/pages/catalogue/options
+        overlap: 11
+      - page: /gestion-marque/configuration/pages/categories
+        overlap: 11
+      - page: /facturation-paie/reglementaire/pages/organisme-financeur
+        overlap: 10
+      - page: /sap/pages/planning
+        overlap: 9
+    counters:
+      headings: 1
+      buttons: 11
+      links: 31
+      fields: 5
+      dialogs: 0
+      tables: 1
+      alerts: 0
+    semantic_coverage:
+      ui.search: 2
+      ui.select: 3
+    fields:
+      - label: Rechercher
+        placeholder: Rechercher
+        ariaLabel: null
+        name: null
+        id: mat-input-0
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: Rechercher un contact
+        placeholder: null
+        ariaLabel: null
+        name: ng.form0.valeurRecherche
+        id: mat-input-1
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-0
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-2
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-1
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+    ui_elements:
+      headings:
+        - Clients et prospects
+      buttons:
+        - add Créer
+        - Réinitialiser les filtres
+        - Référence client
+        - Nom
+        - Prénom
+        - Statut
+        - Agence
+        - Dernière modification
+        - keyboard_arrow_down
+        - Marseille Vieux-Port, +1
+        - auto_awesome
+      table_headers:
+        - Référence client
+        - Nom
+        - Prénom
+        - Statut
+        - Téléphone
+        - Agence
+        - Dernière modification
+      option_samples: []
+      links:
+        - text: calendar_today Planning
+          href: https://orion-int2.itsap.net/sap/pages/planning
+        - text: Leads
+          href: /crm/pages/leads
+        - text: Clients & Prospects
+          href: /crm/pages/clients-prospects
+        - text: Devis & Contrats
+          href: ''
+        - text: Reglements & Factures
+          href: ''
+        - text: Entités juridiques
+          href: /crm/pages/clients-professionnels
+        - text: Intervenants
+          href: https://orion-int2.itsap.net/gestion-admin/pages/collaborateur
+        - text: Temps de travail
+          href: ''
+        - text: Paie & Préparation paie
+          href: ''
+        - text: Compétences & Aptitudes
+          href: ''
+        - text: Organismes financeurs
+          href: https://orion-int2.itsap.net/facturation-paie/reglementaire/pages/organisme-financeur
+        - text: Partenaires/Apporteurs
+          href: ''
+        - text: Rétrocommissions
+          href: ''
+        - text: Suivi crédits
+          href: ''
+        - text: Zone de couverture
+          href: ''
+        - text: Familles & produits
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles
+        - text: Option & frais
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options
+        - text: Recrutement
+          href: ''
+        - text: Contrats de travail
+          href: ''
+        - text: Méd. du travail / URSSAF
+          href: ''
+        - text: Règles & Droit du salarié
+          href: ''
+        - text: check_circle Suivi qualité
+          href: ''
+        - text: Table des faits
+          href: https://orion-int2.itsap.net/facturation-paie/facturation/pages/table-des-faits
+        - text: Marques
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/marque
+        - text: Structures
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/structure
+        - text: Profils
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils
+        - text: Utilisateurs
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-users
+        - text: Droit & Habilitations
+          href: ''
+        - text: DMN (Règles)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/dmn
+        - text: Catégories (SAP)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/categories
+        - text: settings Paramètres
+          href: ''
+  - page_id: /crm/pages/leads
+    page_url: https://orion-int2.itsap.net/crm/pages/leads
+    agent_id: page-agent-003
+    success: true
+    error: null
+    related_pages:
+      - page: /gestion-admin/pages/collaborateur
+        overlap: 14
+      - page: /crm/pages/clients-prospects
+        overlap: 13
+      - page: /offres-tarifs/pages/catalogue/familles
+        overlap: 12
+      - page: /gestion-marque/configuration/pages/categories
+        overlap: 12
+      - page: /offres-tarifs/pages/catalogue/options
+        overlap: 11
+      - page: /crm/pages/clients-professionnels
+        overlap: 10
+      - page: /facturation-paie/reglementaire/pages/organisme-financeur
+        overlap: 10
+      - page: /gestion-marque/configuration/pages/dmn
+        overlap: 10
+    counters:
+      headings: 1
+      buttons: 9
+      links: 31
+      fields: 4
+      dialogs: 0
+      tables: 1
+      alerts: 2
+    semantic_coverage:
+      ui.search: 2
+      ui.select: 2
+    fields:
+      - label: Rechercher
+        placeholder: Rechercher
+        ariaLabel: null
+        name: null
+        id: mat-input-0
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: Rechercher un lead
+        placeholder: null
+        ariaLabel: null
+        name: ng.form0.valeurRecherche
+        id: mat-input-1
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-0
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-1
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+    ui_elements:
+      headings:
+        - Leads
+      buttons:
+        - add Créer
+        - Réinitialiser les filtres
+        - Nom
+        - Prénom
+        - Email
+        - Statut
+        - Date de création
+        - Dernière modification
+        - auto_awesome
+      table_headers:
+        - Nom
+        - Prénom
+        - Téléphone
+        - Email
+        - Statut
+        - Date de création
+        - Dernière modification
+      option_samples: []
+      links:
+        - text: calendar_today Planning
+          href: https://orion-int2.itsap.net/sap/pages/planning
+        - text: Leads
+          href: /crm/pages/leads
+        - text: Clients & Prospects
+          href: /crm/pages/clients-prospects
+        - text: Devis & Contrats
+          href: ''
+        - text: Reglements & Factures
+          href: ''
+        - text: Entités juridiques
+          href: /crm/pages/clients-professionnels
+        - text: Intervenants
+          href: https://orion-int2.itsap.net/gestion-admin/pages/collaborateur
+        - text: Temps de travail
+          href: ''
+        - text: Paie & Préparation paie
+          href: ''
+        - text: Compétences & Aptitudes
+          href: ''
+        - text: Organismes financeurs
+          href: https://orion-int2.itsap.net/facturation-paie/reglementaire/pages/organisme-financeur
+        - text: Partenaires/Apporteurs
+          href: ''
+        - text: Rétrocommissions
+          href: ''
+        - text: Suivi crédits
+          href: ''
+        - text: Zone de couverture
+          href: ''
+        - text: Familles & produits
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles
+        - text: Option & frais
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options
+        - text: Recrutement
+          href: ''
+        - text: Contrats de travail
+          href: ''
+        - text: Méd. du travail / URSSAF
+          href: ''
+        - text: Règles & Droit du salarié
+          href: ''
+        - text: check_circle Suivi qualité
+          href: ''
+        - text: Table des faits
+          href: https://orion-int2.itsap.net/facturation-paie/facturation/pages/table-des-faits
+        - text: Marques
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/marque
+        - text: Structures
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/structure
+        - text: Profils
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils
+        - text: Utilisateurs
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-users
+        - text: Droit & Habilitations
+          href: ''
+        - text: DMN (Règles)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/dmn
+        - text: Catégories (SAP)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/categories
+        - text: settings Paramètres
+          href: ''
+  - page_id: /facturation-paie/facturation/pages/table-des-faits
+    page_url: https://orion-int2.itsap.net/facturation-paie/facturation/pages/table-des-faits
+    agent_id: page-agent-009
+    success: true
+    error: null
+    related_pages: []
+    counters:
+      headings: 1
+      buttons: 12
+      links: 31
+      fields: 6
+      dialogs: 0
+      tables: 1
+      alerts: 5
+    semantic_coverage:
+      ui.search: 2
+      ui.select: 4
+    fields:
+      - label: Rechercher
+        placeholder: Rechercher
+        ariaLabel: null
+        name: null
+        id: mat-input-0
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-0
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-1
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+      - label: Rechercher par ID, contrat, client
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-input-1
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-2
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-3
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+    ui_elements:
+      headings:
+        - Table des faits
+      buttons:
+        - Tous
+        - Collecte
+        - Anomalie
+        - Archive
+        - ID
+        - Contrat
+        - Client
+        - Produit
+        - Type
+        - Statut
+        - Date de collecte
+        - auto_awesome
+      table_headers:
+        - ID
+        - Contrat
+        - Client
+        - Produit
+        - Type
+        - Statut
+        - Date de collecte
+      option_samples: []
+      links:
+        - text: calendar_today Planning
+          href: https://orion-int2.itsap.net/sap/pages/planning
+        - text: Leads
+          href: https://orion-int2.itsap.net/crm/pages/leads
+        - text: Clients & Prospects
+          href: https://orion-int2.itsap.net/crm/pages/clients-prospects
+        - text: Devis & Contrats
+          href: ''
+        - text: Reglements & Factures
+          href: ''
+        - text: Entités juridiques
+          href: https://orion-int2.itsap.net/crm/pages/clients-professionnels
+        - text: Intervenants
+          href: https://orion-int2.itsap.net/gestion-admin/pages/collaborateur
+        - text: Temps de travail
+          href: ''
+        - text: Paie & Préparation paie
+          href: ''
+        - text: Compétences & Aptitudes
+          href: ''
+        - text: Organismes financeurs
+          href: https://orion-int2.itsap.net/facturation-paie/reglementaire/pages/organisme-financeur
+        - text: Partenaires/Apporteurs
+          href: ''
+        - text: Rétrocommissions
+          href: ''
+        - text: Suivi crédits
+          href: ''
+        - text: Zone de couverture
+          href: ''
+        - text: Familles & produits
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles
+        - text: Option & frais
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options
+        - text: Recrutement
+          href: ''
+        - text: Contrats de travail
+          href: ''
+        - text: Méd. du travail / URSSAF
+          href: ''
+        - text: Règles & Droit du salarié
+          href: ''
+        - text: check_circle Suivi qualité
+          href: ''
+        - text: Table des faits
+          href: /facturation-paie/facturation/pages/table-des-faits
+        - text: Marques
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/marque
+        - text: Structures
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/structure
+        - text: Profils
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils
+        - text: Utilisateurs
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-users
+        - text: Droit & Habilitations
+          href: ''
+        - text: DMN (Règles)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/dmn
+        - text: Catégories (SAP)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/categories
+        - text: settings Paramètres
+          href: ''
+  - page_id: /facturation-paie/reglementaire/pages
+    page_url: https://orion-int2.itsap.net/facturation-paie/reglementaire/pages
+    agent_id: page-agent-017
+    success: true
+    error: null
+    related_pages: []
+    counters:
+      headings: 0
+      buttons: 1
+      links: 31
+      fields: 1
+      dialogs: 0
+      tables: 0
+      alerts: 0
+    semantic_coverage:
+      ui.search: 1
+    fields:
+      - label: Rechercher
+        placeholder: Rechercher
+        ariaLabel: null
+        name: null
+        id: mat-input-0
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+    ui_elements:
+      headings: []
+      buttons:
+        - auto_awesome
+      table_headers: []
+      option_samples: []
+      links:
+        - text: calendar_today Planning
+          href: https://orion-int2.itsap.net/sap/pages/planning
+        - text: Leads
+          href: https://orion-int2.itsap.net/crm/pages/leads
+        - text: Clients & Prospects
+          href: https://orion-int2.itsap.net/crm/pages/clients-prospects
+        - text: Devis & Contrats
+          href: ''
+        - text: Reglements & Factures
+          href: ''
+        - text: Entités juridiques
+          href: https://orion-int2.itsap.net/crm/pages/clients-professionnels
+        - text: Intervenants
+          href: https://orion-int2.itsap.net/gestion-admin/pages/collaborateur
+        - text: Temps de travail
+          href: ''
+        - text: Paie & Préparation paie
+          href: ''
+        - text: Compétences & Aptitudes
+          href: ''
+        - text: Organismes financeurs
+          href: /facturation-paie/reglementaire/pages/organisme-financeur
+        - text: Partenaires/Apporteurs
+          href: ''
+        - text: Rétrocommissions
+          href: ''
+        - text: Suivi crédits
+          href: ''
+        - text: Zone de couverture
+          href: ''
+        - text: Familles & produits
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles
+        - text: Option & frais
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options
+        - text: Recrutement
+          href: ''
+        - text: Contrats de travail
+          href: ''
+        - text: Méd. du travail / URSSAF
+          href: ''
+        - text: Règles & Droit du salarié
+          href: ''
+        - text: check_circle Suivi qualité
+          href: ''
+        - text: Table des faits
+          href: https://orion-int2.itsap.net/facturation-paie/facturation/pages/table-des-faits
+        - text: Marques
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/marque
+        - text: Structures
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/structure
+        - text: Profils
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils
+        - text: Utilisateurs
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-users
+        - text: Droit & Habilitations
+          href: ''
+        - text: DMN (Règles)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/dmn
+        - text: Catégories (SAP)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/categories
+        - text: settings Paramètres
+          href: ''
+  - page_id: /facturation-paie/reglementaire/pages/organisme-financeur
+    page_url: https://orion-int2.itsap.net/facturation-paie/reglementaire/pages/organisme-financeur
+    agent_id: page-agent-006
+    success: true
+    error: null
+    related_pages:
+      - page: /gestion-admin/pages/collaborateur
+        overlap: 11
+      - page: /crm/pages/leads
+        overlap: 10
+      - page: /crm/pages/clients-prospects
+        overlap: 10
+      - page: /offres-tarifs/pages/catalogue/familles
+        overlap: 10
+      - page: /gestion-marque/configuration/pages/categories
+        overlap: 10
+      - page: /crm/pages/clients-professionnels
+        overlap: 9
+      - page: /offres-tarifs/pages/catalogue/options
+        overlap: 9
+      - page: /gestion-marque/configuration/pages/dmn
+        overlap: 8
+    counters:
+      headings: 1
+      buttons: 11
+      links: 32
+      fields: 12
+      dialogs: 0
+      tables: 1
+      alerts: 0
+    semantic_coverage:
+      ui.search: 2
+      ui.select: 3
+      unknown: 7
+    fields:
+      - label: Rechercher
+        placeholder: Rechercher
+        ariaLabel: null
+        name: null
+        id: mat-input-0
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: Rechercher un organisme
+        placeholder: Rechercher un organisme
+        ariaLabel: null
+        name: null
+        id: mat-input-1
+        type: input
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-0
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-1
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-mdc-checkbox-0-input
+        type: checkbox
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: unknown
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-mdc-checkbox-1-input
+        type: checkbox
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: unknown
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-mdc-checkbox-2-input
+        type: checkbox
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: unknown
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-mdc-checkbox-3-input
+        type: checkbox
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: unknown
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-mdc-checkbox-4-input
+        type: checkbox
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: unknown
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-mdc-checkbox-5-input
+        type: checkbox
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: unknown
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-mdc-checkbox-6-input
+        type: checkbox
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: unknown
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-2
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+    ui_elements:
+      headings:
+        - Organismes financeurs
+      buttons:
+        - upload Import CSV
+        - download Export CSV
+        - add Créer
+        - Réinitialiser les filtres
+        - Nom
+        - Nom usuel
+        - Type
+        - Zone géographique
+        - Statut
+        - Modifié le
+        - auto_awesome
+      table_headers:
+        - Nom
+        - Nom usuel
+        - Type
+        - Zone géographique
+        - Statut
+        - Modifié le
+      option_samples: []
+      links:
+        - text: calendar_today Planning
+          href: https://orion-int2.itsap.net/sap/pages/planning
+        - text: Leads
+          href: https://orion-int2.itsap.net/crm/pages/leads
+        - text: Clients & Prospects
+          href: https://orion-int2.itsap.net/crm/pages/clients-prospects
+        - text: Devis & Contrats
+          href: ''
+        - text: Reglements & Factures
+          href: ''
+        - text: Entités juridiques
+          href: https://orion-int2.itsap.net/crm/pages/clients-professionnels
+        - text: Intervenants
+          href: https://orion-int2.itsap.net/gestion-admin/pages/collaborateur
+        - text: Temps de travail
+          href: ''
+        - text: Paie & Préparation paie
+          href: ''
+        - text: Compétences & Aptitudes
+          href: ''
+        - text: Organismes financeurs
+          href: /facturation-paie/reglementaire/pages/organisme-financeur
+        - text: Partenaires/Apporteurs
+          href: ''
+        - text: Rétrocommissions
+          href: ''
+        - text: Suivi crédits
+          href: ''
+        - text: Zone de couverture
+          href: ''
+        - text: Familles & produits
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles
+        - text: Option & frais
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options
+        - text: Recrutement
+          href: ''
+        - text: Contrats de travail
+          href: ''
+        - text: Méd. du travail / URSSAF
+          href: ''
+        - text: Règles & Droit du salarié
+          href: ''
+        - text: check_circle Suivi qualité
+          href: ''
+        - text: Table des faits
+          href: https://orion-int2.itsap.net/facturation-paie/facturation/pages/table-des-faits
+        - text: Marques
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/marque
+        - text: Structures
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/structure
+        - text: Profils
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils
+        - text: Utilisateurs
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-users
+        - text: Droit & Habilitations
+          href: ''
+        - text: DMN (Règles)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/dmn
+        - text: Catégories (SAP)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/categories
+        - text: settings Paramètres
+          href: ''
+        - text: Partenariats
+          href: /facturation-paie/reglementaire/pages
+  - page_id: /gestion-admin/pages/collaborateur
+    page_url: https://orion-int2.itsap.net/gestion-admin/pages/collaborateur
+    agent_id: page-agent-001
+    success: true
+    error: null
+    related_pages:
+      - page: /crm/pages/leads
+        overlap: 14
+      - page: /crm/pages/clients-prospects
+        overlap: 14
+      - page: /offres-tarifs/pages/catalogue/familles
+        overlap: 12
+      - page: /gestion-marque/configuration/pages/categories
+        overlap: 12
+      - page: /crm/pages/clients-professionnels
+        overlap: 11
+      - page: /facturation-paie/reglementaire/pages/organisme-financeur
+        overlap: 11
+      - page: /offres-tarifs/pages/catalogue/options
+        overlap: 11
+      - page: /gestion-marque/configuration/pages/dmn
+        overlap: 10
+    counters:
+      headings: 1
+      buttons: 13
+      links: 31
+      fields: 5
+      dialogs: 0
+      tables: 1
+      alerts: 0
+    semantic_coverage:
+      ui.search: 2
+      ui.select: 3
+    fields:
+      - label: Rechercher
+        placeholder: Rechercher
+        ariaLabel: null
+        name: null
+        id: mat-input-0
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: Rechercher un collaborateur
+        placeholder: null
+        ariaLabel: null
+        name: ng.form0
+        id: mat-input-1
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-0
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-1
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-2
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+    ui_elements:
+      headings:
+        - Collaborateurs
+      buttons:
+        - add Créer
+        - Réinitialiser les filtres
+        - Tous
+        - Intervenant
+        - Opérationnel agence
+        - Nom
+        - Prénom
+        - Type
+        - Date de naissance
+        - Statut du collaborateur
+        - Etat de la fiche
+        - Dernière modification
+        - auto_awesome
+      table_headers:
+        - Nom
+        - Prénom
+        - Type
+        - Date de naissance
+        - Statut du collaborateur
+        - Téléphone
+        - Etat de la fiche
+        - Dernière modification
+      option_samples: []
+      links:
+        - text: calendar_today Planning
+          href: https://orion-int2.itsap.net/sap/pages/planning
+        - text: Leads
+          href: https://orion-int2.itsap.net/crm/pages/leads
+        - text: Clients & Prospects
+          href: https://orion-int2.itsap.net/crm/pages/clients-prospects
+        - text: Devis & Contrats
+          href: ''
+        - text: Reglements & Factures
+          href: ''
+        - text: Entités juridiques
+          href: https://orion-int2.itsap.net/crm/pages/clients-professionnels
+        - text: Intervenants
+          href: /gestion-admin/pages/collaborateur
+        - text: Temps de travail
+          href: ''
+        - text: Paie & Préparation paie
+          href: ''
+        - text: Compétences & Aptitudes
+          href: ''
+        - text: Organismes financeurs
+          href: https://orion-int2.itsap.net/facturation-paie/reglementaire/pages/organisme-financeur
+        - text: Partenaires/Apporteurs
+          href: ''
+        - text: Rétrocommissions
+          href: ''
+        - text: Suivi crédits
+          href: ''
+        - text: Zone de couverture
+          href: ''
+        - text: Familles & produits
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles
+        - text: Option & frais
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options
+        - text: Recrutement
+          href: ''
+        - text: Contrats de travail
+          href: ''
+        - text: Méd. du travail / URSSAF
+          href: ''
+        - text: Règles & Droit du salarié
+          href: ''
+        - text: check_circle Suivi qualité
+          href: ''
+        - text: Table des faits
+          href: https://orion-int2.itsap.net/facturation-paie/facturation/pages/table-des-faits
+        - text: Marques
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/marque
+        - text: Structures
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/structure
+        - text: Profils
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils
+        - text: Utilisateurs
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-users
+        - text: Droit & Habilitations
+          href: ''
+        - text: DMN (Règles)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/dmn
+        - text: Catégories (SAP)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/categories
+        - text: settings Paramètres
+          href: ''
+  - page_id: /gestion-marque/configuration/pages/categories
+    page_url: https://orion-int2.itsap.net/gestion-marque/configuration/pages/categories
+    agent_id: page-agent-015
+    success: true
+    error: null
+    related_pages:
+      - page: /offres-tarifs/pages/catalogue/familles
+        overlap: 13
+      - page: /gestion-admin/pages/collaborateur
+        overlap: 12
+      - page: /crm/pages/leads
+        overlap: 12
+      - page: /offres-tarifs/pages/catalogue/options
+        overlap: 12
+      - page: /crm/pages/clients-prospects
+        overlap: 11
+      - page: /gestion-marque/configuration/pages/dmn
+        overlap: 11
+      - page: /facturation-paie/reglementaire/pages/organisme-financeur
+        overlap: 10
+      - page: /crm/pages/clients-professionnels
+        overlap: 9
+    counters:
+      headings: 1
+      buttons: 7
+      links: 31
+      fields: 4
+      dialogs: 0
+      tables: 1
+      alerts: 1
+    semantic_coverage:
+      ui.search: 1
+      person.last_name: 1
+      ui.select: 2
+    fields:
+      - label: Rechercher
+        placeholder: Rechercher
+        ariaLabel: null
+        name: null
+        id: mat-input-0
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: Rechercher par nom ou code
+        placeholder: null
+        ariaLabel: null
+        name: ng.form0.valeurRecherche
+        id: mat-input-1
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: person.last_name
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-0
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-1
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+    ui_elements:
+      headings:
+        - Catégories
+      buttons:
+        - add Créer
+        - Réinitialiser les filtres
+        - Nom de la catégorie
+        - Code
+        - Statut
+        - Date de modification
+        - auto_awesome
+      table_headers:
+        - Nom de la catégorie
+        - Code
+        - Statut
+        - Date de modification
+      option_samples: []
+      links:
+        - text: calendar_today Planning
+          href: https://orion-int2.itsap.net/sap/pages/planning
+        - text: Leads
+          href: https://orion-int2.itsap.net/crm/pages/leads
+        - text: Clients & Prospects
+          href: https://orion-int2.itsap.net/crm/pages/clients-prospects
+        - text: Devis & Contrats
+          href: ''
+        - text: Reglements & Factures
+          href: ''
+        - text: Entités juridiques
+          href: https://orion-int2.itsap.net/crm/pages/clients-professionnels
+        - text: Intervenants
+          href: https://orion-int2.itsap.net/gestion-admin/pages/collaborateur
+        - text: Temps de travail
+          href: ''
+        - text: Paie & Préparation paie
+          href: ''
+        - text: Compétences & Aptitudes
+          href: ''
+        - text: Organismes financeurs
+          href: https://orion-int2.itsap.net/facturation-paie/reglementaire/pages/organisme-financeur
+        - text: Partenaires/Apporteurs
+          href: ''
+        - text: Rétrocommissions
+          href: ''
+        - text: Suivi crédits
+          href: ''
+        - text: Zone de couverture
+          href: ''
+        - text: Familles & produits
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles
+        - text: Option & frais
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options
+        - text: Recrutement
+          href: ''
+        - text: Contrats de travail
+          href: ''
+        - text: Méd. du travail / URSSAF
+          href: ''
+        - text: Règles & Droit du salarié
+          href: ''
+        - text: check_circle Suivi qualité
+          href: ''
+        - text: Table des faits
+          href: https://orion-int2.itsap.net/facturation-paie/facturation/pages/table-des-faits
+        - text: Marques
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/marque
+        - text: Structures
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/structure
+        - text: Profils
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils
+        - text: Utilisateurs
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-users
+        - text: Droit & Habilitations
+          href: ''
+        - text: DMN (Règles)
+          href: /gestion-marque/configuration/pages/dmn
+        - text: Catégories (SAP)
+          href: /gestion-marque/configuration/pages/categories
+        - text: settings Paramètres
+          href: ''
+  - page_id: /gestion-marque/configuration/pages/dmn
+    page_url: https://orion-int2.itsap.net/gestion-marque/configuration/pages/dmn
+    agent_id: page-agent-014
+    success: true
+    error: null
+    related_pages:
+      - page: /gestion-marque/configuration/pages/categories
+        overlap: 11
+      - page: /gestion-admin/pages/collaborateur
+        overlap: 10
+      - page: /crm/pages/leads
+        overlap: 10
+      - page: /offres-tarifs/pages/catalogue/familles
+        overlap: 10
+      - page: /crm/pages/clients-prospects
+        overlap: 9
+      - page: /offres-tarifs/pages/catalogue/options
+        overlap: 9
+      - page: /facturation-paie/reglementaire/pages/organisme-financeur
+        overlap: 8
+    counters:
+      headings: 1
+      buttons: 7
+      links: 31
+      fields: 4
+      dialogs: 0
+      tables: 1
+      alerts: 0
+    semantic_coverage:
+      ui.search: 1
+      person.last_name: 1
+      ui.select: 2
+    fields:
+      - label: Rechercher
+        placeholder: Rechercher
+        ariaLabel: null
+        name: null
+        id: mat-input-0
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: Rechercher par nom
+        placeholder: null
+        ariaLabel: null
+        name: ng.form0.search
+        id: mat-input-1
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: person.last_name
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-0
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-1
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+    ui_elements:
+      headings:
+        - DMN (Règles)
+      buttons:
+        - Réinitialiser les filtres
+        - Nom
+        - Version
+        - Statut
+        - Date de modification
+        - Date de publication
+        - auto_awesome
+      table_headers:
+        - Nom
+        - Version
+        - Statut
+        - Date de modification
+        - Date de publication
+      option_samples: []
+      links:
+        - text: calendar_today Planning
+          href: https://orion-int2.itsap.net/sap/pages/planning
+        - text: Leads
+          href: https://orion-int2.itsap.net/crm/pages/leads
+        - text: Clients & Prospects
+          href: https://orion-int2.itsap.net/crm/pages/clients-prospects
+        - text: Devis & Contrats
+          href: ''
+        - text: Reglements & Factures
+          href: ''
+        - text: Entités juridiques
+          href: https://orion-int2.itsap.net/crm/pages/clients-professionnels
+        - text: Intervenants
+          href: https://orion-int2.itsap.net/gestion-admin/pages/collaborateur
+        - text: Temps de travail
+          href: ''
+        - text: Paie & Préparation paie
+          href: ''
+        - text: Compétences & Aptitudes
+          href: ''
+        - text: Organismes financeurs
+          href: https://orion-int2.itsap.net/facturation-paie/reglementaire/pages/organisme-financeur
+        - text: Partenaires/Apporteurs
+          href: ''
+        - text: Rétrocommissions
+          href: ''
+        - text: Suivi crédits
+          href: ''
+        - text: Zone de couverture
+          href: ''
+        - text: Familles & produits
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles
+        - text: Option & frais
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options
+        - text: Recrutement
+          href: ''
+        - text: Contrats de travail
+          href: ''
+        - text: Méd. du travail / URSSAF
+          href: ''
+        - text: Règles & Droit du salarié
+          href: ''
+        - text: check_circle Suivi qualité
+          href: ''
+        - text: Table des faits
+          href: https://orion-int2.itsap.net/facturation-paie/facturation/pages/table-des-faits
+        - text: Marques
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/marque
+        - text: Structures
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/structure
+        - text: Profils
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils
+        - text: Utilisateurs
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-users
+        - text: Droit & Habilitations
+          href: ''
+        - text: DMN (Règles)
+          href: /gestion-marque/configuration/pages/dmn
+        - text: Catégories (SAP)
+          href: /gestion-marque/configuration/pages/categories
+        - text: settings Paramètres
+          href: ''
+  - page_id: /gestion-marque/habilitation/pages/habilitation-profils
+    page_url: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils
+    agent_id: page-agent-012
+    success: true
+    error: null
+    related_pages: []
+    counters:
+      headings: 1
+      buttons: 3
+      links: 31
+      fields: 3
+      dialogs: 0
+      tables: 1
+      alerts: 0
+    semantic_coverage:
+      ui.search: 2
+      ui.select: 1
+    fields:
+      - label: Rechercher
+        placeholder: Rechercher
+        ariaLabel: null
+        name: null
+        id: mat-input-0
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: Rechercher un profil
+        placeholder: null
+        ariaLabel: null
+        name: ng.form0.searchValue
+        id: mat-input-1
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-0
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+    ui_elements:
+      headings:
+        - Profils
+      buttons:
+        - add Créer
+        - Nom profil
+        - auto_awesome
+      table_headers:
+        - Nom profil
+        - Description
+      option_samples: []
+      links:
+        - text: calendar_today Planning
+          href: https://orion-int2.itsap.net/sap/pages/planning
+        - text: Leads
+          href: https://orion-int2.itsap.net/crm/pages/leads
+        - text: Clients & Prospects
+          href: https://orion-int2.itsap.net/crm/pages/clients-prospects
+        - text: Devis & Contrats
+          href: ''
+        - text: Reglements & Factures
+          href: ''
+        - text: Entités juridiques
+          href: https://orion-int2.itsap.net/crm/pages/clients-professionnels
+        - text: Intervenants
+          href: https://orion-int2.itsap.net/gestion-admin/pages/collaborateur
+        - text: Temps de travail
+          href: ''
+        - text: Paie & Préparation paie
+          href: ''
+        - text: Compétences & Aptitudes
+          href: ''
+        - text: Organismes financeurs
+          href: https://orion-int2.itsap.net/facturation-paie/reglementaire/pages/organisme-financeur
+        - text: Partenaires/Apporteurs
+          href: ''
+        - text: Rétrocommissions
+          href: ''
+        - text: Suivi crédits
+          href: ''
+        - text: Zone de couverture
+          href: ''
+        - text: Familles & produits
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles
+        - text: Option & frais
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options
+        - text: Recrutement
+          href: ''
+        - text: Contrats de travail
+          href: ''
+        - text: Méd. du travail / URSSAF
+          href: ''
+        - text: Règles & Droit du salarié
+          href: ''
+        - text: check_circle Suivi qualité
+          href: ''
+        - text: Table des faits
+          href: https://orion-int2.itsap.net/facturation-paie/facturation/pages/table-des-faits
+        - text: Marques
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/marque
+        - text: Structures
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/structure
+        - text: Profils
+          href: /gestion-marque/habilitation/pages/habilitation-profils
+        - text: Utilisateurs
+          href: /gestion-marque/habilitation/pages/habilitation-users
+        - text: Droit & Habilitations
+          href: ''
+        - text: DMN (Règles)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/dmn
+        - text: Catégories (SAP)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/categories
+        - text: settings Paramètres
+          href: ''
+  - page_id: /gestion-marque/habilitation/pages/habilitation-users
+    page_url: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-users
+    agent_id: page-agent-013
+    success: true
+    error: null
+    related_pages: []
+    counters:
+      headings: 1
+      buttons: 1
+      links: 31
+      fields: 3
+      dialogs: 0
+      tables: 1
+      alerts: 0
+    semantic_coverage:
+      ui.search: 2
+      ui.select: 1
+    fields:
+      - label: Rechercher
+        placeholder: Rechercher
+        ariaLabel: null
+        name: null
+        id: mat-input-0
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: Rechercher un utilisateur
+        placeholder: null
+        ariaLabel: null
+        name: ng.form0.searchValue
+        id: mat-input-1
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-0
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+    ui_elements:
+      headings:
+        - Utilisateurs
+      buttons:
+        - auto_awesome
+      table_headers:
+        - Nom
+        - Prénom
+        - Identifiant
+        - Profils attribués
+      option_samples: []
+      links:
+        - text: calendar_today Planning
+          href: https://orion-int2.itsap.net/sap/pages/planning
+        - text: Leads
+          href: https://orion-int2.itsap.net/crm/pages/leads
+        - text: Clients & Prospects
+          href: https://orion-int2.itsap.net/crm/pages/clients-prospects
+        - text: Devis & Contrats
+          href: ''
+        - text: Reglements & Factures
+          href: ''
+        - text: Entités juridiques
+          href: https://orion-int2.itsap.net/crm/pages/clients-professionnels
+        - text: Intervenants
+          href: https://orion-int2.itsap.net/gestion-admin/pages/collaborateur
+        - text: Temps de travail
+          href: ''
+        - text: Paie & Préparation paie
+          href: ''
+        - text: Compétences & Aptitudes
+          href: ''
+        - text: Organismes financeurs
+          href: https://orion-int2.itsap.net/facturation-paie/reglementaire/pages/organisme-financeur
+        - text: Partenaires/Apporteurs
+          href: ''
+        - text: Rétrocommissions
+          href: ''
+        - text: Suivi crédits
+          href: ''
+        - text: Zone de couverture
+          href: ''
+        - text: Familles & produits
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles
+        - text: Option & frais
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options
+        - text: Recrutement
+          href: ''
+        - text: Contrats de travail
+          href: ''
+        - text: Méd. du travail / URSSAF
+          href: ''
+        - text: Règles & Droit du salarié
+          href: ''
+        - text: check_circle Suivi qualité
+          href: ''
+        - text: Table des faits
+          href: https://orion-int2.itsap.net/facturation-paie/facturation/pages/table-des-faits
+        - text: Marques
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/marque
+        - text: Structures
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/structure
+        - text: Profils
+          href: /gestion-marque/habilitation/pages/habilitation-profils
+        - text: Utilisateurs
+          href: /gestion-marque/habilitation/pages/habilitation-users
+        - text: Droit & Habilitations
+          href: ''
+        - text: DMN (Règles)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/dmn
+        - text: Catégories (SAP)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/categories
+        - text: settings Paramètres
+          href: ''
+  - page_id: /gestion-marque/structure/pages/marque
+    page_url: https://orion-int2.itsap.net/gestion-marque/structure/pages/marque
+    agent_id: page-agent-010
+    success: true
+    error: null
+    related_pages: []
+    counters:
+      headings: 1
+      buttons: 6
+      links: 31
+      fields: 4
+      dialogs: 0
+      tables: 1
+      alerts: 0
+    semantic_coverage:
+      ui.search: 1
+      person.last_name: 1
+      ui.select: 2
+    fields:
+      - label: Rechercher
+        placeholder: Rechercher
+        ariaLabel: null
+        name: null
+        id: mat-input-0
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: Saisissez un nom ou un identifiant
+        placeholder: null
+        ariaLabel: null
+        name: ng.form0.q
+        id: mat-input-1
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: person.last_name
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-0
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-1
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+    ui_elements:
+      headings:
+        - Marques
+      buttons:
+        - edit Modifier l'image de la marque
+        - add Créer
+        - Identifiant
+        - Nom
+        - Date d'archivage
+        - auto_awesome
+      table_headers:
+        - Identifiant
+        - Nom
+        - État de la marque
+        - Date d'archivage
+      option_samples: []
+      links:
+        - text: calendar_today Planning
+          href: https://orion-int2.itsap.net/sap/pages/planning
+        - text: Leads
+          href: https://orion-int2.itsap.net/crm/pages/leads
+        - text: Clients & Prospects
+          href: https://orion-int2.itsap.net/crm/pages/clients-prospects
+        - text: Devis & Contrats
+          href: ''
+        - text: Reglements & Factures
+          href: ''
+        - text: Entités juridiques
+          href: https://orion-int2.itsap.net/crm/pages/clients-professionnels
+        - text: Intervenants
+          href: https://orion-int2.itsap.net/gestion-admin/pages/collaborateur
+        - text: Temps de travail
+          href: ''
+        - text: Paie & Préparation paie
+          href: ''
+        - text: Compétences & Aptitudes
+          href: ''
+        - text: Organismes financeurs
+          href: https://orion-int2.itsap.net/facturation-paie/reglementaire/pages/organisme-financeur
+        - text: Partenaires/Apporteurs
+          href: ''
+        - text: Rétrocommissions
+          href: ''
+        - text: Suivi crédits
+          href: ''
+        - text: Zone de couverture
+          href: ''
+        - text: Familles & produits
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles
+        - text: Option & frais
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options
+        - text: Recrutement
+          href: ''
+        - text: Contrats de travail
+          href: ''
+        - text: Méd. du travail / URSSAF
+          href: ''
+        - text: Règles & Droit du salarié
+          href: ''
+        - text: check_circle Suivi qualité
+          href: ''
+        - text: Table des faits
+          href: https://orion-int2.itsap.net/facturation-paie/facturation/pages/table-des-faits
+        - text: Marques
+          href: /gestion-marque/structure/pages/marque
+        - text: Structures
+          href: /gestion-marque/structure/pages/structure
+        - text: Profils
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils
+        - text: Utilisateurs
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-users
+        - text: Droit & Habilitations
+          href: ''
+        - text: DMN (Règles)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/dmn
+        - text: Catégories (SAP)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/categories
+        - text: settings Paramètres
+          href: ''
+  - page_id: /gestion-marque/structure/pages/structure
+    page_url: https://orion-int2.itsap.net/gestion-marque/structure/pages/structure
+    agent_id: page-agent-011
+    success: true
+    error: null
+    related_pages:
+      - page: /offres-tarifs/pages/catalogue/familles
+        overlap: 8
+    counters:
+      headings: 1
+      buttons: 17
+      links: 31
+      fields: 2
+      dialogs: 0
+      tables: 1
+      alerts: 1
+    semantic_coverage:
+      ui.search: 1
+      ui.select: 1
+    fields:
+      - label: Rechercher
+        placeholder: Rechercher
+        ariaLabel: null
+        name: null
+        id: mat-input-0
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-0
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+    ui_elements:
+      headings:
+        - Structures
+      buttons:
+        - add Créer
+        - Nom
+        - chevron_right
+        - chevron_right
+        - chevron_right
+        - chevron_right
+        - chevron_right
+        - chevron_right
+        - chevron_right
+        - chevron_right
+        - chevron_right
+        - chevron_right
+        - chevron_right
+        - chevron_right
+        - chevron_right
+        - chevron_right
+        - auto_awesome
+      table_headers:
+        - Nom
+        - Entités rattachées
+        - Représentant légal
+        - Statut administratif
+        - État de la fiche
+      option_samples: []
+      links:
+        - text: calendar_today Planning
+          href: https://orion-int2.itsap.net/sap/pages/planning
+        - text: Leads
+          href: https://orion-int2.itsap.net/crm/pages/leads
+        - text: Clients & Prospects
+          href: https://orion-int2.itsap.net/crm/pages/clients-prospects
+        - text: Devis & Contrats
+          href: ''
+        - text: Reglements & Factures
+          href: ''
+        - text: Entités juridiques
+          href: https://orion-int2.itsap.net/crm/pages/clients-professionnels
+        - text: Intervenants
+          href: https://orion-int2.itsap.net/gestion-admin/pages/collaborateur
+        - text: Temps de travail
+          href: ''
+        - text: Paie & Préparation paie
+          href: ''
+        - text: Compétences & Aptitudes
+          href: ''
+        - text: Organismes financeurs
+          href: https://orion-int2.itsap.net/facturation-paie/reglementaire/pages/organisme-financeur
+        - text: Partenaires/Apporteurs
+          href: ''
+        - text: Rétrocommissions
+          href: ''
+        - text: Suivi crédits
+          href: ''
+        - text: Zone de couverture
+          href: ''
+        - text: Familles & produits
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles
+        - text: Option & frais
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options
+        - text: Recrutement
+          href: ''
+        - text: Contrats de travail
+          href: ''
+        - text: Méd. du travail / URSSAF
+          href: ''
+        - text: Règles & Droit du salarié
+          href: ''
+        - text: check_circle Suivi qualité
+          href: ''
+        - text: Table des faits
+          href: https://orion-int2.itsap.net/facturation-paie/facturation/pages/table-des-faits
+        - text: Marques
+          href: /gestion-marque/structure/pages/marque
+        - text: Structures
+          href: /gestion-marque/structure/pages/structure
+        - text: Profils
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils
+        - text: Utilisateurs
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-users
+        - text: Droit & Habilitations
+          href: ''
+        - text: DMN (Règles)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/dmn
+        - text: Catégories (SAP)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/categories
+        - text: settings Paramètres
+          href: ''
+  - page_id: /offres-tarifs/pages/catalogue/familles
+    page_url: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles
+    agent_id: page-agent-007
+    success: true
+    error: null
+    related_pages:
+      - page: /gestion-marque/configuration/pages/categories
+        overlap: 13
+      - page: /gestion-admin/pages/collaborateur
+        overlap: 12
+      - page: /crm/pages/leads
+        overlap: 12
+      - page: /crm/pages/clients-prospects
+        overlap: 11
+      - page: /offres-tarifs/pages/catalogue/options
+        overlap: 11
+      - page: /facturation-paie/reglementaire/pages/organisme-financeur
+        overlap: 10
+      - page: /gestion-marque/configuration/pages/dmn
+        overlap: 10
+      - page: /crm/pages/clients-professionnels
+        overlap: 9
+    counters:
+      headings: 1
+      buttons: 13
+      links: 31
+      fields: 4
+      dialogs: 0
+      tables: 1
+      alerts: 0
+    semantic_coverage:
+      ui.search: 2
+      ui.select: 2
+    fields:
+      - label: Rechercher
+        placeholder: Rechercher
+        ariaLabel: null
+        name: null
+        id: mat-input-0
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: Rechercher
+        placeholder: null
+        ariaLabel: null
+        name: ng.form0.search
+        id: mat-input-1
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-0
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-1
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+    ui_elements:
+      headings:
+        - Familles et produits
+      buttons:
+        - add Créer
+        - Réinitialiser les filtres
+        - Familles et produits
+        - Packages
+        - Nom
+        - Code
+        - Nature
+        - Statut
+        - Date de modification
+        - chevron_right
+        - chevron_right
+        - chevron_right
+        - auto_awesome
+      table_headers:
+        - Nom
+        - Code
+        - Nature
+        - Éléments
+        - Statut
+        - Date de modification
+      option_samples: []
+      links:
+        - text: calendar_today Planning
+          href: https://orion-int2.itsap.net/sap/pages/planning
+        - text: Leads
+          href: https://orion-int2.itsap.net/crm/pages/leads
+        - text: Clients & Prospects
+          href: https://orion-int2.itsap.net/crm/pages/clients-prospects
+        - text: Devis & Contrats
+          href: ''
+        - text: Reglements & Factures
+          href: ''
+        - text: Entités juridiques
+          href: https://orion-int2.itsap.net/crm/pages/clients-professionnels
+        - text: Intervenants
+          href: https://orion-int2.itsap.net/gestion-admin/pages/collaborateur
+        - text: Temps de travail
+          href: ''
+        - text: Paie & Préparation paie
+          href: ''
+        - text: Compétences & Aptitudes
+          href: ''
+        - text: Organismes financeurs
+          href: https://orion-int2.itsap.net/facturation-paie/reglementaire/pages/organisme-financeur
+        - text: Partenaires/Apporteurs
+          href: ''
+        - text: Rétrocommissions
+          href: ''
+        - text: Suivi crédits
+          href: ''
+        - text: Zone de couverture
+          href: ''
+        - text: Familles & produits
+          href: /offres-tarifs/pages/catalogue/familles
+        - text: Option & frais
+          href: /offres-tarifs/pages/catalogue/options
+        - text: Recrutement
+          href: ''
+        - text: Contrats de travail
+          href: ''
+        - text: Méd. du travail / URSSAF
+          href: ''
+        - text: Règles & Droit du salarié
+          href: ''
+        - text: check_circle Suivi qualité
+          href: ''
+        - text: Table des faits
+          href: https://orion-int2.itsap.net/facturation-paie/facturation/pages/table-des-faits
+        - text: Marques
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/marque
+        - text: Structures
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/structure
+        - text: Profils
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils
+        - text: Utilisateurs
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-users
+        - text: Droit & Habilitations
+          href: ''
+        - text: DMN (Règles)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/dmn
+        - text: Catégories (SAP)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/categories
+        - text: settings Paramètres
+          href: ''
+  - page_id: /offres-tarifs/pages/catalogue/options
+    page_url: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options
+    agent_id: page-agent-008
+    success: true
+    error: null
+    related_pages:
+      - page: /gestion-marque/configuration/pages/categories
+        overlap: 12
+      - page: /gestion-admin/pages/collaborateur
+        overlap: 11
+      - page: /crm/pages/leads
+        overlap: 11
+      - page: /crm/pages/clients-prospects
+        overlap: 11
+      - page: /offres-tarifs/pages/catalogue/familles
+        overlap: 11
+      - page: /crm/pages/clients-professionnels
+        overlap: 10
+      - page: /facturation-paie/reglementaire/pages/organisme-financeur
+        overlap: 9
+      - page: /gestion-marque/configuration/pages/dmn
+        overlap: 9
+    counters:
+      headings: 1
+      buttons: 10
+      links: 31
+      fields: 6
+      dialogs: 0
+      tables: 1
+      alerts: 0
+    semantic_coverage:
+      ui.search: 2
+      ui.select: 4
+    fields:
+      - label: Rechercher
+        placeholder: Rechercher
+        ariaLabel: null
+        name: null
+        id: mat-input-0
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: Rechercher
+        placeholder: Rechercher par code ou libellé
+        ariaLabel: null
+        name: ng.form0.valeurRecherche
+        id: mat-input-1
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-0
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-1
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-2
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-3
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+    ui_elements:
+      headings:
+        - Options
+      buttons:
+        - add Créer
+        - Réinitialiser les filtres
+        - Libellé
+        - Code
+        - Applicable à
+        - Taxes
+        - Unité
+        - Statut
+        - Dernière modification
+        - auto_awesome
+      table_headers:
+        - Libellé
+        - Code
+        - Applicable à
+        - Taxes
+        - Unité
+        - Statut
+        - Dernière modification
+      option_samples: []
+      links:
+        - text: calendar_today Planning
+          href: https://orion-int2.itsap.net/sap/pages/planning
+        - text: Leads
+          href: https://orion-int2.itsap.net/crm/pages/leads
+        - text: Clients & Prospects
+          href: https://orion-int2.itsap.net/crm/pages/clients-prospects
+        - text: Devis & Contrats
+          href: ''
+        - text: Reglements & Factures
+          href: ''
+        - text: Entités juridiques
+          href: https://orion-int2.itsap.net/crm/pages/clients-professionnels
+        - text: Intervenants
+          href: https://orion-int2.itsap.net/gestion-admin/pages/collaborateur
+        - text: Temps de travail
+          href: ''
+        - text: Paie & Préparation paie
+          href: ''
+        - text: Compétences & Aptitudes
+          href: ''
+        - text: Organismes financeurs
+          href: https://orion-int2.itsap.net/facturation-paie/reglementaire/pages/organisme-financeur
+        - text: Partenaires/Apporteurs
+          href: ''
+        - text: Rétrocommissions
+          href: ''
+        - text: Suivi crédits
+          href: ''
+        - text: Zone de couverture
+          href: ''
+        - text: Familles & produits
+          href: /offres-tarifs/pages/catalogue/familles
+        - text: Option & frais
+          href: /offres-tarifs/pages/catalogue/options
+        - text: Recrutement
+          href: ''
+        - text: Contrats de travail
+          href: ''
+        - text: Méd. du travail / URSSAF
+          href: ''
+        - text: Règles & Droit du salarié
+          href: ''
+        - text: check_circle Suivi qualité
+          href: ''
+        - text: Table des faits
+          href: https://orion-int2.itsap.net/facturation-paie/facturation/pages/table-des-faits
+        - text: Marques
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/marque
+        - text: Structures
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/structure
+        - text: Profils
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils
+        - text: Utilisateurs
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-users
+        - text: Droit & Habilitations
+          href: ''
+        - text: DMN (Règles)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/dmn
+        - text: Catégories (SAP)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/categories
+        - text: settings Paramètres
+          href: ''
+  - page_id: /sap/
+    page_url: https://orion-int2.itsap.net/sap/
+    agent_id: page-agent-016
+    success: true
+    error: null
+    related_pages: []
+    counters:
+      headings: 0
+      buttons: 1
+      links: 31
+      fields: 1
+      dialogs: 0
+      tables: 0
+      alerts: 0
+    semantic_coverage:
+      ui.search: 1
+    fields:
+      - label: Rechercher
+        placeholder: Rechercher
+        ariaLabel: null
+        name: null
+        id: mat-input-0
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+    ui_elements:
+      headings: []
+      buttons:
+        - auto_awesome
+      table_headers: []
+      option_samples: []
+      links:
+        - text: calendar_today Planning
+          href: /sap/pages/planning
+        - text: Leads
+          href: https://orion-int2.itsap.net/crm/pages/leads
+        - text: Clients & Prospects
+          href: https://orion-int2.itsap.net/crm/pages/clients-prospects
+        - text: Devis & Contrats
+          href: ''
+        - text: Reglements & Factures
+          href: ''
+        - text: Entités juridiques
+          href: https://orion-int2.itsap.net/crm/pages/clients-professionnels
+        - text: Intervenants
+          href: https://orion-int2.itsap.net/gestion-admin/pages/collaborateur
+        - text: Temps de travail
+          href: ''
+        - text: Paie & Préparation paie
+          href: ''
+        - text: Compétences & Aptitudes
+          href: ''
+        - text: Organismes financeurs
+          href: https://orion-int2.itsap.net/facturation-paie/reglementaire/pages/organisme-financeur
+        - text: Partenaires/Apporteurs
+          href: ''
+        - text: Rétrocommissions
+          href: ''
+        - text: Suivi crédits
+          href: ''
+        - text: Zone de couverture
+          href: ''
+        - text: Familles & produits
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles
+        - text: Option & frais
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options
+        - text: Recrutement
+          href: ''
+        - text: Contrats de travail
+          href: ''
+        - text: Méd. du travail / URSSAF
+          href: ''
+        - text: Règles & Droit du salarié
+          href: ''
+        - text: check_circle Suivi qualité
+          href: ''
+        - text: Table des faits
+          href: https://orion-int2.itsap.net/facturation-paie/facturation/pages/table-des-faits
+        - text: Marques
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/marque
+        - text: Structures
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/structure
+        - text: Profils
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils
+        - text: Utilisateurs
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-users
+        - text: Droit & Habilitations
+          href: ''
+        - text: DMN (Règles)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/dmn
+        - text: Catégories (SAP)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/categories
+        - text: settings Paramètres
+          href: ''
+  - page_id: /sap/pages/planning
+    page_url: https://orion-int2.itsap.net/sap/pages/planning
+    agent_id: page-agent-002
+    success: true
+    error: null
+    related_pages:
+      - page: /crm/pages/clients-prospects
+        overlap: 9
+      - page: /crm/pages/clients-professionnels
+        overlap: 8
+    counters:
+      headings: 1
+      buttons: 9
+      links: 32
+      fields: 4
+      dialogs: 0
+      tables: 0
+      alerts: 0
+    semantic_coverage:
+      ui.search: 1
+      unknown: 1
+      ui.select: 2
+    fields:
+      - label: Rechercher
+        placeholder: Rechercher
+        ariaLabel: null
+        name: null
+        id: mat-input-0
+        type: search
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.search
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-input-2
+        type: input
+        required: false
+        disabled: false
+        readonly: true
+        semantic_type: unknown
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-1
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+      - label: null
+        placeholder: null
+        ariaLabel: null
+        name: null
+        id: mat-select-0
+        type: mat-select
+        required: false
+        disabled: false
+        readonly: false
+        semantic_type: ui.select
+    ui_elements:
+      headings:
+        - Planning
+      buttons:
+        - add Créer
+        - Intervenants
+        - Clients
+        - Opérationnels agence
+        - keyboard_arrow_left
+        - keyboard_arrow_right
+        - filter_list Filtrer
+        - search
+        - auto_awesome
+      table_headers: []
+      option_samples: []
+      links:
+        - text: calendar_today Planning
+          href: /sap/pages/planning
+        - text: Leads
+          href: https://orion-int2.itsap.net/crm/pages/leads
+        - text: Clients & Prospects
+          href: https://orion-int2.itsap.net/crm/pages/clients-prospects
+        - text: Devis & Contrats
+          href: ''
+        - text: Reglements & Factures
+          href: ''
+        - text: Entités juridiques
+          href: https://orion-int2.itsap.net/crm/pages/clients-professionnels
+        - text: Intervenants
+          href: https://orion-int2.itsap.net/gestion-admin/pages/collaborateur
+        - text: Temps de travail
+          href: ''
+        - text: Paie & Préparation paie
+          href: ''
+        - text: Compétences & Aptitudes
+          href: ''
+        - text: Organismes financeurs
+          href: https://orion-int2.itsap.net/facturation-paie/reglementaire/pages/organisme-financeur
+        - text: Partenaires/Apporteurs
+          href: ''
+        - text: Rétrocommissions
+          href: ''
+        - text: Suivi crédits
+          href: ''
+        - text: Zone de couverture
+          href: ''
+        - text: Familles & produits
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles
+        - text: Option & frais
+          href: https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options
+        - text: Recrutement
+          href: ''
+        - text: Contrats de travail
+          href: ''
+        - text: Méd. du travail / URSSAF
+          href: ''
+        - text: Règles & Droit du salarié
+          href: ''
+        - text: check_circle Suivi qualité
+          href: ''
+        - text: Table des faits
+          href: https://orion-int2.itsap.net/facturation-paie/facturation/pages/table-des-faits
+        - text: Marques
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/marque
+        - text: Structures
+          href: https://orion-int2.itsap.net/gestion-marque/structure/pages/structure
+        - text: Profils
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils
+        - text: Utilisateurs
+          href: https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-users
+        - text: Droit & Habilitations
+          href: ''
+        - text: DMN (Règles)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/dmn
+        - text: Catégories (SAP)
+          href: https://orion-int2.itsap.net/gestion-marque/configuration/pages/categories
+        - text: settings Paramètres
+          href: ''
+        - text: Menu
+          href: /sap/

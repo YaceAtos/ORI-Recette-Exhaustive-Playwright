@@ -1,0 +1,9 @@
+llm:
+  enabled: false
+  use_cases:
+    - unknown_field_semantic_discovery
+    - constrained_text_suggestion
+  safeguards:
+    strip_html: true
+    enforce_regex: true
+    enforce_length: true

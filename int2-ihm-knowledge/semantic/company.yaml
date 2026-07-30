@@ -1,0 +1,41 @@
+company:
+  company_name:
+    semantic_type: company.company_name
+    aliases: [company_name, raison_sociale, denomination, societe, organization_name]
+    confidence_keywords: [company, societe, raison, denomination]
+    datatype: string
+
+  siren:
+    semantic_type: company.siren
+    aliases: [siren, company_number, numero_siren]
+    confidence_keywords: [siren, legal, company, number]
+    datatype: numeric
+    length: 9
+    validation:
+      checksum: luhn
+
+  siret:
+    semantic_type: company.siret
+    aliases: [siret, numero_siret, establishment_number]
+    confidence_keywords: [siret, establishment, legal, number]
+    datatype: numeric
+    length: 14
+    validation:
+      checksum: luhn
+      starts_with: company.siren
+
+  vat_number:
+    semantic_type: company.vat_number
+    aliases: [vat, vat_number, tva, numero_tva]
+    confidence_keywords: [vat, tva]
+    datatype: string
+
+  agency:
+    semantic_type: company.agency
+    aliases: [agence, agency, branch]
+    datatype: select
+
+  legal_type:
+    semantic_type: company.legal_type
+    aliases: [type, legal_type, statut_juridique]
+    datatype: select

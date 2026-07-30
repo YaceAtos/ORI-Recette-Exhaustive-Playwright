@@ -1,0 +1,5 @@
+checksum:
+  company.siren: luhn
+  company.siret: luhn
+  rules:
+    company.siret.starts_with: company.siren

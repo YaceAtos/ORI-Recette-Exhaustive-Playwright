@@ -1,0 +1,40 @@
+{
+  "canonicalId": "ORI-773::CT-STE-COORD-04::R8",
+  "issueKey": "ORI-773",
+  "caseId": "CT-STE-COORD-04",
+  "module": "MP1 > SP1.1",
+  "priority": "P1",
+  "type": "Erreur",
+  "scenario": "Controles champs obligatoires NULL sur societe Active (RG_STE_Modif)",
+  "route": "https://orion-int2.itsap.net/gestion-marque/structure/pages/structure",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 2,
+  "progressedSteps": 1,
+  "totalSteps": 6,
+  "blocker": {
+    "step": 2,
+    "reason": "Étape \"Cliquer Enregistrer\" nécessite une action persistante (Enregistrer) — bloquée par garde non-persistance"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 3,
+    "misses": [
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Donnees"
+      },
+      {
+        "text": "Enregistrement"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_STE_Modif"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-e8c2a-ociete-Active-RG-STE-Modif--orion-headed"
+}

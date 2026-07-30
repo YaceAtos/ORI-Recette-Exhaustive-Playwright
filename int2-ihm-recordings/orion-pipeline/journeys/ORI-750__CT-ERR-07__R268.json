@@ -1,0 +1,37 @@
+{
+  "canonicalId": "ORI-750::CT-ERR-07::R268",
+  "issueKey": "ORI-750",
+  "caseId": "CT-ERR-07",
+  "module": "MP5 > SP5.2",
+  "priority": "P1",
+  "type": "Erreur",
+  "scenario": "Notification des erreurs lors de la MODIFICATION d'une serie (miroir creation)",
+  "route": "https://orion-int2.itsap.net/sap/pages/planning",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Emettre une modification avec un message non conforme\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 1,
+    "total": 3,
+    "misses": [
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Message"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_MOD"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-1d32f--une-serie-miroir-creation--orion-headed"
+}

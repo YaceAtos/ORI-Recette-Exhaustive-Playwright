@@ -1,0 +1,30 @@
+{
+  "canonicalId": "ORI-667::CT-FILT-05::R220",
+  "issueKey": "ORI-667",
+  "caseId": "CT-FILT-05",
+  "module": "MP4 > SP4.2",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "RG_BSN_FILT_02 - Etat vide filtre (aucun besoin ne correspond)",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 5,
+  "progressedSteps": 2,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 3,
+    "reason": "Étape \"Cocher un statut sans besoin associe\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 2,
+    "total": 2,
+    "misses": []
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_BSN_FILT_02"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-928f6-aucun-besoin-ne-correspond--orion-headed"
+}

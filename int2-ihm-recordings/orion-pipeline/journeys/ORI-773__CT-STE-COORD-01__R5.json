@@ -1,0 +1,48 @@
+{
+  "canonicalId": "ORI-773::CT-STE-COORD-01::R5",
+  "issueKey": "ORI-773",
+  "caseId": "CT-STE-COORD-01",
+  "module": "MP1 > SP1.1",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "Ouverture modale et pre-remplissage des champs",
+  "route": "https://orion-int2.itsap.net/gestion-marque/structure/pages/structure",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 1,
+  "totalSteps": 9,
+  "blocker": {
+    "step": 2,
+    "reason": "Étape \"Cliquer bouton Modifier de l encadre Coordonnees Legales\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 5,
+    "misses": [
+      {
+        "text": "Coordonnees"
+      },
+      {
+        "text": "Modale"
+      },
+      {
+        "text": "Header"
+      },
+      {
+        "text": "France"
+      },
+      {
+        "text": "Valeur"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_GEN_ENR_01",
+    "RG_GEN_SUIV_01",
+    "RG_STE_ETATFICHE_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-1873d--pre-remplissage-des-champs-orion-headed"
+}

@@ -1,0 +1,37 @@
+{
+  "canonicalId": "ORI-1065::CT-OPT-A-06::R94",
+  "issueKey": "ORI-1065",
+  "caseId": "CT-OPT-A-06",
+  "module": "MP2 > SP2.1",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "CA09: Acces a la consultation via fleche -> drawer lecture seule",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 1,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 2,
+    "reason": "Étape \"Cliquer sur la fleche\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 2,
+    "misses": [
+      {
+        "text": "Fleche"
+      },
+      {
+        "text": "Drawer"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_OPT_LIST_12"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-9dd44-eche---drawer-lecture-seule-orion-headed"
+}

@@ -1,0 +1,43 @@
+{
+  "canonicalId": "ORI-1068::CT-RND-01::R230",
+  "issueKey": "ORI-1068",
+  "caseId": "CT-RND-01",
+  "module": "MP4 > SP4.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_BSN_QUAL_01 / CA-01 - Rendu dynamique du JSON en modale stepper (ouverture besoin 'A qualifier')",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Depuis la liste des besoins, cliquer Modifier sur un besoin 'A qualifi\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Modale"
+      },
+      {
+        "text": "Formulaire"
+      },
+      {
+        "text": "Complet"
+      },
+      {
+        "text": "Champs"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_BSN_QUAL_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-30430-verture-besoin-A-qualifier--orion-headed"
+}

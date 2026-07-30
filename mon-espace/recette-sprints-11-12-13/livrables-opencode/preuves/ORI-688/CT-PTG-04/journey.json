@@ -1,0 +1,37 @@
+{
+  "canonicalId": "ORI-688::CT-PTG-04::R250",
+  "issueKey": "ORI-688",
+  "caseId": "CT-PTG-04",
+  "module": "MP5 > SP5.2",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "RG_PLA_TLP_01 - Infobulle au survol : type des pointages par intervenant",
+  "route": "https://orion-int2.itsap.net/sap/pages/planning",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 3,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Survoler la carte d'une intervention\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 2,
+    "misses": [
+      {
+        "text": "Infobulle"
+      },
+      {
+        "text": "Contenu"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_PLA_TLP_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-1186e-s-pointages-par-intervenant-orion-headed"
+}

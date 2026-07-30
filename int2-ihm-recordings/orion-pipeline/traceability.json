@@ -1,0 +1,2532 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-07-30T13:05:39.292Z",
+  "sourceCaseCount": 252,
+  "issueCount": 29,
+  "ruleCount": 206,
+  "coverageLevels": {
+    "exacte": 252
+  },
+  "coverage": [
+    {
+      "canonicalId": "ORI-773::CT-STE-COORD-01::R5",
+      "localTestCaseRef": "TC-ORI-773-CT-STE-COORD-01-R5",
+      "issueKey": "ORI-773",
+      "caseId": "CT-STE-COORD-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-773::CT-STE-COORD-02::R6",
+      "localTestCaseRef": "TC-ORI-773-CT-STE-COORD-02-R6",
+      "issueKey": "ORI-773",
+      "caseId": "CT-STE-COORD-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-773::CT-STE-COORD-03::R7",
+      "localTestCaseRef": "TC-ORI-773-CT-STE-COORD-03-R7",
+      "issueKey": "ORI-773",
+      "caseId": "CT-STE-COORD-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-773::CT-STE-COORD-04::R8",
+      "localTestCaseRef": "TC-ORI-773-CT-STE-COORD-04-R8",
+      "issueKey": "ORI-773",
+      "caseId": "CT-STE-COORD-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-773::CT-STE-COORD-05::R9",
+      "localTestCaseRef": "TC-ORI-773-CT-STE-COORD-05-R9",
+      "issueKey": "ORI-773",
+      "caseId": "CT-STE-COORD-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-773::CT-STE-COORD-06::R10",
+      "localTestCaseRef": "TC-ORI-773-CT-STE-COORD-06-R10",
+      "issueKey": "ORI-773",
+      "caseId": "CT-STE-COORD-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-773::CT-STE-COORD-07::R11",
+      "localTestCaseRef": "TC-ORI-773-CT-STE-COORD-07-R11",
+      "issueKey": "ORI-773",
+      "caseId": "CT-STE-COORD-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-773::CT-STE-COORD-08::R12",
+      "localTestCaseRef": "TC-ORI-773-CT-STE-COORD-08-R12",
+      "issueKey": "ORI-773",
+      "caseId": "CT-STE-COORD-08",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-783::CT-ETAB-01::R14",
+      "localTestCaseRef": "TC-ORI-783-CT-ETAB-01-R14",
+      "issueKey": "ORI-783",
+      "caseId": "CT-ETAB-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-783::CT-ETAB-02::R15",
+      "localTestCaseRef": "TC-ORI-783-CT-ETAB-02-R15",
+      "issueKey": "ORI-783",
+      "caseId": "CT-ETAB-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-783::CT-ETAB-03::R16",
+      "localTestCaseRef": "TC-ORI-783-CT-ETAB-03-R16",
+      "issueKey": "ORI-783",
+      "caseId": "CT-ETAB-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-783::CT-ETAB-04::R17",
+      "localTestCaseRef": "TC-ORI-783-CT-ETAB-04-R17",
+      "issueKey": "ORI-783",
+      "caseId": "CT-ETAB-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-783::CT-ETAB-05::R18",
+      "localTestCaseRef": "TC-ORI-783-CT-ETAB-05-R18",
+      "issueKey": "ORI-783",
+      "caseId": "CT-ETAB-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-783::CT-ETAB-06::R19",
+      "localTestCaseRef": "TC-ORI-783-CT-ETAB-06-R19",
+      "issueKey": "ORI-783",
+      "caseId": "CT-ETAB-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-783::CT-ETAB-07::R20",
+      "localTestCaseRef": "TC-ORI-783-CT-ETAB-07-R20",
+      "issueKey": "ORI-783",
+      "caseId": "CT-ETAB-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-783::CT-ETAB-08::R21",
+      "localTestCaseRef": "TC-ORI-783-CT-ETAB-08-R21",
+      "issueKey": "ORI-783",
+      "caseId": "CT-ETAB-08",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-783::CT-ETAB-09::R22",
+      "localTestCaseRef": "TC-ORI-783-CT-ETAB-09-R22",
+      "issueKey": "ORI-783",
+      "caseId": "CT-ETAB-09",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-871::CT-HAB-F5-01::R24",
+      "localTestCaseRef": "TC-ORI-871-CT-HAB-F5-01-R24",
+      "issueKey": "ORI-871",
+      "caseId": "CT-HAB-F5-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-871::CT-HAB-F5-02::R25",
+      "localTestCaseRef": "TC-ORI-871-CT-HAB-F5-02-R25",
+      "issueKey": "ORI-871",
+      "caseId": "CT-HAB-F5-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-871::CT-HAB-F5-03::R26",
+      "localTestCaseRef": "TC-ORI-871-CT-HAB-F5-03-R26",
+      "issueKey": "ORI-871",
+      "caseId": "CT-HAB-F5-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-871::CT-HAB-F5-04::R27",
+      "localTestCaseRef": "TC-ORI-871-CT-HAB-F5-04-R27",
+      "issueKey": "ORI-871",
+      "caseId": "CT-HAB-F5-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-871::CT-HAB-F5-05::R28",
+      "localTestCaseRef": "TC-ORI-871-CT-HAB-F5-05-R28",
+      "issueKey": "ORI-871",
+      "caseId": "CT-HAB-F5-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-871::CT-HAB-F5-06::R29",
+      "localTestCaseRef": "TC-ORI-871-CT-HAB-F5-06-R29",
+      "issueKey": "ORI-871",
+      "caseId": "CT-HAB-F5-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-871::CT-HAB-F5-07::R30",
+      "localTestCaseRef": "TC-ORI-871-CT-HAB-F5-07-R30",
+      "issueKey": "ORI-871",
+      "caseId": "CT-HAB-F5-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-871::CT-HAB-F5-08::R31",
+      "localTestCaseRef": "TC-ORI-871-CT-HAB-F5-08-R31",
+      "issueKey": "ORI-871",
+      "caseId": "CT-HAB-F5-08",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-872::CT-HAB-F1-01::R33",
+      "localTestCaseRef": "TC-ORI-872-CT-HAB-F1-01-R33",
+      "issueKey": "ORI-872",
+      "caseId": "CT-HAB-F1-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-872::CT-HAB-F1-02::R34",
+      "localTestCaseRef": "TC-ORI-872-CT-HAB-F1-02-R34",
+      "issueKey": "ORI-872",
+      "caseId": "CT-HAB-F1-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-872::CT-HAB-F1-03::R35",
+      "localTestCaseRef": "TC-ORI-872-CT-HAB-F1-03-R35",
+      "issueKey": "ORI-872",
+      "caseId": "CT-HAB-F1-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-872::CT-HAB-F1-04::R36",
+      "localTestCaseRef": "TC-ORI-872-CT-HAB-F1-04-R36",
+      "issueKey": "ORI-872",
+      "caseId": "CT-HAB-F1-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-872::CT-HAB-F1-05::R37",
+      "localTestCaseRef": "TC-ORI-872-CT-HAB-F1-05-R37",
+      "issueKey": "ORI-872",
+      "caseId": "CT-HAB-F1-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-872::CT-HAB-F1-06::R38",
+      "localTestCaseRef": "TC-ORI-872-CT-HAB-F1-06-R38",
+      "issueKey": "ORI-872",
+      "caseId": "CT-HAB-F1-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-872::CT-HAB-F1-07::R39",
+      "localTestCaseRef": "TC-ORI-872-CT-HAB-F1-07-R39",
+      "issueKey": "ORI-872",
+      "caseId": "CT-HAB-F1-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-873::CT-HAB-F2-01::R41",
+      "localTestCaseRef": "TC-ORI-873-CT-HAB-F2-01-R41",
+      "issueKey": "ORI-873",
+      "caseId": "CT-HAB-F2-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-873::CT-HAB-F2-02::R42",
+      "localTestCaseRef": "TC-ORI-873-CT-HAB-F2-02-R42",
+      "issueKey": "ORI-873",
+      "caseId": "CT-HAB-F2-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-873::CT-HAB-F2-03::R43",
+      "localTestCaseRef": "TC-ORI-873-CT-HAB-F2-03-R43",
+      "issueKey": "ORI-873",
+      "caseId": "CT-HAB-F2-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-873::CT-HAB-F2-04::R44",
+      "localTestCaseRef": "TC-ORI-873-CT-HAB-F2-04-R44",
+      "issueKey": "ORI-873",
+      "caseId": "CT-HAB-F2-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-873::CT-HAB-F2-05::R45",
+      "localTestCaseRef": "TC-ORI-873-CT-HAB-F2-05-R45",
+      "issueKey": "ORI-873",
+      "caseId": "CT-HAB-F2-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-873::CT-HAB-F2-06::R46",
+      "localTestCaseRef": "TC-ORI-873-CT-HAB-F2-06-R46",
+      "issueKey": "ORI-873",
+      "caseId": "CT-HAB-F2-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-931::CT-HAB-F3-01::R48",
+      "localTestCaseRef": "TC-ORI-931-CT-HAB-F3-01-R48",
+      "issueKey": "ORI-931",
+      "caseId": "CT-HAB-F3-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-931::CT-HAB-F3-02::R49",
+      "localTestCaseRef": "TC-ORI-931-CT-HAB-F3-02-R49",
+      "issueKey": "ORI-931",
+      "caseId": "CT-HAB-F3-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-931::CT-HAB-F3-03::R50",
+      "localTestCaseRef": "TC-ORI-931-CT-HAB-F3-03-R50",
+      "issueKey": "ORI-931",
+      "caseId": "CT-HAB-F3-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-931::CT-HAB-F3-04::R51",
+      "localTestCaseRef": "TC-ORI-931-CT-HAB-F3-04-R51",
+      "issueKey": "ORI-931",
+      "caseId": "CT-HAB-F3-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-931::CT-HAB-F3-05::R52",
+      "localTestCaseRef": "TC-ORI-931-CT-HAB-F3-05-R52",
+      "issueKey": "ORI-931",
+      "caseId": "CT-HAB-F3-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-931::CT-HAB-F3-06::R53",
+      "localTestCaseRef": "TC-ORI-931-CT-HAB-F3-06-R53",
+      "issueKey": "ORI-931",
+      "caseId": "CT-HAB-F3-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-933::CT-HAB-F4-01::R55",
+      "localTestCaseRef": "TC-ORI-933-CT-HAB-F4-01-R55",
+      "issueKey": "ORI-933",
+      "caseId": "CT-HAB-F4-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-933::CT-HAB-F4-02::R56",
+      "localTestCaseRef": "TC-ORI-933-CT-HAB-F4-02-R56",
+      "issueKey": "ORI-933",
+      "caseId": "CT-HAB-F4-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-933::CT-HAB-F4-03::R57",
+      "localTestCaseRef": "TC-ORI-933-CT-HAB-F4-03-R57",
+      "issueKey": "ORI-933",
+      "caseId": "CT-HAB-F4-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-933::CT-HAB-F4-04::R58",
+      "localTestCaseRef": "TC-ORI-933-CT-HAB-F4-04-R58",
+      "issueKey": "ORI-933",
+      "caseId": "CT-HAB-F4-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-933::CT-HAB-F4-05::R59",
+      "localTestCaseRef": "TC-ORI-933-CT-HAB-F4-05-R59",
+      "issueKey": "ORI-933",
+      "caseId": "CT-HAB-F4-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-933::CT-HAB-F4-06::R60",
+      "localTestCaseRef": "TC-ORI-933-CT-HAB-F4-06-R60",
+      "issueKey": "ORI-933",
+      "caseId": "CT-HAB-F4-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1036::CT-HAB-F6-01::R62",
+      "localTestCaseRef": "TC-ORI-1036-CT-HAB-F6-01-R62",
+      "issueKey": "ORI-1036",
+      "caseId": "CT-HAB-F6-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1036::CT-HAB-F6-02::R63",
+      "localTestCaseRef": "TC-ORI-1036-CT-HAB-F6-02-R63",
+      "issueKey": "ORI-1036",
+      "caseId": "CT-HAB-F6-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1036::CT-HAB-F6-03::R64",
+      "localTestCaseRef": "TC-ORI-1036-CT-HAB-F6-03-R64",
+      "issueKey": "ORI-1036",
+      "caseId": "CT-HAB-F6-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1036::CT-HAB-F6-04::R65",
+      "localTestCaseRef": "TC-ORI-1036-CT-HAB-F6-04-R65",
+      "issueKey": "ORI-1036",
+      "caseId": "CT-HAB-F6-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1036::CT-HAB-F6-05::R66",
+      "localTestCaseRef": "TC-ORI-1036-CT-HAB-F6-05-R66",
+      "issueKey": "ORI-1036",
+      "caseId": "CT-HAB-F6-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1036::CT-HAB-F6-06::R67",
+      "localTestCaseRef": "TC-ORI-1036-CT-HAB-F6-06-R67",
+      "issueKey": "ORI-1036",
+      "caseId": "CT-HAB-F6-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1036::CT-HAB-F6-07::R68",
+      "localTestCaseRef": "TC-ORI-1036-CT-HAB-F6-07-R68",
+      "issueKey": "ORI-1036",
+      "caseId": "CT-HAB-F6-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1036::CT-HAB-F6-08::R69",
+      "localTestCaseRef": "TC-ORI-1036-CT-HAB-F6-08-R69",
+      "issueKey": "ORI-1036",
+      "caseId": "CT-HAB-F6-08",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1308::CT-HAB-F7-01::R71",
+      "localTestCaseRef": "TC-ORI-1308-CT-HAB-F7-01-R71",
+      "issueKey": "ORI-1308",
+      "caseId": "CT-HAB-F7-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1308::CT-HAB-F7-02::R72",
+      "localTestCaseRef": "TC-ORI-1308-CT-HAB-F7-02-R72",
+      "issueKey": "ORI-1308",
+      "caseId": "CT-HAB-F7-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1308::CT-HAB-F7-03::R73",
+      "localTestCaseRef": "TC-ORI-1308-CT-HAB-F7-03-R73",
+      "issueKey": "ORI-1308",
+      "caseId": "CT-HAB-F7-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1308::CT-HAB-F7-04::R74",
+      "localTestCaseRef": "TC-ORI-1308-CT-HAB-F7-04-R74",
+      "issueKey": "ORI-1308",
+      "caseId": "CT-HAB-F7-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1308::CT-HAB-F7-05::R75",
+      "localTestCaseRef": "TC-ORI-1308-CT-HAB-F7-05-R75",
+      "issueKey": "ORI-1308",
+      "caseId": "CT-HAB-F7-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1308::CT-HAB-F7-06::R76",
+      "localTestCaseRef": "TC-ORI-1308-CT-HAB-F7-06-R76",
+      "issueKey": "ORI-1308",
+      "caseId": "CT-HAB-F7-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1308::CT-HAB-F7-07::R77",
+      "localTestCaseRef": "TC-ORI-1308-CT-HAB-F7-07-R77",
+      "issueKey": "ORI-1308",
+      "caseId": "CT-HAB-F7-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1308::CT-HAB-F7-08::R78",
+      "localTestCaseRef": "TC-ORI-1308-CT-HAB-F7-08-R78",
+      "issueKey": "ORI-1308",
+      "caseId": "CT-HAB-F7-08",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-657::CT-PIM-D-01::R80",
+      "localTestCaseRef": "TC-ORI-657-CT-PIM-D-01-R80",
+      "issueKey": "ORI-657",
+      "caseId": "CT-PIM-D-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-657::CT-PIM-D-02::R81",
+      "localTestCaseRef": "TC-ORI-657-CT-PIM-D-02-R81",
+      "issueKey": "ORI-657",
+      "caseId": "CT-PIM-D-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-657::CT-PIM-D-03::R82",
+      "localTestCaseRef": "TC-ORI-657-CT-PIM-D-03-R82",
+      "issueKey": "ORI-657",
+      "caseId": "CT-PIM-D-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-657::CT-PIM-D-04::R83",
+      "localTestCaseRef": "TC-ORI-657-CT-PIM-D-04-R83",
+      "issueKey": "ORI-657",
+      "caseId": "CT-PIM-D-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-657::CT-PIM-D-05::R84",
+      "localTestCaseRef": "TC-ORI-657-CT-PIM-D-05-R84",
+      "issueKey": "ORI-657",
+      "caseId": "CT-PIM-D-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-657::CT-PIM-D-06::R85",
+      "localTestCaseRef": "TC-ORI-657-CT-PIM-D-06-R85",
+      "issueKey": "ORI-657",
+      "caseId": "CT-PIM-D-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-657::CT-PIM-D-07::R86",
+      "localTestCaseRef": "TC-ORI-657-CT-PIM-D-07-R86",
+      "issueKey": "ORI-657",
+      "caseId": "CT-PIM-D-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-657::CT-PIM-D-08::R87",
+      "localTestCaseRef": "TC-ORI-657-CT-PIM-D-08-R87",
+      "issueKey": "ORI-657",
+      "caseId": "CT-PIM-D-08",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1065::CT-OPT-A-01::R89",
+      "localTestCaseRef": "TC-ORI-1065-CT-OPT-A-01-R89",
+      "issueKey": "ORI-1065",
+      "caseId": "CT-OPT-A-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1065::CT-OPT-A-02::R90",
+      "localTestCaseRef": "TC-ORI-1065-CT-OPT-A-02-R90",
+      "issueKey": "ORI-1065",
+      "caseId": "CT-OPT-A-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1065::CT-OPT-A-03::R91",
+      "localTestCaseRef": "TC-ORI-1065-CT-OPT-A-03-R91",
+      "issueKey": "ORI-1065",
+      "caseId": "CT-OPT-A-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1065::CT-OPT-A-04::R92",
+      "localTestCaseRef": "TC-ORI-1065-CT-OPT-A-04-R92",
+      "issueKey": "ORI-1065",
+      "caseId": "CT-OPT-A-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1065::CT-OPT-A-05::R93",
+      "localTestCaseRef": "TC-ORI-1065-CT-OPT-A-05-R93",
+      "issueKey": "ORI-1065",
+      "caseId": "CT-OPT-A-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1065::CT-OPT-A-06::R94",
+      "localTestCaseRef": "TC-ORI-1065-CT-OPT-A-06-R94",
+      "issueKey": "ORI-1065",
+      "caseId": "CT-OPT-A-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1065::CT-OPT-A-07::R95",
+      "localTestCaseRef": "TC-ORI-1065-CT-OPT-A-07-R95",
+      "issueKey": "ORI-1065",
+      "caseId": "CT-OPT-A-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1065::CT-OPT-A-08::R96",
+      "localTestCaseRef": "TC-ORI-1065-CT-OPT-A-08-R96",
+      "issueKey": "ORI-1065",
+      "caseId": "CT-OPT-A-08",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1067::CT-OPT-B-01::R98",
+      "localTestCaseRef": "TC-ORI-1067-CT-OPT-B-01-R98",
+      "issueKey": "ORI-1067",
+      "caseId": "CT-OPT-B-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1067::CT-OPT-B-02::R99",
+      "localTestCaseRef": "TC-ORI-1067-CT-OPT-B-02-R99",
+      "issueKey": "ORI-1067",
+      "caseId": "CT-OPT-B-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1067::CT-OPT-B-03::R100",
+      "localTestCaseRef": "TC-ORI-1067-CT-OPT-B-03-R100",
+      "issueKey": "ORI-1067",
+      "caseId": "CT-OPT-B-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1067::CT-OPT-B-04::R101",
+      "localTestCaseRef": "TC-ORI-1067-CT-OPT-B-04-R101",
+      "issueKey": "ORI-1067",
+      "caseId": "CT-OPT-B-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1067::CT-OPT-B-05::R102",
+      "localTestCaseRef": "TC-ORI-1067-CT-OPT-B-05-R102",
+      "issueKey": "ORI-1067",
+      "caseId": "CT-OPT-B-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1067::CT-OPT-B-06::R103",
+      "localTestCaseRef": "TC-ORI-1067-CT-OPT-B-06-R103",
+      "issueKey": "ORI-1067",
+      "caseId": "CT-OPT-B-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1067::CT-OPT-B-07::R104",
+      "localTestCaseRef": "TC-ORI-1067-CT-OPT-B-07-R104",
+      "issueKey": "ORI-1067",
+      "caseId": "CT-OPT-B-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1067::CT-OPT-B-08::R105",
+      "localTestCaseRef": "TC-ORI-1067-CT-OPT-B-08-R105",
+      "issueKey": "ORI-1067",
+      "caseId": "CT-OPT-B-08",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1067::CT-OPT-B-09::R106",
+      "localTestCaseRef": "TC-ORI-1067-CT-OPT-B-09-R106",
+      "issueKey": "ORI-1067",
+      "caseId": "CT-OPT-B-09",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1067::CT-OPT-B-10::R107",
+      "localTestCaseRef": "TC-ORI-1067-CT-OPT-B-10-R107",
+      "issueKey": "ORI-1067",
+      "caseId": "CT-OPT-B-10",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-723::CT-DUR-01::R109",
+      "localTestCaseRef": "TC-ORI-723-CT-DUR-01-R109",
+      "issueKey": "ORI-723",
+      "caseId": "CT-DUR-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-723::CT-DUR-02::R110",
+      "localTestCaseRef": "TC-ORI-723-CT-DUR-02-R110",
+      "issueKey": "ORI-723",
+      "caseId": "CT-DUR-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-723::CT-DUR-03::R111",
+      "localTestCaseRef": "TC-ORI-723-CT-DUR-03-R111",
+      "issueKey": "ORI-723",
+      "caseId": "CT-DUR-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-723::CT-DUR-04::R112",
+      "localTestCaseRef": "TC-ORI-723-CT-DUR-04-R112",
+      "issueKey": "ORI-723",
+      "caseId": "CT-DUR-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-723::CT-DUR-05::R113",
+      "localTestCaseRef": "TC-ORI-723-CT-DUR-05-R113",
+      "issueKey": "ORI-723",
+      "caseId": "CT-DUR-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-723::CT-DUR-06::R114",
+      "localTestCaseRef": "TC-ORI-723-CT-DUR-06-R114",
+      "issueKey": "ORI-723",
+      "caseId": "CT-DUR-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-723::CT-DUR-07::R115",
+      "localTestCaseRef": "TC-ORI-723-CT-DUR-07-R115",
+      "issueKey": "ORI-723",
+      "caseId": "CT-DUR-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-723::CT-DUR-08::R116",
+      "localTestCaseRef": "TC-ORI-723-CT-DUR-08-R116",
+      "issueKey": "ORI-723",
+      "caseId": "CT-DUR-08",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-723::CT-DUR-09::R117",
+      "localTestCaseRef": "TC-ORI-723-CT-DUR-09-R117",
+      "issueKey": "ORI-723",
+      "caseId": "CT-DUR-09",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-723::CT-DUR-10::R118",
+      "localTestCaseRef": "TC-ORI-723-CT-DUR-10-R118",
+      "issueKey": "ORI-723",
+      "caseId": "CT-DUR-10",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-723::CT-DUR-11::R119",
+      "localTestCaseRef": "TC-ORI-723-CT-DUR-11-R119",
+      "issueKey": "ORI-723",
+      "caseId": "CT-DUR-11",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-723::CT-DUR-12::R120",
+      "localTestCaseRef": "TC-ORI-723-CT-DUR-12-R120",
+      "issueKey": "ORI-723",
+      "caseId": "CT-DUR-12",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1039::CT-DURF-01::R122",
+      "localTestCaseRef": "TC-ORI-1039-CT-DURF-01-R122",
+      "issueKey": "ORI-1039",
+      "caseId": "CT-DURF-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1039::CT-DURF-02::R123",
+      "localTestCaseRef": "TC-ORI-1039-CT-DURF-02-R123",
+      "issueKey": "ORI-1039",
+      "caseId": "CT-DURF-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1039::CT-DURF-03::R124",
+      "localTestCaseRef": "TC-ORI-1039-CT-DURF-03-R124",
+      "issueKey": "ORI-1039",
+      "caseId": "CT-DURF-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1039::CT-DURF-04::R125",
+      "localTestCaseRef": "TC-ORI-1039-CT-DURF-04-R125",
+      "issueKey": "ORI-1039",
+      "caseId": "CT-DURF-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1039::CT-DURF-05::R126",
+      "localTestCaseRef": "TC-ORI-1039-CT-DURF-05-R126",
+      "issueKey": "ORI-1039",
+      "caseId": "CT-DURF-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1039::CT-DURF-06::R127",
+      "localTestCaseRef": "TC-ORI-1039-CT-DURF-06-R127",
+      "issueKey": "ORI-1039",
+      "caseId": "CT-DURF-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1039::CT-DURF-07::R128",
+      "localTestCaseRef": "TC-ORI-1039-CT-DURF-07-R128",
+      "issueKey": "ORI-1039",
+      "caseId": "CT-DURF-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1039::CT-DURF-08::R129",
+      "localTestCaseRef": "TC-ORI-1039-CT-DURF-08-R129",
+      "issueKey": "ORI-1039",
+      "caseId": "CT-DURF-08",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1039::CT-DURF-09::R130",
+      "localTestCaseRef": "TC-ORI-1039-CT-DURF-09-R130",
+      "issueKey": "ORI-1039",
+      "caseId": "CT-DURF-09",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1039::CT-DURF-10::R131",
+      "localTestCaseRef": "TC-ORI-1039-CT-DURF-10-R131",
+      "issueKey": "ORI-1039",
+      "caseId": "CT-DURF-10",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1039::CT-DURF-11::R132",
+      "localTestCaseRef": "TC-ORI-1039-CT-DURF-11-R132",
+      "issueKey": "ORI-1039",
+      "caseId": "CT-DURF-11",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1039::CT-DURF-12::R133",
+      "localTestCaseRef": "TC-ORI-1039-CT-DURF-12-R133",
+      "issueKey": "ORI-1039",
+      "caseId": "CT-DURF-12",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-91::CT-NOTIF-01::R135",
+      "localTestCaseRef": "TC-ORI-91-CT-NOTIF-01-R135",
+      "issueKey": "ORI-91",
+      "caseId": "CT-NOTIF-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-91::CT-NOTIF-02::R136",
+      "localTestCaseRef": "TC-ORI-91-CT-NOTIF-02-R136",
+      "issueKey": "ORI-91",
+      "caseId": "CT-NOTIF-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-91::CT-NOTIF-03::R137",
+      "localTestCaseRef": "TC-ORI-91-CT-NOTIF-03-R137",
+      "issueKey": "ORI-91",
+      "caseId": "CT-NOTIF-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-91::CT-NOTIF-04::R138",
+      "localTestCaseRef": "TC-ORI-91-CT-NOTIF-04-R138",
+      "issueKey": "ORI-91",
+      "caseId": "CT-NOTIF-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-91::CT-NOTIF-05::R139",
+      "localTestCaseRef": "TC-ORI-91-CT-NOTIF-05-R139",
+      "issueKey": "ORI-91",
+      "caseId": "CT-NOTIF-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-91::CT-NOTIF-06::R140",
+      "localTestCaseRef": "TC-ORI-91-CT-NOTIF-06-R140",
+      "issueKey": "ORI-91",
+      "caseId": "CT-NOTIF-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-91::CT-NOTIF-07::R141",
+      "localTestCaseRef": "TC-ORI-91-CT-NOTIF-07-R141",
+      "issueKey": "ORI-91",
+      "caseId": "CT-NOTIF-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-91::CT-NOTIF-08::R142",
+      "localTestCaseRef": "TC-ORI-91-CT-NOTIF-08-R142",
+      "issueKey": "ORI-91",
+      "caseId": "CT-NOTIF-08",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-91::CT-NOTIF-09::R143",
+      "localTestCaseRef": "TC-ORI-91-CT-NOTIF-09-R143",
+      "issueKey": "ORI-91",
+      "caseId": "CT-NOTIF-09",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-91::CT-NOTIF-10::R144",
+      "localTestCaseRef": "TC-ORI-91-CT-NOTIF-10-R144",
+      "issueKey": "ORI-91",
+      "caseId": "CT-NOTIF-10",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-91::CT-NOTIF-11::R145",
+      "localTestCaseRef": "TC-ORI-91-CT-NOTIF-11-R145",
+      "issueKey": "ORI-91",
+      "caseId": "CT-NOTIF-11",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-91::CT-NOTIF-12::R146",
+      "localTestCaseRef": "TC-ORI-91-CT-NOTIF-12-R146",
+      "issueKey": "ORI-91",
+      "caseId": "CT-NOTIF-12",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-91::CT-NOTIF-13::R147",
+      "localTestCaseRef": "TC-ORI-91-CT-NOTIF-13-R147",
+      "issueKey": "ORI-91",
+      "caseId": "CT-NOTIF-13",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-91::CT-NOTIF-14::R148",
+      "localTestCaseRef": "TC-ORI-91-CT-NOTIF-14-R148",
+      "issueKey": "ORI-91",
+      "caseId": "CT-NOTIF-14",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-936::CT-CPT-01::R150",
+      "localTestCaseRef": "TC-ORI-936-CT-CPT-01-R150",
+      "issueKey": "ORI-936",
+      "caseId": "CT-CPT-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-936::CT-CPT-02::R151",
+      "localTestCaseRef": "TC-ORI-936-CT-CPT-02-R151",
+      "issueKey": "ORI-936",
+      "caseId": "CT-CPT-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-936::CT-CPT-03::R152",
+      "localTestCaseRef": "TC-ORI-936-CT-CPT-03-R152",
+      "issueKey": "ORI-936",
+      "caseId": "CT-CPT-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-936::CT-CPT-04::R153",
+      "localTestCaseRef": "TC-ORI-936-CT-CPT-04-R153",
+      "issueKey": "ORI-936",
+      "caseId": "CT-CPT-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-936::CT-CPT-05::R154",
+      "localTestCaseRef": "TC-ORI-936-CT-CPT-05-R154",
+      "issueKey": "ORI-936",
+      "caseId": "CT-CPT-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-936::CT-CPT-06::R155",
+      "localTestCaseRef": "TC-ORI-936-CT-CPT-06-R155",
+      "issueKey": "ORI-936",
+      "caseId": "CT-CPT-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-936::CT-CPT-07::R156",
+      "localTestCaseRef": "TC-ORI-936-CT-CPT-07-R156",
+      "issueKey": "ORI-936",
+      "caseId": "CT-CPT-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-936::CT-CPT-08::R157",
+      "localTestCaseRef": "TC-ORI-936-CT-CPT-08-R157",
+      "issueKey": "ORI-936",
+      "caseId": "CT-CPT-08",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-936::CT-CPT-09::R158",
+      "localTestCaseRef": "TC-ORI-936-CT-CPT-09-R158",
+      "issueKey": "ORI-936",
+      "caseId": "CT-CPT-09",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-936::CT-CPT-10::R159",
+      "localTestCaseRef": "TC-ORI-936-CT-CPT-10-R159",
+      "issueKey": "ORI-936",
+      "caseId": "CT-CPT-10",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-936::CT-CPT-11::R160",
+      "localTestCaseRef": "TC-ORI-936-CT-CPT-11-R160",
+      "issueKey": "ORI-936",
+      "caseId": "CT-CPT-11",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-936::CT-CPT-12::R161",
+      "localTestCaseRef": "TC-ORI-936-CT-CPT-12-R161",
+      "issueKey": "ORI-936",
+      "caseId": "CT-CPT-12",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-936::CT-CPT-13::R162",
+      "localTestCaseRef": "TC-ORI-936-CT-CPT-13-R162",
+      "issueKey": "ORI-936",
+      "caseId": "CT-CPT-13",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-956::CT-ABH-01::R164",
+      "localTestCaseRef": "TC-ORI-956-CT-ABH-01-R164",
+      "issueKey": "ORI-956",
+      "caseId": "CT-ABH-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-956::CT-ABH-02::R165",
+      "localTestCaseRef": "TC-ORI-956-CT-ABH-02-R165",
+      "issueKey": "ORI-956",
+      "caseId": "CT-ABH-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-956::CT-ABH-03::R166",
+      "localTestCaseRef": "TC-ORI-956-CT-ABH-03-R166",
+      "issueKey": "ORI-956",
+      "caseId": "CT-ABH-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-956::CT-ABH-04::R167",
+      "localTestCaseRef": "TC-ORI-956-CT-ABH-04-R167",
+      "issueKey": "ORI-956",
+      "caseId": "CT-ABH-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-956::CT-ABH-05::R168",
+      "localTestCaseRef": "TC-ORI-956-CT-ABH-05-R168",
+      "issueKey": "ORI-956",
+      "caseId": "CT-ABH-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-956::CT-ABH-06::R169",
+      "localTestCaseRef": "TC-ORI-956-CT-ABH-06-R169",
+      "issueKey": "ORI-956",
+      "caseId": "CT-ABH-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-956::CT-ABH-07::R170",
+      "localTestCaseRef": "TC-ORI-956-CT-ABH-07-R170",
+      "issueKey": "ORI-956",
+      "caseId": "CT-ABH-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-956::CT-ABH-08::R171",
+      "localTestCaseRef": "TC-ORI-956-CT-ABH-08-R171",
+      "issueKey": "ORI-956",
+      "caseId": "CT-ABH-08",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-956::CT-ABH-09::R172",
+      "localTestCaseRef": "TC-ORI-956-CT-ABH-09-R172",
+      "issueKey": "ORI-956",
+      "caseId": "CT-ABH-09",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-956::CT-ABH-10::R173",
+      "localTestCaseRef": "TC-ORI-956-CT-ABH-10-R173",
+      "issueKey": "ORI-956",
+      "caseId": "CT-ABH-10",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-956::CT-ABH-11::R174",
+      "localTestCaseRef": "TC-ORI-956-CT-ABH-11-R174",
+      "issueKey": "ORI-956",
+      "caseId": "CT-ABH-11",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-956::CT-ABH-12::R175",
+      "localTestCaseRef": "TC-ORI-956-CT-ABH-12-R175",
+      "issueKey": "ORI-956",
+      "caseId": "CT-ABH-12",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-956::CT-ABH-13::R176",
+      "localTestCaseRef": "TC-ORI-956-CT-ABH-13-R176",
+      "issueKey": "ORI-956",
+      "caseId": "CT-ABH-13",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-956::CT-ABH-14::R177",
+      "localTestCaseRef": "TC-ORI-956-CT-ABH-14-R177",
+      "issueKey": "ORI-956",
+      "caseId": "CT-ABH-14",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-956::CT-ABH-15::R178",
+      "localTestCaseRef": "TC-ORI-956-CT-ABH-15-R178",
+      "issueKey": "ORI-956",
+      "caseId": "CT-ABH-15",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-956::CT-ABH-16::R179",
+      "localTestCaseRef": "TC-ORI-956-CT-ABH-16-R179",
+      "issueKey": "ORI-956",
+      "caseId": "CT-ABH-16",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1356::CT-VIS-01::R181",
+      "localTestCaseRef": "TC-ORI-1356-CT-VIS-01-R181",
+      "issueKey": "ORI-1356",
+      "caseId": "CT-VIS-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1356::CT-VIS-02::R182",
+      "localTestCaseRef": "TC-ORI-1356-CT-VIS-02-R182",
+      "issueKey": "ORI-1356",
+      "caseId": "CT-VIS-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1356::CT-VIS-03::R183",
+      "localTestCaseRef": "TC-ORI-1356-CT-VIS-03-R183",
+      "issueKey": "ORI-1356",
+      "caseId": "CT-VIS-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1356::CT-VIS-04::R184",
+      "localTestCaseRef": "TC-ORI-1356-CT-VIS-04-R184",
+      "issueKey": "ORI-1356",
+      "caseId": "CT-VIS-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1356::CT-VIS-05::R185",
+      "localTestCaseRef": "TC-ORI-1356-CT-VIS-05-R185",
+      "issueKey": "ORI-1356",
+      "caseId": "CT-VIS-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1356::CT-VIS-06::R186",
+      "localTestCaseRef": "TC-ORI-1356-CT-VIS-06-R186",
+      "issueKey": "ORI-1356",
+      "caseId": "CT-VIS-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1356::CT-VIS-07::R187",
+      "localTestCaseRef": "TC-ORI-1356-CT-VIS-07-R187",
+      "issueKey": "ORI-1356",
+      "caseId": "CT-VIS-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1356::CT-VIS-08::R188",
+      "localTestCaseRef": "TC-ORI-1356-CT-VIS-08-R188",
+      "issueKey": "ORI-1356",
+      "caseId": "CT-VIS-08",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-745::CT-UX-01::R190",
+      "localTestCaseRef": "TC-ORI-745-CT-UX-01-R190",
+      "issueKey": "ORI-745",
+      "caseId": "CT-UX-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-745::CT-UX-02::R191",
+      "localTestCaseRef": "TC-ORI-745-CT-UX-02-R191",
+      "issueKey": "ORI-745",
+      "caseId": "CT-UX-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-745::CT-UX-03::R192",
+      "localTestCaseRef": "TC-ORI-745-CT-UX-03-R192",
+      "issueKey": "ORI-745",
+      "caseId": "CT-UX-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-745::CT-UX-04::R193",
+      "localTestCaseRef": "TC-ORI-745-CT-UX-04-R193",
+      "issueKey": "ORI-745",
+      "caseId": "CT-UX-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-745::CT-UX-05::R194",
+      "localTestCaseRef": "TC-ORI-745-CT-UX-05-R194",
+      "issueKey": "ORI-745",
+      "caseId": "CT-UX-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-745::CT-UX-06::R195",
+      "localTestCaseRef": "TC-ORI-745-CT-UX-06-R195",
+      "issueKey": "ORI-745",
+      "caseId": "CT-UX-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-745::CT-UX-07::R196",
+      "localTestCaseRef": "TC-ORI-745-CT-UX-07-R196",
+      "issueKey": "ORI-745",
+      "caseId": "CT-UX-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-745::CT-UX-08::R197",
+      "localTestCaseRef": "TC-ORI-745-CT-UX-08-R197",
+      "issueKey": "ORI-745",
+      "caseId": "CT-UX-08",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-769::CT-LOC-01::R199",
+      "localTestCaseRef": "TC-ORI-769-CT-LOC-01-R199",
+      "issueKey": "ORI-769",
+      "caseId": "CT-LOC-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-769::CT-LOC-02::R200",
+      "localTestCaseRef": "TC-ORI-769-CT-LOC-02-R200",
+      "issueKey": "ORI-769",
+      "caseId": "CT-LOC-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-769::CT-LOC-03::R201",
+      "localTestCaseRef": "TC-ORI-769-CT-LOC-03-R201",
+      "issueKey": "ORI-769",
+      "caseId": "CT-LOC-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-769::CT-LOC-04::R202",
+      "localTestCaseRef": "TC-ORI-769-CT-LOC-04-R202",
+      "issueKey": "ORI-769",
+      "caseId": "CT-LOC-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-769::CT-LOC-05::R203",
+      "localTestCaseRef": "TC-ORI-769-CT-LOC-05-R203",
+      "issueKey": "ORI-769",
+      "caseId": "CT-LOC-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-769::CT-LOC-06::R204",
+      "localTestCaseRef": "TC-ORI-769-CT-LOC-06-R204",
+      "issueKey": "ORI-769",
+      "caseId": "CT-LOC-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-769::CT-LOC-07::R205",
+      "localTestCaseRef": "TC-ORI-769-CT-LOC-07-R205",
+      "issueKey": "ORI-769",
+      "caseId": "CT-LOC-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-368::CT-BSN-01::R207",
+      "localTestCaseRef": "TC-ORI-368-CT-BSN-01-R207",
+      "issueKey": "ORI-368",
+      "caseId": "CT-BSN-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-368::CT-BSN-02::R208",
+      "localTestCaseRef": "TC-ORI-368-CT-BSN-02-R208",
+      "issueKey": "ORI-368",
+      "caseId": "CT-BSN-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-368::CT-BSN-03::R209",
+      "localTestCaseRef": "TC-ORI-368-CT-BSN-03-R209",
+      "issueKey": "ORI-368",
+      "caseId": "CT-BSN-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-368::CT-BSN-04::R210",
+      "localTestCaseRef": "TC-ORI-368-CT-BSN-04-R210",
+      "issueKey": "ORI-368",
+      "caseId": "CT-BSN-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-368::CT-BSN-05::R211",
+      "localTestCaseRef": "TC-ORI-368-CT-BSN-05-R211",
+      "issueKey": "ORI-368",
+      "caseId": "CT-BSN-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-368::CT-BSN-06::R212",
+      "localTestCaseRef": "TC-ORI-368-CT-BSN-06-R212",
+      "issueKey": "ORI-368",
+      "caseId": "CT-BSN-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-368::CT-BSN-07::R213",
+      "localTestCaseRef": "TC-ORI-368-CT-BSN-07-R213",
+      "issueKey": "ORI-368",
+      "caseId": "CT-BSN-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-368::CT-BSN-08::R214",
+      "localTestCaseRef": "TC-ORI-368-CT-BSN-08-R214",
+      "issueKey": "ORI-368",
+      "caseId": "CT-BSN-08",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-667::CT-FILT-01::R216",
+      "localTestCaseRef": "TC-ORI-667-CT-FILT-01-R216",
+      "issueKey": "ORI-667",
+      "caseId": "CT-FILT-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-667::CT-FILT-02::R217",
+      "localTestCaseRef": "TC-ORI-667-CT-FILT-02-R217",
+      "issueKey": "ORI-667",
+      "caseId": "CT-FILT-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-667::CT-FILT-03::R218",
+      "localTestCaseRef": "TC-ORI-667-CT-FILT-03-R218",
+      "issueKey": "ORI-667",
+      "caseId": "CT-FILT-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-667::CT-FILT-04::R219",
+      "localTestCaseRef": "TC-ORI-667-CT-FILT-04-R219",
+      "issueKey": "ORI-667",
+      "caseId": "CT-FILT-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-667::CT-FILT-05::R220",
+      "localTestCaseRef": "TC-ORI-667-CT-FILT-05-R220",
+      "issueKey": "ORI-667",
+      "caseId": "CT-FILT-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-667::CT-FILT-06::R221",
+      "localTestCaseRef": "TC-ORI-667-CT-FILT-06-R221",
+      "issueKey": "ORI-667",
+      "caseId": "CT-FILT-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-995::CT-ABD-01::R223",
+      "localTestCaseRef": "TC-ORI-995-CT-ABD-01-R223",
+      "issueKey": "ORI-995",
+      "caseId": "CT-ABD-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-995::CT-ABD-02::R224",
+      "localTestCaseRef": "TC-ORI-995-CT-ABD-02-R224",
+      "issueKey": "ORI-995",
+      "caseId": "CT-ABD-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-995::CT-ABD-03::R225",
+      "localTestCaseRef": "TC-ORI-995-CT-ABD-03-R225",
+      "issueKey": "ORI-995",
+      "caseId": "CT-ABD-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-995::CT-ABD-04::R226",
+      "localTestCaseRef": "TC-ORI-995-CT-ABD-04-R226",
+      "issueKey": "ORI-995",
+      "caseId": "CT-ABD-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-995::CT-ABD-05::R227",
+      "localTestCaseRef": "TC-ORI-995-CT-ABD-05-R227",
+      "issueKey": "ORI-995",
+      "caseId": "CT-ABD-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-995::CT-ABD-06::R228",
+      "localTestCaseRef": "TC-ORI-995-CT-ABD-06-R228",
+      "issueKey": "ORI-995",
+      "caseId": "CT-ABD-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1068::CT-RND-01::R230",
+      "localTestCaseRef": "TC-ORI-1068-CT-RND-01-R230",
+      "issueKey": "ORI-1068",
+      "caseId": "CT-RND-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1068::CT-RND-02::R231",
+      "localTestCaseRef": "TC-ORI-1068-CT-RND-02-R231",
+      "issueKey": "ORI-1068",
+      "caseId": "CT-RND-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1068::CT-RND-03::R232",
+      "localTestCaseRef": "TC-ORI-1068-CT-RND-03-R232",
+      "issueKey": "ORI-1068",
+      "caseId": "CT-RND-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1068::CT-RND-04::R233",
+      "localTestCaseRef": "TC-ORI-1068-CT-RND-04-R233",
+      "issueKey": "ORI-1068",
+      "caseId": "CT-RND-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1068::CT-RND-05::R234",
+      "localTestCaseRef": "TC-ORI-1068-CT-RND-05-R234",
+      "issueKey": "ORI-1068",
+      "caseId": "CT-RND-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1068::CT-RND-06::R235",
+      "localTestCaseRef": "TC-ORI-1068-CT-RND-06-R235",
+      "issueKey": "ORI-1068",
+      "caseId": "CT-RND-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1068::CT-RND-07::R236",
+      "localTestCaseRef": "TC-ORI-1068-CT-RND-07-R236",
+      "issueKey": "ORI-1068",
+      "caseId": "CT-RND-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1068::CT-RND-08::R237",
+      "localTestCaseRef": "TC-ORI-1068-CT-RND-08-R237",
+      "issueKey": "ORI-1068",
+      "caseId": "CT-RND-08",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-1068::CT-RND-09::R238",
+      "localTestCaseRef": "TC-ORI-1068-CT-RND-09-R238",
+      "issueKey": "ORI-1068",
+      "caseId": "CT-RND-09",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-452::CT-DUR-01::R240",
+      "localTestCaseRef": "TC-ORI-452-CT-DUR-01-R240",
+      "issueKey": "ORI-452",
+      "caseId": "CT-DUR-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-452::CT-DUR-02::R241",
+      "localTestCaseRef": "TC-ORI-452-CT-DUR-02-R241",
+      "issueKey": "ORI-452",
+      "caseId": "CT-DUR-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-452::CT-DUR-03::R242",
+      "localTestCaseRef": "TC-ORI-452-CT-DUR-03-R242",
+      "issueKey": "ORI-452",
+      "caseId": "CT-DUR-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-452::CT-DUR-04::R243",
+      "localTestCaseRef": "TC-ORI-452-CT-DUR-04-R243",
+      "issueKey": "ORI-452",
+      "caseId": "CT-DUR-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-452::CT-DUR-05::R244",
+      "localTestCaseRef": "TC-ORI-452-CT-DUR-05-R244",
+      "issueKey": "ORI-452",
+      "caseId": "CT-DUR-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-452::CT-DUR-06::R245",
+      "localTestCaseRef": "TC-ORI-452-CT-DUR-06-R245",
+      "issueKey": "ORI-452",
+      "caseId": "CT-DUR-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-688::CT-PTG-01::R247",
+      "localTestCaseRef": "TC-ORI-688-CT-PTG-01-R247",
+      "issueKey": "ORI-688",
+      "caseId": "CT-PTG-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-688::CT-PTG-02::R248",
+      "localTestCaseRef": "TC-ORI-688-CT-PTG-02-R248",
+      "issueKey": "ORI-688",
+      "caseId": "CT-PTG-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-688::CT-PTG-03::R249",
+      "localTestCaseRef": "TC-ORI-688-CT-PTG-03-R249",
+      "issueKey": "ORI-688",
+      "caseId": "CT-PTG-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-688::CT-PTG-04::R250",
+      "localTestCaseRef": "TC-ORI-688-CT-PTG-04-R250",
+      "issueKey": "ORI-688",
+      "caseId": "CT-PTG-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-688::CT-PTG-05::R251",
+      "localTestCaseRef": "TC-ORI-688-CT-PTG-05-R251",
+      "issueKey": "ORI-688",
+      "caseId": "CT-PTG-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-688::CT-PTG-06::R252",
+      "localTestCaseRef": "TC-ORI-688-CT-PTG-06-R252",
+      "issueKey": "ORI-688",
+      "caseId": "CT-PTG-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-728::CT-DIS-01::R254",
+      "localTestCaseRef": "TC-ORI-728-CT-DIS-01-R254",
+      "issueKey": "ORI-728",
+      "caseId": "CT-DIS-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-728::CT-DIS-02::R255",
+      "localTestCaseRef": "TC-ORI-728-CT-DIS-02-R255",
+      "issueKey": "ORI-728",
+      "caseId": "CT-DIS-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-728::CT-DIS-03::R256",
+      "localTestCaseRef": "TC-ORI-728-CT-DIS-03-R256",
+      "issueKey": "ORI-728",
+      "caseId": "CT-DIS-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-728::CT-DIS-04::R257",
+      "localTestCaseRef": "TC-ORI-728-CT-DIS-04-R257",
+      "issueKey": "ORI-728",
+      "caseId": "CT-DIS-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-728::CT-DIS-05::R258",
+      "localTestCaseRef": "TC-ORI-728-CT-DIS-05-R258",
+      "issueKey": "ORI-728",
+      "caseId": "CT-DIS-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-728::CT-DIS-06::R259",
+      "localTestCaseRef": "TC-ORI-728-CT-DIS-06-R259",
+      "issueKey": "ORI-728",
+      "caseId": "CT-DIS-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-728::CT-DIS-07::R260",
+      "localTestCaseRef": "TC-ORI-728-CT-DIS-07-R260",
+      "issueKey": "ORI-728",
+      "caseId": "CT-DIS-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-750::CT-ERR-01::R262",
+      "localTestCaseRef": "TC-ORI-750-CT-ERR-01-R262",
+      "issueKey": "ORI-750",
+      "caseId": "CT-ERR-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-750::CT-ERR-02::R263",
+      "localTestCaseRef": "TC-ORI-750-CT-ERR-02-R263",
+      "issueKey": "ORI-750",
+      "caseId": "CT-ERR-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-750::CT-ERR-03::R264",
+      "localTestCaseRef": "TC-ORI-750-CT-ERR-03-R264",
+      "issueKey": "ORI-750",
+      "caseId": "CT-ERR-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-750::CT-ERR-04::R265",
+      "localTestCaseRef": "TC-ORI-750-CT-ERR-04-R265",
+      "issueKey": "ORI-750",
+      "caseId": "CT-ERR-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-750::CT-ERR-05::R266",
+      "localTestCaseRef": "TC-ORI-750-CT-ERR-05-R266",
+      "issueKey": "ORI-750",
+      "caseId": "CT-ERR-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-750::CT-ERR-06::R267",
+      "localTestCaseRef": "TC-ORI-750-CT-ERR-06-R267",
+      "issueKey": "ORI-750",
+      "caseId": "CT-ERR-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-750::CT-ERR-07::R268",
+      "localTestCaseRef": "TC-ORI-750-CT-ERR-07-R268",
+      "issueKey": "ORI-750",
+      "caseId": "CT-ERR-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-750::CT-ERR-01::R270",
+      "localTestCaseRef": "TC-ORI-750-CT-ERR-01-R270",
+      "issueKey": "ORI-750",
+      "caseId": "CT-ERR-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-750::CT-ERR-02::R271",
+      "localTestCaseRef": "TC-ORI-750-CT-ERR-02-R271",
+      "issueKey": "ORI-750",
+      "caseId": "CT-ERR-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-750::CT-ERR-03::R272",
+      "localTestCaseRef": "TC-ORI-750-CT-ERR-03-R272",
+      "issueKey": "ORI-750",
+      "caseId": "CT-ERR-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-750::CT-ERR-04::R273",
+      "localTestCaseRef": "TC-ORI-750-CT-ERR-04-R273",
+      "issueKey": "ORI-750",
+      "caseId": "CT-ERR-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-750::CT-ERR-05::R274",
+      "localTestCaseRef": "TC-ORI-750-CT-ERR-05-R274",
+      "issueKey": "ORI-750",
+      "caseId": "CT-ERR-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-750::CT-ERR-06::R275",
+      "localTestCaseRef": "TC-ORI-750-CT-ERR-06-R275",
+      "issueKey": "ORI-750",
+      "caseId": "CT-ERR-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-750::CT-ERR-07::R276",
+      "localTestCaseRef": "TC-ORI-750-CT-ERR-07-R276",
+      "issueKey": "ORI-750",
+      "caseId": "CT-ERR-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-790::CT-AF-01::R278",
+      "localTestCaseRef": "TC-ORI-790-CT-AF-01-R278",
+      "issueKey": "ORI-790",
+      "caseId": "CT-AF-01",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-790::CT-AF-02::R279",
+      "localTestCaseRef": "TC-ORI-790-CT-AF-02-R279",
+      "issueKey": "ORI-790",
+      "caseId": "CT-AF-02",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-790::CT-AF-03::R280",
+      "localTestCaseRef": "TC-ORI-790-CT-AF-03-R280",
+      "issueKey": "ORI-790",
+      "caseId": "CT-AF-03",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-790::CT-AF-04::R281",
+      "localTestCaseRef": "TC-ORI-790-CT-AF-04-R281",
+      "issueKey": "ORI-790",
+      "caseId": "CT-AF-04",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-790::CT-AF-05::R282",
+      "localTestCaseRef": "TC-ORI-790-CT-AF-05-R282",
+      "issueKey": "ORI-790",
+      "caseId": "CT-AF-05",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-790::CT-AF-06::R283",
+      "localTestCaseRef": "TC-ORI-790-CT-AF-06-R283",
+      "issueKey": "ORI-790",
+      "caseId": "CT-AF-06",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-790::CT-AF-07::R284",
+      "localTestCaseRef": "TC-ORI-790-CT-AF-07-R284",
+      "issueKey": "ORI-790",
+      "caseId": "CT-AF-07",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    },
+    {
+      "canonicalId": "ORI-790::CT-AF-08::R285",
+      "localTestCaseRef": "TC-ORI-790-CT-AF-08-R285",
+      "issueKey": "ORI-790",
+      "caseId": "CT-AF-08",
+      "level": "exacte",
+      "matchedFiles": [
+        "int2-ihm-tests/orion-autonomous-catalog.spec.ts"
+      ]
+    }
+  ]
+}

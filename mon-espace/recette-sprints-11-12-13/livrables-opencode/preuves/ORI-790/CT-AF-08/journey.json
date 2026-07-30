@@ -1,0 +1,43 @@
+{
+  "canonicalId": "ORI-790::CT-AF-08::R285",
+  "issueKey": "ORI-790",
+  "caseId": "CT-AF-08",
+  "module": "MP6 > SP6.1",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "RG_PAP_ABC/FORF/ABO/TRJ - Affichage conditionnel du detail selon le format de facturation",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 4,
+  "totalSteps": 4,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Horaire"
+      },
+      {
+        "text": "Forfait"
+      },
+      {
+        "text": "Abonnement"
+      },
+      {
+        "text": "Trajet"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "assertion-low",
+  "rules": [
+    "RG_PAP_ABC_01",
+    "RG_PAP_FORF_01",
+    "RG_PAP_ABO_01",
+    "RG_PAP_TRJ_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-57a98-on-le-format-de-facturation-orion-headed"
+}

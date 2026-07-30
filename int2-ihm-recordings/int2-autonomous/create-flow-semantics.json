@@ -1,0 +1,2245 @@
+{
+  "generatedAt": "2026-07-24T13:29:58.250Z",
+  "total": 12,
+  "profiles": [
+    {
+      "url": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+      "id": "/gestion-admin/pages/collaborateur",
+      "status": "profiled",
+      "createOpened": true,
+      "container": "dialog",
+      "fieldCount": 11,
+      "requiredCount": 6,
+      "fields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "Rechercher un collaborateur",
+          "name": "ng.form0",
+          "type": "search",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "Intervenant",
+          "name": "ng.form3.formProfile.type",
+          "type": "radio",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "Opérationnel agence",
+          "name": "ng.form3.formProfile.type",
+          "type": "radio",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "Société",
+          "name": "ng.form3.formProfile.societeRecrutement",
+          "type": "text",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "Prénom",
+          "name": "ng.form3.formProfile.prenom",
+          "type": "text",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "Nom d'usage",
+          "name": "ng.form3.formProfile.nomUsage",
+          "type": "text",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "JJ/MM/AAAA",
+          "name": "ng.form3.formProfile.dateNaissance",
+          "type": "input",
+          "required": true,
+          "disabled": false
+        }
+      ],
+      "buttons": [
+        "add Créer",
+        "Réinitialiser les filtres",
+        "Tous",
+        "Intervenant",
+        "Opérationnel agence",
+        "Nom",
+        "Prénom",
+        "Type",
+        "Date de naissance",
+        "Statut du collaborateur",
+        "Etat de la fiche",
+        "Dernière modification",
+        "auto_awesome",
+        "close",
+        "person Profil Créer le profil du nouveau collaborateur.",
+        "phone Coordonnées",
+        "description Identité",
+        "school Qualifications",
+        "work_outline Conditions de travail",
+        "credit_card Situation",
+        "save Enregistrer",
+        "Suivant"
+      ],
+      "headings": [
+        "Collaborateurs"
+      ],
+      "hasDialog": true,
+      "semanticFields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false,
+          "intent": "search",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798237",
+          "fillable": false
+        },
+        {
+          "label": "Rechercher un collaborateur",
+          "name": "ng.form0",
+          "type": "search",
+          "required": false,
+          "disabled": false,
+          "intent": "search",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798237",
+          "fillable": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798237",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798237",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798237",
+          "fillable": true
+        },
+        {
+          "label": "Intervenant",
+          "name": "ng.form3.formProfile.type",
+          "type": "radio",
+          "required": true,
+          "disabled": false,
+          "intent": "radioType",
+          "confidence": "high",
+          "sampleValue": "AUTO-798237",
+          "fillable": true
+        },
+        {
+          "label": "Opérationnel agence",
+          "name": "ng.form3.formProfile.type",
+          "type": "radio",
+          "required": true,
+          "disabled": false,
+          "intent": "agency",
+          "confidence": "high",
+          "sampleValue": "",
+          "fillable": true
+        },
+        {
+          "label": "Société",
+          "name": "ng.form3.formProfile.societeRecrutement",
+          "type": "text",
+          "required": true,
+          "disabled": false,
+          "intent": "company",
+          "confidence": "high",
+          "sampleValue": "",
+          "fillable": true
+        },
+        {
+          "label": "Prénom",
+          "name": "ng.form3.formProfile.prenom",
+          "type": "text",
+          "required": true,
+          "disabled": false,
+          "intent": "firstName",
+          "confidence": "high",
+          "sampleValue": "Sophie",
+          "fillable": true
+        },
+        {
+          "label": "Nom d'usage",
+          "name": "ng.form3.formProfile.nomUsage",
+          "type": "text",
+          "required": true,
+          "disabled": false,
+          "intent": "lastName",
+          "confidence": "high",
+          "sampleValue": "Durand",
+          "fillable": true
+        },
+        {
+          "label": "JJ/MM/AAAA",
+          "name": "ng.form3.formProfile.dateNaissance",
+          "type": "input",
+          "required": true,
+          "disabled": false,
+          "intent": "date",
+          "confidence": "high",
+          "sampleValue": "11/11/1998",
+          "fillable": true
+        }
+      ]
+    },
+    {
+      "url": "https://orion-int2.itsap.net/sap/pages/planning",
+      "id": "/sap/pages/planning",
+      "status": "profiled",
+      "createOpened": true,
+      "container": "page",
+      "fieldCount": 4,
+      "requiredCount": 0,
+      "fields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "input",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        }
+      ],
+      "buttons": [
+        "add Créer",
+        "Intervenants",
+        "Clients",
+        "Opérationnels agence",
+        "keyboard_arrow_left",
+        "keyboard_arrow_right",
+        "filter_list Filtrer",
+        "search",
+        "auto_awesome"
+      ],
+      "headings": [
+        "Planning"
+      ],
+      "hasDialog": false,
+      "semanticFields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false,
+          "intent": "search",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798246",
+          "fillable": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "input",
+          "required": false,
+          "disabled": false,
+          "intent": "unknown",
+          "confidence": "low",
+          "sampleValue": "AUTO-798246",
+          "fillable": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798246",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798247",
+          "fillable": true
+        }
+      ]
+    },
+    {
+      "url": "https://orion-int2.itsap.net/crm/pages/leads",
+      "id": "/crm/pages/leads",
+      "status": "profiled",
+      "createOpened": true,
+      "container": "page",
+      "fieldCount": 4,
+      "requiredCount": 0,
+      "fields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "Rechercher un lead",
+          "name": "ng.form0.valeurRecherche",
+          "type": "search",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        }
+      ],
+      "buttons": [
+        "add Créer",
+        "Réinitialiser les filtres",
+        "Nom",
+        "Prénom",
+        "Email",
+        "Statut",
+        "Date de création",
+        "Dernière modification",
+        "auto_awesome"
+      ],
+      "headings": [
+        "Leads"
+      ],
+      "hasDialog": false,
+      "semanticFields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false,
+          "intent": "search",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798247",
+          "fillable": false
+        },
+        {
+          "label": "Rechercher un lead",
+          "name": "ng.form0.valeurRecherche",
+          "type": "search",
+          "required": false,
+          "disabled": false,
+          "intent": "search",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798247",
+          "fillable": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798247",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798247",
+          "fillable": true
+        }
+      ]
+    },
+    {
+      "url": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+      "id": "/crm/pages/clients-prospects",
+      "status": "profiled",
+      "createOpened": true,
+      "container": "dialog",
+      "fieldCount": 16,
+      "requiredCount": 4,
+      "fields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "Rechercher un contact",
+          "name": "ng.form0.valeurRecherche",
+          "type": "search",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "Prénom",
+          "name": "",
+          "type": "text",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "Nom d'usage",
+          "name": "",
+          "type": "text",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "Adresse principale de la prestation",
+          "name": "",
+          "type": "text",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "Indicatif",
+          "name": "",
+          "type": "text",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "Numéro",
+          "name": "",
+          "type": "tel",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "E-mail",
+          "name": "",
+          "type": "email",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "Agence",
+          "name": "",
+          "type": "text",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        }
+      ],
+      "buttons": [
+        "add Créer",
+        "Réinitialiser les filtres",
+        "Référence client",
+        "Nom",
+        "Prénom",
+        "Statut",
+        "Agence",
+        "Dernière modification",
+        "keyboard_arrow_down",
+        "Marseille Vieux-Port, +1",
+        "auto_awesome",
+        "close",
+        "save Enregistrer"
+      ],
+      "headings": [
+        "Clients et prospects"
+      ],
+      "hasDialog": true,
+      "semanticFields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false,
+          "intent": "search",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798247",
+          "fillable": false
+        },
+        {
+          "label": "Rechercher un contact",
+          "name": "ng.form0.valeurRecherche",
+          "type": "search",
+          "required": false,
+          "disabled": false,
+          "intent": "search",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798247",
+          "fillable": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798247",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798247",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798247",
+          "fillable": true
+        },
+        {
+          "label": "Prénom",
+          "name": "",
+          "type": "text",
+          "required": true,
+          "disabled": false,
+          "intent": "firstName",
+          "confidence": "high",
+          "sampleValue": "Sophie",
+          "fillable": true
+        },
+        {
+          "label": "Nom d'usage",
+          "name": "",
+          "type": "text",
+          "required": true,
+          "disabled": false,
+          "intent": "lastName",
+          "confidence": "high",
+          "sampleValue": "Garnier",
+          "fillable": true
+        },
+        {
+          "label": "Adresse principale de la prestation",
+          "name": "",
+          "type": "text",
+          "required": true,
+          "disabled": false,
+          "intent": "address",
+          "confidence": "high",
+          "sampleValue": "8 rue de Rivoli Paris",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798247",
+          "fillable": true
+        },
+        {
+          "label": "Indicatif",
+          "name": "",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "intent": "unknown",
+          "confidence": "low",
+          "sampleValue": "AUTO-798247",
+          "fillable": false
+        },
+        {
+          "label": "Numéro",
+          "name": "",
+          "type": "tel",
+          "required": false,
+          "disabled": false,
+          "intent": "phone",
+          "confidence": "high",
+          "sampleValue": "0601020304",
+          "fillable": true
+        },
+        {
+          "label": "E-mail",
+          "name": "",
+          "type": "email",
+          "required": false,
+          "disabled": false,
+          "intent": "email",
+          "confidence": "high",
+          "sampleValue": "qa.798247@example.test",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": true,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798247",
+          "fillable": true
+        },
+        {
+          "label": "Agence",
+          "name": "",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "intent": "agency",
+          "confidence": "high",
+          "sampleValue": "",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798248",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798248",
+          "fillable": true
+        }
+      ]
+    },
+    {
+      "url": "https://orion-int2.itsap.net/crm/pages/clients-professionnels",
+      "id": "/crm/pages/clients-professionnels",
+      "status": "profiled",
+      "createOpened": true,
+      "container": "page",
+      "fieldCount": 3,
+      "requiredCount": 0,
+      "fields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "Rechercher un client pro",
+          "name": "ng.form0.valeurRecherche",
+          "type": "search",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        }
+      ],
+      "buttons": [
+        "add Créer",
+        "Sites",
+        "Entités juridiques",
+        "Réinitialiser les filtres",
+        "filter_list Filtrer",
+        "Référence client",
+        "Dénomination",
+        "Type d'identité juridique",
+        "Identifiant légal",
+        "Agences",
+        "Ville",
+        "État",
+        "Dernière modification",
+        "auto_awesome"
+      ],
+      "headings": [
+        "Entités juridiques"
+      ],
+      "hasDialog": false,
+      "semanticFields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false,
+          "intent": "search",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798248",
+          "fillable": false
+        },
+        {
+          "label": "Rechercher un client pro",
+          "name": "ng.form0.valeurRecherche",
+          "type": "search",
+          "required": false,
+          "disabled": false,
+          "intent": "search",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798248",
+          "fillable": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798248",
+          "fillable": true
+        }
+      ]
+    },
+    {
+      "url": "https://orion-int2.itsap.net/facturation-paie/reglementaire/pages/organisme-financeur",
+      "id": "/facturation-paie/reglementaire/pages/organisme-financeur",
+      "status": "profiled",
+      "createOpened": true,
+      "container": "dialog",
+      "fieldCount": 18,
+      "requiredCount": 3,
+      "fields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "Rechercher un organisme",
+          "name": "",
+          "type": "input",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "Ex: Conseil Départemental de la Sarthe",
+          "name": "ng.form1.formIdentification.nomTiersFinanceur",
+          "type": "input",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "Ex: CD72",
+          "name": "ng.form1.formIdentification.nomUsuel",
+          "type": "input",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "123456789",
+          "name": "ng.form1.formIdentification.siren",
+          "type": "input",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "12345678901234",
+          "name": "ng.form1.formIdentification.siretSiege",
+          "type": "input",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "https://www.exemple.fr",
+          "name": "ng.form1.formIdentification.urlPortail",
+          "type": "url",
+          "required": false,
+          "disabled": false
+        }
+      ],
+      "buttons": [
+        "upload Import CSV",
+        "download Export CSV",
+        "add Créer",
+        "Réinitialiser les filtres",
+        "Nom",
+        "Nom usuel",
+        "Type",
+        "Zone géographique",
+        "Statut",
+        "Modifié le",
+        "auto_awesome",
+        "close",
+        "info Identification Entrez les informations d'identification de l'OF",
+        "home_work Adresses",
+        "phone Contacts",
+        "feed Informations administratives",
+        "payments Facturations et EDI",
+        "file_present Documents et statut",
+        "Suivant"
+      ],
+      "headings": [
+        "Organismes financeurs"
+      ],
+      "hasDialog": true,
+      "semanticFields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false,
+          "intent": "search",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798248",
+          "fillable": false
+        },
+        {
+          "label": "Rechercher un organisme",
+          "name": "",
+          "type": "input",
+          "required": false,
+          "disabled": false,
+          "intent": "search",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798248",
+          "fillable": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798248",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798248",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false,
+          "intent": "unknown",
+          "confidence": "low",
+          "sampleValue": "AUTO-798248",
+          "fillable": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false,
+          "intent": "unknown",
+          "confidence": "low",
+          "sampleValue": "AUTO-798248",
+          "fillable": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false,
+          "intent": "unknown",
+          "confidence": "low",
+          "sampleValue": "AUTO-798248",
+          "fillable": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false,
+          "intent": "unknown",
+          "confidence": "low",
+          "sampleValue": "AUTO-798248",
+          "fillable": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false,
+          "intent": "unknown",
+          "confidence": "low",
+          "sampleValue": "AUTO-798248",
+          "fillable": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false,
+          "intent": "unknown",
+          "confidence": "low",
+          "sampleValue": "AUTO-798248",
+          "fillable": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false,
+          "intent": "unknown",
+          "confidence": "low",
+          "sampleValue": "AUTO-798248",
+          "fillable": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798248",
+          "fillable": true
+        },
+        {
+          "label": "Ex: Conseil Départemental de la Sarthe",
+          "name": "ng.form1.formIdentification.nomTiersFinanceur",
+          "type": "input",
+          "required": true,
+          "disabled": false,
+          "intent": "lastName",
+          "confidence": "high",
+          "sampleValue": "Martin",
+          "fillable": true
+        },
+        {
+          "label": "Ex: CD72",
+          "name": "ng.form1.formIdentification.nomUsuel",
+          "type": "input",
+          "required": false,
+          "disabled": false,
+          "intent": "lastName",
+          "confidence": "high",
+          "sampleValue": "Martin",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": true,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798248",
+          "fillable": true
+        },
+        {
+          "label": "123456789",
+          "name": "ng.form1.formIdentification.siren",
+          "type": "input",
+          "required": true,
+          "disabled": false,
+          "intent": "legalId",
+          "confidence": "high",
+          "sampleValue": "178489977",
+          "fillable": true
+        },
+        {
+          "label": "12345678901234",
+          "name": "ng.form1.formIdentification.siretSiege",
+          "type": "input",
+          "required": false,
+          "disabled": false,
+          "intent": "legalId",
+          "confidence": "high",
+          "sampleValue": "17848997798247",
+          "fillable": true
+        },
+        {
+          "label": "https://www.exemple.fr",
+          "name": "ng.form1.formIdentification.urlPortail",
+          "type": "url",
+          "required": false,
+          "disabled": false,
+          "intent": "url",
+          "confidence": "high",
+          "sampleValue": "https://example.test",
+          "fillable": true
+        }
+      ]
+    },
+    {
+      "url": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+      "id": "/offres-tarifs/pages/catalogue/familles",
+      "status": "profiled",
+      "createOpened": true,
+      "container": "dialog",
+      "fieldCount": 12,
+      "requiredCount": 4,
+      "fields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "Rechercher",
+          "name": "ng.form0.search",
+          "type": "search",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "Nom",
+          "name": "ng.form1.nom",
+          "type": "text",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "Code",
+          "name": "ng.form1.code",
+          "type": "text",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "Description",
+          "name": "ng.form1.description",
+          "type": "textarea",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "Durée rendez-vous commercial (min)",
+          "name": "ng.form1.dureeRdvCommercial",
+          "type": "number",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        }
+      ],
+      "buttons": [
+        "add Créer",
+        "Réinitialiser les filtres",
+        "Familles et produits",
+        "Packages",
+        "Nom",
+        "Code",
+        "Nature",
+        "Statut",
+        "Date de modification",
+        "chevron_right",
+        "chevron_right",
+        "chevron_right",
+        "auto_awesome",
+        "close",
+        "save Enregistrer"
+      ],
+      "headings": [
+        "Familles et produits"
+      ],
+      "hasDialog": true,
+      "semanticFields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false,
+          "intent": "search",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798248",
+          "fillable": false
+        },
+        {
+          "label": "Rechercher",
+          "name": "ng.form0.search",
+          "type": "search",
+          "required": false,
+          "disabled": false,
+          "intent": "search",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798248",
+          "fillable": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798248",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798248",
+          "fillable": true
+        },
+        {
+          "label": "Nom",
+          "name": "ng.form1.nom",
+          "type": "text",
+          "required": true,
+          "disabled": false,
+          "intent": "lastName",
+          "confidence": "high",
+          "sampleValue": "Durand",
+          "fillable": true
+        },
+        {
+          "label": "Code",
+          "name": "ng.form1.code",
+          "type": "text",
+          "required": true,
+          "disabled": false,
+          "intent": "code",
+          "confidence": "high",
+          "sampleValue": "QA8249",
+          "fillable": true
+        },
+        {
+          "label": "Description",
+          "name": "ng.form1.description",
+          "type": "textarea",
+          "required": false,
+          "disabled": false,
+          "intent": "description",
+          "confidence": "high",
+          "sampleValue": "Description generee pour validation de formulaire.",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798249",
+          "fillable": true
+        },
+        {
+          "label": "Durée rendez-vous commercial (min)",
+          "name": "ng.form1.dureeRdvCommercial",
+          "type": "number",
+          "required": true,
+          "disabled": false,
+          "intent": "number",
+          "confidence": "high",
+          "sampleValue": "30",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": true,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798249",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798249",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798249",
+          "fillable": true
+        }
+      ]
+    },
+    {
+      "url": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/options",
+      "id": "/offres-tarifs/pages/catalogue/options",
+      "status": "profiled",
+      "createOpened": true,
+      "container": "dialog",
+      "fieldCount": 14,
+      "requiredCount": 7,
+      "fields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "Rechercher par code ou libellé",
+          "name": "ng.form0.valeurRecherche",
+          "type": "search",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "Code",
+          "name": "ng.form1.code",
+          "type": "text",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "Libellé",
+          "name": "ng.form1.libelle",
+          "type": "text",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "Libellé commercial",
+          "name": "ng.form1.libelleCommercial",
+          "type": "text",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "Description",
+          "name": "ng.form1.description",
+          "type": "textarea",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": true,
+          "disabled": false
+        }
+      ],
+      "buttons": [
+        "add Créer",
+        "Réinitialiser les filtres",
+        "Libellé",
+        "Code",
+        "Applicable à",
+        "Taxes",
+        "Unité",
+        "Statut",
+        "Dernière modification",
+        "auto_awesome",
+        "close",
+        "save Enregistrer"
+      ],
+      "headings": [
+        "Options"
+      ],
+      "hasDialog": true,
+      "semanticFields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false,
+          "intent": "search",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798249",
+          "fillable": false
+        },
+        {
+          "label": "Rechercher par code ou libellé",
+          "name": "ng.form0.valeurRecherche",
+          "type": "search",
+          "required": false,
+          "disabled": false,
+          "intent": "code",
+          "confidence": "high",
+          "sampleValue": "QA8249",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798249",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798249",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798249",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798249",
+          "fillable": true
+        },
+        {
+          "label": "Code",
+          "name": "ng.form1.code",
+          "type": "text",
+          "required": true,
+          "disabled": false,
+          "intent": "code",
+          "confidence": "high",
+          "sampleValue": "QA8249",
+          "fillable": true
+        },
+        {
+          "label": "Libellé",
+          "name": "ng.form1.libelle",
+          "type": "text",
+          "required": true,
+          "disabled": false,
+          "intent": "label",
+          "confidence": "high",
+          "sampleValue": "Option standard",
+          "fillable": true
+        },
+        {
+          "label": "Libellé commercial",
+          "name": "ng.form1.libelleCommercial",
+          "type": "text",
+          "required": true,
+          "disabled": false,
+          "intent": "label",
+          "confidence": "high",
+          "sampleValue": "Option commerciale standard",
+          "fillable": true
+        },
+        {
+          "label": "Description",
+          "name": "ng.form1.description",
+          "type": "textarea",
+          "required": false,
+          "disabled": false,
+          "intent": "description",
+          "confidence": "high",
+          "sampleValue": "Description generee pour validation de formulaire.",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": true,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798249",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": true,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798249",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": true,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798249",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": true,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798250",
+          "fillable": true
+        }
+      ]
+    },
+    {
+      "url": "https://orion-int2.itsap.net/gestion-marque/structure/pages/marque",
+      "id": "/gestion-marque/structure/pages/marque",
+      "status": "profiled",
+      "createOpened": true,
+      "container": "dialog",
+      "fieldCount": 5,
+      "requiredCount": 1,
+      "fields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "Saisissez un nom ou un identifiant",
+          "name": "ng.form0.q",
+          "type": "search",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "Identifiant",
+          "name": "ng.form1.tenantId",
+          "type": "text",
+          "required": true,
+          "disabled": false
+        }
+      ],
+      "buttons": [
+        "edit Modifier l'image de la marque",
+        "add Créer",
+        "Identifiant",
+        "Nom",
+        "Date d'archivage",
+        "auto_awesome",
+        "close",
+        "Annuler",
+        "save Créer"
+      ],
+      "headings": [
+        "Marques"
+      ],
+      "hasDialog": true,
+      "semanticFields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false,
+          "intent": "search",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798250",
+          "fillable": false
+        },
+        {
+          "label": "Saisissez un nom ou un identifiant",
+          "name": "ng.form0.q",
+          "type": "search",
+          "required": false,
+          "disabled": false,
+          "intent": "code",
+          "confidence": "high",
+          "sampleValue": "qa-int2-250",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798250",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798250",
+          "fillable": true
+        },
+        {
+          "label": "Identifiant",
+          "name": "ng.form1.tenantId",
+          "type": "text",
+          "required": true,
+          "disabled": false,
+          "intent": "code",
+          "confidence": "high",
+          "sampleValue": "qa-int2-250",
+          "fillable": true
+        }
+      ]
+    },
+    {
+      "url": "https://orion-int2.itsap.net/gestion-marque/structure/pages/structure",
+      "id": "/gestion-marque/structure/pages/structure",
+      "status": "profiled",
+      "createOpened": true,
+      "container": "page",
+      "fieldCount": 2,
+      "requiredCount": 0,
+      "fields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        }
+      ],
+      "buttons": [
+        "add Créer",
+        "Nom",
+        "chevron_right",
+        "chevron_right",
+        "chevron_right",
+        "chevron_right",
+        "chevron_right",
+        "chevron_right",
+        "chevron_right",
+        "chevron_right",
+        "chevron_right",
+        "chevron_right",
+        "chevron_right",
+        "chevron_right",
+        "chevron_right",
+        "chevron_right",
+        "auto_awesome",
+        "category Créer un regroupement",
+        "home_work Créer une société",
+        "villa Créer un établissement",
+        "storefront Créer une agence"
+      ],
+      "headings": [
+        "Structures"
+      ],
+      "hasDialog": false,
+      "semanticFields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false,
+          "intent": "search",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798250",
+          "fillable": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798250",
+          "fillable": true
+        }
+      ]
+    },
+    {
+      "url": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils",
+      "id": "/gestion-marque/habilitation/pages/habilitation-profils",
+      "status": "profiled",
+      "createOpened": true,
+      "container": "dialog",
+      "fieldCount": 6,
+      "requiredCount": 1,
+      "fields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "Rechercher un profil",
+          "name": "ng.form0.searchValue",
+          "type": "search",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "Nom du profil",
+          "name": "ng.form1.nom",
+          "type": "text",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "Profil à inclure",
+          "name": "ng.form1.profilsInclus",
+          "type": "text",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "Décrivez la fonction du profil",
+          "name": "ng.form1.description",
+          "type": "textarea",
+          "required": false,
+          "disabled": false
+        }
+      ],
+      "buttons": [
+        "add Créer",
+        "Nom profil",
+        "auto_awesome",
+        "close",
+        "save Enregistrer"
+      ],
+      "headings": [
+        "Profils"
+      ],
+      "hasDialog": true,
+      "semanticFields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false,
+          "intent": "search",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798250",
+          "fillable": false
+        },
+        {
+          "label": "Rechercher un profil",
+          "name": "ng.form0.searchValue",
+          "type": "search",
+          "required": false,
+          "disabled": false,
+          "intent": "search",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798250",
+          "fillable": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798250",
+          "fillable": true
+        },
+        {
+          "label": "Nom du profil",
+          "name": "ng.form1.nom",
+          "type": "text",
+          "required": true,
+          "disabled": false,
+          "intent": "lastName",
+          "confidence": "high",
+          "sampleValue": "Bernard",
+          "fillable": true
+        },
+        {
+          "label": "Profil à inclure",
+          "name": "ng.form1.profilsInclus",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "intent": "unknown",
+          "confidence": "low",
+          "sampleValue": "AUTO-798250",
+          "fillable": false
+        },
+        {
+          "label": "Décrivez la fonction du profil",
+          "name": "ng.form1.description",
+          "type": "textarea",
+          "required": false,
+          "disabled": false,
+          "intent": "description",
+          "confidence": "high",
+          "sampleValue": "Description generee pour validation de formulaire.",
+          "fillable": true
+        }
+      ]
+    },
+    {
+      "url": "https://orion-int2.itsap.net/gestion-marque/configuration/pages/categories",
+      "id": "/gestion-marque/configuration/pages/categories",
+      "status": "profiled",
+      "createOpened": true,
+      "container": "dialog",
+      "fieldCount": 8,
+      "requiredCount": 3,
+      "fields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "Rechercher par nom ou code",
+          "name": "ng.form0.valeurRecherche",
+          "type": "search",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false
+        },
+        {
+          "label": "Nom de la catégorie",
+          "name": "ng.form1.categoryName",
+          "type": "input",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "Code",
+          "name": "ng.form1.code",
+          "type": "input",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "label": "Description",
+          "name": "ng.form1.description",
+          "type": "textarea",
+          "required": false,
+          "disabled": false
+        }
+      ],
+      "buttons": [
+        "add Créer",
+        "Réinitialiser les filtres",
+        "Nom de la catégorie",
+        "Code",
+        "Statut",
+        "Date de modification",
+        "auto_awesome",
+        "close",
+        "Enregistrer"
+      ],
+      "headings": [
+        "Catégories"
+      ],
+      "hasDialog": true,
+      "semanticFields": [
+        {
+          "label": "Rechercher",
+          "name": "",
+          "type": "search",
+          "required": false,
+          "disabled": false,
+          "intent": "search",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798250",
+          "fillable": false
+        },
+        {
+          "label": "Rechercher par nom ou code",
+          "name": "ng.form0.valeurRecherche",
+          "type": "search",
+          "required": false,
+          "disabled": false,
+          "intent": "lastName",
+          "confidence": "high",
+          "sampleValue": "Bernard",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798250",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": false,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798250",
+          "fillable": true
+        },
+        {
+          "label": "Nom de la catégorie",
+          "name": "ng.form1.categoryName",
+          "type": "input",
+          "required": true,
+          "disabled": false,
+          "intent": "lastName",
+          "confidence": "high",
+          "sampleValue": "Bernard",
+          "fillable": true
+        },
+        {
+          "label": "Code",
+          "name": "ng.form1.code",
+          "type": "input",
+          "required": true,
+          "disabled": false,
+          "intent": "code",
+          "confidence": "high",
+          "sampleValue": "QA8250",
+          "fillable": true
+        },
+        {
+          "label": "",
+          "name": "",
+          "type": "mat-select",
+          "required": true,
+          "disabled": false,
+          "intent": "select",
+          "confidence": "medium",
+          "sampleValue": "AUTO-798250",
+          "fillable": true
+        },
+        {
+          "label": "Description",
+          "name": "ng.form1.description",
+          "type": "textarea",
+          "required": false,
+          "disabled": false,
+          "intent": "description",
+          "confidence": "high",
+          "sampleValue": "Description generee pour validation de formulaire.",
+          "fillable": true
+        }
+      ]
+    }
+  ]
+}

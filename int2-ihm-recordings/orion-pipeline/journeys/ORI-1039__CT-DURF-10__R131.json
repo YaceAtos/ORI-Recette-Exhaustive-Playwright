@@ -1,0 +1,40 @@
+{
+  "canonicalId": "ORI-1039::CT-DURF-10::R131",
+  "issueKey": "ORI-1039",
+  "caseId": "CT-DURF-10",
+  "module": "MP3 > SP3.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_CONT_TickResto_44 - Alerte seuil tickets restaurant : affichage dynamique selon seuil marque",
+  "route": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 5,
+  "progressedSteps": 2,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 3,
+    "reason": "Étape \"Porter hebdo a 24\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 3,
+    "misses": [
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Valeur"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_CONT_TickResto_44"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-04f50-ynamique-selon-seuil-marque-orion-headed"
+}

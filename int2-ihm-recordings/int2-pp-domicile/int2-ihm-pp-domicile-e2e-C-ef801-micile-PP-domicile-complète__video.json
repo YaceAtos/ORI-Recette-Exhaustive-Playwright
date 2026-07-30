@@ -1,0 +1,8 @@
+{
+  "source_webm": "test-results/int2-ihm-pp-domicile-e2e-C-ef801-micile-PP-domicile-complète/video.webm",
+  "mp4": "int2-ihm-recordings/int2-pp-domicile/int2-ihm-pp-domicile-e2e-C-ef801-micile-PP-domicile-complète__video.mp4",
+  "duration_seconds": 11.920000,
+  "chapter_screenshots_dir": "test-results/int2-ihm-pp-domicile-e2e-C-ef801-micile-PP-domicile-complète/chapters",
+  "chapter_screenshots_count": 0,
+  "generated_at": "2026-07-21T09:33:21Z"
+}

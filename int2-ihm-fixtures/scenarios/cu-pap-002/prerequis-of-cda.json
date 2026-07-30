@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "description": "OF CARSAT Normandie — pré-requis pour CU-PAP-002",
+    "chaine": "cu-pap-002",
+    "step": "prerequis",
+    "idempotent": true,
+    "source": "ORION_Grille_CU_Vincent_vers_ORION_V2.xlsx — CU-DA-002"
+  },
+  "of": {
+    "nom": "CARSAT Normandie",
+    "typeDT1": "CARSAT",
+    "statut": "Actif"
+  },
+  "cda": [
+    {
+      "libelle": "OSCAR CARSAT Normandie",
+      "ofRattache": "CARSAT Normandie",
+      "typeAideDT2": "OSCAR",
+      "formatFacturation": "Horaire",
+      "activites": [
+        {
+          "nom": "Aide ménagère à domicile",
+          "sourceDT3": true,
+          "baseRemboursementJO": 27.10,
+          "baseRemboursementDJF": 30.40,
+          "tarifFacturationJO": 27.10,
+          "tarifFacturationDJF": 30.40,
+          "depassement": "Autorisé — tarif facturation conservé"
+        },
+        {
+          "nom": "Aide à la mobilité",
+          "sourceDT3": true,
+          "baseRemboursementJO": 32.00,
+          "baseRemboursementDJF": 32.00,
+          "tarifFacturationJO": 32.00,
+          "tarifFacturationDJF": 32.00,
+          "depassement": "Autorisé — tarif facturation conservé"
+        }
+      ]
+    },
+    {
+      "libelle": "Forfait prév. CARSAT Normandie",
+      "ofRattache": "CARSAT Normandie",
+      "typeAideDT2": "Forfait prévention",
+      "formatFacturation": "Forfait",
+      "activites": [
+        {
+          "nom": "Petit travaux",
+          "sourceDT3": true,
+          "tarifFacturationJO": 32.00,
+          "tarifFacturationDJF": 32.00,
+          "depassement": "Autorisé — tarif facturation conservé"
+        }
+      ]
+    }
+  ]
+}

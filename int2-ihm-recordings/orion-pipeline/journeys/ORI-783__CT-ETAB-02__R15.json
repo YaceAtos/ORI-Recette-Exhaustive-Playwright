@@ -1,0 +1,45 @@
+{
+  "canonicalId": "ORI-783::CT-ETAB-02::R15",
+  "issueKey": "ORI-783",
+  "caseId": "CT-ETAB-02",
+  "module": "MP1 > SP1.1",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "Modification et enregistrement nominal (etab INACTIF)",
+  "route": "https://orion-int2.itsap.net/gestion-marque/structure/pages/structure",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 4,
+  "progressedSteps": 3,
+  "totalSteps": 8,
+  "blocker": {
+    "step": 4,
+    "reason": "Étape \"Cliquer Enregistrer\" nécessite une action persistante (Enregistrer) — bloquée par garde non-persistance"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Bouton"
+      },
+      {
+        "text": "Modifications"
+      },
+      {
+        "text": "Bouton"
+      },
+      {
+        "text": "Modale"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_GEN_ENR_01",
+    "RG_ETAB_Modif",
+    "RG_ETAB_SIRET_03"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-37fbc-ement-nominal-etab-INACTIF--orion-headed"
+}

@@ -1,0 +1,37 @@
+{
+  "canonicalId": "ORI-1356::CT-VIS-07::R187",
+  "issueKey": "ORI-1356",
+  "caseId": "CT-VIS-07",
+  "module": "MP3 > SP3.4",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "RG_INT_ABSHOR_1 / CA B8/J5 - Historique d'une absence (cycle de vie)",
+  "route": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 4,
+  "totalSteps": 4,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 3,
+    "misses": [
+      {
+        "text": "Historique"
+      },
+      {
+        "text": "Colonnes"
+      },
+      {
+        "text": "Parcours"
+      }
+    ]
+  },
+  "severity": "moyen",
+  "status": "assertion-low",
+  "rules": [
+    "RG_INT_ABSHOR_1"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-a3ba0-d-une-absence-cycle-de-vie--orion-headed"
+}

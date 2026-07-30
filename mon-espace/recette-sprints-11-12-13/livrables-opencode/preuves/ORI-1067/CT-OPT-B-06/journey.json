@@ -1,0 +1,53 @@
+{
+  "canonicalId": "ORI-1067::CT-OPT-B-06::R103",
+  "issueKey": "ORI-1067",
+  "caseId": "CT-OPT-B-06",
+  "module": "MP2 > SP2.1",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "CA11+CA12: Periodicite conditionnelle (Recurrent=visible, Ponctuel=masque) + label dynamique Quantite",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 9,
+  "totalSteps": 9,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 8,
+    "misses": [
+      {
+        "text": "Periodicite"
+      },
+      {
+        "text": "Quantite"
+      },
+      {
+        "text": "Recurrent"
+      },
+      {
+        "text": "Periodicite"
+      },
+      {
+        "text": "Quantite"
+      },
+      {
+        "text": "Mensuel"
+      },
+      {
+        "text": "Ponctuel"
+      },
+      {
+        "text": "Periodicite"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "assertion-low",
+  "rules": [
+    "RG_OPT_CREATE_08",
+    "RG_OPT_CREATE_09"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-93641-ue-label-dynamique-Quantite-orion-headed"
+}

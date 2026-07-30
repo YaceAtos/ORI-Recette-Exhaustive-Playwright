@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orion.local/contracts/orion-atlassian-source-bundle.schema.json",
+  "title": "Bundle Atlassian Orion en lecture seule",
+  "type": "object",
+  "required": ["schemaVersion", "mode", "generatedAt", "jira", "confluence"],
+  "properties": {
+    "schemaVersion": { "const": "1.0" },
+    "mode": { "const": "read-only" },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "jira": {
+      "type": "object",
+      "required": ["issues"],
+      "properties": {
+        "issues": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["key", "summary", "status"],
+            "properties": {
+              "key": { "type": "string", "pattern": "^ORI-[0-9]+$" },
+              "summary": { "type": "string" },
+              "status": { "type": "string" },
+              "updated": { "type": ["string", "null"] },
+              "url": { "type": ["string", "null"] }
+            }
+          }
+        }
+      }
+    },
+    "confluence": {
+      "type": "object",
+      "required": ["pages"],
+      "properties": {
+        "pages": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["pageId", "title", "status"],
+            "properties": {
+              "pageId": { "type": "string", "pattern": "^[0-9]+$" },
+              "title": { "type": "string" },
+              "status": { "type": "string" },
+              "version": { "type": ["number", "null"] },
+              "url": { "type": ["string", "null"] }
+            }
+          }
+        }
+      }
+    },
+    "xray": {
+      "type": "object",
+      "description": "Metadonnees Xray en lecture seule si un connecteur est disponible.",
+      "properties": {
+        "available": { "type": "boolean" },
+        "tests": { "type": "array" }
+      }
+    }
+  }
+}

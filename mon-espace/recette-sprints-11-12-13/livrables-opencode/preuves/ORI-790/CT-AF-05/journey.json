@@ -1,0 +1,45 @@
+{
+  "canonicalId": "ORI-790::CT-AF-05::R282",
+  "issueKey": "ORI-790",
+  "caseId": "CT-AF-05",
+  "module": "MP6 > SP6.1",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_PAP_TYP_01/VOL_01/PLAF_01 - Typologies d'heures, volume alloue et plafond",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 10,
+  "progressedSteps": 2,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 3,
+    "reason": "Étape \"Tenter un volume vide/negatif\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Typologie"
+      },
+      {
+        "text": "Plafond"
+      },
+      {
+        "text": "Volume"
+      },
+      {
+        "text": "Typologie"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_PAP_TYP_01",
+    "RG_PAP_VOL_01",
+    "RG_PAP_PLAF_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-f05bf-es-volume-alloue-et-plafond-orion-headed"
+}

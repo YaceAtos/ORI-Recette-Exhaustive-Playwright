@@ -1,0 +1,35 @@
+{
+  "canonicalId": "ORI-769::CT-LOC-04::R202",
+  "issueKey": "ORI-769",
+  "caseId": "CT-LOC-04",
+  "module": "MP4 > SP4.1",
+  "priority": "P1",
+  "type": "Erreur",
+  "scenario": "Robustesse : echec de chargement de la carte (GEOWS/reseau KO) - mode degrade",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 3,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Simuler l'indisponibilite du service carto/GEOWS\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 2,
+    "misses": [
+      {
+        "text": "Service"
+      },
+      {
+        "text": "Drawer"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-bfa16-WS-reseau-KO---mode-degrade-orion-headed"
+}

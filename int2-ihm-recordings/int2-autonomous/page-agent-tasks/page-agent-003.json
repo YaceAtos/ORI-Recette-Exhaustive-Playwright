@@ -1,0 +1,6 @@
+{
+  "agentId": "page-agent-003",
+  "pageId": "/crm/pages/leads",
+  "pageUrl": "https://orion-int2.itsap.net/crm/pages/leads",
+  "outputPath": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-recordings/int2-autonomous/page-agents/003-_crm_pages_leads.json"
+}

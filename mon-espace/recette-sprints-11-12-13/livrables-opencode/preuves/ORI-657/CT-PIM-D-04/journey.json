@@ -1,0 +1,43 @@
+{
+  "canonicalId": "ORI-657::CT-PIM-D-04::R83",
+  "issueKey": "ORI-657",
+  "caseId": "CT-PIM-D-04",
+  "module": "MP2 > SP2.1",
+  "priority": "P1",
+  "type": "Erreur",
+  "scenario": "CA09: Champs obligatoires manquants",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 4,
+  "progressedSteps": 1,
+  "totalSteps": 6,
+  "blocker": {
+    "step": 2,
+    "reason": "Étape \"Cliquer Enregistrer\" nécessite une action persistante (Enregistrer) — bloquée par garde non-persistance"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Message"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_FAM_UPD_09"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-f58a2-amps-obligatoires-manquants-orion-headed"
+}

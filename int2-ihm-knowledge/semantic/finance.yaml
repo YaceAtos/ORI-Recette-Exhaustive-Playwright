@@ -1,0 +1,18 @@
+finance:
+  iban:
+    semantic_type: finance.iban
+    aliases: [iban, account_iban]
+    confidence_keywords: [iban, account]
+    datatype: string
+
+  bic:
+    semantic_type: finance.bic
+    aliases: [bic, swift, swift_code]
+    confidence_keywords: [bic, swift]
+    datatype: string
+
+  credit_card:
+    semantic_type: finance.credit_card
+    aliases: [credit_card, card_number, cb, carte_bancaire]
+    confidence_keywords: [card, credit, cb]
+    datatype: numeric

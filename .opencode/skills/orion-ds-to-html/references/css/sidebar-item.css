@@ -1,0 +1,181 @@
+/* ═══════════════════════════════════════════════════════
+   SIDEBAR ITEM
+   ═══════════════════════════════════════════════════════ */
+
+/* ── Container ── */
+.orion-si {
+  display: flex;
+  align-items: stretch;
+  border-radius: 6px;
+  width: 229px;
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.15s;
+  background: var(--color-surface);
+}
+
+/* ── Item inner ── */
+.orion-si__item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 6px;
+  gap: 8px;
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Content wrapper ── */
+.orion-si__content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+}
+
+/* ── Label row ── */
+.orion-si__label-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  width: 100%;
+}
+
+.orion-si__label-left {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+
+/* ── Label ── */
+.orion-si__label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: var(--color-on-surface);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ── Icons ── */
+.orion-si__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  color: var(--color-on-surface);
+}
+
+.orion-si__icon--trailing {
+  color: var(--color-on-surface-variant);
+}
+
+/* ── Tag (green badge with check) ── */
+.orion-si__tag {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 6px;
+  border-radius: 6px;
+  background: var(--color-success-container);
+  flex-shrink: 0;
+  height: 24px;
+}
+
+.orion-si__tag-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  color: var(--color-success-accent);
+}
+
+/* ── Description ── */
+.orion-si__description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: var(--color-on-surface-variant);
+  margin: 0;
+}
+
+/* ═══════════ STATES ═══════════ */
+
+/* ── Selected level 1 ── */
+.orion-si--selected {
+  background: var(--color-primary-container-hover);
+}
+
+.orion-si--selected .orion-si__label {
+  font-weight: 700;
+}
+
+/* ── Selected level 2 ── */
+.orion-si--selected.orion-si--level-2 {
+  background: var(--color-primary-container);
+}
+
+.orion-si--selected.orion-si--level-2 .orion-si__label {
+  font-weight: 500;
+}
+
+/* ── Hover ── */
+.orion-si--hover::after,
+.orion-si:not(.orion-si--disabled):hover::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 6px;
+  background: var(--color-on-surface);
+  opacity: 0.08;
+  pointer-events: none;
+}
+
+/* ── Focus ── */
+.orion-si--focus::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 6px;
+  background: var(--color-on-surface);
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+/* ── Disabled ── */
+.orion-si--disabled {
+  opacity: 0.38;
+  cursor: not-allowed;
+}
+
+.orion-si--disabled .orion-si__tag {
+  background: var(--color-surface-hover);
+  border: 1px solid var(--color-outline-light);
+}
+
+.orion-si--disabled .orion-si__tag-icon {
+  color: var(--color-disabled-light);
+}
+
+/* ═══════════ ICON ONLY ═══════════ */
+.orion-si--icon-only {
+  width: 40px;
+  height: 40px;
+}
+
+.orion-si--icon-only .orion-si__item {
+  padding: 12px;
+  justify-content: center;
+}

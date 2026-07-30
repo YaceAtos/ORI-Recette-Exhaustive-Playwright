@@ -1,0 +1,30 @@
+{
+  "canonicalId": "ORI-931::CT-HAB-F3-04::R51",
+  "issueKey": "ORI-931",
+  "caseId": "CT-HAB-F3-04",
+  "module": "SP1.5",
+  "priority": "P1",
+  "type": "Variante",
+  "scenario": "SC7+SC8+SC9+SC10: Colonne Statut - 4 cas (Elevation possible, Eleve, Verrouille, Non renseigne)",
+  "route": "https://orion-int2.itsap.net/gestion-marque/habilitation/pages/habilitation-profils",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 6,
+  "blocker": {
+    "step": 0,
+    "reason": "Donnée absente: aucun enregistrement dans INT2 (fixture non seedée)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 0,
+    "misses": []
+  },
+  "severity": null,
+  "status": "blocked-data",
+  "rules": [
+    "RG_HAB_DPRDF_005"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-e8cec-e-Verrouille-Non-renseigne--orion-headed"
+}

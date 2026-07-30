@@ -1,0 +1,40 @@
+{
+  "canonicalId": "ORI-1068::CT-RND-09::R238",
+  "issueKey": "ORI-1068",
+  "caseId": "CT-RND-09",
+  "module": "MP4 > SP4.2",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "CA-07 - Fermeture de la modale sans enregistrement (dialogue de confirmation)",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 5,
+  "progressedSteps": 1,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 2,
+    "reason": "Étape \"Cliquer sur la croix X\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 3,
+    "misses": [
+      {
+        "text": "Donnees"
+      },
+      {
+        "text": "Dialogue"
+      },
+      {
+        "text": "Quitter sans enregistrer"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_GEN_CROIX_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-02493-t-dialogue-de-confirmation--orion-headed"
+}

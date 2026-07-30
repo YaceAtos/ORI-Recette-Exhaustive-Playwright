@@ -1,0 +1,37 @@
+{
+  "canonicalId": "ORI-368::CT-BSN-03::R209",
+  "issueKey": "ORI-368",
+  "caseId": "CT-BSN-03",
+  "module": "MP4 > SP4.2",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "RG_BSN_TRILST_02 / CA-A03 - Tri utilisateur par colonne (alternance croissant/decroissant)",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Cliquer sur l'en-tete Service\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 2,
+    "misses": [
+      {
+        "text": "Service"
+      },
+      {
+        "text": "Colonne"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_BSN_TRILST_02"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-6ceac-ance-croissant-decroissant--orion-headed"
+}

@@ -1,0 +1,35 @@
+{
+  "canonicalId": "ORI-91::CT-NOTIF-12::R146",
+  "issueKey": "ORI-91",
+  "caseId": "CT-NOTIF-12",
+  "module": "MP3 > SP3.3",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "Transcodification des identifiants Orion vers valeurs Pleiade",
+  "route": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Notifier l'intervenant\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 2,
+    "misses": [
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Valeurs"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-421c5--Orion-vers-valeurs-Pleiade-orion-headed"
+}

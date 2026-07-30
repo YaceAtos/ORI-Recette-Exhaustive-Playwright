@@ -1,0 +1,116 @@
+/* ═══════════════════════════════════════════════════════
+   DRAG & DROP
+   ═══════════════════════════════════════════════════════ */
+
+.orion-dd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed var(--color-outline);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  padding: 18px 48px 18px 40px;
+  font-family: var(--font-body), sans-serif;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 150ms, border-color 150ms;
+  cursor: default;
+}
+
+/* ── Sizes ── */
+.orion-dd--md {
+  width: 224px;
+  height: 70px;
+}
+
+.orion-dd--lg {
+  width: 616px;
+  height: 70px;
+}
+
+/* ── State layer ── */
+.orion-dd::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: transparent;
+  transition: background 150ms;
+}
+
+/* ── Hover ── */
+.orion-dd:hover:not(.orion-dd--disabled):not(.orion-dd--focus) {
+  border-color: var(--color-outline);
+}
+
+.orion-dd:hover:not(.orion-dd--disabled):not(.orion-dd--focus)::after {
+  background: rgba(72, 84, 109, 0.08);
+}
+
+/* ── Focus (dragover) ── */
+.orion-dd--focus {
+  background: var(--color-primary-container);
+  border-color: var(--color-primary-muted);
+  border-style: dashed;
+}
+
+/* ── Disabled ── */
+.orion-dd--disabled {
+  opacity: 0.38;
+  pointer-events: none;
+}
+
+.orion-dd--disabled::after {
+  background: rgba(72, 84, 109, 0.10);
+}
+
+/* ── Content ── */
+.orion-dd__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.orion-dd__label {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0;
+  color: var(--color-on-surface-variant);
+  white-space: nowrap;
+}
+
+/* ── Import link ── */
+.orion-dd__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: var(--color-primary-active);
+  text-decoration: underline;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  outline: none;
+  white-space: nowrap;
+}
+
+.orion-dd__link:hover {
+  opacity: 0.8;
+}
+
+.orion-dd__upload-icon {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  display: block;
+  color: var(--color-primary-active);
+}
+
+.orion-dd .material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 20;
+}

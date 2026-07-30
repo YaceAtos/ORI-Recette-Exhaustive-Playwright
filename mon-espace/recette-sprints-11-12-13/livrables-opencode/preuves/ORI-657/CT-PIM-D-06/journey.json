@@ -1,0 +1,47 @@
+{
+  "canonicalId": "ORI-657::CT-PIM-D-06::R85",
+  "issueKey": "ORI-657",
+  "caseId": "CT-PIM-D-06",
+  "module": "MP2 > SP2.1",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "CA13+CA14+CA15: Duree RDV modifiable + Fermer modale + Erreur technique",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 4,
+  "progressedSteps": 2,
+  "totalSteps": 7,
+  "blocker": {
+    "step": 3,
+    "reason": "Étape \"Enregistrer\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 5,
+    "misses": [
+      {
+        "text": "Valeur"
+      },
+      {
+        "text": "Enregistrement"
+      },
+      {
+        "text": "Modale"
+      },
+      {
+        "text": "Modale"
+      },
+      {
+        "text": "Message"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_FAM_UPD_09",
+    "RG_FAM_UPD_11"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-f854c-mer-modale-Erreur-technique-orion-headed"
+}

@@ -1,0 +1,6 @@
+testing:
+  accessibility:
+    checks:
+      - aria-label-present
+      - label-associated
+      - keyboard-navigable

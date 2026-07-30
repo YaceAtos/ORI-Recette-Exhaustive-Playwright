@@ -1,0 +1,134 @@
+{
+  "source": "int2-agent-dataset-manager",
+  "generatedAt": "2026-07-30T13:39:41.368Z",
+  "intent": "Use adaptive, realistic, non-personalized search tokens to maximize matching chances in INT2 datasets.",
+  "powerMode": "high",
+  "searchTerms": [
+    "DU",
+    "MA",
+    "RO",
+    "SI",
+    "LA",
+    "AN",
+    "LE",
+    "DE",
+    "RA",
+    "NA",
+    "CLI",
+    "PRO",
+    "DEV",
+    "PAP",
+    "AIDE",
+    "OF",
+    "CDA",
+    "PLA",
+    "FAC",
+    "PAIE",
+    "ADD",
+    "CR",
+    "ER",
+    "LES",
+    "A",
+    "E",
+    "I",
+    "O",
+    "U",
+    "R",
+    "S",
+    "N",
+    "M",
+    "L",
+    "T",
+    "C"
+  ],
+  "searchPlan": {
+    "primary": [
+      "DU",
+      "MA",
+      "RO",
+      "SI",
+      "LA",
+      "AN",
+      "LE",
+      "DE",
+      "RA",
+      "NA",
+      "CLI",
+      "PRO",
+      "DEV",
+      "PAP",
+      "AIDE",
+      "OF",
+      "CDA",
+      "PLA",
+      "FAC",
+      "PAIE",
+      "ADD",
+      "CR",
+      "ER",
+      "LES"
+    ],
+    "fallback": [
+      "A",
+      "E",
+      "I",
+      "O",
+      "U",
+      "R",
+      "S",
+      "N",
+      "M",
+      "L",
+      "T",
+      "C"
+    ],
+    "maxRuntimeTerms": 18
+  },
+  "extractedSignals": {
+    "graphTokenCount": 181,
+    "profileTokenCount": 61
+  },
+  "baselineVolumes": {
+    "mp1": {
+      "marques": 2,
+      "societes": 3,
+      "agences": 5
+    },
+    "sp15": {
+      "profils": 5,
+      "utilisateurs": 10
+    },
+    "mp2": {
+      "categories": 3,
+      "familles": 5,
+      "produits": 10
+    },
+    "mp3": {
+      "intervenants": 10,
+      "contrats": 10
+    },
+    "mp4": {
+      "clients": 20,
+      "prospects": 10,
+      "devis": 10
+    },
+    "mp5": {
+      "interventions": 50,
+      "tournes": 10
+    },
+    "mp6": {
+      "organismesFinanceurs": 5,
+      "cda": 10,
+      "pap": 20
+    },
+    "mp7": {
+      "pointages": 100,
+      "exportPaieLots": 3
+    }
+  },
+  "constraints": {
+    "avoidHardcodedIdentity": true,
+    "avoidSingleSurnameDependency": true,
+    "noPersistentCreationData": true
+  }
+}

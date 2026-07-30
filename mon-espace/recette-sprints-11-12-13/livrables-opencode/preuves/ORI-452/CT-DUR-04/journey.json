@@ -1,0 +1,37 @@
+{
+  "canonicalId": "ORI-452::CT-DUR-04::R243",
+  "issueKey": "ORI-452",
+  "caseId": "CT-DUR-04",
+  "module": "MP5 > SP5.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_CTR_INT_01 - Bornes exactes du seuil (planifiee +/- seuil) : conforme (non strict)",
+  "route": "https://orion-int2.itsap.net/sap/pages/planning",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Recevoir des pointages donnant realisee = planifiee + seuil\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 2,
+    "misses": [
+      {
+        "text": "Aucune"
+      },
+      {
+        "text": "Aucune"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_CTR_INT_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-3f13d--seuil-conforme-non-strict--orion-headed"
+}

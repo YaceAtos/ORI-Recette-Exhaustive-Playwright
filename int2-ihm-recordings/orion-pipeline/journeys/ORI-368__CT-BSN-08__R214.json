@@ -1,0 +1,40 @@
+{
+  "canonicalId": "ORI-368::CT-BSN-08::R214",
+  "issueKey": "ORI-368",
+  "caseId": "CT-BSN-08",
+  "module": "MP4 > SP4.2",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "Contenu des colonnes Service / Statut / Responsable / Date de creation",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 5,
+  "totalSteps": 5,
+  "blocker": null,
+  "assertion": {
+    "met": 1,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Service"
+      },
+      {
+        "text": "Responsable"
+      },
+      {
+        "text": "aucune qualification n"
+      }
+    ]
+  },
+  "severity": null,
+  "status": "passed",
+  "rules": [
+    "RG_BSN_SERV_01",
+    "RG_BSN_STAT_01",
+    "RG_BSN_RESP_01",
+    "RG_BSN_DATCREA_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-7764f-esponsable-Date-de-creation-orion-headed"
+}

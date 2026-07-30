@@ -1,0 +1,31 @@
+{
+  "canonicalId": "ORI-452::CT-DUR-02::R241",
+  "issueKey": "ORI-452",
+  "caseId": "CT-DUR-02",
+  "module": "MP5 > SP5.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_CTR_INT_01 / Scenario 2 - Duree de realisation trop courte : notification generee",
+  "route": "https://orion-int2.itsap.net/sap/pages/planning",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 3,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Recevoir les pointages donnant une duree realisee < planifiee - seuil\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 1,
+    "total": 1,
+    "misses": []
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_CTR_INT_01",
+    "RG_CTR_INT_02"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-43654-courte-notification-generee-orion-headed"
+}

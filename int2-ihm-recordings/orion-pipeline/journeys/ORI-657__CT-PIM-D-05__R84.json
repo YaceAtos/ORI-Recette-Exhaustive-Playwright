@@ -1,0 +1,45 @@
+{
+  "canonicalId": "ORI-657::CT-PIM-D-05::R84",
+  "issueKey": "ORI-657",
+  "caseId": "CT-PIM-D-05",
+  "module": "MP2 > SP2.1",
+  "priority": "P1",
+  "type": "Variante",
+  "scenario": "CA10+CA11+CA12: Desactivation bloquee si dependances + reactivation immediate",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 1,
+  "totalSteps": 9,
+  "blocker": {
+    "step": 2,
+    "reason": "Étape \"Passer statut a Inactif, cliquer Enregistrer\" nécessite une action persistante (Enregistrer) — bloquée par garde non-persistance"
+  },
+  "assertion": {
+    "met": 5,
+    "total": 9,
+    "misses": [
+      {
+        "text": "Enregistrement"
+      },
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Desactivation"
+      },
+      {
+        "text": "Reactivation"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_FAM_UPD_06",
+    "RG_FAM_UPD_07",
+    "RG_FAM_UPD_08"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-ccf9c-nces-reactivation-immediate-orion-headed"
+}

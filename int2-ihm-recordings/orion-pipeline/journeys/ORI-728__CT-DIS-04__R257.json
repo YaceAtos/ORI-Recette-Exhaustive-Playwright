@@ -1,0 +1,40 @@
+{
+  "canonicalId": "ORI-728::CT-DIS-04::R257",
+  "issueKey": "ORI-728",
+  "caseId": "CT-DIS-04",
+  "module": "MP5 > SP5.2",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "RG_CRT_SIN_08 - Exclusion des elements au statut 'Annule' du controle de disponibilite",
+  "route": "https://orion-int2.itsap.net/sap/pages/planning",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 3,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Emettre le message avec un chevauchement sur un element 'Annule'\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 3,
+    "misses": [
+      {
+        "text": "Message"
+      },
+      {
+        "text": "Controle"
+      },
+      {
+        "text": "intervenant est considere disponible : interventions "
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_CRT_SIN_08"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-02322-u-controle-de-disponibilite-orion-headed"
+}

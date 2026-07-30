@@ -1,0 +1,43 @@
+{
+  "canonicalId": "ORI-995::CT-ABD-03::R225",
+  "issueKey": "ORI-995",
+  "caseId": "CT-ABD-03",
+  "module": "MP4 > SP4.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_BSN_ABAND_COMM_01 / CA-02 - Motif 'Autre' : champ Commentaire affiche et obligatoire",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 3,
+  "totalSteps": 5,
+  "blocker": {
+    "step": 4,
+    "reason": "Étape \"Tenter de valider sans commentaire\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 1,
+    "total": 5,
+    "misses": [
+      {
+        "text": "Modale"
+      },
+      {
+        "text": "Commentaire"
+      },
+      {
+        "text": "Validation"
+      },
+      {
+        "text": "Abandonne"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_BSN_ABAND_COMM_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-94caf-aire-affiche-et-obligatoire-orion-headed"
+}

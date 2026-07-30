@@ -1,0 +1,32 @@
+{
+  "canonicalId": "ORI-688::CT-PTG-05::R251",
+  "issueKey": "ORI-688",
+  "caseId": "CT-PTG-05",
+  "module": "MP5 > SP5.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_PLA_HRD_01 - Affichage identique de l'etat des pointages dans la vue 'Clients'",
+  "route": "https://orion-int2.itsap.net/sap/pages/planning",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 4,
+  "totalSteps": 4,
+  "blocker": null,
+  "assertion": {
+    "met": 1,
+    "total": 2,
+    "misses": [
+      {
+        "text": "Icones"
+      }
+    ]
+  },
+  "severity": null,
+  "status": "passed",
+  "rules": [
+    "RG_PLA_HRD_01",
+    "RG_PLAC_BAI_01"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-3a1e5-ntages-dans-la-vue-Clients--orion-headed"
+}

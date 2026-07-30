@@ -1,0 +1,43 @@
+{
+  "canonicalId": "ORI-1065::CT-OPT-A-07::R95",
+  "issueKey": "ORI-1065",
+  "caseId": "CT-OPT-A-07",
+  "module": "MP2 > SP2.1",
+  "priority": "P2",
+  "type": "Variante",
+  "scenario": "CA10: Adaptation reglementaire par pays - colonne/filtre Taxe selon pack reglementaire",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 6,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Se connecter avec marque France\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 2,
+    "total": 6,
+    "misses": [
+      {
+        "text": "Session"
+      },
+      {
+        "text": "Colonne"
+      },
+      {
+        "text": "Session"
+      },
+      {
+        "text": "Colonne"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_OPT_LIST_15"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-91747-xe-selon-pack-reglementaire-orion-headed"
+}

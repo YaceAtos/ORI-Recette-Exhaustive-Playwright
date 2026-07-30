@@ -1,0 +1,49 @@
+{
+  "canonicalId": "ORI-1065::CT-OPT-A-03::R91",
+  "issueKey": "ORI-1065",
+  "caseId": "CT-OPT-A-03",
+  "module": "MP2 > SP2.1",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "CA04+CA05+CA06: Filtres Statut (Actif/Inactif) + Marche + Taxe",
+  "route": "https://orion-int2.itsap.net/offres-tarifs/pages/catalogue/familles",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 7,
+  "totalSteps": 8,
+  "blocker": {
+    "step": 8,
+    "reason": "Étape \"Combiner Statut=Actif + Marche=Professionnel + Taxe=Normal\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 2,
+    "total": 7,
+    "misses": [
+      {
+        "text": "Marche"
+      },
+      {
+        "text": "Seules"
+      },
+      {
+        "text": "Reduit"
+      },
+      {
+        "text": "Reduit"
+      },
+      {
+        "text": "Intersection"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_OPT_LIST_06",
+    "RG_OPT_LIST_05",
+    "RG_OPT_LIST_01",
+    "RG_OPT_LIST_15"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-d411c-t-Actif-Inactif-Marche-Taxe-orion-headed"
+}

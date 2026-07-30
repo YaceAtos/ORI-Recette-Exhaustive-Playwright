@@ -1,0 +1,25 @@
+{
+  "canonicalId": "ORI-745::CT-UX-03::R192",
+  "issueKey": "ORI-745",
+  "caseId": "CT-UX-03",
+  "module": "MP4 > SP4.1",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "Icone 'Identite' (contact_page) sur Modification et Creation prospect/lead",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 4,
+  "totalSteps": 4,
+  "blocker": null,
+  "assertion": {
+    "met": 2,
+    "total": 2,
+    "misses": []
+  },
+  "severity": null,
+  "status": "passed",
+  "rules": [],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-9d87c-n-et-Creation-prospect-lead-orion-headed"
+}

@@ -1,0 +1,34 @@
+{
+  "canonicalId": "ORI-936::CT-CPT-04::R153",
+  "issueKey": "ORI-936",
+  "caseId": "CT-CPT-04",
+  "module": "MP3 > SP3.4",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_INT_CPTT_1 / 1c - Affichage des types de conges selon le parametrage (libelle + periode)",
+  "route": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 5,
+  "totalSteps": 5,
+  "blocker": null,
+  "assertion": {
+    "met": 0,
+    "total": 2,
+    "misses": [
+      {
+        "text": "Compteurs"
+      },
+      {
+        "text": "Chaque"
+      }
+    ]
+  },
+  "severity": "mineur",
+  "status": "assertion-low",
+  "rules": [
+    "RG_INT_CPTT_1"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-470ea-arametrage-libelle-periode--orion-headed"
+}

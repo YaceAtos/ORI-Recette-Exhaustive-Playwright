@@ -1,0 +1,45 @@
+{
+  "canonicalId": "ORI-728::CT-DIS-07::R260",
+  "issueKey": "ORI-728",
+  "caseId": "CT-DIS-07",
+  "module": "MP5 > SP5.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_MOD_SIN_07/08 - Verification de disponibilite lors de la MODIFICATION d'une serie (miroir creation)",
+  "route": "https://orion-int2.itsap.net/sap/pages/planning",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 4,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Emettre un message de modification avec intervenant disponible\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 4,
+    "misses": [
+      {
+        "text": "Pourvue"
+      },
+      {
+        "text": "Affectation"
+      },
+      {
+        "text": "Modification"
+      },
+      {
+        "text": "Non pourvue"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_MOD_SIN_07",
+    "RG_MOD_SIN_08",
+    "RG_MOD"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-70ea1--une-serie-miroir-creation--orion-headed"
+}

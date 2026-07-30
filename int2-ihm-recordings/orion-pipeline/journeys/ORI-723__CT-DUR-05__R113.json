@@ -1,0 +1,46 @@
+{
+  "canonicalId": "ORI-723::CT-DUR-05::R113",
+  "issueKey": "ORI-723",
+  "caseId": "CT-DUR-05",
+  "module": "MP3 > SP3.2",
+  "priority": "P1",
+  "type": "Nominal",
+  "scenario": "RG_CONT_ModOrg_38_V2 - Mode d'organisation du temps de travail (Forfait jours masque Intervenant)",
+  "route": "https://orion-int2.itsap.net/gestion-admin/pages/collaborateur",
+  "reachedRecord": true,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 4,
+  "totalSteps": 6,
+  "blocker": {
+    "step": 5,
+    "reason": "Étape \"Repasser en Hebdomadaire fixe\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 5,
+    "misses": [
+      {
+        "text": "Hebdomadaire"
+      },
+      {
+        "text": "Seulement"
+      },
+      {
+        "text": "Option"
+      },
+      {
+        "text": "Affichage"
+      },
+      {
+        "text": "Blocage"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [
+    "RG_CONT_ModOrg_38_V2"
+  ],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-7103b-t-jours-masque-Intervenant--orion-headed"
+}
