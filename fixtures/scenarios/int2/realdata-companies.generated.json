@@ -1,0 +1,157 @@
+{
+  "source": "int2-agent-realdata-harvester",
+  "generatedAt": "2026-08-05T10:14:11.104Z",
+  "status": "ok",
+  "intent": "Provide real, validated SIREN/SIRET, real addresses and real creation dates sourced from French government open data for INT2 test data generation.",
+  "seedTerms": [
+    "aide a domicile",
+    "services a la personne"
+  ],
+  "termResults": [
+    {
+      "term": "aide a domicile",
+      "fetched": 3,
+      "validated": 3
+    },
+    {
+      "term": "services a la personne",
+      "fetched": 3,
+      "validated": 3
+    }
+  ],
+  "validationRules": {
+    "siren": "9 digits + Luhn checksum",
+    "siret": "14 digits + Luhn checksum, must start with SIREN",
+    "postalCode": "5 digit French postal code",
+    "date": "real past calendar date, year in [1900, currentYear]",
+    "address": "cross-validated via BAN geocoder, min score 0.4"
+  },
+  "companies": [
+    {
+      "source": "recherche-entreprises.api.gouv.fr",
+      "siren": "498326966",
+      "siret": "49832696600021",
+      "name": "AIDE A DOMICILE",
+      "address": "MAISON DES ASSOCIATIONS DU 12EME 181 AVENUE DAUMESNIL 75012 PARIS",
+      "postalCode": "75012",
+      "commune": "PARIS",
+      "naf": "88.10A",
+      "dateCreation": "2007-06-01",
+      "creationYear": 2007,
+      "addressGeocode": {
+        "checked": true,
+        "score": 0.5525972727272728,
+        "label": "181 Avenue Daumesnil 75012 Paris"
+      },
+      "validated": true,
+      "validationFailures": [],
+      "harvestedAt": "2026-08-05T10:14:10.040Z"
+    },
+    {
+      "source": "recherche-entreprises.api.gouv.fr",
+      "siren": "498457027",
+      "siret": "49845702700015",
+      "name": "AIDE A DOMICILE (AGAD)",
+      "address": "ME DJENGUE 51 RUE LEON 75018 PARIS",
+      "postalCode": "75018",
+      "commune": "PARIS",
+      "naf": "88.10A",
+      "dateCreation": "2007-01-13",
+      "creationYear": 2007,
+      "addressGeocode": {
+        "checked": true,
+        "score": 0.6143745454545454,
+        "label": "51 Rue Léon 75018 Paris"
+      },
+      "validated": true,
+      "validationFailures": [],
+      "harvestedAt": "2026-08-05T10:14:10.425Z"
+    },
+    {
+      "source": "recherche-entreprises.api.gouv.fr",
+      "siren": "434118568",
+      "siret": "43411856800048",
+      "name": "AIDE A DOMICILE",
+      "address": "BP 70044 3 B AVENUE DE BINGHAMTON 33260 LA TESTE-DE-BUCH",
+      "postalCode": "33260",
+      "commune": "LA TESTE-DE-BUCH",
+      "naf": "88.10A",
+      "dateCreation": "2000-04-06",
+      "creationYear": 2000,
+      "addressGeocode": {
+        "checked": true,
+        "score": 0.699318961038961,
+        "label": "3b Avenue de Binghamton 33260 La Teste-de-Buch"
+      },
+      "validated": true,
+      "validationFailures": [],
+      "harvestedAt": "2026-08-05T10:14:10.643Z"
+    },
+    {
+      "source": "recherche-entreprises.api.gouv.fr",
+      "siren": "512392572",
+      "siret": "51239257200149",
+      "name": "ABC SERVICES A LA PERSONNE",
+      "address": "1 RUE DE LA PRESSE 42000 SAINT-ETIENNE",
+      "postalCode": "42000",
+      "commune": "SAINT-ETIENNE",
+      "naf": "96.09Z",
+      "dateCreation": "2009-05-25",
+      "creationYear": 2009,
+      "addressGeocode": {
+        "checked": true,
+        "score": 0.9698236363636362,
+        "label": "1 Rue de la Presse 42000 Saint-Étienne"
+      },
+      "validated": true,
+      "validationFailures": [],
+      "harvestedAt": "2026-08-05T10:14:10.947Z"
+    },
+    {
+      "source": "recherche-entreprises.api.gouv.fr",
+      "siren": "519600373",
+      "siret": "51960037300079",
+      "name": "ESSENTIEL SERVICES A LA PERSONNE",
+      "address": "7 PLACE DU 14 JUILLET 13530 TRETS",
+      "postalCode": "13530",
+      "commune": "TRETS",
+      "naf": "88.10A",
+      "dateCreation": "2010-02-18",
+      "creationYear": 2010,
+      "addressGeocode": {
+        "checked": true,
+        "score": 0.9568409090909089,
+        "label": "7 Place du 14 Juillet 13530 Trets"
+      },
+      "validated": true,
+      "validationFailures": [],
+      "harvestedAt": "2026-08-05T10:14:11.011Z"
+    },
+    {
+      "source": "recherche-entreprises.api.gouv.fr",
+      "siren": "509749438",
+      "siret": "50974943800016",
+      "name": "ADOMI  SERVICES A LA PERSONNE",
+      "address": "11 ALLEE DES GRIVES 69340 FRANCHEVILLE",
+      "postalCode": "69340",
+      "commune": "FRANCHEVILLE",
+      "naf": "88.10A",
+      "dateCreation": "2009-01-07",
+      "creationYear": 2009,
+      "addressGeocode": {
+        "checked": true,
+        "score": 0.9579727272727273,
+        "label": "11 Allée des Grives 69340 Francheville"
+      },
+      "validated": true,
+      "validationFailures": [],
+      "harvestedAt": "2026-08-05T10:14:11.104Z"
+    }
+  ],
+  "counts": {
+    "previouslyKnown": 0,
+    "newlyValidatedThisRun": 6,
+    "totalValidatedPool": 6,
+    "rejectedThisRun": 0
+  }
+}

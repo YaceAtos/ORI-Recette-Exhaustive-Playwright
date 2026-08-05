@@ -39,5 +39,5 @@
   "rules": [
     "RG_FAM_UPD_09"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-f58a2-amps-obligatoires-manquants-orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-f58a2-amps-obligatoires-manquants-orion-pipeline"
 }

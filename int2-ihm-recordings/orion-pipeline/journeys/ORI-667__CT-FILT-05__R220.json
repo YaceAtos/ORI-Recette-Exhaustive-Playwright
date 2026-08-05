@@ -26,5 +26,5 @@
   "rules": [
     "RG_BSN_FILT_02"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-928f6-aucun-besoin-ne-correspond--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-928f6-aucun-besoin-ne-correspond--orion-pipeline"
 }

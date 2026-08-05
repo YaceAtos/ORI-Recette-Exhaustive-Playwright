@@ -1,0 +1,12 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [
+    "Heriter AGENTS.md et skills racine (.opencode/skills) + skills locales si presentes.",
+    "Toujours travailler en francais."
+  ],
+  "permission": {
+    "skill": {
+      "*": "allow"
+    }
+  }
+}

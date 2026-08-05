@@ -26,5 +26,5 @@
   "rules": [
     "RG_HAB_DPRCU_004"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-a99af-ier-CU-sans-filtre-niveau-2-orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-a99af-ier-CU-sans-filtre-niveau-2-orion-pipeline"
 }

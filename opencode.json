@@ -3,9 +3,20 @@
   "autoupdate": false,
   "instructions": [
     "LANGUE — REGLE ABSOLUE NON NEGOCIABLE : Tu dois reflechir, raisonner, rediger, commenter, nommer, et repondre EXCLUSIVEMENT en francais. Si tu detectes que tu as produit un mot en anglais (hors nom propre de technologie), corrige-toi immediatement. Cette regle prime sur toutes les autres.",
-    "Toujours lire AGENTS.md avant de commencer une tache.",
-    "LECTURE DES FICHIERS BINAIRES (PDF, Word, Excel, PowerPoint) — L'outil Read natif ne peut PAS lire ces formats. Utiliser Python avec les bibliotheques pdfplumber, python-docx, openpyxl, python-pptx, markitdown. Verifier d'abord le chemin Python dans .opencode/memory/python-config.md. Si ce fichier n'existe pas, chercher python dans les chemins connus Windows (%LOCALAPPDATA%/Programs/Python/Python3*/python.exe). Charger la skill input-preprocessor pour les instructions detaillees d'extraction."
+    "Toujours lire AGENTS.md avant de commencer une tache (racine du monorepo + AGENTS.md local du sous-projet s'il existe).",
+    "Skills partagees du monorepo : .opencode/skills/ — disponibles implicitement dans TOUS les sous-projets via discovery ascendante jusqu'a la racine git. Les sous-projets gardent AUSSI leurs skills propres (.opencode/skills/ local).",
+    "EXCEPTION : le dossier docs/ (document) est isole — ne pas y appliquer les skills Orion de recette/pipeline ; suivre docs/AGENTS.md et docs/opencode.json.",
+    "Utiliser les skills disponibles comme reference qualite (outil skill).",
+    "LECTURE DES FICHIERS BINAIRES (PDF, Word, Excel, PowerPoint) — L'outil Read natif ne peut PAS lire ces formats. Utiliser Python avec les bibliotheques pdfplumber, python-docx, openpyxl, python-pptx, markitdown. Verifier d'abord le chemin Python dans .opencode/memory/python-config.md. Si ce fichier n'existe pas, chercher python dans les chemins connus Windows (%LOCALAPPDATA%/Programs/Python/Python3*/python.exe). Charger la skill input-preprocessor pour les instructions detaillees d'extraction.",
+    "Les livrables sont generes dans mon-espace/[nom-du-sujet]/livrables-opencode/ avec un suffixe de version _vN (spec_v1.md, maquette_v1.html, etc.).",
+    "Les fichiers sources de l'utilisateur sont a la racine de mon-espace/[nom-du-sujet]/ (pas de sous-dossier 'sources' ou 'inputs').",
+    "Si l'utilisateur exprime une preference, un style, une correction recurrente ou toute information pertinente a long terme, mettre a jour .opencode/memory/user-preferences.md IMMEDIATEMENT sans qu'on te le demande."
   ],
+  "permission": {
+    "skill": {
+      "*": "allow"
+    }
+  },
   "mcp": {
     "atlassian-itsap-orion": {
       "type": "remote",
@@ -16,6 +27,15 @@
       "type": "remote",
       "url": "http://127.0.0.1:3845/mcp",
       "enabled": true
+    },
+    "xray-itsap-orion": {
+      "type": "local",
+      "command": ["npx", "-y", "xray-mcp"],
+      "enabled": true,
+      "environment": {
+        "XRAY_CLIENT_ID": "04F9DA7CBE6547AA9336151E07D69457",
+        "XRAY_CLIENT_SECRET": "3323c9ea13b0f204252d0ccdc30712915525ff0a2ce49aebfb51fc7d102d50cc"
+      }
     }
   }
 }

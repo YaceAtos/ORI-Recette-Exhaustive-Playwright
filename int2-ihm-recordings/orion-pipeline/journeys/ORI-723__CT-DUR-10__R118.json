@@ -39,5 +39,5 @@
   "rules": [
     "RG_CONT_TickResto_44"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-e7001-ts-restaurant-seuil-marque--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-e7001-ts-restaurant-seuil-marque--orion-pipeline"
 }

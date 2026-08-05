@@ -27,5 +27,5 @@
   "rules": [
     "RG_PLA_HRD_01"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-08a89-sur-la-carte-d-intervention-orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-08a89-sur-la-carte-d-intervention-orion-pipeline"
 }

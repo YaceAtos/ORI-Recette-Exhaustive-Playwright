@@ -42,5 +42,5 @@
   "rules": [
     "RG_STE_ETATFICHE_01"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-a846c-cation-RG-STE-ETATFICHE-01--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-a846c-cation-RG-STE-ETATFICHE-01--orion-pipeline"
 }

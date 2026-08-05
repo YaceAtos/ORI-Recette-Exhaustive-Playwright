@@ -36,5 +36,5 @@
   "rules": [
     "RG_ETAB_Modif"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-2cc74-r-etab-ACTIF-RG-ETAB-Modif--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-2cc74-r-etab-ACTIF-RG-ETAB-Modif--orion-pipeline"
 }

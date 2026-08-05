@@ -1,6 +1,6 @@
 # INT2 Autonomous Scenario Candidates
 
-- Generated at: 2026-07-24T13:28:41.506Z
+- Generated at: 2026-08-05T09:45:56.934Z
 - Source graph: int2-ihm-recordings/int2-autonomous/state-graph.json
 - Discovered pages: 17
 - Candidate scenarios: 14

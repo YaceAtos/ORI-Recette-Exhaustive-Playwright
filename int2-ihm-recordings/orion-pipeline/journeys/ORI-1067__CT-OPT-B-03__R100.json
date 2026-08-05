@@ -39,5 +39,5 @@
   "rules": [
     "RG_OPT_CREATE_03"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-84104--code-bloque-message-exact--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-84104--code-bloque-message-exact--orion-pipeline"
 }

@@ -28,5 +28,5 @@
   "severity": "bloquant",
   "status": "blocked-flow",
   "rules": [],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-ed74f-s-dont-l-icone-tag-a-change-orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-ed74f-s-dont-l-icone-tag-a-change-orion-pipeline"
 }

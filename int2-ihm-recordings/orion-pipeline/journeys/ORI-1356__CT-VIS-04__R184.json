@@ -36,5 +36,5 @@
   "rules": [
     "RG_INT_ABSVAL_1"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-63b23-ificatif-obligatoire-absent-orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-63b23-ificatif-obligatoire-absent-orion-pipeline"
 }

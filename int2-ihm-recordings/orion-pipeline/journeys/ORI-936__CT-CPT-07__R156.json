@@ -39,5 +39,5 @@
   "rules": [
     "RG_INT_CPTP_1"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-ac0ab-u-jour-format-et-info-bulle-orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-ac0ab-u-jour-format-et-info-bulle-orion-pipeline"
 }

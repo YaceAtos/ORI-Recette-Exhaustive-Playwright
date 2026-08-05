@@ -42,5 +42,5 @@
   "rules": [
     "RG_BSN_MODIF_01"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-15284-du-formulaire-de-la-famille-orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-15284-du-formulaire-de-la-famille-orion-pipeline"
 }

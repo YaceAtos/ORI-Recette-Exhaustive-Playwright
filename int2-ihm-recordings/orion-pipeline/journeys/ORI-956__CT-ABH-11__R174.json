@@ -42,5 +42,5 @@
   "rules": [
     "RG_INT_ABACAD_1"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-265d5-modes-de-decompte-CA-F1-F4--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-265d5-modes-de-decompte-CA-F1-F4--orion-pipeline"
 }

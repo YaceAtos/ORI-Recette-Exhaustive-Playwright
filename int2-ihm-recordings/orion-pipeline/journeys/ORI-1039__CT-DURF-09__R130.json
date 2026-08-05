@@ -39,5 +39,5 @@
   "rules": [
     "RG_CONT_Mutuelle_42"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-cacbb-squage-dynamique-du-message-orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-cacbb-squage-dynamique-du-message-orion-pipeline"
 }

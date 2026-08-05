@@ -199,6 +199,13 @@ Avant toute modification d'un fichier système : avertir l'utilisateur, proposer
 Règles : toujours router par la carte d'abord ; tout détail vient de Confluence live et cite le `page_id` ; respecter les "Pièges connus" de la carte (doublons, pages `A SUPPRIMER`/vides, brouillons) ; ne jamais recopier de contenu domaine dans `docs/` (modèle pointeurs). Si MCP indisponible → signaler, ne pas inventer.
 
 
+## Héritage OpenCode (sous-projets)
+
+- `AGENTS.md` racine + `.opencode/skills/` sont **implicites** dans tout sous-dossier du même worktree git (walk ascendant).
+- Chaque sous-projet peut ajouter ses propres `.opencode/skills/` et `AGENTS.md` (cumul, pas remplacement).
+- **Exception document** : `docs/` (et alias `document/` s'il existe) — skills Orion pipeline/recette **refusees** ; voir `docs/opencode.json` + `docs/AGENTS.md`.
+
+
 ## Conventions de nommage
 
 - **Format specs** : Structure Confluence (titres H1/H2/H3, tableaux de règles de gestion avec colonnes Identifiant RG / Description RG, critères d'acceptation). Les règles suivent un nommage `RG_<DOMAINE>_<OBJET>_<NN>` (ex : RG_MRK_IDENT_01, RG_PLA_VUE_01, RG_STE_SIREN_01).

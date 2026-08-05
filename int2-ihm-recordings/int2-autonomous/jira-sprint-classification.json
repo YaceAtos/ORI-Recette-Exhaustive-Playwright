@@ -1,0 +1,866 @@
+{
+  "generatedAt": "2026-08-05T13:50:33.457Z",
+  "sourceGeneratedAt": "2026-08-05T00:00:00.000Z",
+  "ticketCount": 29,
+  "errorCount": 0,
+  "classificationCounts": {
+    "Evolution": 29
+  },
+  "cycleTimeStats": {
+    "avgDays": 15.4,
+    "medianDays": 14.1,
+    "sampleSize": 28
+  },
+  "leadTimeStats": {
+    "avgDays": 68.5,
+    "medianDays": 47.3,
+    "sampleSize": 29
+  },
+  "bySprintRollup": {
+    "ORI Team 1 Sprint 12": {
+      "total": 1,
+      "Evolution": 1,
+      "Anomalie": 0,
+      "Hotfix": 0
+    },
+    "ORI Team 1 Sprint 13": {
+      "total": 14,
+      "Evolution": 14,
+      "Anomalie": 0,
+      "Hotfix": 0
+    },
+    "ORI Team 3 Sprint 13": {
+      "total": 9,
+      "Evolution": 9,
+      "Anomalie": 0,
+      "Hotfix": 0
+    },
+    "ORI Team 2 Sprint 12": {
+      "total": 4,
+      "Evolution": 4,
+      "Anomalie": 0,
+      "Hotfix": 0
+    },
+    "ORI Team 2 Sprint 13": {
+      "total": 6,
+      "Evolution": 6,
+      "Anomalie": 0,
+      "Hotfix": 0
+    },
+    "ORI Team 2 Sprint 14": {
+      "total": 2,
+      "Evolution": 2,
+      "Anomalie": 0,
+      "Hotfix": 0
+    },
+    "ORI Team 3 Sprint 12": {
+      "total": 1,
+      "Evolution": 1,
+      "Anomalie": 0,
+      "Hotfix": 0
+    },
+    "ORI Team 1 Sprint 14": {
+      "total": 5,
+      "Evolution": 5,
+      "Anomalie": 0,
+      "Hotfix": 0
+    },
+    "ORI Team 1 Sprint 15": {
+      "total": 2,
+      "Evolution": 2,
+      "Anomalie": 0,
+      "Hotfix": 0
+    }
+  },
+  "slippedTicketsCount": 15,
+  "tickets": [
+    {
+      "key": "ORI-91",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-05-28T14:54:23.804+0000",
+      "firstDoneEnteredAt": "2026-07-06T21:25:23.221+0000",
+      "leadTimeDays": 308.9,
+      "cycleTimeDays": 39.3,
+      "statusBounceCount": 2,
+      "sprintsInvolved": [
+        "ORI Team 1 Sprint 12",
+        "ORI Team 1 Sprint 13"
+      ],
+      "sprintChangeEvents": 3,
+      "slippageEvents": 0,
+      "slippageDetail": []
+    },
+    {
+      "key": "ORI-368",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-18T16:58:55.439+0000",
+      "firstDoneEnteredAt": "2026-07-06T12:17:55.642+0000",
+      "leadTimeDays": 247.5,
+      "cycleTimeDays": 17.8,
+      "statusBounceCount": 0,
+      "sprintsInvolved": [
+        "ORI Team 3 Sprint 13"
+      ],
+      "sprintChangeEvents": 1,
+      "slippageEvents": 0,
+      "slippageDetail": []
+    },
+    {
+      "key": "ORI-452",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-30T08:54:57.538+0000",
+      "firstDoneEnteredAt": "2026-07-16T07:58:26.306+0000",
+      "leadTimeDays": 152.7,
+      "cycleTimeDays": 16,
+      "statusBounceCount": 0,
+      "sprintsInvolved": [
+        "ORI Team 2 Sprint 12",
+        "ORI Team 2 Sprint 13",
+        "ORI Team 2 Sprint 14"
+      ],
+      "sprintChangeEvents": 3,
+      "slippageEvents": 2,
+      "slippageDetail": [
+        {
+          "at": "2026-05-27T08:28:39.589+0000",
+          "from": "ORI Team 2 Sprint 12",
+          "to": "ORI Team 2 Sprint 13"
+        },
+        {
+          "at": "2026-07-07T09:25:32.039+0000",
+          "from": "ORI Team 2 Sprint 13",
+          "to": "ORI Team 2 Sprint 13, ORI Team 2 Sprint 14"
+        }
+      ]
+    },
+    {
+      "key": "ORI-657",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-23T09:11:59.660+0000",
+      "firstDoneEnteredAt": "2026-07-06T12:18:00.447+0000",
+      "leadTimeDays": 102.2,
+      "cycleTimeDays": 13.1,
+      "statusBounceCount": 0,
+      "sprintsInvolved": [
+        "ORI Team 3 Sprint 13"
+      ],
+      "sprintChangeEvents": 1,
+      "slippageEvents": 0,
+      "slippageDetail": []
+    },
+    {
+      "key": "ORI-667",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-18T16:58:57.385+0000",
+      "firstDoneEnteredAt": "2026-07-06T12:17:51.978+0000",
+      "leadTimeDays": 102.5,
+      "cycleTimeDays": 17.8,
+      "statusBounceCount": 0,
+      "sprintsInvolved": [
+        "ORI Team 3 Sprint 13"
+      ],
+      "sprintChangeEvents": 1,
+      "slippageEvents": 0,
+      "slippageDetail": []
+    },
+    {
+      "key": "ORI-688",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-19T09:03:50.712+0000",
+      "firstDoneEnteredAt": "2026-07-03T14:03:37.157+0000",
+      "leadTimeDays": 93.6,
+      "cycleTimeDays": 14.2,
+      "statusBounceCount": 5,
+      "sprintsInvolved": [
+        "ORI Team 2 Sprint 13"
+      ],
+      "sprintChangeEvents": 1,
+      "slippageEvents": 0,
+      "slippageDetail": []
+    },
+    {
+      "key": "ORI-723",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [
+        "DEMO"
+      ],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-16T08:06:11.491+0000",
+      "firstDoneEnteredAt": "2026-07-03T12:02:34.699+0000",
+      "leadTimeDays": 52.5,
+      "cycleTimeDays": 17.2,
+      "statusBounceCount": 0,
+      "sprintsInvolved": [
+        "ORI Team 1 Sprint 13"
+      ],
+      "sprintChangeEvents": 1,
+      "slippageEvents": 0,
+      "slippageDetail": []
+    },
+    {
+      "key": "ORI-728",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-25T10:14:22.643+0000",
+      "firstDoneEnteredAt": "2026-07-07T08:55:48.681+0000",
+      "leadTimeDays": 49.4,
+      "cycleTimeDays": 11.9,
+      "statusBounceCount": 0,
+      "sprintsInvolved": [
+        "ORI Team 2 Sprint 12",
+        "ORI Team 2 Sprint 13"
+      ],
+      "sprintChangeEvents": 2,
+      "slippageEvents": 1,
+      "slippageDetail": [
+        {
+          "at": "2026-05-19T16:10:13.127+0000",
+          "from": "ORI Team 2 Sprint 12",
+          "to": "ORI Team 2 Sprint 13"
+        }
+      ]
+    },
+    {
+      "key": "ORI-745",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-22T09:37:35.363+0000",
+      "firstDoneEnteredAt": "2026-07-06T12:15:13.837+0000",
+      "leadTimeDays": 45.5,
+      "cycleTimeDays": 14.1,
+      "statusBounceCount": 0,
+      "sprintsInvolved": [
+        "ORI Team 3 Sprint 12",
+        "ORI Team 3 Sprint 13"
+      ],
+      "sprintChangeEvents": 3,
+      "slippageEvents": 2,
+      "slippageDetail": [
+        {
+          "at": "2026-05-29T10:13:48.073+0000",
+          "from": "ORI Team 3 Sprint 13",
+          "to": "ORI Team 3 Sprint 12"
+        },
+        {
+          "at": "2026-05-29T10:14:37.159+0000",
+          "from": "ORI Team 3 Sprint 12",
+          "to": "ORI Team 3 Sprint 13"
+        }
+      ]
+    },
+    {
+      "key": "ORI-750",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-25T13:41:11.480+0000",
+      "firstDoneEnteredAt": "2026-07-16T12:35:39.413+0000",
+      "leadTimeDays": 58.5,
+      "cycleTimeDays": 21,
+      "statusBounceCount": 0,
+      "sprintsInvolved": [
+        "ORI Team 2 Sprint 13",
+        "ORI Team 2 Sprint 14"
+      ],
+      "sprintChangeEvents": 2,
+      "slippageEvents": 1,
+      "slippageDetail": [
+        {
+          "at": "2026-07-07T09:25:32.278+0000",
+          "from": "ORI Team 2 Sprint 13",
+          "to": "ORI Team 2 Sprint 13, ORI Team 2 Sprint 14"
+        }
+      ]
+    },
+    {
+      "key": "ORI-769",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-07-03T12:58:16.888+0000",
+      "firstDoneEnteredAt": "2026-07-06T12:14:28.468+0000",
+      "leadTimeDays": 82.1,
+      "cycleTimeDays": 3,
+      "statusBounceCount": 1,
+      "sprintsInvolved": [
+        "ORI Team 3 Sprint 13"
+      ],
+      "sprintChangeEvents": 1,
+      "slippageEvents": 0,
+      "slippageDetail": []
+    },
+    {
+      "key": "ORI-773",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-25T07:13:01.648+0000",
+      "firstDoneEnteredAt": "2026-07-06T21:24:37.461+0000",
+      "leadTimeDays": 82.9,
+      "cycleTimeDays": 11.6,
+      "statusBounceCount": 1,
+      "sprintsInvolved": [
+        "ORI Team 1 Sprint 13"
+      ],
+      "sprintChangeEvents": 1,
+      "slippageEvents": 0,
+      "slippageDetail": []
+    },
+    {
+      "key": "ORI-783",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [
+        "DEMO"
+      ],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-08T07:24:04.381+0000",
+      "firstDoneEnteredAt": "2026-07-07T09:16:21.416+0000",
+      "leadTimeDays": 81.8,
+      "cycleTimeDays": 29.1,
+      "statusBounceCount": 2,
+      "sprintsInvolved": [
+        "ORI Team 2 Sprint 12",
+        "ORI Team 2 Sprint 13"
+      ],
+      "sprintChangeEvents": 2,
+      "slippageEvents": 1,
+      "slippageDetail": [
+        {
+          "at": "2026-06-08T09:14:54.637+0000",
+          "from": "ORI Team 2 Sprint 12",
+          "to": "ORI Team 2 Sprint 13"
+        }
+      ]
+    },
+    {
+      "key": "ORI-790",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-08T07:24:04.381+0000",
+      "firstDoneEnteredAt": "2026-07-07T09:16:21.416+0000",
+      "leadTimeDays": 81.8,
+      "cycleTimeDays": 29.1,
+      "statusBounceCount": 2,
+      "sprintsInvolved": [
+        "ORI Team 2 Sprint 12",
+        "ORI Team 2 Sprint 13"
+      ],
+      "sprintChangeEvents": 2,
+      "slippageEvents": 1,
+      "slippageDetail": [
+        {
+          "at": "2026-06-08T09:14:54.637+0000",
+          "from": "ORI Team 2 Sprint 12",
+          "to": "ORI Team 2 Sprint 13"
+        }
+      ]
+    },
+    {
+      "key": "ORI-871",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [
+        "DEMO"
+      ],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-26T08:25:49.560+0000",
+      "firstDoneEnteredAt": "2026-07-10T14:59:01.013+0000",
+      "leadTimeDays": 24.6,
+      "cycleTimeDays": 14.3,
+      "statusBounceCount": 0,
+      "sprintsInvolved": [
+        "ORI Team 1 Sprint 13",
+        "ORI Team 1 Sprint 14"
+      ],
+      "sprintChangeEvents": 4,
+      "slippageEvents": 3,
+      "slippageDetail": [
+        {
+          "at": "2026-06-15T12:38:24.361+0000",
+          "from": "ORI Team 1 Sprint 13",
+          "to": "ORI Team 1 Sprint 14"
+        },
+        {
+          "at": "2026-06-24T07:18:33.238+0000",
+          "from": "ORI Team 1 Sprint 14",
+          "to": "ORI Team 1 Sprint 13"
+        },
+        {
+          "at": "2026-07-06T21:25:43.216+0000",
+          "from": "ORI Team 1 Sprint 13",
+          "to": "ORI Team 1 Sprint 13, ORI Team 1 Sprint 14"
+        }
+      ]
+    },
+    {
+      "key": "ORI-872",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [
+        "DEMO"
+      ],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-23T13:23:30.254+0000",
+      "firstDoneEnteredAt": "2026-07-02T06:46:37.232+0000",
+      "leadTimeDays": 30.3,
+      "cycleTimeDays": 8.7,
+      "statusBounceCount": 0,
+      "sprintsInvolved": [
+        "ORI Team 1 Sprint 13"
+      ],
+      "sprintChangeEvents": 1,
+      "slippageEvents": 0,
+      "slippageDetail": []
+    },
+    {
+      "key": "ORI-873",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-23T13:22:53.452+0000",
+      "firstDoneEnteredAt": "2026-07-06T21:24:45.780+0000",
+      "leadTimeDays": 60.3,
+      "cycleTimeDays": 13.3,
+      "statusBounceCount": 0,
+      "sprintsInvolved": [
+        "ORI Team 1 Sprint 13"
+      ],
+      "sprintChangeEvents": 1,
+      "slippageEvents": 0,
+      "slippageDetail": []
+    },
+    {
+      "key": "ORI-931",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [
+        "DEMO"
+      ],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-23T13:23:20.784+0000",
+      "firstDoneEnteredAt": "2026-07-06T21:24:54.576+0000",
+      "leadTimeDays": 47.3,
+      "cycleTimeDays": 13.3,
+      "statusBounceCount": 0,
+      "sprintsInvolved": [
+        "ORI Team 1 Sprint 13"
+      ],
+      "sprintChangeEvents": 2,
+      "slippageEvents": 1,
+      "slippageDetail": [
+        {
+          "at": "2026-06-08T08:11:57.745+0000",
+          "from": "ORI Team 1 Sprint 14",
+          "to": "ORI Team 1 Sprint 13"
+        }
+      ]
+    },
+    {
+      "key": "ORI-933",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [
+        "DEMO"
+      ],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-23T13:26:20.297+0000",
+      "firstDoneEnteredAt": "2026-07-06T21:25:19.908+0000",
+      "leadTimeDays": 47.2,
+      "cycleTimeDays": 13.3,
+      "statusBounceCount": 0,
+      "sprintsInvolved": [
+        "ORI Team 1 Sprint 13",
+        "ORI Team 1 Sprint 14"
+      ],
+      "sprintChangeEvents": 3,
+      "slippageEvents": 2,
+      "slippageDetail": [
+        {
+          "at": "2026-06-15T12:37:16.693+0000",
+          "from": "ORI Team 1 Sprint 13",
+          "to": "ORI Team 1 Sprint 14"
+        },
+        {
+          "at": "2026-06-23T13:25:41.759+0000",
+          "from": "ORI Team 1 Sprint 14",
+          "to": "ORI Team 1 Sprint 13"
+        }
+      ]
+    },
+    {
+      "key": "ORI-936",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [
+        "DEMO"
+      ],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-26T15:02:07.012+0000",
+      "firstDoneEnteredAt": "2026-07-06T09:34:05.669+0000",
+      "leadTimeDays": 46,
+      "cycleTimeDays": 9.8,
+      "statusBounceCount": 0,
+      "sprintsInvolved": [
+        "ORI Team 1 Sprint 13"
+      ],
+      "sprintChangeEvents": 2,
+      "slippageEvents": 1,
+      "slippageDetail": [
+        {
+          "at": "2026-06-15T12:26:01.148+0000",
+          "from": "ORI Team 1 Sprint 14",
+          "to": "ORI Team 1 Sprint 13"
+        }
+      ]
+    },
+    {
+      "key": "ORI-956",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [
+        "DEMO"
+      ],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-23T12:50:09.130+0000",
+      "firstDoneEnteredAt": "2026-07-06T21:24:32.134+0000",
+      "leadTimeDays": 34.9,
+      "cycleTimeDays": 13.4,
+      "statusBounceCount": 0,
+      "sprintsInvolved": [
+        "ORI Team 1 Sprint 13",
+        "ORI Team 1 Sprint 14"
+      ],
+      "sprintChangeEvents": 2,
+      "slippageEvents": 1,
+      "slippageDetail": [
+        {
+          "at": "2026-06-15T12:26:01.148+0000",
+          "from": "ORI Team 1 Sprint 14",
+          "to": "ORI Team 1 Sprint 13"
+        }
+      ]
+    },
+    {
+      "key": "ORI-995",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-18T16:59:04.071+0000",
+      "firstDoneEnteredAt": "2026-07-06T12:17:49.040+0000",
+      "leadTimeDays": 38,
+      "cycleTimeDays": 17.8,
+      "statusBounceCount": 0,
+      "sprintsInvolved": [
+        "ORI Team 3 Sprint 13"
+      ],
+      "sprintChangeEvents": 1,
+      "slippageEvents": 0,
+      "slippageDetail": []
+    },
+    {
+      "key": "ORI-1036",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-07-06T12:52:51.313+0000",
+      "firstDoneEnteredAt": "2026-07-06T21:24:40.057+0000",
+      "leadTimeDays": 18.9,
+      "cycleTimeDays": 0.4,
+      "statusBounceCount": 0,
+      "sprintsInvolved": [
+        "ORI Team 1 Sprint 13",
+        "ORI Team 1 Sprint 14",
+        "ORI Team 1 Sprint 15"
+      ],
+      "sprintChangeEvents": 6,
+      "slippageEvents": 1,
+      "slippageDetail": [
+        {
+          "at": "2026-07-06T12:38:03.552+0000",
+          "from": "ORI Team 1 Sprint 14",
+          "to": "ORI Team 1 Sprint 15"
+        }
+      ]
+    },
+    {
+      "key": "ORI-1039",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [
+        "DEMO"
+      ],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-15T11:33:31.773+0000",
+      "firstDoneEnteredAt": "2026-07-03T13:57:39.303+0000",
+      "leadTimeDays": 18.1,
+      "cycleTimeDays": 18.1,
+      "statusBounceCount": 4,
+      "sprintsInvolved": [
+        "ORI Team 1 Sprint 13"
+      ],
+      "sprintChangeEvents": 1,
+      "slippageEvents": 0,
+      "slippageDetail": []
+    },
+    {
+      "key": "ORI-1065",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-17T23:17:09.701+0000",
+      "firstDoneEnteredAt": "2026-07-06T12:17:33.968+0000",
+      "leadTimeDays": 20,
+      "cycleTimeDays": 18.5,
+      "statusBounceCount": 0,
+      "sprintsInvolved": [
+        "ORI Team 3 Sprint 13"
+      ],
+      "sprintChangeEvents": 2,
+      "slippageEvents": 1,
+      "slippageDetail": [
+        {
+          "at": "2026-06-16T14:54:40.497+0000",
+          "from": "ORI Team 3 Sprint 14",
+          "to": "ORI Team 3 Sprint 13"
+        }
+      ]
+    },
+    {
+      "key": "ORI-1067",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-17T23:17:03.276+0000",
+      "firstDoneEnteredAt": "2026-07-06T12:17:31.002+0000",
+      "leadTimeDays": 20,
+      "cycleTimeDays": 18.5,
+      "statusBounceCount": 0,
+      "sprintsInvolved": [
+        "ORI Team 3 Sprint 13"
+      ],
+      "sprintChangeEvents": 2,
+      "slippageEvents": 1,
+      "slippageDetail": [
+        {
+          "at": "2026-06-16T14:54:40.688+0000",
+          "from": "ORI Team 3 Sprint 14",
+          "to": "ORI Team 3 Sprint 13"
+        }
+      ]
+    },
+    {
+      "key": "ORI-1068",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-06-24T14:24:08.017+0000",
+      "firstDoneEnteredAt": "2026-07-06T12:14:53.888+0000",
+      "leadTimeDays": 20.5,
+      "cycleTimeDays": 11.9,
+      "statusBounceCount": 0,
+      "sprintsInvolved": [
+        "ORI Team 3 Sprint 13"
+      ],
+      "sprintChangeEvents": 2,
+      "slippageEvents": 0,
+      "slippageDetail": []
+    },
+    {
+      "key": "ORI-1308",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": null,
+      "firstDoneEnteredAt": "2026-07-06T21:24:42.554+0000",
+      "leadTimeDays": 13.4,
+      "cycleTimeDays": null,
+      "statusBounceCount": 0,
+      "sprintsInvolved": [
+        "ORI Team 1 Sprint 13",
+        "ORI Team 1 Sprint 14",
+        "ORI Team 1 Sprint 15"
+      ],
+      "sprintChangeEvents": 6,
+      "slippageEvents": 1,
+      "slippageDetail": [
+        {
+          "at": "2026-07-06T12:38:03.845+0000",
+          "from": "ORI Team 1 Sprint 14",
+          "to": "ORI Team 1 Sprint 15"
+        }
+      ]
+    },
+    {
+      "key": "ORI-1356",
+      "issueType": "Story",
+      "priority": "Medium",
+      "labels": [
+        "DEMO"
+      ],
+      "fixVersions": [
+        "v0.2.0"
+      ],
+      "classification": "Evolution",
+      "classificationReason": "issueType=Story (par défaut)",
+      "firstDevEnteredAt": "2026-07-02T08:10:02.840+0000",
+      "firstDoneEnteredAt": "2026-07-06T09:34:06.573+0000",
+      "leadTimeDays": 5.9,
+      "cycleTimeDays": 4.1,
+      "statusBounceCount": 0,
+      "sprintsInvolved": [
+        "ORI Team 1 Sprint 13"
+      ],
+      "sprintChangeEvents": 1,
+      "slippageEvents": 0,
+      "slippageDetail": []
+    }
+  ]
+}

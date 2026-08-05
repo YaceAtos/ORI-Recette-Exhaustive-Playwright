@@ -26,5 +26,5 @@
   "rules": [
     "RG_HAB_DPRDS_001"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-db7d3-e-au-CU-tableau-non-affiche-orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-db7d3-e-au-CU-tableau-non-affiche-orion-pipeline"
 }

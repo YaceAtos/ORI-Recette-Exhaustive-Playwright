@@ -39,5 +39,5 @@
   "rules": [
     "RG_BSN_QUAL_06"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-34bf7-tut-Qualification-en-cours--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-34bf7-tut-Qualification-en-cours--orion-pipeline"
 }

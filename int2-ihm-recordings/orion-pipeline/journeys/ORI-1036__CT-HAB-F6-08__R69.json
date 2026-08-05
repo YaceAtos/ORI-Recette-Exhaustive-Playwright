@@ -26,5 +26,5 @@
   "rules": [
     "RG_HAB_DPRME_006"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-4d9c8--Keycloak-erreur-technique--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-4d9c8--Keycloak-erreur-technique--orion-pipeline"
 }

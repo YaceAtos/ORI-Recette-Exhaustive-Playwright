@@ -33,5 +33,5 @@
   "rules": [
     "RG_CRT_SIN_09"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-dcd18-t-attributs-issus-de-la-DMN-orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-dcd18-t-attributs-issus-de-la-DMN-orion-pipeline"
 }

@@ -1,0 +1,1226 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=4080
+title=ORI-773 - CT-STE-COORD-01: Ouverture modale et pre-remplissage des champs
+[CHAPTER]
+TIMEBASE=1/1000
+START=4080
+END=15440
+title=ORI-773 - CT-STE-COORD-02: Modification et enregistrement nominal
+[CHAPTER]
+TIMEBASE=1/1000
+START=15440
+END=22000
+title=ORI-773 - CT-STE-COORD-03: Heritage adresse vers etablissements principaux (RG_STE_ADRESS_HERIT_ETAB)
+[CHAPTER]
+TIMEBASE=1/1000
+START=22000
+END=28600
+title=ORI-773 - CT-STE-COORD-04: Controles champs obligatoires NULL sur societe Active (RG_STE_Modif)
+[CHAPTER]
+TIMEBASE=1/1000
+START=28600
+END=46160
+title=ORI-773 - CT-STE-COORD-05: Controle SIREN: unicite + cle de Luhn + lien API SIRENE
+[CHAPTER]
+TIMEBASE=1/1000
+START=46160
+END=54720
+title=ORI-773 - CT-STE-COORD-06: Bouton Suivant: navigation multi-etapes sans enregistrement
+[CHAPTER]
+TIMEBASE=1/1000
+START=54720
+END=62440
+title=ORI-773 - CT-STE-COORD-07: Calcul etat de la fiche apres modification (RG_STE_ETATFICHE_01)
+[CHAPTER]
+TIMEBASE=1/1000
+START=62440
+END=83760
+title=ORI-773 - CT-STE-COORD-08: Controles de format: longueur max, email, telephone
+[CHAPTER]
+TIMEBASE=1/1000
+START=83760
+END=87680
+title=ORI-783 - CT-ETAB-01: Ouverture modale + pre-remplissage Aspects Juridiques
+[CHAPTER]
+TIMEBASE=1/1000
+START=87680
+END=99120
+title=ORI-783 - CT-ETAB-02: Modification et enregistrement nominal (etab INACTIF)
+[CHAPTER]
+TIMEBASE=1/1000
+START=99120
+END=116640
+title=ORI-783 - CT-ETAB-03: Controle SIRET: unicite + lien Completer via SIRET
+[CHAPTER]
+TIMEBASE=1/1000
+START=116640
+END=123000
+title=ORI-783 - CT-ETAB-04: Champs obligatoires NULL sur etab ACTIF (RG_ETAB_Modif)
+[CHAPTER]
+TIMEBASE=1/1000
+START=123000
+END=130840
+title=ORI-783 - CT-ETAB-05: SIRET verrouille sur etab ACTIF (RG_ETAB_SIRET_MODIF_INTERDITE_SI_ACTIF)
+[CHAPTER]
+TIMEBASE=1/1000
+START=130840
+END=138640
+title=ORI-783 - CT-ETAB-06: Changement type Principal + protection si deja un principal (RG_ETAB_CHG_PRINCIPAL)
+[CHAPTER]
+TIMEBASE=1/1000
+START=138640
+END=146440
+title=ORI-783 - CT-ETAB-07: Heritage inactivation parent + blocage ACTIF vers INACTIF
+[CHAPTER]
+TIMEBASE=1/1000
+START=146440
+END=154920
+title=ORI-783 - CT-ETAB-08: Bouton Suivant + Calcul etat fiche (RG_ETAB_ETATFICHE_01)
+[CHAPTER]
+TIMEBASE=1/1000
+START=154920
+END=172560
+title=ORI-783 - CT-ETAB-09: Controles format: longueur max, dates, alphanumeriques
+[CHAPTER]
+TIMEBASE=1/1000
+START=172560
+END=175280
+title=ORI-871 - CT-HAB-F5-01: SC1: Premiere modification - compteur apparait a 1
+[CHAPTER]
+TIMEBASE=1/1000
+START=175280
+END=178000
+title=ORI-871 - CT-HAB-F5-02: SC2: Incrementation compteur - modification droit fin
+[CHAPTER]
+TIMEBASE=1/1000
+START=178000
+END=180800
+title=ORI-871 - CT-HAB-F5-03: SC3: Incrementation compteur - modification droit special
+[CHAPTER]
+TIMEBASE=1/1000
+START=180800
+END=183520
+title=ORI-871 - CT-HAB-F5-04: SC4: Decrementation compteur - retour a l etat initial
+[CHAPTER]
+TIMEBASE=1/1000
+START=183520
+END=186200
+title=ORI-871 - CT-HAB-F5-05: SC5: Compteur +2 - auto-elevation droit maitre (passage Lecture seule)
+[CHAPTER]
+TIMEBASE=1/1000
+START=186200
+END=188920
+title=ORI-871 - CT-HAB-F5-06: SC6: Compteur +2 - auto-elevation droit maitre (passage Lecture/Ecriture)
+[CHAPTER]
+TIMEBASE=1/1000
+START=188920
+END=191640
+title=ORI-871 - CT-HAB-F5-07: SC7: Droit special - pas d impact sur le droit maitre
+[CHAPTER]
+TIMEBASE=1/1000
+START=191640
+END=194360
+title=ORI-871 - CT-HAB-F5-08: SC8: Compteur = ecart par rapport a etat initial (pas cumul d actions)
+[CHAPTER]
+TIMEBASE=1/1000
+START=194360
+END=197080
+title=ORI-872 - CT-HAB-F1-01: SC1+SC2: Affichage bloc en-tete en Lecture/Ecriture (sans et avec profil inclus)
+[CHAPTER]
+TIMEBASE=1/1000
+START=197080
+END=199800
+title=ORI-872 - CT-HAB-F1-02: SC3+SC4: Affichage bloc en-tete en Lecture seule (boutons absents)
+[CHAPTER]
+TIMEBASE=1/1000
+START=199800
+END=202520
+title=ORI-872 - CT-HAB-F1-03: SC5: Clic bouton Modifier -> ouverture modale modification profil
+[CHAPTER]
+TIMEBASE=1/1000
+START=202520
+END=205280
+title=ORI-872 - CT-HAB-F1-04: SC6: Supprimer profil utilise (inclus dans autre ou affecte a un utilisateur) -> Action impossible
+[CHAPTER]
+TIMEBASE=1/1000
+START=205280
+END=208000
+title=ORI-872 - CT-HAB-F1-05: SC7: Supprimer profil non utilise - Annulation (pas de suppression)
+[CHAPTER]
+TIMEBASE=1/1000
+START=208000
+END=210720
+title=ORI-872 - CT-HAB-F1-06: SC8: Supprimer profil non utilise - Suppression confirmee (Keycloak + snackbar)
+[CHAPTER]
+TIMEBASE=1/1000
+START=210720
+END=213440
+title=ORI-872 - CT-HAB-F1-07: Navigation fil d Ariane + retour liste
+[CHAPTER]
+TIMEBASE=1/1000
+START=213440
+END=216160
+title=ORI-873 - CT-HAB-F2-01: SC1+SC2: Affichage bloc Attributions des droits + ordre des categories
+[CHAPTER]
+TIMEBASE=1/1000
+START=216160
+END=218880
+title=ORI-873 - CT-HAB-F2-02: SC3+SC4: Cas d usage SANS filtre niveau 2 (non depliable, selection directe)
+[CHAPTER]
+TIMEBASE=1/1000
+START=218880
+END=221600
+title=ORI-873 - CT-HAB-F2-03: SC5+SC6+SC7: Cas d usage AVEC filtres niveau 2 (depliable, parent non selectionnable)
+[CHAPTER]
+TIMEBASE=1/1000
+START=221600
+END=224320
+title=ORI-873 - CT-HAB-F2-04: SC8: Selection par defaut a l ouverture - premier CU sans filtre niveau 2
+[CHAPTER]
+TIMEBASE=1/1000
+START=224320
+END=227080
+title=ORI-873 - CT-HAB-F2-05: SC9: Selection par defaut a l ouverture - premier CU avec filtres niveau 2 (deploye auto)
+[CHAPTER]
+TIMEBASE=1/1000
+START=227080
+END=229760
+title=ORI-873 - CT-HAB-F2-06: SC10: Ascenseur lateral si nombre de cas d usage important
+[CHAPTER]
+TIMEBASE=1/1000
+START=229760
+END=232480
+title=ORI-931 - CT-HAB-F3-01: SC1+SC2: En-tete matrice des droits + tableau 5 colonnes avec tooltips
+[CHAPTER]
+TIMEBASE=1/1000
+START=232480
+END=235200
+title=ORI-931 - CT-HAB-F3-02: SC3+SC4+SC5: Liste droits fins, droit maitre en premier, tag profil inclus
+[CHAPTER]
+TIMEBASE=1/1000
+START=235200
+END=237920
+title=ORI-931 - CT-HAB-F3-03: SC6: Autorisations radio boutons mutuellement exclusifs + etat par defaut
+[CHAPTER]
+TIMEBASE=1/1000
+START=237920
+END=240600
+title=ORI-931 - CT-HAB-F3-04: SC7+SC8+SC9+SC10: Colonne Statut - 4 cas (Elevation possible, Eleve, Verrouille, Non renseigne)
+[CHAPTER]
+TIMEBASE=1/1000
+START=240600
+END=243320
+title=ORI-931 - CT-HAB-F3-05: SC11+SC12: Blocage du droit maitre selon autorisations des non-maitres
+[CHAPTER]
+TIMEBASE=1/1000
+START=243320
+END=246040
+title=ORI-931 - CT-HAB-F3-06: SC13: Droit maitre non herite, Statut non renseigne malgre blocage
+[CHAPTER]
+TIMEBASE=1/1000
+START=246040
+END=248760
+title=ORI-933 - CT-HAB-F4-01: SC1+SC2: Affichage tableau droits speciaux (4 colonnes + tooltips + Statut profil inclus)
+[CHAPTER]
+TIMEBASE=1/1000
+START=248760
+END=251480
+title=ORI-933 - CT-HAB-F4-02: SC3+SC4: Liste droits speciaux (nom, tooltip, ordre, tag profil inclus)
+[CHAPTER]
+TIMEBASE=1/1000
+START=251480
+END=254240
+title=ORI-933 - CT-HAB-F4-03: SC5: Autorisations radio boutons (2 colonnes) + etat defaut Non accorde
+[CHAPTER]
+TIMEBASE=1/1000
+START=254240
+END=256960
+title=ORI-933 - CT-HAB-F4-04: SC6: Statut Verrouille - droit special herite Accorde (non retirable)
+[CHAPTER]
+TIMEBASE=1/1000
+START=256960
+END=259640
+title=ORI-933 - CT-HAB-F4-05: SC7: Statut non renseigne - droit special Non accorde sur profil inclus
+[CHAPTER]
+TIMEBASE=1/1000
+START=259640
+END=262400
+title=ORI-933 - CT-HAB-F4-06: SC8: Aucun droit special attache au CU => tableau non affiche
+[CHAPTER]
+TIMEBASE=1/1000
+START=262400
+END=265160
+title=ORI-1036 - CT-HAB-F6-01: SC1: Utilisateur SANS droit acces -> menu invisible
+[CHAPTER]
+TIMEBASE=1/1000
+START=265160
+END=267880
+title=ORI-1036 - CT-HAB-F6-02: SC2: Droit LECTURE SEULE -> sticky bar absente, matrice non modifiable
+[CHAPTER]
+TIMEBASE=1/1000
+START=267880
+END=270600
+title=ORI-1036 - CT-HAB-F6-03: SC3+SC4: Droit L/E -> sticky bar presente, activation mode edition
+[CHAPTER]
+TIMEBASE=1/1000
+START=270600
+END=273320
+title=ORI-1036 - CT-HAB-F6-04: SC6 a SC9: Annulation - confirm dialog si modifs, pas de dialog si 0 modif
+[CHAPTER]
+TIMEBASE=1/1000
+START=273320
+END=276040
+title=ORI-1036 - CT-HAB-F6-05: SC10+SC11+SC12: Navigation hors ecran avec modifications non enregistrees
+[CHAPTER]
+TIMEBASE=1/1000
+START=276040
+END=278680
+title=ORI-1036 - CT-HAB-F6-06: SC13 a SC17: Drawer verification - affichage + suppression modif + blocage maitre
+[CHAPTER]
+TIMEBASE=1/1000
+START=278680
+END=281360
+title=ORI-1036 - CT-HAB-F6-07: SC18: Bouton Verifier et enregistrer inactif si compteur = 0
+[CHAPTER]
+TIMEBASE=1/1000
+START=281360
+END=284120
+title=ORI-1036 - CT-HAB-F6-08: SC19+SC20: Confirmation enregistrement (succes Keycloak + erreur technique)
+[CHAPTER]
+TIMEBASE=1/1000
+START=284120
+END=286840
+title=ORI-1308 - CT-HAB-F7-01: SC1+SC2: Droit fin non herite - transitions Non accorde <-> Lecture seule
+[CHAPTER]
+TIMEBASE=1/1000
+START=286840
+END=289600
+title=ORI-1308 - CT-HAB-F7-02: SC3+SC4: Droit fin non herite - transitions Non accorde <-> Lecture/Ecriture
+[CHAPTER]
+TIMEBASE=1/1000
+START=289600
+END=292320
+title=ORI-1308 - CT-HAB-F7-03: SC5+SC6: Droit fin non herite - transitions Lecture seule <-> Lecture/Ecriture
+[CHAPTER]
+TIMEBASE=1/1000
+START=292320
+END=295080
+title=ORI-1308 - CT-HAB-F7-04: SC7: Droit fin HERITE - elevation Lecture seule a Lecture/Ecriture (2 autorisations)
+[CHAPTER]
+TIMEBASE=1/1000
+START=295080
+END=297800
+title=ORI-1308 - CT-HAB-F7-05: SC8+SC9: Droits speciaux - transitions Non accorde <-> Accorde
+[CHAPTER]
+TIMEBASE=1/1000
+START=297800
+END=300480
+title=ORI-1308 - CT-HAB-F7-06: SC10+SC11: Enregistrement global Keycloak + aucune modif = pas d enregistrement
+[CHAPTER]
+TIMEBASE=1/1000
+START=300480
+END=303200
+title=ORI-1308 - CT-HAB-F7-07: SC12+SC13: Cascade vers profils enfants - deduplication et conservation elevation
+[CHAPTER]
+TIMEBASE=1/1000
+START=303200
+END=305920
+title=ORI-1308 - CT-HAB-F7-08: Verification droits effectifs apres reconnexion utilisateur porteur
+[CHAPTER]
+TIMEBASE=1/1000
+START=305920
+END=315080
+title=ORI-657 - CT-PIM-D-01: CA01+CA02: Acces formulaire modification (habilitations + pre-remplissage)
+[CHAPTER]
+TIMEBASE=1/1000
+START=315080
+END=329400
+title=ORI-657 - CT-PIM-D-02: CA03+CA04+CA16: Modification nom et code avec succes + normalisation code
+[CHAPTER]
+TIMEBASE=1/1000
+START=329400
+END=347360
+title=ORI-657 - CT-PIM-D-03: CA05 a CA08: Controles format code + unicite code/nom (frontend + backend)
+[CHAPTER]
+TIMEBASE=1/1000
+START=347360
+END=360120
+title=ORI-657 - CT-PIM-D-04: CA09: Champs obligatoires manquants
+[CHAPTER]
+TIMEBASE=1/1000
+START=360120
+END=364120
+title=ORI-657 - CT-PIM-D-05: CA10+CA11+CA12: Desactivation bloquee si dependances + reactivation immediate
+[CHAPTER]
+TIMEBASE=1/1000
+START=364120
+END=375720
+title=ORI-657 - CT-PIM-D-06: CA13+CA14+CA15: Duree RDV modifiable + Fermer modale + Erreur technique
+[CHAPTER]
+TIMEBASE=1/1000
+START=375720
+END=378520
+title=ORI-657 - CT-PIM-D-07: CA17+CA18: Perimetre marque + suppression icone/couleur -> valeurs par defaut
+[CHAPTER]
+TIMEBASE=1/1000
+START=378520
+END=382480
+title=ORI-657 - CT-PIM-D-08: CA19 a CA22: Famille parente (desactivee si sous-familles) + conversion sous-famille/racine
+[CHAPTER]
+TIMEBASE=1/1000
+START=382480
+END=386480
+title=ORI-1065 - CT-OPT-A-01: CA01+CA02: Affichage liste - avec habilitations (actives+inactives) vs sans habilitations (actives seules)
+[CHAPTER]
+TIMEBASE=1/1000
+START=386480
+END=418640
+title=ORI-1065 - CT-OPT-A-02: CA03: Recherche par libelle commercial ou code (partielle, insensible casse)
+[CHAPTER]
+TIMEBASE=1/1000
+START=418640
+END=422720
+title=ORI-1065 - CT-OPT-A-03: CA04+CA05+CA06: Filtres Statut (Actif/Inactif) + Marche + Taxe
+[CHAPTER]
+TIMEBASE=1/1000
+START=422720
+END=429640
+title=ORI-1065 - CT-OPT-A-04: CA07: Colonne Periodicite conditionnelle (Recurrent vs Ponctuel)
+[CHAPTER]
+TIMEBASE=1/1000
+START=429640
+END=433680
+title=ORI-1065 - CT-OPT-A-05: CA08: Conservation des filtres lors de la navigation vers fiche puis retour
+[CHAPTER]
+TIMEBASE=1/1000
+START=433680
+END=437880
+title=ORI-1065 - CT-OPT-A-06: CA09: Acces a la consultation via fleche -> drawer lecture seule
+[CHAPTER]
+TIMEBASE=1/1000
+START=437880
+END=440680
+title=ORI-1065 - CT-OPT-A-07: CA10: Adaptation reglementaire par pays - colonne/filtre Taxe selon pack reglementaire
+[CHAPTER]
+TIMEBASE=1/1000
+START=440680
+END=443400
+title=ORI-1065 - CT-OPT-A-08: Bouton Reinitialiser + pagination standards Orion
+[CHAPTER]
+TIMEBASE=1/1000
+START=443400
+END=447360
+title=ORI-1067 - CT-OPT-B-01: CA01+CA02: Acces formulaire creation (habilitations + pre-remplissage defauts)
+[CHAPTER]
+TIMEBASE=1/1000
+START=447360
+END=457080
+title=ORI-1067 - CT-OPT-B-02: CA03+CA04: Creation option avec succes (statut Actif + statut Inactif)
+[CHAPTER]
+TIMEBASE=1/1000
+START=457080
+END=477480
+title=ORI-1067 - CT-OPT-B-03: CA05: Doublon de code bloque (message exact)
+[CHAPTER]
+TIMEBASE=1/1000
+START=477480
+END=507640
+title=ORI-1067 - CT-OPT-B-04: CA06: Bouton Enregistrer desactive si champs obligatoires manquants ou invalides
+[CHAPTER]
+TIMEBASE=1/1000
+START=507640
+END=562920
+title=ORI-1067 - CT-OPT-B-05: CA07+CA08+CA09+CA10+CA16: Controles code (filtrage auto, normalisation, min 3, max 20, backend)
+[CHAPTER]
+TIMEBASE=1/1000
+START=562920
+END=566920
+title=ORI-1067 - CT-OPT-B-06: CA11+CA12: Periodicite conditionnelle (Recurrent=visible, Ponctuel=masque) + label dynamique Quantite
+[CHAPTER]
+TIMEBASE=1/1000
+START=566920
+END=604160
+title=ORI-1067 - CT-OPT-B-07: CA13: Quantite facturable invalide (< 1 ou > 9999)
+[CHAPTER]
+TIMEBASE=1/1000
+START=604160
+END=606960
+title=ORI-1067 - CT-OPT-B-08: CA14: Famille associee filtree (racines actives marque uniquement)
+[CHAPTER]
+TIMEBASE=1/1000
+START=606960
+END=616080
+title=ORI-1067 - CT-OPT-B-09: CA15+CA18: Annuler creation (rien enregistre) + erreur technique (modale conservee)
+[CHAPTER]
+TIMEBASE=1/1000
+START=616080
+END=618800
+title=ORI-1067 - CT-OPT-B-10: CA17: Adaptation champ Taxe selon pack reglementaire du pays
+[CHAPTER]
+TIMEBASE=1/1000
+START=618800
+END=621600
+title=ORI-723 - CT-DUR-01: RG_CONT_Hhebdo_13 - Controles de saisie des heures hebdomadaires (obligatoire, > 0, format, bornes)
+[CHAPTER]
+TIMEBASE=1/1000
+START=621600
+END=669880
+title=ORI-723 - CT-DUR-02: RG_CONT_Hmens_14 - Calcul automatique des heures mensuelles (lecture seule)
+[CHAPTER]
+TIMEBASE=1/1000
+START=669880
+END=674360
+title=ORI-723 - CT-DUR-03: RG_CONT_Temps_15 - Nature du temps (plein/partiel) et effets conditionnels
+[CHAPTER]
+TIMEBASE=1/1000
+START=674360
+END=677120
+title=ORI-723 - CT-DUR-04: RG_CONT_TauxP_16 - Calcul automatique du taux temps plein (%)
+[CHAPTER]
+TIMEBASE=1/1000
+START=677120
+END=681120
+title=ORI-723 - CT-DUR-05: RG_CONT_ModOrg_38_V2 - Mode d'organisation du temps de travail (Forfait jours masque Intervenant)
+[CHAPTER]
+TIMEBASE=1/1000
+START=681120
+END=707640
+title=ORI-723 - CT-DUR-06: RG_CONT_ATT_18 - Bloc annualisation du temps de travail (hors simulateur)
+[CHAPTER]
+TIMEBASE=1/1000
+START=707640
+END=735640
+title=ORI-723 - CT-DUR-07: RG_CONT_DerogTP_39 - Derogation temps partiel < 24h (obligatoire et bloquante)
+[CHAPTER]
+TIMEBASE=1/1000
+START=735640
+END=738520
+title=ORI-723 - CT-DUR-08: RG_CONT_Compl_40 - Plafond heures complementaires (calcul et visibilite conditionnelle)
+[CHAPTER]
+TIMEBASE=1/1000
+START=738520
+END=765560
+title=ORI-723 - CT-DUR-09: RG_CONT_Mutuelle_42 - Alerte seuil mutuelle (< 65h/mois)
+[CHAPTER]
+TIMEBASE=1/1000
+START=765560
+END=768320
+title=ORI-723 - CT-DUR-10: RG_CONT_TickResto_44 - Alerte seuil tickets restaurant (seuil marque)
+[CHAPTER]
+TIMEBASE=1/1000
+START=768320
+END=784160
+title=ORI-723 - CT-DUR-11: Coherence des dependances entre champs (propagation des recalculs)
+[CHAPTER]
+TIMEBASE=1/1000
+START=784160
+END=787120
+title=ORI-723 - CT-DUR-12: Persistance BACK et mise a disposition des modules aval
+[CHAPTER]
+TIMEBASE=1/1000
+START=787120
+END=837520
+title=ORI-1039 - CT-DURF-01: RG_CONT_Hhebdo_13 - Champ heures hebdomadaires : affichage, saisie UI, format et messages
+[CHAPTER]
+TIMEBASE=1/1000
+START=837520
+END=876360
+title=ORI-1039 - CT-DURF-02: RG_CONT_Hmens_14 - Affichage temps reel des heures mensuelles (champ lecture seule UI)
+[CHAPTER]
+TIMEBASE=1/1000
+START=876360
+END=880600
+title=ORI-1039 - CT-DURF-03: RG_CONT_Temps_15 - Radio Temps plein/partiel : selection UI et effets d'affichage conditionnel
+[CHAPTER]
+TIMEBASE=1/1000
+START=880600
+END=919000
+title=ORI-1039 - CT-DURF-04: RG_CONT_TauxP_16 - Affichage temps reel du taux temps plein (%) (lecture seule UI)
+[CHAPTER]
+TIMEBASE=1/1000
+START=919000
+END=923120
+title=ORI-1039 - CT-DURF-05: RG_CONT_ModOrg_38_V2 - Liste deroulante mode d'organisation (Forfait jours masque, affichage conditionnel)
+[CHAPTER]
+TIMEBASE=1/1000
+START=923120
+END=950520
+title=ORI-1039 - CT-DURF-06: RG_CONT_ATT_18 - Affichage du bloc ATT et alerte de depassement (hors simulateur)
+[CHAPTER]
+TIMEBASE=1/1000
+START=950520
+END=967600
+title=ORI-1039 - CT-DURF-07: RG_CONT_DerogTP_39 - Liste derogation < 24h : apparition conditionnelle et message bloquant
+[CHAPTER]
+TIMEBASE=1/1000
+START=967600
+END=970400
+title=ORI-1039 - CT-DURF-08: RG_CONT_Compl_40 - Affichage du plafond heures complementaires (lecture seule, conditionnel)
+[CHAPTER]
+TIMEBASE=1/1000
+START=970400
+END=985960
+title=ORI-1039 - CT-DURF-09: RG_CONT_Mutuelle_42 - Alerte seuil mutuelle : affichage/masquage dynamique du message
+[CHAPTER]
+TIMEBASE=1/1000
+START=985960
+END=1001600
+title=ORI-1039 - CT-DURF-10: RG_CONT_TickResto_44 - Alerte seuil tickets restaurant : affichage dynamique selon seuil marque
+[CHAPTER]
+TIMEBASE=1/1000
+START=1001600
+END=1023680
+title=ORI-1039 - CT-DURF-11: Conformite maquette Figma et enchainement des affichages conditionnels (UI globale)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1023680
+END=1026600
+title=ORI-1039 - CT-DURF-12: Accessibilite et etats des champs (focus, tab, aria, etats desactives)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1026600
+END=1029320
+title=ORI-91 - CT-NOTIF-01: RG_NOTIFCREA_01/02 - Emission du message Create quand toutes les conditions sont reunies (intervenant)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1029320
+END=1032440
+title=ORI-91 - CT-NOTIF-02: RG_NOTIFCREA_02 - Non-emission si un champ obligatoire manque
+[CHAPTER]
+TIMEBASE=1/1000
+START=1032440
+END=1035240
+title=ORI-91 - CT-NOTIF-03: RG_NOTIFCREA_02 - Non-emission si aucun contrat avec date d'embauche
+[CHAPTER]
+TIMEBASE=1/1000
+START=1035240
+END=1038040
+title=ORI-91 - CT-NOTIF-04: RG_NOTIFCREA_02 - Emission differee : champ manquant complete ulterieurement
+[CHAPTER]
+TIMEBASE=1/1000
+START=1038040
+END=1054880
+title=ORI-91 - CT-NOTIF-05: RG_NOTIFMOD_01 - Emission du message Update lors d'une modification
+[CHAPTER]
+TIMEBASE=1/1000
+START=1054880
+END=1059000
+title=ORI-91 - CT-NOTIF-06: RG_NOTIFCREA_01/MOD_01 - Inclusion conditionnelle des blocs optionnels (renseigne uniquement)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1059000
+END=1061800
+title=ORI-91 - CT-NOTIF-07: Bloc Competences reserve aux intervenants (absent pour operationnel agence)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1061800
+END=1065880
+title=ORI-91 - CT-NOTIF-08: Cardinalite : un seul message ficheCollaborateur par collaborateur (multi-societe)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1065880
+END=1069880
+title=ORI-91 - CT-NOTIF-09: Correlation idCollaborateur entre ficheCollaborateur et contrat
+[CHAPTER]
+TIMEBASE=1/1000
+START=1069880
+END=1072680
+title=ORI-91 - CT-NOTIF-10: Contenu attendu par le consommateur MP5 Planning
+[CHAPTER]
+TIMEBASE=1/1000
+START=1072680
+END=1075600
+title=ORI-91 - CT-NOTIF-11: Contenu attendu par Pleiade + decoupage NIR (7 segments) et IBAN (9 segments)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1075600
+END=1078560
+title=ORI-91 - CT-NOTIF-12: Transcodification des identifiants Orion vers valeurs Pleiade
+[CHAPTER]
+TIMEBASE=1/1000
+START=1078560
+END=1081400
+title=ORI-91 - CT-NOTIF-13: Cas RGPD : purge puis reembauche -> nouvel idCollaborateur et flux Create
+[CHAPTER]
+TIMEBASE=1/1000
+START=1081400
+END=1084200
+title=ORI-91 - CT-NOTIF-14: RG_INT_NOTIF_01 - Flag de suivi d'envoi aux autres domaines (etude)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1084200
+END=1088280
+title=ORI-936 - CT-CPT-01: RG_INT_CPTS_1 - Affichage par defaut de l'ecran a la date du jour
+[CHAPTER]
+TIMEBASE=1/1000
+START=1088280
+END=1092360
+title=ORI-936 - CT-CPT-02: RG_INT_CPTS_1 - Changement de date 'Soldes au' : recalcul et filtrage des compteurs
+[CHAPTER]
+TIMEBASE=1/1000
+START=1092360
+END=1095160
+title=ORI-936 - CT-CPT-03: RG_INT_CPTA_1 - Bouton 'Aujourd'hui' : retour a la date du jour
+[CHAPTER]
+TIMEBASE=1/1000
+START=1095160
+END=1099240
+title=ORI-936 - CT-CPT-04: RG_INT_CPTT_1 / 1c - Affichage des types de conges selon le parametrage (libelle + periode)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1099240
+END=1103320
+title=ORI-936 - CT-CPT-05: RG_INT_CPTT_1c / CA-CPT-04 - Alerte rouge 'X demande(s) en attente de validation'
+[CHAPTER]
+TIMEBASE=1/1000
+START=1103320
+END=1107400
+title=ORI-936 - CT-CPT-06: RG_INT_CPTD_1 - Colonne 'Acquis' : valeur, format et info-bulle
+[CHAPTER]
+TIMEBASE=1/1000
+START=1107400
+END=1111440
+title=ORI-936 - CT-CPT-07: RG_INT_CPTP_1 - Colonne 'Pris' : jours pris <= date du jour, format et info-bulle
+[CHAPTER]
+TIMEBASE=1/1000
+START=1111440
+END=1115520
+title=ORI-936 - CT-CPT-08: RG_INT_CPTO_1 - Colonne 'Solde actuel' = Acquis - Pris
+[CHAPTER]
+TIMEBASE=1/1000
+START=1115520
+END=1120000
+title=ORI-936 - CT-CPT-09: RG_INT_CPTL_1 - Colonne 'Solde previsionnel' = Acquis - Pris - conges valides futurs
+[CHAPTER]
+TIMEBASE=1/1000
+START=1120000
+END=1124480
+title=ORI-936 - CT-CPT-10: RG_INT_CPTV_1 / CA-CPT-07 - Bouton 'Voir l'historique' (drawer par periode)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1124480
+END=1152680
+title=ORI-936 - CT-CPT-11: RG_INT_CPTB_1 / CA-CPT-05/06 - Bouton MODIFIER selon habilitation
+[CHAPTER]
+TIMEBASE=1/1000
+START=1152680
+END=1155920
+title=ORI-936 - CT-CPT-12: Conformite maquette et lecture seule des champs de l'ecran principal
+[CHAPTER]
+TIMEBASE=1/1000
+START=1155920
+END=1160400
+title=ORI-936 - CT-CPT-13: Coherence globale : changement de date -> recalcul de toutes les colonnes
+[CHAPTER]
+TIMEBASE=1/1000
+START=1160400
+END=1177680
+title=ORI-956 - CT-ABH-01: RG_INT_ABAHED/ABAHEF_1 - Visibilite des champs heure selon 'Heures possibles'
+[CHAPTER]
+TIMEBASE=1/1000
+START=1177680
+END=1193360
+title=ORI-956 - CT-ABH-02: RG_INT_ABAHCT_1 cas 1 - Dates differentes : heures grisees et remises a blanc (CA D11/D12)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1193360
+END=1220000
+title=ORI-956 - CT-ABH-03: RG_INT_ABAHCT_1 cas 2a - Heure debut sans heure fin (CA D13)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1220000
+END=1246640
+title=ORI-956 - CT-ABH-04: RG_INT_ABAHCT_1 cas 2b - Heure fin sans heure debut (CA D14)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1246640
+END=1273240
+title=ORI-956 - CT-ABH-05: RG_INT_ABAHCT_1 cas 2c - Heure debut >= heure fin (CA D15)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1273240
+END=1288960
+title=ORI-956 - CT-ABH-06: RG_INT_ABACHE_1 - Chevauchement avec conges existants (dates <>) (CA E1)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1288960
+END=1304560
+title=ORI-956 - CT-ABH-07: RG_INT_ABACHE_1 - Chevauchement avec absence existante (dates <>) (CA E2)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1304560
+END=1331320
+title=ORI-956 - CT-ABH-08: RG_INT_ABACHE_1 - Cas passants : periodes disjointes et exclusivite Non / statut Annule (CA E3-E6)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1331320
+END=1346840
+title=ORI-956 - CT-ABH-09: RG_INT_ABACHE_2 - Chevauchement horaire vs conge 1/2 journee (dates =) (CA E7/E8)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1346840
+END=1362560
+title=ORI-956 - CT-ABH-10: RG_INT_ABACHE_2 - Chevauchement horaire vs absence et vs conge journee (CA E9/E10)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1362560
+END=1378160
+title=ORI-956 - CT-ABH-11: RG_INT_ABACAD_1 (A) - Calcul et affichage de la duree en jours (modes de decompte) (CA F1-F4)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1378160
+END=1393840
+title=ORI-956 - CT-ABH-12: RG_INT_ABACAD_1 (A) - Droit local Alsace-Moselle et priorite des concepts (CA F5)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1393840
+END=1431680
+title=ORI-956 - CT-ABH-13: RG_INT_ABACAD_1 (B) - Calcul et affichage de la duree en heures (dates =) (CA F6-F8)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1431680
+END=1447320
+title=ORI-956 - CT-ABH-14: RG_INT_ABACAD_1 (C) - Duree = 0 : message bloquant
+[CHAPTER]
+TIMEBASE=1/1000
+START=1447320
+END=1474000
+title=ORI-956 - CT-ABH-15: RG_INT_ABADUR_1 - Controle du nombre de jours max (dates <>) (CA F9-F11)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1474000
+END=1490800
+title=ORI-956 - CT-ABH-16: Reutilisation des RG sur les ecrans Modification et Visualisation d'une absence
+[CHAPTER]
+TIMEBASE=1/1000
+START=1490800
+END=1507680
+title=ORI-1356 - CT-VIS-01: Affichage en lecture seule de l'ecran Visualiser une absence (aucun controle, aucun calcul)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1507680
+END=1511720
+title=ORI-1356 - CT-VIS-02: RG_INT_VISUTEL_1 - Affichage et telechargement des documents justificatifs
+[CHAPTER]
+TIMEBASE=1/1000
+START=1511720
+END=1515760
+title=ORI-1356 - CT-VIS-03: RG_INT_ABSVAL_1 - Validation reussie d'une absence 'A valider' (justificatif non requis ou present)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1515760
+END=1519800
+title=ORI-1356 - CT-VIS-04: RG_INT_ABSVAL_1 - Validation bloquee si justificatif obligatoire absent
+[CHAPTER]
+TIMEBASE=1/1000
+START=1519800
+END=1523800
+title=ORI-1356 - CT-VIS-05: RG_INT_ABSANN_1 - Annulation d'une absence -> statut 'Annule' et bascule vers l'onglet Cloturés
+[CHAPTER]
+TIMEBASE=1/1000
+START=1523800
+END=1527800
+title=ORI-1356 - CT-VIS-06: RG_INT_CLOSTA_1 / CA J1-J3 - Onglet Cloturés : contenu et actions restreintes
+[CHAPTER]
+TIMEBASE=1/1000
+START=1527800
+END=1531800
+title=ORI-1356 - CT-VIS-07: RG_INT_ABSHOR_1 / CA B8/J5 - Historique d'une absence (cycle de vie)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1531800
+END=1535840
+title=ORI-1356 - CT-VIS-08: Fermeture de l'ecran de visualisation (bouton FERMER / croix)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1535840
+END=1539880
+title=ORI-745 - CT-UX-01: Icone 'Valide' (task_alt) sur Vue generale RDV Commercial + Drawer et Fiche client/prospect
+[CHAPTER]
+TIMEBASE=1/1000
+START=1539880
+END=1543880
+title=ORI-745 - CT-UX-02: Icones 'Agence' (Storefront) et 'Duree' sur la Vue generale RDV Commercial
+[CHAPTER]
+TIMEBASE=1/1000
+START=1543880
+END=1547880
+title=ORI-745 - CT-UX-03: Icone 'Identite' (contact_page) sur Modification et Creation prospect/lead
+[CHAPTER]
+TIMEBASE=1/1000
+START=1547880
+END=1550360
+title=ORI-745 - CT-UX-04: Icones 'Telephone/contact' (phone) et 'Service/Produit' (extension)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1550360
+END=1552800
+title=ORI-745 - CT-UX-05: Distinction Tag (statut) vs Alerte (completude/anomalie)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1552800
+END=1555240
+title=ORI-745 - CT-UX-06: Multi-elements : affichage compact et expansion au clic (listes Clients prospect et Entites juridiques)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1555240
+END=1557680
+title=ORI-745 - CT-UX-07: Conformite maquette et coherence transverse des icones remplaces
+[CHAPTER]
+TIMEBASE=1/1000
+START=1557680
+END=1572520
+title=ORI-745 - CT-UX-08: Non-regression fonctionnelle des elements dont l'icone/tag a change
+[CHAPTER]
+TIMEBASE=1/1000
+START=1572520
+END=1576560
+title=ORI-769 - CT-LOC-01: Affichage de la localisation (carte + adresse + pin) dans le drawer d'un RDV avec adresse
+[CHAPTER]
+TIMEBASE=1/1000
+START=1576560
+END=1580600
+title=ORI-769 - CT-LOC-02: RDV sans adresse renseignee : etat vide de la zone localisation
+[CHAPTER]
+TIMEBASE=1/1000
+START=1580600
+END=1584640
+title=ORI-769 - CT-LOC-03: Source de l'adresse affichee : RDV a domicile vs RDV en agence
+[CHAPTER]
+TIMEBASE=1/1000
+START=1584640
+END=1588680
+title=ORI-769 - CT-LOC-04: Robustesse : echec de chargement de la carte (GEOWS/reseau KO) - mode degrade
+[CHAPTER]
+TIMEBASE=1/1000
+START=1588680
+END=1592680
+title=ORI-769 - CT-LOC-05: Adresse non geocodable : affichage texte sans pin precis
+[CHAPTER]
+TIMEBASE=1/1000
+START=1592680
+END=1596720
+title=ORI-769 - CT-LOC-06: Interaction sur la carte / bouton itineraire (si present)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1596720
+END=1600720
+title=ORI-769 - CT-LOC-07: Localisation en lecture seule pour un RDV annule ou passe (historique)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1600720
+END=1604720
+title=ORI-368 - CT-BSN-01: CA-A01 - Affichage du tableau des besoins et alimentation automatique (statut A qualifier)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1604720
+END=1608760
+title=ORI-368 - CT-BSN-02: RG_BSN_TRILST_01 / CA-A02 - Tri par defaut (statut puis date de creation croissante)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1608760
+END=1611560
+title=ORI-368 - CT-BSN-03: RG_BSN_TRILST_02 / CA-A03 - Tri utilisateur par colonne (alternance croissant/decroissant)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1611560
+END=1614360
+title=ORI-368 - CT-BSN-04: RG_BSN_ACT_01 / CA-A04-A07/A19 - Actions disponibles selon le statut du besoin
+[CHAPTER]
+TIMEBASE=1/1000
+START=1614360
+END=1617080
+title=ORI-368 - CT-BSN-05: RG_BSN_ABAND_01 / CA1-16-18 - Regle d'abandon selon presence de devis
+[CHAPTER]
+TIMEBASE=1/1000
+START=1617080
+END=1633200
+title=ORI-368 - CT-BSN-06: RG_BSN_MODIF_01 / CA-A08-A11 - Action Modifier : chargement du formulaire de la famille
+[CHAPTER]
+TIMEBASE=1/1000
+START=1633200
+END=1637640
+title=ORI-368 - CT-BSN-07: RG_BSN_CONSULT_01 / CA-A19 - Action Consulter d'un besoin Abandonne (lecture seule)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1637640
+END=1640640
+title=ORI-368 - CT-BSN-08: Contenu des colonnes Service / Statut / Responsable / Date de creation
+[CHAPTER]
+TIMEBASE=1/1000
+START=1640640
+END=1684520
+title=ORI-667 - CT-FILT-01: RG_BSN_FILT_01 / CA-B01-B03 - Champ 'Rechercher un besoin' : criteres couverts et insensibilite casse/accents
+[CHAPTER]
+TIMEBASE=1/1000
+START=1684520
+END=1687320
+title=ORI-667 - CT-FILT-02: RG_BSN_FILT_02 / CA-B02 - Filtre 'Statut' (cases a cocher multi-selection) et valeur par defaut 'Tous'
+[CHAPTER]
+TIMEBASE=1/1000
+START=1687320
+END=1706200
+title=ORI-667 - CT-FILT-03: RG_BSN_FILT_04 / CA-B04 - Application cumulative des criteres (logique ET)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1706200
+END=1709040
+title=ORI-667 - CT-FILT-04: RG_BSN_FILT_03 / CA-B05 - Reinitialiser les filtres (retour valeurs par defaut + tri par defaut)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1709040
+END=1727840
+title=ORI-667 - CT-FILT-05: RG_BSN_FILT_02 - Etat vide filtre (aucun besoin ne correspond)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1727840
+END=1746640
+title=ORI-667 - CT-FILT-06: Application immediate du filtrage (sans bouton) et coherence avec le tableau
+[CHAPTER]
+TIMEBASE=1/1000
+START=1746640
+END=1749440
+title=ORI-995 - CT-ABD-01: Disponibilite de l'action Abandonner selon le statut et les devis associes
+[CHAPTER]
+TIMEBASE=1/1000
+START=1749440
+END=1753440
+title=ORI-995 - CT-ABD-02: RG_BSN_ABAND_MOTIF_01 / CA-01 - Abandon avec un motif standard (different de 'Autre')
+[CHAPTER]
+TIMEBASE=1/1000
+START=1753440
+END=1757440
+title=ORI-995 - CT-ABD-03: RG_BSN_ABAND_COMM_01 / CA-02 - Motif 'Autre' : champ Commentaire affiche et obligatoire
+[CHAPTER]
+TIMEBASE=1/1000
+START=1757440
+END=1761440
+title=ORI-995 - CT-ABD-04: RG_BSN_ABAND_MOTIF_01 - Motif d'abandon obligatoire (blocage si absent)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1761440
+END=1765440
+title=ORI-995 - CT-ABD-05: RG_BSN_ABAND_RET_01 / CA-03 - Annulation de la procedure d'abandon (bouton Retour)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1765440
+END=1783040
+title=ORI-995 - CT-ABD-06: RG_BSN_ABAND_VALID_01 - Etat post-abandon : irreversibilite et actions restantes (Consulter seul)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1783040
+END=1785840
+title=ORI-1068 - CT-RND-01: RG_BSN_QUAL_01 / CA-01 - Rendu dynamique du JSON en modale stepper (ouverture besoin 'A qualifier')
+[CHAPTER]
+TIMEBASE=1/1000
+START=1785840
+END=1800840
+title=ORI-1068 - CT-RND-02: Types de widgets supportes et mapping Design System Orion
+[CHAPTER]
+TIMEBASE=1/1000
+START=1800840
+END=1807920
+title=ORI-1068 - CT-RND-03: RG_BSN_QUAL_04 / CA-02 - Navigation entre etapes (Precedent/Suivant/stepper) et indicateur de completude
+[CHAPTER]
+TIMEBASE=1/1000
+START=1807920
+END=1828000
+title=ORI-1068 - CT-RND-04: RG_BSN_QUAL_02 / CA-03 - Champs conditionnels (affichage/masquage + reinitialisation)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1828000
+END=1830800
+title=ORI-1068 - CT-RND-05: RG_BSN_QUAL_03/07 - Validation des champs et completude d'etape
+[CHAPTER]
+TIMEBASE=1/1000
+START=1830800
+END=1846040
+title=ORI-1068 - CT-RND-06: RG_BSN_QUAL_06/07 / CA-04 - Enregistrement partiel (statut 'Qualification en cours')
+[CHAPTER]
+TIMEBASE=1/1000
+START=1846040
+END=1848840
+title=ORI-1068 - CT-RND-07: RG_BSN_QUAL_06/07 / CA-06 - Qualification complete (statut 'Qualifie' + fermeture + refresh)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1848840
+END=1851640
+title=ORI-1068 - CT-RND-08: RG_BSN_QUAL_05/09 / CA-05/CA-08 - Versionning : conservation de la version du JSON
+[CHAPTER]
+TIMEBASE=1/1000
+START=1851640
+END=1871720
+title=ORI-1068 - CT-RND-09: CA-07 - Fermeture de la modale sans enregistrement (dialogue de confirmation)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1871720
+END=1874400
+title=ORI-452 - CT-DUR-01: RG_CTR_INT_01 / Scenario 1 - Duree de realisation trop longue : notification generee
+[CHAPTER]
+TIMEBASE=1/1000
+START=1874400
+END=1877120
+title=ORI-452 - CT-DUR-02: RG_CTR_INT_01 / Scenario 2 - Duree de realisation trop courte : notification generee
+[CHAPTER]
+TIMEBASE=1/1000
+START=1877120
+END=1879920
+title=ORI-452 - CT-DUR-03: RG_CTR_INT_01 / Scenario 3 - Duree de realisation conforme : aucune notification
+[CHAPTER]
+TIMEBASE=1/1000
+START=1879920
+END=1882680
+title=ORI-452 - CT-DUR-04: RG_CTR_INT_01 - Bornes exactes du seuil (planifiee +/- seuil) : conforme (non strict)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1882680
+END=1885360
+title=ORI-452 - CT-DUR-05: RG_CTR_INT_01 - Seuil differencie par famille de produits (table DMN)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1885360
+END=1888160
+title=ORI-452 - CT-DUR-06: RG_CTR_INT_02 - Contenu et attributs de la notification creee (DMN criteres + statut)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1888160
+END=1890920
+title=ORI-688 - CT-PTG-01: RG_PLA_HRD_01 - Presence des 2 icones (debut et fin) sur la carte d'intervention
+[CHAPTER]
+TIMEBASE=1/1000
+START=1890920
+END=1893640
+title=ORI-688 - CT-PTG-02: RG_PLA_HRD_01 - Icone selon le type de pointage (Aucun pointage / Scan QR / Manuel / Force)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1893640
+END=1896360
+title=ORI-688 - CT-PTG-03: RG_PLAI_BAI_01 - Priorite des pointages : force > declare > planifie (icone et horodate)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1896360
+END=1899120
+title=ORI-688 - CT-PTG-04: RG_PLA_TLP_01 - Infobulle au survol : type des pointages par intervenant
+[CHAPTER]
+TIMEBASE=1/1000
+START=1899120
+END=1901880
+title=ORI-688 - CT-PTG-05: RG_PLA_HRD_01 - Affichage identique de l'etat des pointages dans la vue 'Clients'
+[CHAPTER]
+TIMEBASE=1/1000
+START=1901880
+END=1904600
+title=ORI-688 - CT-PTG-06: Mise a jour de l'etat des pointages a la reception/forcage d'un pointage
+[CHAPTER]
+TIMEBASE=1/1000
+START=1904600
+END=1907320
+title=ORI-728 - CT-DIS-01: RG_CRT_SIN_07/08 / Scenario 7 - Intervenant disponible : serie et interventions creees (Pourvue)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1907320
+END=1910080
+title=ORI-728 - CT-DIS-02: RG_CRT_SIN_07/09 / Scenario 17 - Intervenant indisponible pour la serie : creation bloquee + notification
+[CHAPTER]
+TIMEBASE=1/1000
+START=1910080
+END=1912840
+title=ORI-728 - CT-DIS-03: RG_CRT_SIN_08 / Scenario 18 - Disponible pour la serie mais indisponible pour une occurrence (Non pourvue)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1912840
+END=1915560
+title=ORI-728 - CT-DIS-04: RG_CRT_SIN_08 - Exclusion des elements au statut 'Annule' du controle de disponibilite
+[CHAPTER]
+TIMEBASE=1/1000
+START=1915560
+END=1918320
+title=ORI-728 - CT-DIS-05: Scenarios 8/9 - Message sans intervenant (listeIdsIntervenants vide) : verification sautee
+[CHAPTER]
+TIMEBASE=1/1000
+START=1918320
+END=1921040
+title=ORI-728 - CT-DIS-06: RG_CRT_SIN_07 - Perimetre de la verification serie : recurrents pris en compte, ponctuels ignores
+[CHAPTER]
+TIMEBASE=1/1000
+START=1921040
+END=1923760
+title=ORI-728 - CT-DIS-07: RG_MOD_SIN_07/08 - Verification de disponibilite lors de la MODIFICATION d'une serie (miroir creation)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1923760
+END=1926440
+title=ORI-750 - CT-ERR-01: RG_CRT_SIN_01 / Scenarios 11-12 - Message non conforme (champ manquant ou incoherence) : notification d'erreur
+[CHAPTER]
+TIMEBASE=1/1000
+START=1926440
+END=1929160
+title=ORI-750 - CT-ERR-02: Scenario 16 - Agence inconnue : notification d'erreur
+[CHAPTER]
+TIMEBASE=1/1000
+START=1929160
+END=1931920
+title=ORI-750 - CT-ERR-03: Scenarios 14/15 - Client inconnu et intervenant inconnu : notification d'erreur
+[CHAPTER]
+TIMEBASE=1/1000
+START=1931920
+END=1934680
+title=ORI-750 - CT-ERR-04: Scenario 17 - Intervenant indisponible pour la serie : notification d'erreur
+[CHAPTER]
+TIMEBASE=1/1000
+START=1934680
+END=1937360
+title=ORI-750 - CT-ERR-05: Scenario 13 - Serie d'interventions deja existante : notification d'erreur
+[CHAPTER]
+TIMEBASE=1/1000
+START=1937360
+END=1940080
+title=ORI-750 - CT-ERR-06: RG_CRT_SIN_09 - Contenu de la notification creee et attributs issus de la DMN
+[CHAPTER]
+TIMEBASE=1/1000
+START=1940080
+END=1942800
+title=ORI-750 - CT-ERR-07: Notification des erreurs lors de la MODIFICATION d'une serie (miroir creation)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1942800
+END=1946800
+title=ORI-790 - CT-AF-01: RG_PAP_NAV_01 / CA_PAP_NAV_01 - Clic fleche/carte : navigation vers la sous-page de detail (3B)
+[CHAPTER]
+TIMEBASE=1/1000
+START=1946800
+END=1949600
+title=ORI-790 - CT-AF-02: RG_PAP_NAV_02 / CA_PAP_NAV_02/03 - Fil d'Ariane et retour a la liste
+[CHAPTER]
+TIMEBASE=1/1000
+START=1949600
+END=1953560
+title=ORI-790 - CT-AF-03: RG_PAP_HER_01/02 - Bandeau 'Herite du CDA' et champs en lecture seule
+[CHAPTER]
+TIMEBASE=1/1000
+START=1953560
+END=1994560
+title=ORI-790 - CT-AF-04: RG_PAP_PEC_01 / CA_PAP_PEC_01/02 - Calcul bidirectionnel taux PEC <-> montant PEC
+[CHAPTER]
+TIMEBASE=1/1000
+START=1994560
+END=2020840
+title=ORI-790 - CT-AF-05: RG_PAP_TYP_01/VOL_01/PLAF_01 - Typologies d'heures, volume alloue et plafond
+[CHAPTER]
+TIMEBASE=1/1000
+START=2020840
+END=2034800
+title=ORI-790 - CT-AF-06: RG_PAP_NAV_03 / CA_PAP_NAV_04 - Validation de la sous-page : sauvegarde, badge 'Personnalise' et retour liste
+[CHAPTER]
+TIMEBASE=1/1000
+START=2034800
+END=2052360
+title=ORI-790 - CT-AF-07: RG_PAP_NAV_04 / CA_PAP_NAV_05/06 - Sortie sans validation apres modifications : modale de confirmation
+[CHAPTER]
+TIMEBASE=1/1000
+START=2052360
+END=2056360
+title=ORI-790 - CT-AF-08: RG_PAP_ABC/FORF/ABO/TRJ - Affichage conditionnel du detail selon le format de facturation

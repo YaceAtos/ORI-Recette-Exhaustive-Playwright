@@ -8,6 +8,8 @@ int2-ihm-recordings/int2/
 int2-ihm-recordings/exhaustive/
 int2-ihm-recordings/chains/
 int2-ihm-recordings/working/
+int2-ihm-recordings/int2-autonomous/popup-qa-evidence/
+*.webm
 screenshots/
 test-results/
 playwright-report/
@@ -17,6 +19,9 @@ workspace-archives/
 mon-espace/**/preuves/**/*.mp4
 mon-espace/**/preuves/**/*.webm
 mon-espace/**/preuves/**/trace.zip
+mon-espace/**/preuves*/**/*.mp4
+mon-espace/**/preuves*/**/*.webm
+mon-espace/**/preuves*/**/trace.zip
 
 # Auth / secrets / temporaires
 .orion-auth/

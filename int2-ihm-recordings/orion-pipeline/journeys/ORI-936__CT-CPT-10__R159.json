@@ -33,5 +33,5 @@
   "rules": [
     "RG_INT_CPTV_1"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-41053-torique-drawer-par-periode--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-41053-torique-drawer-par-periode--orion-pipeline"
 }

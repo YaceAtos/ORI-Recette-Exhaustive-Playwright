@@ -39,5 +39,5 @@
   "rules": [
     "RG_CONT_Hmens_14"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-bebf1-les-champ-lecture-seule-UI--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-bebf1-les-champ-lecture-seule-UI--orion-pipeline"
 }

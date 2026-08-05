@@ -36,5 +36,5 @@
   "rules": [
     "RG_PLA_HRD_01"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-8f5b5-ntage-Scan-QR-Manuel-Force--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-8f5b5-ntage-Scan-QR-Manuel-Force--orion-pipeline"
 }

@@ -31,5 +31,5 @@
   "severity": "bloquant",
   "status": "blocked-flow",
   "rules": [],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-421c5--Orion-vers-valeurs-Pleiade-orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-421c5--Orion-vers-valeurs-Pleiade-orion-pipeline"
 }

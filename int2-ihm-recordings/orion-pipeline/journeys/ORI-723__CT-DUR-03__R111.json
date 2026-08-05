@@ -30,5 +30,5 @@
   "rules": [
     "RG_CONT_Temps_15"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-506e1-iel-et-effets-conditionnels-orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-506e1-iel-et-effets-conditionnels-orion-pipeline"
 }

@@ -42,5 +42,5 @@
   "rules": [
     "RG_OPT_CREATE_07"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-e0829--pack-reglementaire-du-pays-orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-e0829--pack-reglementaire-du-pays-orion-pipeline"
 }

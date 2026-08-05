@@ -37,5 +37,5 @@
     "RG_BSN_ABAND_VALID_01",
     "RG_BSN_CONSULT_01"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-fc264-s-restantes-Consulter-seul--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-fc264-s-restantes-Consulter-seul--orion-pipeline"
 }

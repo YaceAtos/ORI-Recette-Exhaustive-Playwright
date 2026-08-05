@@ -28,5 +28,5 @@
   "severity": "moyen",
   "status": "assertion-low",
   "rules": [],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-4fe79-ide-de-la-zone-localisation-orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-4fe79-ide-de-la-zone-localisation-orion-pipeline"
 }

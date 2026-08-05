@@ -26,5 +26,5 @@
   "rules": [
     "RG_BSN_FILT_03"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-a94d8--par-defaut-tri-par-defaut--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-a94d8--par-defaut-tri-par-defaut--orion-pipeline"
 }

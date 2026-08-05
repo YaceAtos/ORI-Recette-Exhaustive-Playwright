@@ -39,5 +39,5 @@
   "rules": [
     "RG_GEN_SUIV_01"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-42e2a--etapes-sans-enregistrement-orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-42e2a--etapes-sans-enregistrement-orion-pipeline"
 }

@@ -36,5 +36,5 @@
   "rules": [
     "RG_INT_ABAHCT_1"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-e92c8-ure-debut-heure-fin-CA-D15--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-e92c8-ure-debut-heure-fin-CA-D15--orion-pipeline"
 }

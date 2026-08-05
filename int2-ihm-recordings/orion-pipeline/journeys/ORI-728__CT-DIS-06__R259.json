@@ -33,5 +33,5 @@
   "rules": [
     "RG_CRT_SIN_07"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-9eca4-en-compte-ponctuels-ignores-orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-9eca4-en-compte-ponctuels-ignores-orion-pipeline"
 }

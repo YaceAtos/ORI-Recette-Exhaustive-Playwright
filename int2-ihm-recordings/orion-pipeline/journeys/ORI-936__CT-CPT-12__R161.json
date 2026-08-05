@@ -33,5 +33,5 @@
   "rules": [
     "RG_INT_CPTT_1c"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-64246-champs-de-l-ecran-principal-orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-64246-champs-de-l-ecran-principal-orion-pipeline"
 }

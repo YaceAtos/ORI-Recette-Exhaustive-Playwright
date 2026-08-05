@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-08-05T10:14:16.444Z",
+  "historyFile": "int2-ihm-knowledge/historical/dataset-history.ndjson",
+  "totalEntriesBefore": 145,
+  "totalEntriesAfter": 145,
+  "newEntriesThisRun": 0,
+  "countsByKind": {
+    "real_company": 6,
+    "int2_scraped_agency": 14,
+    "execution_audit": 113,
+    "creation_flow_profile": 12
+  },
+  "executionSuccessRate": 0,
+  "reusablePool": {
+    "realCompanies": 6,
+    "scrapedAgencies": 14
+  }
+}

@@ -33,5 +33,5 @@
   "rules": [
     "RG_BSN_QUAL_02"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-7a64b--masquage-reinitialisation--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-7a64b--masquage-reinitialisation--orion-pipeline"
 }

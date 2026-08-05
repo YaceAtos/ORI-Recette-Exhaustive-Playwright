@@ -30,5 +30,5 @@
   "rules": [
     "RG_INT_CPTT_1c"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-14bfd-s-en-attente-de-validation--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-14bfd-s-en-attente-de-validation--orion-pipeline"
 }

@@ -31,5 +31,5 @@
   "severity": "bloquant",
   "status": "blocked-flow",
   "rules": [],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-09fd7-nnels-renseigne-uniquement--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-09fd7-nnels-renseigne-uniquement--orion-pipeline"
 }

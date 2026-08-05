@@ -33,5 +33,5 @@
   "rules": [
     "RG_BSN_ABAND_RET_01"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-25ac7-re-d-abandon-bouton-Retour--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-25ac7-re-d-abandon-bouton-Retour--orion-pipeline"
 }

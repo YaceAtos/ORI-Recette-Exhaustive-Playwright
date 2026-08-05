@@ -26,5 +26,5 @@
   "rules": [
     "RG_HAB_DPRDF_004"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-99a9e-t-exclusifs-etat-par-defaut-orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-99a9e-t-exclusifs-etat-par-defaut-orion-pipeline"
 }

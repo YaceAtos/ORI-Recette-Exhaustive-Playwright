@@ -42,5 +42,5 @@
   "rules": [
     "RG_CONT_ModOrg_38_V2"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-7103b-t-jours-masque-Intervenant--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-7103b-t-jours-masque-Intervenant--orion-pipeline"
 }

@@ -36,5 +36,5 @@
   "rules": [
     "RG_INT_CPTO_1"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-bd342--Solde-actuel-Acquis---Pris-orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-bd342--Solde-actuel-Acquis---Pris-orion-pipeline"
 }

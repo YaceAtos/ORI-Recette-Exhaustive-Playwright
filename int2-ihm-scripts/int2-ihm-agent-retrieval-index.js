@@ -6,6 +6,8 @@ const graphFile = path.join(rootDir, 'int2-ihm-recordings', 'int2-autonomous', '
 const pageAgentsDir = path.join(rootDir, 'int2-ihm-recordings', 'int2-autonomous', 'page-agents');
 const knowledgeDir = path.join(rootDir, 'int2-ihm-knowledge');
 const externalLoopRepoDir = path.join(rootDir, 'external-repos', 'loop-engineering');
+const docsDir = path.join(rootDir, 'docs');
+const hybridReportFile = path.join(rootDir, 'int2-ihm-recordings', 'orion-pipeline', 'hybrid-report.json');
 const outDir = path.join(rootDir, 'int2-ihm-recordings', 'int2-autonomous');
 const outIndex = path.join(outDir, 'retrieval-index.json');
 const outCorpus = path.join(outDir, 'retrieval-corpus.ndjson');
@@ -241,6 +243,81 @@ function writeCorpus(documents) {
   fs.writeFileSync(outCorpus, `${lines.join('\n')}\n`, 'utf8');
 }
 
+function buildDocsMapDocuments() {
+  // Indexes the local functional "carte" (docs/*.md): domain tags, RG code prefixes,
+  // known pitfalls. This is NOT the full functional detail (that lives on Confluence,
+  // see buildHybridReportDocuments for the closest local substitute), but it gives
+  // domain-routing signal (which MP/domain a query concept belongs to).
+  const docs = [];
+  if (!fs.existsSync(docsDir)) return docs;
+
+  const files = fs
+    .readdirSync(docsDir)
+    .filter((f) => f.endsWith('.md') && f.toLowerCase() !== 'agents.md');
+
+  for (const fileName of files) {
+    const filePath = path.join(docsDir, fileName);
+    let content = '';
+    try {
+      content = fs.readFileSync(filePath, 'utf8');
+    } catch {
+      continue;
+    }
+
+    const rel = path.relative(rootDir, filePath);
+    const signals = markdownToSignals(`${rel}\n${content}`);
+    const tokens = tokenize(signals);
+    if (tokens.length === 0) continue;
+
+    const tf = {};
+    for (const token of tokens) tf[token] = (tf[token] || 0) + 1;
+
+    docs.push({
+      id: `docs-map::${fileName}`,
+      url: `file://${rel}`,
+      brique: 'docs-map',
+      tokenCount: tokens.length,
+      tf,
+      signalsCount: 1,
+      sourceKind: 'local-docs-map',
+      sourcePath: rel,
+    });
+  }
+  return docs;
+}
+
+function buildHybridReportDocuments() {
+  // Indexes the hybrid-report.json (Excel <-> Playwright <-> Xray traceability), one
+  // document per test case row. This is the richest LOCAL substitute for functional
+  // detail (real RG codes + scenario text extracted from the Sprint 11-12-13 Excel),
+  // usable even when live Confluence access is unavailable.
+  const hybrid = safeReadJson(hybridReportFile);
+  const rows = Array.isArray(hybrid?.rows) ? hybrid.rows : [];
+  const docs = [];
+
+  for (const row of rows) {
+    const rules = Array.isArray(row.rules) ? row.rules : [];
+    const signals = [row.issueKey, row.caseId, row.module, row.scenario, row.type, ...rules].filter(Boolean);
+    const tokens = tokenize(signals.join(' '));
+    if (tokens.length === 0) continue;
+
+    const tf = {};
+    for (const token of tokens) tf[token] = (tf[token] || 0) + 1;
+
+    docs.push({
+      id: `hybrid-report::${row.canonicalId || `${row.issueKey}::${row.caseId}`}`,
+      url: `jira://${row.issueKey}#${row.caseId}`,
+      brique: 'hybrid-report',
+      tokenCount: tokens.length,
+      tf,
+      signalsCount: signals.length,
+      sourceKind: 'local-hybrid-report',
+      meta: { issueKey: row.issueKey, caseId: row.caseId, module: row.module, rules, status: row.status },
+    });
+  }
+  return docs;
+}
+
 const graph = safeReadJson(graphFile);
 if (!graph) {
   throw new Error(`Missing or invalid graph file: ${graphFile}`);
@@ -249,7 +326,9 @@ if (!graph) {
 const extracts = collectPageExtracts();
 const routeDocuments = buildDocuments(graph, extracts);
 const knowledgeDocuments = buildKnowledgeDocuments();
-const documents = [...routeDocuments, ...knowledgeDocuments];
+const docsMapDocuments = buildDocsMapDocuments();
+const hybridReportDocuments = buildHybridReportDocuments();
+const documents = [...routeDocuments, ...knowledgeDocuments, ...docsMapDocuments, ...hybridReportDocuments];
 if (documents.length === 0) {
   throw new Error('No valid documents found to build retrieval index. Run discovery and extraction first.');
 }
@@ -262,11 +341,15 @@ const payload = {
     pageAgentsDir: path.relative(rootDir, pageAgentsDir),
     knowledgeDir: path.relative(rootDir, knowledgeDir),
     externalLoopRepoDir: path.relative(rootDir, externalLoopRepoDir),
+    docsDir: path.relative(rootDir, docsDir),
+    hybridReportFile: path.relative(rootDir, hybridReportFile),
   },
   meta: {
     documents: documents.length,
     routeDocuments: routeDocuments.length,
     knowledgeDocuments: knowledgeDocuments.length,
+    docsMapDocuments: docsMapDocuments.length,
+    hybridReportDocuments: hybridReportDocuments.length,
     vocabularySize: Object.keys(lexicon).length,
     averageTokenCount: Number((documents.reduce((a, d) => a + d.tokenCount, 0) / documents.length).toFixed(2)),
   },

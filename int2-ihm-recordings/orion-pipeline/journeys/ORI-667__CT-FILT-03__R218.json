@@ -30,5 +30,5 @@
   "rules": [
     "RG_BSN_FILT_04"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-ba27d-ve-des-criteres-logique-ET--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-ba27d-ve-des-criteres-logique-ET--orion-pipeline"
 }

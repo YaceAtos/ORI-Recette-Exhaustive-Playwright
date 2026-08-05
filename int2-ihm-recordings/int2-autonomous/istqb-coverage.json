@@ -1,0 +1,5632 @@
+{
+  "generatedAt": "2026-08-05T13:53:49.303Z",
+  "scopeWarning": "Analyse limitée aux RG déjà présentes dans hybrid-report.json (Excel Sprint 11-12-13 → Playwright). Accès Confluence live actuellement bloqué (espace Orion non autorisé) : impossible de vérifier l'exhaustivité par rapport à l'univers complet des RG définies fonctionnellement. À relancer en mode complet dès accès restauré.",
+  "totalRules": 207,
+  "totalTestCases": 252,
+  "globalAvgCompletionScore": 0.195,
+  "techniqueDistribution": {
+    "Decision Table": 88,
+    "Boundary/Equivalence": 40,
+    "Use Case / Scenario": 96,
+    "State Transition": 28
+  },
+  "singleTechniqueRuleCount": 158,
+  "lowCompletionRuleCount": 179,
+  "wellCoveredRuleCount": 0,
+  "rules": [
+    {
+      "rg": "RG_FAM_UPD_13",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-657",
+          "caseId": "CT-PIM-D-07",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA17+CA18: Perimetre marque + suppression icone/couleur -> valeurs par defaut",
+          "status": "blocked-flow",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_CREATE_07",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-1067",
+          "caseId": "CT-OPT-B-10",
+          "technique": "Decision Table",
+          "scenario": "CA17: Adaptation champ Taxe selon pack reglementaire du pays",
+          "status": "blocked-flow",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "rg": "RG_INT_NOTIF_01",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-91",
+          "caseId": "CT-NOTIF-14",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_INT_NOTIF_01 - Flag de suivi d'envoi aux autres domaines (etude)",
+          "status": "blocked-flow",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "rg": "RG_INT_CPTA_1",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-936",
+          "caseId": "CT-CPT-03",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_INT_CPTA_1 - Bouton 'Aujourd'hui' : retour a la date du jour",
+          "status": "blocked-flow",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_TRILST_02",
+      "module": "MP4",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-368",
+          "caseId": "CT-BSN-03",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_BSN_TRILST_02 / CA-A03 - Tri utilisateur par colonne (alternance croissant/decroissant)",
+          "status": "blocked-flow",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_QUAL_01",
+      "module": "MP4",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-1068",
+          "caseId": "CT-RND-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_BSN_QUAL_01 / CA-01 - Rendu dynamique du JSON en modale stepper (ouverture besoin 'A qualifier')",
+          "status": "blocked-flow",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_QUAL_07",
+      "module": "MP4",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-1068",
+          "caseId": "CT-RND-05",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_BSN_QUAL_03/07 - Validation des champs et completude d'etape",
+          "status": "blocked-flow",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_QUAL_05",
+      "module": "MP4",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-1068",
+          "caseId": "CT-RND-08",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_BSN_QUAL_05/09 / CA-05/CA-08 - Versionning : conservation de la version du JSON",
+          "status": "blocked-flow",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "rg": "RG_PLA_TLP_01",
+      "module": "MP5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-688",
+          "caseId": "CT-PTG-04",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_PLA_TLP_01 - Infobulle au survol : type des pointages par intervenant",
+          "status": "blocked-flow",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "rg": "RG_CRT_SIN_07",
+      "module": "MP5",
+      "techniqueCount": 2,
+      "techniques": [
+        "Decision Table",
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 5,
+      "avgCompletionScore": 0,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-728",
+          "caseId": "CT-DIS-01",
+          "technique": "Decision Table",
+          "scenario": "RG_CRT_SIN_07/08 / Scenario 7 - Intervenant disponible : serie et interventions creees (Pourvue)",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-728",
+          "caseId": "CT-DIS-02",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_CRT_SIN_07/09 / Scenario 17 - Intervenant indisponible pour la serie : creation bloquee + notification",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-728",
+          "caseId": "CT-DIS-06",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_CRT_SIN_07 - Perimetre de la verification serie : recurrents pris en compte, ponctuels ignores",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-750",
+          "caseId": "CT-ERR-04",
+          "technique": "Use Case / Scenario",
+          "scenario": "Scenario 17 - Intervenant indisponible pour la serie : notification d'erreur",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-750",
+          "caseId": "CT-ERR-04",
+          "technique": "Use Case / Scenario",
+          "scenario": "Scenario 17 - Intervenant indisponible pour la serie : notification d'erreur",
+          "status": "blocked-flow",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "rg": "RG_CRT_SIN_08",
+      "module": "MP5",
+      "techniqueCount": 3,
+      "techniques": [
+        "Decision Table",
+        "Use Case / Scenario",
+        "State Transition"
+      ],
+      "testCaseCount": 3,
+      "avgCompletionScore": 0,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-728",
+          "caseId": "CT-DIS-01",
+          "technique": "Decision Table",
+          "scenario": "RG_CRT_SIN_07/08 / Scenario 7 - Intervenant disponible : serie et interventions creees (Pourvue)",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-728",
+          "caseId": "CT-DIS-03",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_CRT_SIN_08 / Scenario 18 - Disponible pour la serie mais indisponible pour une occurrence (Non pourvue)",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-728",
+          "caseId": "CT-DIS-04",
+          "technique": "State Transition",
+          "scenario": "RG_CRT_SIN_08 - Exclusion des elements au statut 'Annule' du controle de disponibilite",
+          "status": "blocked-flow",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "rg": "RG_MOD_SIN_07",
+      "module": "MP5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-728",
+          "caseId": "CT-DIS-07",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_MOD_SIN_07/08 - Verification de disponibilite lors de la MODIFICATION d'une serie (miroir creation)",
+          "status": "blocked-flow",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "rg": "RG_MOD_SIN_08",
+      "module": "MP5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-728",
+          "caseId": "CT-DIS-07",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_MOD_SIN_07/08 - Verification de disponibilite lors de la MODIFICATION d'une serie (miroir creation)",
+          "status": "blocked-flow",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "rg": "RG_NOTIFCREA_02",
+      "module": "MP3",
+      "techniqueCount": 3,
+      "techniques": [
+        "Decision Table",
+        "Boundary/Equivalence",
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 4,
+      "avgCompletionScore": 0.021,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-91",
+          "caseId": "CT-NOTIF-01",
+          "technique": "Decision Table",
+          "scenario": "RG_NOTIFCREA_01/02 - Emission du message Create quand toutes les conditions sont reunies (intervenant)",
+          "status": "blocked-flow",
+          "completion": 0.083
+        },
+        {
+          "issueKey": "ORI-91",
+          "caseId": "CT-NOTIF-02",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_NOTIFCREA_02 - Non-emission si un champ obligatoire manque",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-91",
+          "caseId": "CT-NOTIF-03",
+          "technique": "Decision Table",
+          "scenario": "RG_NOTIFCREA_02 - Non-emission si aucun contrat avec date d'embauche",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-91",
+          "caseId": "CT-NOTIF-04",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_NOTIFCREA_02 - Emission differee : champ manquant complete ulterieurement",
+          "status": "blocked-flow",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_MODIF_01",
+      "module": "MP4",
+      "techniqueCount": 2,
+      "techniques": [
+        "Decision Table",
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.025,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-368",
+          "caseId": "CT-BSN-04",
+          "technique": "Decision Table",
+          "scenario": "RG_BSN_ACT_01 / CA-A04-A07/A19 - Actions disponibles selon le statut du besoin",
+          "status": "blocked-flow",
+          "completion": 0.05
+        },
+        {
+          "issueKey": "ORI-368",
+          "caseId": "CT-BSN-06",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_BSN_MODIF_01 / CA-A08-A11 - Action Modifier : chargement du formulaire de la famille",
+          "status": "blocked-flow",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "rg": "RG_STRUCT_OBLG_4_TAB",
+      "module": "MP1",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.028,
+      "minCompletionScore": 0.028,
+      "rows": [
+        {
+          "issueKey": "ORI-783",
+          "caseId": "CT-ETAB-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "Ouverture modale + pre-remplissage Aspects Juridiques",
+          "status": "blocked-flow",
+          "completion": 0.028
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_CREATE_16",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.028,
+      "minCompletionScore": 0.028,
+      "rows": [
+        {
+          "issueKey": "ORI-1067",
+          "caseId": "CT-OPT-B-09",
+          "technique": "State Transition",
+          "scenario": "CA15+CA18: Annuler creation (rien enregistre) + erreur technique (modale conservee)",
+          "status": "blocked-flow",
+          "completion": 0.028
+        }
+      ]
+    },
+    {
+      "rg": "RG_FAM_UPD_02",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.032,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-657",
+          "caseId": "CT-PIM-D-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA01+CA02: Acces formulaire modification (habilitations + pre-remplissage)",
+          "status": "blocked-flow",
+          "completion": 0.063
+        },
+        {
+          "issueKey": "ORI-657",
+          "caseId": "CT-PIM-D-07",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA17+CA18: Perimetre marque + suppression icone/couleur -> valeurs par defaut",
+          "status": "blocked-flow",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_QUAL_06",
+      "module": "MP4",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.032,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-1068",
+          "caseId": "CT-RND-06",
+          "technique": "State Transition",
+          "scenario": "RG_BSN_QUAL_06/07 / CA-04 - Enregistrement partiel (statut 'Qualification en cours')",
+          "status": "blocked-flow",
+          "completion": 0.063
+        },
+        {
+          "issueKey": "ORI-1068",
+          "caseId": "CT-RND-07",
+          "technique": "State Transition",
+          "scenario": "RG_BSN_QUAL_06/07 / CA-06 - Qualification complete (statut 'Qualifie' + fermeture + refresh)",
+          "status": "blocked-flow",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "rg": "RG_INT_CPTL_1",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.042,
+      "minCompletionScore": 0.042,
+      "rows": [
+        {
+          "issueKey": "ORI-936",
+          "caseId": "CT-CPT-09",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_INT_CPTL_1 - Colonne 'Solde previsionnel' = Acquis - Pris - conges valides futurs",
+          "status": "blocked-flow",
+          "completion": 0.042
+        }
+      ]
+    },
+    {
+      "rg": "RG_INT_CPTP_1",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.05,
+      "minCompletionScore": 0.05,
+      "rows": [
+        {
+          "issueKey": "ORI-936",
+          "caseId": "CT-CPT-07",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_INT_CPTP_1 - Colonne 'Pris' : jours pris <= date du jour, format et info-bulle",
+          "status": "blocked-flow",
+          "completion": 0.05
+        }
+      ]
+    },
+    {
+      "rg": "RG_INT_CPTO_1",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.05,
+      "minCompletionScore": 0.05,
+      "rows": [
+        {
+          "issueKey": "ORI-936",
+          "caseId": "CT-CPT-08",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_INT_CPTO_1 - Colonne 'Solde actuel' = Acquis - Pris",
+          "status": "blocked-flow",
+          "completion": 0.05
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_ACT_01",
+      "module": "MP4",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.05,
+      "minCompletionScore": 0.05,
+      "rows": [
+        {
+          "issueKey": "ORI-368",
+          "caseId": "CT-BSN-04",
+          "technique": "Decision Table",
+          "scenario": "RG_BSN_ACT_01 / CA-A04-A07/A19 - Actions disponibles selon le statut du besoin",
+          "status": "blocked-flow",
+          "completion": 0.05
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_QUAL_04",
+      "module": "MP4",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.05,
+      "minCompletionScore": 0.05,
+      "rows": [
+        {
+          "issueKey": "ORI-1068",
+          "caseId": "CT-RND-03",
+          "technique": "Decision Table",
+          "scenario": "RG_BSN_QUAL_04 / CA-02 - Navigation entre etapes (Precedent/Suivant/stepper) et indicateur de completude",
+          "status": "blocked-flow",
+          "completion": 0.05
+        }
+      ]
+    },
+    {
+      "rg": "RG_GEN_PREC_01",
+      "module": "MP4",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.05,
+      "minCompletionScore": 0.05,
+      "rows": [
+        {
+          "issueKey": "ORI-1068",
+          "caseId": "CT-RND-03",
+          "technique": "Decision Table",
+          "scenario": "RG_BSN_QUAL_04 / CA-02 - Navigation entre etapes (Precedent/Suivant/stepper) et indicateur de completude",
+          "status": "blocked-flow",
+          "completion": 0.05
+        }
+      ]
+    },
+    {
+      "rg": "RG_CTR_INT_01",
+      "module": "MP5",
+      "techniqueCount": 2,
+      "techniques": [
+        "Use Case / Scenario",
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 5,
+      "avgCompletionScore": 0.05,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-452",
+          "caseId": "CT-DUR-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_CTR_INT_01 / Scenario 1 - Duree de realisation trop longue : notification generee",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-452",
+          "caseId": "CT-DUR-02",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_CTR_INT_01 / Scenario 2 - Duree de realisation trop courte : notification generee",
+          "status": "blocked-flow",
+          "completion": 0.25
+        },
+        {
+          "issueKey": "ORI-452",
+          "caseId": "CT-DUR-03",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_CTR_INT_01 / Scenario 3 - Duree de realisation conforme : aucune notification",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-452",
+          "caseId": "CT-DUR-04",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_CTR_INT_01 - Bornes exactes du seuil (planifiee +/- seuil) : conforme (non strict)",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-452",
+          "caseId": "CT-DUR-05",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_CTR_INT_01 - Seuil differencie par famille de produits (table DMN)",
+          "status": "blocked-flow",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "rg": "RG_MOD",
+      "module": "MP5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 3,
+      "avgCompletionScore": 0.055,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-728",
+          "caseId": "CT-DIS-07",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_MOD_SIN_07/08 - Verification de disponibilite lors de la MODIFICATION d'une serie (miroir creation)",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-750",
+          "caseId": "CT-ERR-07",
+          "technique": "Use Case / Scenario",
+          "scenario": "Notification des erreurs lors de la MODIFICATION d'une serie (miroir creation)",
+          "status": "blocked-flow",
+          "completion": 0.083
+        },
+        {
+          "issueKey": "ORI-750",
+          "caseId": "CT-ERR-07",
+          "technique": "Use Case / Scenario",
+          "scenario": "Notification des erreurs lors de la MODIFICATION d'une serie (miroir creation)",
+          "status": "blocked-flow",
+          "completion": 0.083
+        }
+      ]
+    },
+    {
+      "rg": "RG_FAM_UPD_09",
+      "module": "MP2",
+      "techniqueCount": 2,
+      "techniques": [
+        "Boundary/Equivalence",
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.056,
+      "minCompletionScore": 0.042,
+      "rows": [
+        {
+          "issueKey": "ORI-657",
+          "caseId": "CT-PIM-D-04",
+          "technique": "Boundary/Equivalence",
+          "scenario": "CA09: Champs obligatoires manquants",
+          "status": "blocked-flow",
+          "completion": 0.042
+        },
+        {
+          "issueKey": "ORI-657",
+          "caseId": "CT-PIM-D-06",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA13+CA14+CA15: Duree RDV modifiable + Fermer modale + Erreur technique",
+          "status": "blocked-flow",
+          "completion": 0.071
+        }
+      ]
+    },
+    {
+      "rg": "RG_STE_ADRESS_HERIT_ETAB",
+      "module": "MP1",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.063,
+      "minCompletionScore": 0.063,
+      "rows": [
+        {
+          "issueKey": "ORI-773",
+          "caseId": "CT-STE-COORD-03",
+          "technique": "Use Case / Scenario",
+          "scenario": "Heritage adresse vers etablissements principaux (RG_STE_ADRESS_HERIT_ETAB)",
+          "status": "blocked-flow",
+          "completion": 0.063
+        }
+      ]
+    },
+    {
+      "rg": "RG_FAM_UPD_01",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.063,
+      "minCompletionScore": 0.063,
+      "rows": [
+        {
+          "issueKey": "ORI-657",
+          "caseId": "CT-PIM-D-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA01+CA02: Acces formulaire modification (habilitations + pre-remplissage)",
+          "status": "blocked-flow",
+          "completion": 0.063
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_LIST_12",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.063,
+      "minCompletionScore": 0.063,
+      "rows": [
+        {
+          "issueKey": "ORI-1065",
+          "caseId": "CT-OPT-A-06",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA09: Acces a la consultation via fleche -> drawer lecture seule",
+          "status": "blocked-flow",
+          "completion": 0.063
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_LIST_10",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.063,
+      "minCompletionScore": 0.063,
+      "rows": [
+        {
+          "issueKey": "ORI-1065",
+          "caseId": "CT-OPT-A-08",
+          "technique": "Use Case / Scenario",
+          "scenario": "Bouton Reinitialiser + pagination standards Orion",
+          "status": "blocked-flow",
+          "completion": 0.063
+        }
+      ]
+    },
+    {
+      "rg": "RG_CONT_TickResto_44",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.063,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-723",
+          "caseId": "CT-DUR-10",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_CONT_TickResto_44 - Alerte seuil tickets restaurant (seuil marque)",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-1039",
+          "caseId": "CT-DURF-10",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_CONT_TickResto_44 - Alerte seuil tickets restaurant : affichage dynamique selon seuil marque",
+          "status": "blocked-flow",
+          "completion": 0.125
+        }
+      ]
+    },
+    {
+      "rg": "RG_INT_CPTD_1",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.063,
+      "minCompletionScore": 0.063,
+      "rows": [
+        {
+          "issueKey": "ORI-936",
+          "caseId": "CT-CPT-06",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_INT_CPTD_1 - Colonne 'Acquis' : valeur, format et info-bulle",
+          "status": "blocked-flow",
+          "completion": 0.063
+        }
+      ]
+    },
+    {
+      "rg": "RG_INT_CPTV_1",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.063,
+      "minCompletionScore": 0.063,
+      "rows": [
+        {
+          "issueKey": "ORI-936",
+          "caseId": "CT-CPT-10",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_INT_CPTV_1 / CA-CPT-07 - Bouton 'Voir l'historique' (drawer par periode)",
+          "status": "blocked-flow",
+          "completion": 0.063
+        }
+      ]
+    },
+    {
+      "rg": "RG_INT_ABACHE_2",
+      "module": "MP3",
+      "techniqueCount": 2,
+      "techniques": [
+        "Use Case / Scenario",
+        "Decision Table"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.063,
+      "minCompletionScore": 0.063,
+      "rows": [
+        {
+          "issueKey": "ORI-956",
+          "caseId": "CT-ABH-09",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_INT_ABACHE_2 - Chevauchement horaire vs conge 1/2 journee (dates =) (CA E7/E8)",
+          "status": "blocked-flow",
+          "completion": 0.063
+        },
+        {
+          "issueKey": "ORI-956",
+          "caseId": "CT-ABH-10",
+          "technique": "Decision Table",
+          "scenario": "RG_INT_ABACHE_2 - Chevauchement horaire vs absence et vs conge journee (CA E9/E10)",
+          "status": "blocked-flow",
+          "completion": 0.063
+        }
+      ]
+    },
+    {
+      "rg": "RG_INT_ABSANN_1",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.063,
+      "minCompletionScore": 0.063,
+      "rows": [
+        {
+          "issueKey": "ORI-1356",
+          "caseId": "CT-VIS-05",
+          "technique": "State Transition",
+          "scenario": "RG_INT_ABSANN_1 - Annulation d'une absence -> statut 'Annule' et bascule vers l'onglet Cloturés",
+          "status": "blocked-flow",
+          "completion": 0.063
+        }
+      ]
+    },
+    {
+      "rg": "RG_PLA_RAF_01",
+      "module": "MP5",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.063,
+      "minCompletionScore": 0.063,
+      "rows": [
+        {
+          "issueKey": "ORI-688",
+          "caseId": "CT-PTG-06",
+          "technique": "State Transition",
+          "scenario": "Mise a jour de l'etat des pointages a la reception/forcage d'un pointage",
+          "status": "blocked-flow",
+          "completion": 0.063
+        }
+      ]
+    },
+    {
+      "rg": "RG_CRT_SIN_01",
+      "module": "MP5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.063,
+      "minCompletionScore": 0.063,
+      "rows": [
+        {
+          "issueKey": "ORI-750",
+          "caseId": "CT-ERR-01",
+          "technique": "Decision Table",
+          "scenario": "RG_CRT_SIN_01 / Scenarios 11-12 - Message non conforme (champ manquant ou incoherence) : notification d'erreur",
+          "status": "blocked-flow",
+          "completion": 0.063
+        },
+        {
+          "issueKey": "ORI-750",
+          "caseId": "CT-ERR-01",
+          "technique": "Decision Table",
+          "scenario": "RG_CRT_SIN_01 / Scenarios 11-12 - Message non conforme (champ manquant ou incoherence) : notification d'erreur",
+          "status": "blocked-flow",
+          "completion": 0.063
+        }
+      ]
+    },
+    {
+      "rg": "RG_PAP_NAV_02",
+      "module": "MP6",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.063,
+      "minCompletionScore": 0.063,
+      "rows": [
+        {
+          "issueKey": "ORI-790",
+          "caseId": "CT-AF-02",
+          "technique": "Decision Table",
+          "scenario": "RG_PAP_NAV_02 / CA_PAP_NAV_02/03 - Fil d'Ariane et retour a la liste",
+          "status": "blocked-flow",
+          "completion": 0.063
+        }
+      ]
+    },
+    {
+      "rg": "RG_PAP_NAV_03",
+      "module": "MP6",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.063,
+      "minCompletionScore": 0.063,
+      "rows": [
+        {
+          "issueKey": "ORI-790",
+          "caseId": "CT-AF-06",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_PAP_NAV_03 / CA_PAP_NAV_04 - Validation de la sous-page : sauvegarde, badge 'Personnalise' et retour liste",
+          "status": "blocked-flow",
+          "completion": 0.063
+        }
+      ]
+    },
+    {
+      "rg": "RG_PAP_BAD_PER_01",
+      "module": "MP6",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.063,
+      "minCompletionScore": 0.063,
+      "rows": [
+        {
+          "issueKey": "ORI-790",
+          "caseId": "CT-AF-06",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_PAP_NAV_03 / CA_PAP_NAV_04 - Validation de la sous-page : sauvegarde, badge 'Personnalise' et retour liste",
+          "status": "blocked-flow",
+          "completion": 0.063
+        }
+      ]
+    },
+    {
+      "rg": "RG_PAP_NAV_04",
+      "module": "MP6",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.063,
+      "minCompletionScore": 0.063,
+      "rows": [
+        {
+          "issueKey": "ORI-790",
+          "caseId": "CT-AF-07",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_PAP_NAV_04 / CA_PAP_NAV_05/06 - Sortie sans validation apres modifications : modale de confirmation",
+          "status": "blocked-flow",
+          "completion": 0.063
+        }
+      ]
+    },
+    {
+      "rg": "RG_GEN_ENR_01",
+      "module": "MP1",
+      "techniqueCount": 4,
+      "techniques": [
+        "Decision Table",
+        "Boundary/Equivalence",
+        "Use Case / Scenario",
+        "State Transition"
+      ],
+      "testCaseCount": 4,
+      "avgCompletionScore": 0.064,
+      "minCompletionScore": 0.028,
+      "rows": [
+        {
+          "issueKey": "ORI-773",
+          "caseId": "CT-STE-COORD-01",
+          "technique": "Decision Table",
+          "scenario": "Ouverture modale et pre-remplissage des champs",
+          "status": "blocked-flow",
+          "completion": 0.028
+        },
+        {
+          "issueKey": "ORI-773",
+          "caseId": "CT-STE-COORD-02",
+          "technique": "Boundary/Equivalence",
+          "scenario": "Modification et enregistrement nominal",
+          "status": "blocked-flow",
+          "completion": 0.107
+        },
+        {
+          "issueKey": "ORI-783",
+          "caseId": "CT-ETAB-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "Ouverture modale + pre-remplissage Aspects Juridiques",
+          "status": "blocked-flow",
+          "completion": 0.028
+        },
+        {
+          "issueKey": "ORI-783",
+          "caseId": "CT-ETAB-02",
+          "technique": "State Transition",
+          "scenario": "Modification et enregistrement nominal (etab INACTIF)",
+          "status": "blocked-flow",
+          "completion": 0.094
+        }
+      ]
+    },
+    {
+      "rg": "RG_ETAB_Modif",
+      "module": "MP1",
+      "techniqueCount": 2,
+      "techniques": [
+        "State Transition",
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.065,
+      "minCompletionScore": 0.036,
+      "rows": [
+        {
+          "issueKey": "ORI-783",
+          "caseId": "CT-ETAB-02",
+          "technique": "State Transition",
+          "scenario": "Modification et enregistrement nominal (etab INACTIF)",
+          "status": "blocked-flow",
+          "completion": 0.094
+        },
+        {
+          "issueKey": "ORI-783",
+          "caseId": "CT-ETAB-04",
+          "technique": "Boundary/Equivalence",
+          "scenario": "Champs obligatoires NULL sur etab ACTIF (RG_ETAB_Modif)",
+          "status": "blocked-flow",
+          "completion": 0.036
+        }
+      ]
+    },
+    {
+      "rg": "RG_FAM_UPD_11",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.071,
+      "minCompletionScore": 0.071,
+      "rows": [
+        {
+          "issueKey": "ORI-657",
+          "caseId": "CT-PIM-D-06",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA13+CA14+CA15: Duree RDV modifiable + Fermer modale + Erreur technique",
+          "status": "blocked-flow",
+          "completion": 0.071
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_CREATE_03",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.071,
+      "minCompletionScore": 0.071,
+      "rows": [
+        {
+          "issueKey": "ORI-1067",
+          "caseId": "CT-OPT-B-03",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA05: Doublon de code bloque (message exact)",
+          "status": "blocked-flow",
+          "completion": 0.071
+        }
+      ]
+    },
+    {
+      "rg": "RG_INT_ABSVAL_1",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.073,
+      "minCompletionScore": 0.063,
+      "rows": [
+        {
+          "issueKey": "ORI-1356",
+          "caseId": "CT-VIS-03",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_INT_ABSVAL_1 - Validation reussie d'une absence 'A valider' (justificatif non requis ou present)",
+          "status": "blocked-flow",
+          "completion": 0.063
+        },
+        {
+          "issueKey": "ORI-1356",
+          "caseId": "CT-VIS-04",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_INT_ABSVAL_1 - Validation bloquee si justificatif obligatoire absent",
+          "status": "blocked-flow",
+          "completion": 0.083
+        }
+      ]
+    },
+    {
+      "rg": "RG_GEN_CROIX_01",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.073,
+      "minCompletionScore": 0.063,
+      "rows": [
+        {
+          "issueKey": "ORI-1356",
+          "caseId": "CT-VIS-08",
+          "technique": "Use Case / Scenario",
+          "scenario": "Fermeture de l'ecran de visualisation (bouton FERMER / croix)",
+          "status": "blocked-flow",
+          "completion": 0.083
+        },
+        {
+          "issueKey": "ORI-1068",
+          "caseId": "CT-RND-09",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA-07 - Fermeture de la modale sans enregistrement (dialogue de confirmation)",
+          "status": "blocked-flow",
+          "completion": 0.063
+        }
+      ]
+    },
+    {
+      "rg": "RG_STE_Modif",
+      "module": "MP1",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.074,
+      "minCompletionScore": 0.042,
+      "rows": [
+        {
+          "issueKey": "ORI-773",
+          "caseId": "CT-STE-COORD-02",
+          "technique": "Boundary/Equivalence",
+          "scenario": "Modification et enregistrement nominal",
+          "status": "blocked-flow",
+          "completion": 0.107
+        },
+        {
+          "issueKey": "ORI-773",
+          "caseId": "CT-STE-COORD-04",
+          "technique": "Boundary/Equivalence",
+          "scenario": "Controles champs obligatoires NULL sur societe Active (RG_STE_Modif)",
+          "status": "blocked-flow",
+          "completion": 0.042
+        }
+      ]
+    },
+    {
+      "rg": "RG_STE_ETATFICHE_01",
+      "module": "MP1",
+      "techniqueCount": 2,
+      "techniques": [
+        "Decision Table",
+        "State Transition"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.076,
+      "minCompletionScore": 0.028,
+      "rows": [
+        {
+          "issueKey": "ORI-773",
+          "caseId": "CT-STE-COORD-01",
+          "technique": "Decision Table",
+          "scenario": "Ouverture modale et pre-remplissage des champs",
+          "status": "blocked-flow",
+          "completion": 0.028
+        },
+        {
+          "issueKey": "ORI-773",
+          "caseId": "CT-STE-COORD-07",
+          "technique": "State Transition",
+          "scenario": "Calcul etat de la fiche apres modification (RG_STE_ETATFICHE_01)",
+          "status": "blocked-flow",
+          "completion": 0.125
+        }
+      ]
+    },
+    {
+      "rg": "RG_FAM_UPD_10",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.083,
+      "minCompletionScore": 0.083,
+      "rows": [
+        {
+          "issueKey": "ORI-657",
+          "caseId": "CT-PIM-D-02",
+          "technique": "Decision Table",
+          "scenario": "CA03+CA04+CA16: Modification nom et code avec succes + normalisation code",
+          "status": "blocked-flow",
+          "completion": 0.083
+        }
+      ]
+    },
+    {
+      "rg": "RG_NOTIFCREA_01",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.083,
+      "minCompletionScore": 0.083,
+      "rows": [
+        {
+          "issueKey": "ORI-91",
+          "caseId": "CT-NOTIF-01",
+          "technique": "Decision Table",
+          "scenario": "RG_NOTIFCREA_01/02 - Emission du message Create quand toutes les conditions sont reunies (intervenant)",
+          "status": "blocked-flow",
+          "completion": 0.083
+        }
+      ]
+    },
+    {
+      "rg": "RG_CRT_SIN_09",
+      "module": "MP5",
+      "techniqueCount": 2,
+      "techniques": [
+        "Use Case / Scenario",
+        "Decision Table"
+      ],
+      "testCaseCount": 3,
+      "avgCompletionScore": 0.083,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-728",
+          "caseId": "CT-DIS-02",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_CRT_SIN_07/09 / Scenario 17 - Intervenant indisponible pour la serie : creation bloquee + notification",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-750",
+          "caseId": "CT-ERR-06",
+          "technique": "Decision Table",
+          "scenario": "RG_CRT_SIN_09 - Contenu de la notification creee et attributs issus de la DMN",
+          "status": "blocked-flow",
+          "completion": 0.125
+        },
+        {
+          "issueKey": "ORI-750",
+          "caseId": "CT-ERR-06",
+          "technique": "Decision Table",
+          "scenario": "RG_CRT_SIN_09 - Contenu de la notification creee et attributs issus de la DMN",
+          "status": "blocked-flow",
+          "completion": 0.125
+        }
+      ]
+    },
+    {
+      "rg": "RG_ETAB_ETATFICHE_01",
+      "module": "MP1",
+      "techniqueCount": 2,
+      "techniques": [
+        "Use Case / Scenario",
+        "State Transition"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.085,
+      "minCompletionScore": 0.028,
+      "rows": [
+        {
+          "issueKey": "ORI-783",
+          "caseId": "CT-ETAB-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "Ouverture modale + pre-remplissage Aspects Juridiques",
+          "status": "blocked-flow",
+          "completion": 0.028
+        },
+        {
+          "issueKey": "ORI-783",
+          "caseId": "CT-ETAB-08",
+          "technique": "State Transition",
+          "scenario": "Bouton Suivant + Calcul etat fiche (RG_ETAB_ETATFICHE_01)",
+          "status": "blocked-flow",
+          "completion": 0.143
+        }
+      ]
+    },
+    {
+      "rg": "RG_ETAB_SIRET_03",
+      "module": "MP1",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.094,
+      "minCompletionScore": 0.094,
+      "rows": [
+        {
+          "issueKey": "ORI-783",
+          "caseId": "CT-ETAB-02",
+          "technique": "State Transition",
+          "scenario": "Modification et enregistrement nominal (etab INACTIF)",
+          "status": "blocked-flow",
+          "completion": 0.094
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_CREATE_01",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.094,
+      "minCompletionScore": 0.094,
+      "rows": [
+        {
+          "issueKey": "ORI-1067",
+          "caseId": "CT-OPT-B-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA01+CA02: Acces formulaire creation (habilitations + pre-remplissage defauts)",
+          "status": "blocked-flow",
+          "completion": 0.094
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_CREATE_02",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.094,
+      "minCompletionScore": 0.094,
+      "rows": [
+        {
+          "issueKey": "ORI-1067",
+          "caseId": "CT-OPT-B-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA01+CA02: Acces formulaire creation (habilitations + pre-remplissage defauts)",
+          "status": "blocked-flow",
+          "completion": 0.094
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_CREATE_14",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.094,
+      "minCompletionScore": 0.094,
+      "rows": [
+        {
+          "issueKey": "ORI-1067",
+          "caseId": "CT-OPT-B-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA01+CA02: Acces formulaire creation (habilitations + pre-remplissage defauts)",
+          "status": "blocked-flow",
+          "completion": 0.094
+        }
+      ]
+    },
+    {
+      "rg": "RG_GEN_SUIV_01",
+      "module": "MP1",
+      "techniqueCount": 3,
+      "techniques": [
+        "Decision Table",
+        "Use Case / Scenario",
+        "State Transition"
+      ],
+      "testCaseCount": 4,
+      "avgCompletionScore": 0.1,
+      "minCompletionScore": 0.028,
+      "rows": [
+        {
+          "issueKey": "ORI-773",
+          "caseId": "CT-STE-COORD-01",
+          "technique": "Decision Table",
+          "scenario": "Ouverture modale et pre-remplissage des champs",
+          "status": "blocked-flow",
+          "completion": 0.028
+        },
+        {
+          "issueKey": "ORI-773",
+          "caseId": "CT-STE-COORD-06",
+          "technique": "Use Case / Scenario",
+          "scenario": "Bouton Suivant: navigation multi-etapes sans enregistrement",
+          "status": "blocked-flow",
+          "completion": 0.2
+        },
+        {
+          "issueKey": "ORI-783",
+          "caseId": "CT-ETAB-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "Ouverture modale + pre-remplissage Aspects Juridiques",
+          "status": "blocked-flow",
+          "completion": 0.028
+        },
+        {
+          "issueKey": "ORI-783",
+          "caseId": "CT-ETAB-08",
+          "technique": "State Transition",
+          "scenario": "Bouton Suivant + Calcul etat fiche (RG_ETAB_ETATFICHE_01)",
+          "status": "blocked-flow",
+          "completion": 0.143
+        }
+      ]
+    },
+    {
+      "rg": "RG_CONT_Compl_40",
+      "module": "MP3",
+      "techniqueCount": 2,
+      "techniques": [
+        "Decision Table",
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.1,
+      "minCompletionScore": 0.1,
+      "rows": [
+        {
+          "issueKey": "ORI-723",
+          "caseId": "CT-DUR-08",
+          "technique": "Decision Table",
+          "scenario": "RG_CONT_Compl_40 - Plafond heures complementaires (calcul et visibilite conditionnelle)",
+          "status": "blocked-flow",
+          "completion": 0.1
+        },
+        {
+          "issueKey": "ORI-1039",
+          "caseId": "CT-DURF-08",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_CONT_Compl_40 - Affichage du plafond heures complementaires (lecture seule, conditionnel)",
+          "status": "blocked-flow",
+          "completion": 0.1
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_LIST_11",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.101,
+      "minCompletionScore": 0.063,
+      "rows": [
+        {
+          "issueKey": "ORI-1065",
+          "caseId": "CT-OPT-A-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA01+CA02: Affichage liste - avec habilitations (actives+inactives) vs sans habilitations (actives seules)",
+          "status": "blocked-flow",
+          "completion": 0.139
+        },
+        {
+          "issueKey": "ORI-1065",
+          "caseId": "CT-OPT-A-08",
+          "technique": "Use Case / Scenario",
+          "scenario": "Bouton Reinitialiser + pagination standards Orion",
+          "status": "blocked-flow",
+          "completion": 0.063
+        }
+      ]
+    },
+    {
+      "rg": "RG_INT_ABACHE_1",
+      "module": "MP3",
+      "techniqueCount": 2,
+      "techniques": [
+        "Use Case / Scenario",
+        "Decision Table"
+      ],
+      "testCaseCount": 3,
+      "avgCompletionScore": 0.105,
+      "minCompletionScore": 0.083,
+      "rows": [
+        {
+          "issueKey": "ORI-956",
+          "caseId": "CT-ABH-06",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_INT_ABACHE_1 - Chevauchement avec conges existants (dates <>) (CA E1)",
+          "status": "blocked-flow",
+          "completion": 0.083
+        },
+        {
+          "issueKey": "ORI-956",
+          "caseId": "CT-ABH-07",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_INT_ABACHE_1 - Chevauchement avec absence existante (dates <>) (CA E2)",
+          "status": "blocked-flow",
+          "completion": 0.083
+        },
+        {
+          "issueKey": "ORI-956",
+          "caseId": "CT-ABH-08",
+          "technique": "Decision Table",
+          "scenario": "RG_INT_ABACHE_1 - Cas passants : periodes disjointes et exclusivite Non / statut Annule (CA E3-E6)",
+          "status": "blocked-flow",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_FAM_UPD_03",
+      "module": "MP2",
+      "techniqueCount": 2,
+      "techniques": [
+        "Decision Table",
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.106,
+      "minCompletionScore": 0.083,
+      "rows": [
+        {
+          "issueKey": "ORI-657",
+          "caseId": "CT-PIM-D-02",
+          "technique": "Decision Table",
+          "scenario": "CA03+CA04+CA16: Modification nom et code avec succes + normalisation code",
+          "status": "blocked-flow",
+          "completion": 0.083
+        },
+        {
+          "issueKey": "ORI-657",
+          "caseId": "CT-PIM-D-03",
+          "technique": "Boundary/Equivalence",
+          "scenario": "CA05 a CA08: Controles format code + unicite code/nom (frontend + backend)",
+          "status": "blocked-flow",
+          "completion": 0.128
+        }
+      ]
+    },
+    {
+      "rg": "RG_FAM_UPD_04",
+      "module": "MP2",
+      "techniqueCount": 2,
+      "techniques": [
+        "Decision Table",
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.106,
+      "minCompletionScore": 0.083,
+      "rows": [
+        {
+          "issueKey": "ORI-657",
+          "caseId": "CT-PIM-D-02",
+          "technique": "Decision Table",
+          "scenario": "CA03+CA04+CA16: Modification nom et code avec succes + normalisation code",
+          "status": "blocked-flow",
+          "completion": 0.083
+        },
+        {
+          "issueKey": "ORI-657",
+          "caseId": "CT-PIM-D-03",
+          "technique": "Boundary/Equivalence",
+          "scenario": "CA05 a CA08: Controles format code + unicite code/nom (frontend + backend)",
+          "status": "blocked-flow",
+          "completion": 0.128
+        }
+      ]
+    },
+    {
+      "rg": "RG_FAM_UPD_05",
+      "module": "MP2",
+      "techniqueCount": 2,
+      "techniques": [
+        "Decision Table",
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.106,
+      "minCompletionScore": 0.083,
+      "rows": [
+        {
+          "issueKey": "ORI-657",
+          "caseId": "CT-PIM-D-02",
+          "technique": "Decision Table",
+          "scenario": "CA03+CA04+CA16: Modification nom et code avec succes + normalisation code",
+          "status": "blocked-flow",
+          "completion": 0.083
+        },
+        {
+          "issueKey": "ORI-657",
+          "caseId": "CT-PIM-D-03",
+          "technique": "Boundary/Equivalence",
+          "scenario": "CA05 a CA08: Controles format code + unicite code/nom (frontend + backend)",
+          "status": "blocked-flow",
+          "completion": 0.128
+        }
+      ]
+    },
+    {
+      "rg": "RG_CONT_Temps_15",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.109,
+      "minCompletionScore": 0.05,
+      "rows": [
+        {
+          "issueKey": "ORI-723",
+          "caseId": "CT-DUR-03",
+          "technique": "Decision Table",
+          "scenario": "RG_CONT_Temps_15 - Nature du temps (plein/partiel) et effets conditionnels",
+          "status": "blocked-flow",
+          "completion": 0.167
+        },
+        {
+          "issueKey": "ORI-1039",
+          "caseId": "CT-DURF-03",
+          "technique": "Decision Table",
+          "scenario": "RG_CONT_Temps_15 - Radio Temps plein/partiel : selection UI et effets d'affichage conditionnel",
+          "status": "blocked-flow",
+          "completion": 0.05
+        }
+      ]
+    },
+    {
+      "rg": "RG_CONT_DerogTP_39",
+      "module": "MP3",
+      "techniqueCount": 2,
+      "techniques": [
+        "Boundary/Equivalence",
+        "Decision Table"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.113,
+      "minCompletionScore": 0.1,
+      "rows": [
+        {
+          "issueKey": "ORI-723",
+          "caseId": "CT-DUR-07",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_CONT_DerogTP_39 - Derogation temps partiel < 24h (obligatoire et bloquante)",
+          "status": "blocked-flow",
+          "completion": 0.125
+        },
+        {
+          "issueKey": "ORI-1039",
+          "caseId": "CT-DURF-07",
+          "technique": "Decision Table",
+          "scenario": "RG_CONT_DerogTP_39 - Liste derogation < 24h : apparition conditionnelle et message bloquant",
+          "status": "blocked-flow",
+          "completion": 0.1
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_CREATE_12",
+      "module": "MP2",
+      "techniqueCount": 2,
+      "techniques": [
+        "Use Case / Scenario",
+        "State Transition"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.117,
+      "minCompletionScore": 0.094,
+      "rows": [
+        {
+          "issueKey": "ORI-1067",
+          "caseId": "CT-OPT-B-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA01+CA02: Acces formulaire creation (habilitations + pre-remplissage defauts)",
+          "status": "blocked-flow",
+          "completion": 0.094
+        },
+        {
+          "issueKey": "ORI-1067",
+          "caseId": "CT-OPT-B-02",
+          "technique": "State Transition",
+          "scenario": "CA03+CA04: Creation option avec succes (statut Actif + statut Inactif)",
+          "status": "blocked-flow",
+          "completion": 0.139
+        }
+      ]
+    },
+    {
+      "rg": "RG_ETAB_TYPE_01",
+      "module": "MP1",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.125,
+      "minCompletionScore": 0.125,
+      "rows": [
+        {
+          "issueKey": "ORI-783",
+          "caseId": "CT-ETAB-06",
+          "technique": "Decision Table",
+          "scenario": "Changement type Principal + protection si deja un principal (RG_ETAB_CHG_PRINCIPAL)",
+          "status": "blocked-flow",
+          "completion": 0.125
+        }
+      ]
+    },
+    {
+      "rg": "RG_ETAB_CHG_PRINCIPAL",
+      "module": "MP1",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.125,
+      "minCompletionScore": 0.125,
+      "rows": [
+        {
+          "issueKey": "ORI-783",
+          "caseId": "CT-ETAB-06",
+          "technique": "Decision Table",
+          "scenario": "Changement type Principal + protection si deja un principal (RG_ETAB_CHG_PRINCIPAL)",
+          "status": "blocked-flow",
+          "completion": 0.125
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_LIST_09",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.125,
+      "minCompletionScore": 0.125,
+      "rows": [
+        {
+          "issueKey": "ORI-1065",
+          "caseId": "CT-OPT-A-05",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA08: Conservation des filtres lors de la navigation vers fiche puis retour",
+          "status": "blocked-flow",
+          "completion": 0.125
+        }
+      ]
+    },
+    {
+      "rg": "RG_CONT_Mutuelle_42",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.125,
+      "minCompletionScore": 0.125,
+      "rows": [
+        {
+          "issueKey": "ORI-723",
+          "caseId": "CT-DUR-09",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_CONT_Mutuelle_42 - Alerte seuil mutuelle (< 65h/mois)",
+          "status": "blocked-flow",
+          "completion": 0.125
+        },
+        {
+          "issueKey": "ORI-1039",
+          "caseId": "CT-DURF-09",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_CONT_Mutuelle_42 - Alerte seuil mutuelle : affichage/masquage dynamique du message",
+          "status": "blocked-flow",
+          "completion": 0.125
+        }
+      ]
+    },
+    {
+      "rg": "RG_INT_CPTB_1",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.125,
+      "minCompletionScore": 0.125,
+      "rows": [
+        {
+          "issueKey": "ORI-936",
+          "caseId": "CT-CPT-11",
+          "technique": "Decision Table",
+          "scenario": "RG_INT_CPTB_1 / CA-CPT-05/06 - Bouton MODIFIER selon habilitation",
+          "status": "blocked-flow",
+          "completion": 0.125
+        }
+      ]
+    },
+    {
+      "rg": "RG_INT_ABAHCT_1",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 4,
+      "avgCompletionScore": 0.125,
+      "minCompletionScore": 0.125,
+      "rows": [
+        {
+          "issueKey": "ORI-956",
+          "caseId": "CT-ABH-02",
+          "technique": "Decision Table",
+          "scenario": "RG_INT_ABAHCT_1 cas 1 - Dates differentes : heures grisees et remises a blanc (CA D11/D12)",
+          "status": "blocked-flow",
+          "completion": 0.125
+        },
+        {
+          "issueKey": "ORI-956",
+          "caseId": "CT-ABH-03",
+          "technique": "Decision Table",
+          "scenario": "RG_INT_ABAHCT_1 cas 2a - Heure debut sans heure fin (CA D13)",
+          "status": "blocked-flow",
+          "completion": 0.125
+        },
+        {
+          "issueKey": "ORI-956",
+          "caseId": "CT-ABH-04",
+          "technique": "Decision Table",
+          "scenario": "RG_INT_ABAHCT_1 cas 2b - Heure fin sans heure debut (CA D14)",
+          "status": "blocked-flow",
+          "completion": 0.125
+        },
+        {
+          "issueKey": "ORI-956",
+          "caseId": "CT-ABH-05",
+          "technique": "Decision Table",
+          "scenario": "RG_INT_ABAHCT_1 cas 2c - Heure debut >= heure fin (CA D15)",
+          "status": "blocked-flow",
+          "completion": 0.125
+        }
+      ]
+    },
+    {
+      "rg": "RG_CTR_INT_02",
+      "module": "MP5",
+      "techniqueCount": 2,
+      "techniques": [
+        "Use Case / Scenario",
+        "Decision Table"
+      ],
+      "testCaseCount": 3,
+      "avgCompletionScore": 0.125,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-452",
+          "caseId": "CT-DUR-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_CTR_INT_01 / Scenario 1 - Duree de realisation trop longue : notification generee",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-452",
+          "caseId": "CT-DUR-02",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_CTR_INT_01 / Scenario 2 - Duree de realisation trop courte : notification generee",
+          "status": "blocked-flow",
+          "completion": 0.25
+        },
+        {
+          "issueKey": "ORI-452",
+          "caseId": "CT-DUR-06",
+          "technique": "Decision Table",
+          "scenario": "RG_CTR_INT_02 - Contenu et attributs de la notification creee (DMN criteres + statut)",
+          "status": "blocked-flow",
+          "completion": 0.125
+        }
+      ]
+    },
+    {
+      "rg": "RG_PAP_TYP_01",
+      "module": "MP6",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.125,
+      "minCompletionScore": 0.125,
+      "rows": [
+        {
+          "issueKey": "ORI-790",
+          "caseId": "CT-AF-05",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_PAP_TYP_01/VOL_01/PLAF_01 - Typologies d'heures, volume alloue et plafond",
+          "status": "blocked-flow",
+          "completion": 0.125
+        }
+      ]
+    },
+    {
+      "rg": "RG_PAP_VOL_01",
+      "module": "MP6",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.125,
+      "minCompletionScore": 0.125,
+      "rows": [
+        {
+          "issueKey": "ORI-790",
+          "caseId": "CT-AF-05",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_PAP_TYP_01/VOL_01/PLAF_01 - Typologies d'heures, volume alloue et plafond",
+          "status": "blocked-flow",
+          "completion": 0.125
+        }
+      ]
+    },
+    {
+      "rg": "RG_PAP_PLAF_01",
+      "module": "MP6",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.125,
+      "minCompletionScore": 0.125,
+      "rows": [
+        {
+          "issueKey": "ORI-790",
+          "caseId": "CT-AF-05",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_PAP_TYP_01/VOL_01/PLAF_01 - Typologies d'heures, volume alloue et plafond",
+          "status": "blocked-flow",
+          "completion": 0.125
+        }
+      ]
+    },
+    {
+      "rg": "RG_FAM_UPD_12",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.128,
+      "minCompletionScore": 0.128,
+      "rows": [
+        {
+          "issueKey": "ORI-657",
+          "caseId": "CT-PIM-D-03",
+          "technique": "Boundary/Equivalence",
+          "scenario": "CA05 a CA08: Controles format code + unicite code/nom (frontend + backend)",
+          "status": "blocked-flow",
+          "completion": 0.128
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_LIST_02",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.139,
+      "minCompletionScore": 0.139,
+      "rows": [
+        {
+          "issueKey": "ORI-1065",
+          "caseId": "CT-OPT-A-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA01+CA02: Affichage liste - avec habilitations (actives+inactives) vs sans habilitations (actives seules)",
+          "status": "blocked-flow",
+          "completion": 0.139
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_LIST_03",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.139,
+      "minCompletionScore": 0.139,
+      "rows": [
+        {
+          "issueKey": "ORI-1065",
+          "caseId": "CT-OPT-A-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA01+CA02: Affichage liste - avec habilitations (actives+inactives) vs sans habilitations (actives seules)",
+          "status": "blocked-flow",
+          "completion": 0.139
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_LIST_04",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.139,
+      "minCompletionScore": 0.139,
+      "rows": [
+        {
+          "issueKey": "ORI-1065",
+          "caseId": "CT-OPT-A-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA01+CA02: Affichage liste - avec habilitations (actives+inactives) vs sans habilitations (actives seules)",
+          "status": "blocked-flow",
+          "completion": 0.139
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_LIST_07",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.139,
+      "minCompletionScore": 0.139,
+      "rows": [
+        {
+          "issueKey": "ORI-1065",
+          "caseId": "CT-OPT-A-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA01+CA02: Affichage liste - avec habilitations (actives+inactives) vs sans habilitations (actives seules)",
+          "status": "blocked-flow",
+          "completion": 0.139
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_CREATE_13",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.139,
+      "minCompletionScore": 0.139,
+      "rows": [
+        {
+          "issueKey": "ORI-1067",
+          "caseId": "CT-OPT-B-02",
+          "technique": "State Transition",
+          "scenario": "CA03+CA04: Creation option avec succes (statut Actif + statut Inactif)",
+          "status": "blocked-flow",
+          "completion": 0.139
+        }
+      ]
+    },
+    {
+      "rg": "RG_NOTIFMOD_01",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.146,
+      "minCompletionScore": 0.146,
+      "rows": [
+        {
+          "issueKey": "ORI-91",
+          "caseId": "CT-NOTIF-05",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_NOTIFMOD_01 - Emission du message Update lors d'une modification",
+          "status": "blocked-flow",
+          "completion": 0.146
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_ABAND_MOTIF_01",
+      "module": "MP4",
+      "techniqueCount": 2,
+      "techniques": [
+        "Use Case / Scenario",
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.146,
+      "minCompletionScore": 0.125,
+      "rows": [
+        {
+          "issueKey": "ORI-995",
+          "caseId": "CT-ABD-02",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_BSN_ABAND_MOTIF_01 / CA-01 - Abandon avec un motif standard (different de 'Autre')",
+          "status": "blocked-flow",
+          "completion": 0.125
+        },
+        {
+          "issueKey": "ORI-995",
+          "caseId": "CT-ABD-04",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_BSN_ABAND_MOTIF_01 - Motif d'abandon obligatoire (blocage si absent)",
+          "status": "blocked-flow",
+          "completion": 0.167
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRME_010",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 3,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-871",
+          "caseId": "CT-HAB-F5-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC1: Premiere modification - compteur apparait a 1",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-871",
+          "caseId": "CT-HAB-F5-05",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC5: Compteur +2 - auto-elevation droit maitre (passage Lecture seule)",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-871",
+          "caseId": "CT-HAB-F5-06",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC6: Compteur +2 - auto-elevation droit maitre (passage Lecture/Ecriture)",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRME_011",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-871",
+          "caseId": "CT-HAB-F5-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC1: Premiere modification - compteur apparait a 1",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRME_012",
+      "module": "SP1.5",
+      "techniqueCount": 2,
+      "techniques": [
+        "Use Case / Scenario",
+        "State Transition"
+      ],
+      "testCaseCount": 4,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-871",
+          "caseId": "CT-HAB-F5-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC1: Premiere modification - compteur apparait a 1",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-871",
+          "caseId": "CT-HAB-F5-02",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC2: Incrementation compteur - modification droit fin",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-871",
+          "caseId": "CT-HAB-F5-03",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC3: Incrementation compteur - modification droit special",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-871",
+          "caseId": "CT-HAB-F5-04",
+          "technique": "State Transition",
+          "scenario": "SC4: Decrementation compteur - retour a l etat initial",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRME_013",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 4,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-871",
+          "caseId": "CT-HAB-F5-03",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC3: Incrementation compteur - modification droit special",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-871",
+          "caseId": "CT-HAB-F5-05",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC5: Compteur +2 - auto-elevation droit maitre (passage Lecture seule)",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-871",
+          "caseId": "CT-HAB-F5-06",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC6: Compteur +2 - auto-elevation droit maitre (passage Lecture/Ecriture)",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-871",
+          "caseId": "CT-HAB-F5-07",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC7: Droit special - pas d impact sur le droit maitre",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRME_014",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-871",
+          "caseId": "CT-HAB-F5-08",
+          "technique": "State Transition",
+          "scenario": "SC8: Compteur = ecart par rapport a etat initial (pas cumul d actions)",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPREN_001",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-872",
+          "caseId": "CT-HAB-F1-01",
+          "technique": "Decision Table",
+          "scenario": "SC1+SC2: Affichage bloc en-tete en Lecture/Ecriture (sans et avec profil inclus)",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPREN_002",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-872",
+          "caseId": "CT-HAB-F1-01",
+          "technique": "Decision Table",
+          "scenario": "SC1+SC2: Affichage bloc en-tete en Lecture/Ecriture (sans et avec profil inclus)",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPREN_003",
+      "module": "SP1.5",
+      "techniqueCount": 2,
+      "techniques": [
+        "Decision Table",
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 3,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-872",
+          "caseId": "CT-HAB-F1-01",
+          "technique": "Decision Table",
+          "scenario": "SC1+SC2: Affichage bloc en-tete en Lecture/Ecriture (sans et avec profil inclus)",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-872",
+          "caseId": "CT-HAB-F1-02",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC3+SC4: Affichage bloc en-tete en Lecture seule (boutons absents)",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-872",
+          "caseId": "CT-HAB-F1-03",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC5: Clic bouton Modifier -> ouverture modale modification profil",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPREN_004",
+      "module": "SP1.5",
+      "techniqueCount": 2,
+      "techniques": [
+        "Decision Table",
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 5,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-872",
+          "caseId": "CT-HAB-F1-01",
+          "technique": "Decision Table",
+          "scenario": "SC1+SC2: Affichage bloc en-tete en Lecture/Ecriture (sans et avec profil inclus)",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-872",
+          "caseId": "CT-HAB-F1-02",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC3+SC4: Affichage bloc en-tete en Lecture seule (boutons absents)",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-872",
+          "caseId": "CT-HAB-F1-04",
+          "technique": "Decision Table",
+          "scenario": "SC6: Supprimer profil utilise (inclus dans autre ou affecte a un utilisateur) -> Action impossible",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-872",
+          "caseId": "CT-HAB-F1-05",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC7: Supprimer profil non utilise - Annulation (pas de suppression)",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-872",
+          "caseId": "CT-HAB-F1-06",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC8: Supprimer profil non utilise - Suppression confirmee (Keycloak + snackbar)",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_GEN_SUPP_01",
+      "module": "SP1.5",
+      "techniqueCount": 2,
+      "techniques": [
+        "Decision Table",
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-872",
+          "caseId": "CT-HAB-F1-04",
+          "technique": "Decision Table",
+          "scenario": "SC6: Supprimer profil utilise (inclus dans autre ou affecte a un utilisateur) -> Action impossible",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-872",
+          "caseId": "CT-HAB-F1-05",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC7: Supprimer profil non utilise - Annulation (pas de suppression)",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRCU_001",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-873",
+          "caseId": "CT-HAB-F2-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC1+SC2: Affichage bloc Attributions des droits + ordre des categories",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRCU_002",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-873",
+          "caseId": "CT-HAB-F2-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC1+SC2: Affichage bloc Attributions des droits + ordre des categories",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRCU_003",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-873",
+          "caseId": "CT-HAB-F2-02",
+          "technique": "Decision Table",
+          "scenario": "SC3+SC4: Cas d usage SANS filtre niveau 2 (non depliable, selection directe)",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-873",
+          "caseId": "CT-HAB-F2-03",
+          "technique": "Decision Table",
+          "scenario": "SC5+SC6+SC7: Cas d usage AVEC filtres niveau 2 (depliable, parent non selectionnable)",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRCU_004",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-873",
+          "caseId": "CT-HAB-F2-04",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC8: Selection par defaut a l ouverture - premier CU sans filtre niveau 2",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-873",
+          "caseId": "CT-HAB-F2-05",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC9: Selection par defaut a l ouverture - premier CU avec filtres niveau 2 (deploye auto)",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRCU_005",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-873",
+          "caseId": "CT-HAB-F2-06",
+          "technique": "Decision Table",
+          "scenario": "SC10: Ascenseur lateral si nombre de cas d usage important",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRDF_001",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-931",
+          "caseId": "CT-HAB-F3-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC1+SC2: En-tete matrice des droits + tableau 5 colonnes avec tooltips",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRDF_002",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-931",
+          "caseId": "CT-HAB-F3-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC1+SC2: En-tete matrice des droits + tableau 5 colonnes avec tooltips",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRDF_003",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-931",
+          "caseId": "CT-HAB-F3-02",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC3+SC4+SC5: Liste droits fins, droit maitre en premier, tag profil inclus",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRDF_004",
+      "module": "SP1.5",
+      "techniqueCount": 2,
+      "techniques": [
+        "State Transition",
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 3,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-931",
+          "caseId": "CT-HAB-F3-03",
+          "technique": "State Transition",
+          "scenario": "SC6: Autorisations radio boutons mutuellement exclusifs + etat par defaut",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-931",
+          "caseId": "CT-HAB-F3-05",
+          "technique": "Boundary/Equivalence",
+          "scenario": "SC11+SC12: Blocage du droit maitre selon autorisations des non-maitres",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-931",
+          "caseId": "CT-HAB-F3-06",
+          "technique": "Boundary/Equivalence",
+          "scenario": "SC13: Droit maitre non herite, Statut non renseigne malgre blocage",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRDF_005",
+      "module": "SP1.5",
+      "techniqueCount": 2,
+      "techniques": [
+        "Decision Table",
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-931",
+          "caseId": "CT-HAB-F3-04",
+          "technique": "Decision Table",
+          "scenario": "SC7+SC8+SC9+SC10: Colonne Statut - 4 cas (Elevation possible, Eleve, Verrouille, Non renseigne)",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-931",
+          "caseId": "CT-HAB-F3-06",
+          "technique": "Boundary/Equivalence",
+          "scenario": "SC13: Droit maitre non herite, Statut non renseigne malgre blocage",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRDS_001",
+      "module": "SP1.5",
+      "techniqueCount": 2,
+      "techniques": [
+        "State Transition",
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-933",
+          "caseId": "CT-HAB-F4-01",
+          "technique": "State Transition",
+          "scenario": "SC1+SC2: Affichage tableau droits speciaux (4 colonnes + tooltips + Statut profil inclus)",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-933",
+          "caseId": "CT-HAB-F4-06",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC8: Aucun droit special attache au CU => tableau non affiche",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRDS_004",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 3,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-933",
+          "caseId": "CT-HAB-F4-01",
+          "technique": "State Transition",
+          "scenario": "SC1+SC2: Affichage tableau droits speciaux (4 colonnes + tooltips + Statut profil inclus)",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-933",
+          "caseId": "CT-HAB-F4-04",
+          "technique": "State Transition",
+          "scenario": "SC6: Statut Verrouille - droit special herite Accorde (non retirable)",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-933",
+          "caseId": "CT-HAB-F4-05",
+          "technique": "State Transition",
+          "scenario": "SC7: Statut non renseigne - droit special Non accorde sur profil inclus",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRDS_002",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-933",
+          "caseId": "CT-HAB-F4-02",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC3+SC4: Liste droits speciaux (nom, tooltip, ordre, tag profil inclus)",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRDS_003",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-933",
+          "caseId": "CT-HAB-F4-03",
+          "technique": "State Transition",
+          "scenario": "SC5: Autorisations radio boutons (2 colonnes) + etat defaut Non accorde",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRME_001",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1036",
+          "caseId": "CT-HAB-F6-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC1: Utilisateur SANS droit acces -> menu invisible",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRME_002",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1036",
+          "caseId": "CT-HAB-F6-02",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC2: Droit LECTURE SEULE -> sticky bar absente, matrice non modifiable",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_EDIT_DROITS_01",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1036",
+          "caseId": "CT-HAB-F6-02",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC2: Droit LECTURE SEULE -> sticky bar absente, matrice non modifiable",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRME_003",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1036",
+          "caseId": "CT-HAB-F6-03",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC3+SC4: Droit L/E -> sticky bar presente, activation mode edition",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRME_004",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1036",
+          "caseId": "CT-HAB-F6-03",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC3+SC4: Droit L/E -> sticky bar presente, activation mode edition",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_EDIT_INIT_01",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1036",
+          "caseId": "CT-HAB-F6-03",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC3+SC4: Droit L/E -> sticky bar presente, activation mode edition",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_EDIT_ACTIV_01",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1036",
+          "caseId": "CT-HAB-F6-03",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC3+SC4: Droit L/E -> sticky bar presente, activation mode edition",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_EDIT_VISUEL_01",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1036",
+          "caseId": "CT-HAB-F6-03",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC3+SC4: Droit L/E -> sticky bar presente, activation mode edition",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_EDIT_TRACK_01",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1036",
+          "caseId": "CT-HAB-F6-03",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC3+SC4: Droit L/E -> sticky bar presente, activation mode edition",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRME_005",
+      "module": "SP1.5",
+      "techniqueCount": 2,
+      "techniques": [
+        "Decision Table",
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1036",
+          "caseId": "CT-HAB-F6-04",
+          "technique": "Decision Table",
+          "scenario": "SC6 a SC9: Annulation - confirm dialog si modifs, pas de dialog si 0 modif",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-1036",
+          "caseId": "CT-HAB-F6-05",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC10+SC11+SC12: Navigation hors ecran avec modifications non enregistrees",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_EDIT_ANNULER_01",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1036",
+          "caseId": "CT-HAB-F6-04",
+          "technique": "Decision Table",
+          "scenario": "SC6 a SC9: Annulation - confirm dialog si modifs, pas de dialog si 0 modif",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_EDIT_NAV_01",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1036",
+          "caseId": "CT-HAB-F6-05",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC10+SC11+SC12: Navigation hors ecran avec modifications non enregistrees",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRME_006",
+      "module": "SP1.5",
+      "techniqueCount": 3,
+      "techniques": [
+        "Boundary/Equivalence",
+        "Decision Table",
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 3,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1036",
+          "caseId": "CT-HAB-F6-06",
+          "technique": "Boundary/Equivalence",
+          "scenario": "SC13 a SC17: Drawer verification - affichage + suppression modif + blocage maitre",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-1036",
+          "caseId": "CT-HAB-F6-07",
+          "technique": "Decision Table",
+          "scenario": "SC18: Bouton Verifier et enregistrer inactif si compteur = 0",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-1036",
+          "caseId": "CT-HAB-F6-08",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC19+SC20: Confirmation enregistrement (succes Keycloak + erreur technique)",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_EDIT_DRAWER_01",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1036",
+          "caseId": "CT-HAB-F6-06",
+          "technique": "Boundary/Equivalence",
+          "scenario": "SC13 a SC17: Drawer verification - affichage + suppression modif + blocage maitre",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRDF_020",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1308",
+          "caseId": "CT-HAB-F7-01",
+          "technique": "State Transition",
+          "scenario": "SC1+SC2: Droit fin non herite - transitions Non accorde <-> Lecture seule",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRDF_021",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1308",
+          "caseId": "CT-HAB-F7-01",
+          "technique": "State Transition",
+          "scenario": "SC1+SC2: Droit fin non herite - transitions Non accorde <-> Lecture seule",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRME_016",
+      "module": "SP1.5",
+      "techniqueCount": 2,
+      "techniques": [
+        "State Transition",
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 3,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1308",
+          "caseId": "CT-HAB-F7-01",
+          "technique": "State Transition",
+          "scenario": "SC1+SC2: Droit fin non herite - transitions Non accorde <-> Lecture seule",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-1308",
+          "caseId": "CT-HAB-F7-06",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC10+SC11: Enregistrement global Keycloak + aucune modif = pas d enregistrement",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-1308",
+          "caseId": "CT-HAB-F7-08",
+          "technique": "Use Case / Scenario",
+          "scenario": "Verification droits effectifs apres reconnexion utilisateur porteur",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRDF_022",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1308",
+          "caseId": "CT-HAB-F7-02",
+          "technique": "State Transition",
+          "scenario": "SC3+SC4: Droit fin non herite - transitions Non accorde <-> Lecture/Ecriture",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRDF_023",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1308",
+          "caseId": "CT-HAB-F7-02",
+          "technique": "State Transition",
+          "scenario": "SC3+SC4: Droit fin non herite - transitions Non accorde <-> Lecture/Ecriture",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRDF_024",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1308",
+          "caseId": "CT-HAB-F7-03",
+          "technique": "State Transition",
+          "scenario": "SC5+SC6: Droit fin non herite - transitions Lecture seule <-> Lecture/Ecriture",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRDF_025",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1308",
+          "caseId": "CT-HAB-F7-03",
+          "technique": "State Transition",
+          "scenario": "SC5+SC6: Droit fin non herite - transitions Lecture seule <-> Lecture/Ecriture",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRDF_027",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1308",
+          "caseId": "CT-HAB-F7-04",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC7: Droit fin HERITE - elevation Lecture seule a Lecture/Ecriture (2 autorisations)",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRDF_026",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1308",
+          "caseId": "CT-HAB-F7-04",
+          "technique": "Use Case / Scenario",
+          "scenario": "SC7: Droit fin HERITE - elevation Lecture seule a Lecture/Ecriture (2 autorisations)",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRDS_010",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1308",
+          "caseId": "CT-HAB-F7-05",
+          "technique": "State Transition",
+          "scenario": "SC8+SC9: Droits speciaux - transitions Non accorde <-> Accorde",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRDS_011",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1308",
+          "caseId": "CT-HAB-F7-05",
+          "technique": "State Transition",
+          "scenario": "SC8+SC9: Droits speciaux - transitions Non accorde <-> Accorde",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_HAB_DPRME_017",
+      "module": "SP1.5",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1308",
+          "caseId": "CT-HAB-F7-07",
+          "technique": "Decision Table",
+          "scenario": "SC12+SC13: Cascade vers profils enfants - deduplication et conservation elevation",
+          "status": "blocked-data",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_CREATE_10",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1067",
+          "caseId": "CT-OPT-B-08",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA14: Famille associee filtree (racines actives marque uniquement)",
+          "status": "blocked-flow",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_CREATE_11",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1067",
+          "caseId": "CT-OPT-B-08",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA14: Famille associee filtree (racines actives marque uniquement)",
+          "status": "blocked-flow",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_QUAL_02",
+      "module": "MP4",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.15,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-1068",
+          "caseId": "CT-RND-04",
+          "technique": "Decision Table",
+          "scenario": "RG_BSN_QUAL_02 / CA-03 - Champs conditionnels (affichage/masquage + reinitialisation)",
+          "status": "blocked-flow",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_FAM_UPD_06",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.167,
+      "minCompletionScore": 0.167,
+      "rows": [
+        {
+          "issueKey": "ORI-657",
+          "caseId": "CT-PIM-D-05",
+          "technique": "Decision Table",
+          "scenario": "CA10+CA11+CA12: Desactivation bloquee si dependances + reactivation immediate",
+          "status": "blocked-flow",
+          "completion": 0.167
+        }
+      ]
+    },
+    {
+      "rg": "RG_FAM_UPD_07",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.167,
+      "minCompletionScore": 0.167,
+      "rows": [
+        {
+          "issueKey": "ORI-657",
+          "caseId": "CT-PIM-D-05",
+          "technique": "Decision Table",
+          "scenario": "CA10+CA11+CA12: Desactivation bloquee si dependances + reactivation immediate",
+          "status": "blocked-flow",
+          "completion": 0.167
+        }
+      ]
+    },
+    {
+      "rg": "RG_FAM_UPD_08",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.167,
+      "minCompletionScore": 0.167,
+      "rows": [
+        {
+          "issueKey": "ORI-657",
+          "caseId": "CT-PIM-D-05",
+          "technique": "Decision Table",
+          "scenario": "CA10+CA11+CA12: Desactivation bloquee si dependances + reactivation immediate",
+          "status": "blocked-flow",
+          "completion": 0.167
+        }
+      ]
+    },
+    {
+      "rg": "RG_CONT_TauxP_16",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.169,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-723",
+          "caseId": "CT-DUR-04",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_CONT_TauxP_16 - Calcul automatique du taux temps plein (%)",
+          "status": "blocked-flow",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-1039",
+          "caseId": "CT-DURF-04",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_CONT_TauxP_16 - Affichage temps reel du taux temps plein (%) (lecture seule UI)",
+          "status": "blocked-flow",
+          "completion": 0.188
+        }
+      ]
+    },
+    {
+      "rg": "RG_CONT_Hmens_14",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.175,
+      "minCompletionScore": 0.15,
+      "rows": [
+        {
+          "issueKey": "ORI-723",
+          "caseId": "CT-DUR-02",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_CONT_Hmens_14 - Calcul automatique des heures mensuelles (lecture seule)",
+          "status": "blocked-flow",
+          "completion": 0.2
+        },
+        {
+          "issueKey": "ORI-1039",
+          "caseId": "CT-DURF-02",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_CONT_Hmens_14 - Affichage temps reel des heures mensuelles (champ lecture seule UI)",
+          "status": "blocked-flow",
+          "completion": 0.15
+        }
+      ]
+    },
+    {
+      "rg": "RG_CONT_ModOrg_38_V2",
+      "module": "MP3",
+      "techniqueCount": 2,
+      "techniques": [
+        "Use Case / Scenario",
+        "Decision Table"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.183,
+      "minCompletionScore": 0.167,
+      "rows": [
+        {
+          "issueKey": "ORI-723",
+          "caseId": "CT-DUR-05",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_CONT_ModOrg_38_V2 - Mode d'organisation du temps de travail (Forfait jours masque Intervenant)",
+          "status": "blocked-flow",
+          "completion": 0.167
+        },
+        {
+          "issueKey": "ORI-1039",
+          "caseId": "CT-DURF-05",
+          "technique": "Decision Table",
+          "scenario": "RG_CONT_ModOrg_38_V2 - Liste deroulante mode d'organisation (Forfait jours masque, affichage conditionnel)",
+          "status": "blocked-flow",
+          "completion": 0.2
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_LIST_15",
+      "module": "MP2",
+      "techniqueCount": 2,
+      "techniques": [
+        "State Transition",
+        "Decision Table"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.186,
+      "minCompletionScore": 0.083,
+      "rows": [
+        {
+          "issueKey": "ORI-1065",
+          "caseId": "CT-OPT-A-03",
+          "technique": "State Transition",
+          "scenario": "CA04+CA05+CA06: Filtres Statut (Actif/Inactif) + Marche + Taxe",
+          "status": "blocked-flow",
+          "completion": 0.29
+        },
+        {
+          "issueKey": "ORI-1065",
+          "caseId": "CT-OPT-A-07",
+          "technique": "Decision Table",
+          "scenario": "CA10: Adaptation reglementaire par pays - colonne/filtre Taxe selon pack reglementaire",
+          "status": "blocked-flow",
+          "completion": 0.083
+        }
+      ]
+    },
+    {
+      "rg": "RG_INT_CPTS_1",
+      "module": "MP3",
+      "techniqueCount": 2,
+      "techniques": [
+        "Use Case / Scenario",
+        "Decision Table"
+      ],
+      "testCaseCount": 4,
+      "avgCompletionScore": 0.188,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-936",
+          "caseId": "CT-CPT-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_INT_CPTS_1 - Affichage par defaut de l'ecran a la date du jour",
+          "status": "assertion-low",
+          "completion": 0.5
+        },
+        {
+          "issueKey": "ORI-936",
+          "caseId": "CT-CPT-02",
+          "technique": "Decision Table",
+          "scenario": "RG_INT_CPTS_1 - Changement de date 'Soldes au' : recalcul et filtrage des compteurs",
+          "status": "blocked-flow",
+          "completion": 0.2
+        },
+        {
+          "issueKey": "ORI-936",
+          "caseId": "CT-CPT-03",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_INT_CPTA_1 - Bouton 'Aujourd'hui' : retour a la date du jour",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-936",
+          "caseId": "CT-CPT-13",
+          "technique": "Use Case / Scenario",
+          "scenario": "Coherence globale : changement de date -> recalcul de toutes les colonnes",
+          "status": "blocked-flow",
+          "completion": 0.05
+        }
+      ]
+    },
+    {
+      "rg": "RG_INT_ABADUR_1",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.188,
+      "minCompletionScore": 0.188,
+      "rows": [
+        {
+          "issueKey": "ORI-956",
+          "caseId": "CT-ABH-15",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_INT_ABADUR_1 - Controle du nombre de jours max (dates <>) (CA F9-F11)",
+          "status": "blocked-flow",
+          "completion": 0.188
+        }
+      ]
+    },
+    {
+      "rg": "RG_INT_VISUTEL_1",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.188,
+      "minCompletionScore": 0.188,
+      "rows": [
+        {
+          "issueKey": "ORI-1356",
+          "caseId": "CT-VIS-02",
+          "technique": "Decision Table",
+          "scenario": "RG_INT_VISUTEL_1 - Affichage et telechargement des documents justificatifs",
+          "status": "blocked-flow",
+          "completion": 0.188
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_FILT_01",
+      "module": "MP4",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.188,
+      "minCompletionScore": 0.188,
+      "rows": [
+        {
+          "issueKey": "ORI-667",
+          "caseId": "CT-FILT-01",
+          "technique": "Decision Table",
+          "scenario": "RG_BSN_FILT_01 / CA-B01-B03 - Champ 'Rechercher un besoin' : criteres couverts et insensibilite casse/accents",
+          "status": "blocked-flow",
+          "completion": 0.188
+        }
+      ]
+    },
+    {
+      "rg": "RG_PLAI_BAI_01",
+      "module": "MP5",
+      "techniqueCount": 2,
+      "techniques": [
+        "Decision Table",
+        "State Transition"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.188,
+      "minCompletionScore": 0.063,
+      "rows": [
+        {
+          "issueKey": "ORI-688",
+          "caseId": "CT-PTG-03",
+          "technique": "Decision Table",
+          "scenario": "RG_PLAI_BAI_01 - Priorite des pointages : force > declare > planifie (icone et horodate)",
+          "status": "blocked-flow",
+          "completion": 0.313
+        },
+        {
+          "issueKey": "ORI-688",
+          "caseId": "CT-PTG-06",
+          "technique": "State Transition",
+          "scenario": "Mise a jour de l'etat des pointages a la reception/forcage d'un pointage",
+          "status": "blocked-flow",
+          "completion": 0.063
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_ABAND_COMM_01",
+      "module": "MP4",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.2,
+      "minCompletionScore": 0.2,
+      "rows": [
+        {
+          "issueKey": "ORI-995",
+          "caseId": "CT-ABD-03",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_BSN_ABAND_COMM_01 / CA-02 - Motif 'Autre' : champ Commentaire affiche et obligatoire",
+          "status": "blocked-flow",
+          "completion": 0.2
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_ABAND_RET_01",
+      "module": "MP4",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.208,
+      "minCompletionScore": 0.208,
+      "rows": [
+        {
+          "issueKey": "ORI-995",
+          "caseId": "CT-ABD-05",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_BSN_ABAND_RET_01 / CA-03 - Annulation de la procedure d'abandon (bouton Retour)",
+          "status": "blocked-flow",
+          "completion": 0.208
+        }
+      ]
+    },
+    {
+      "rg": "RG_STE_SIREN_01",
+      "module": "MP1",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.214,
+      "minCompletionScore": 0.214,
+      "rows": [
+        {
+          "issueKey": "ORI-773",
+          "caseId": "CT-STE-COORD-05",
+          "technique": "Boundary/Equivalence",
+          "scenario": "Controle SIREN: unicite + cle de Luhn + lien API SIRENE",
+          "status": "blocked-flow",
+          "completion": 0.214
+        }
+      ]
+    },
+    {
+      "rg": "RG_STE_SIREN_02",
+      "module": "MP1",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.214,
+      "minCompletionScore": 0.214,
+      "rows": [
+        {
+          "issueKey": "ORI-773",
+          "caseId": "CT-STE-COORD-05",
+          "technique": "Boundary/Equivalence",
+          "scenario": "Controle SIREN: unicite + cle de Luhn + lien API SIRENE",
+          "status": "blocked-flow",
+          "completion": 0.214
+        }
+      ]
+    },
+    {
+      "rg": "RG_STE_SIREN_VIDE",
+      "module": "MP1",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.214,
+      "minCompletionScore": 0.214,
+      "rows": [
+        {
+          "issueKey": "ORI-773",
+          "caseId": "CT-STE-COORD-05",
+          "technique": "Boundary/Equivalence",
+          "scenario": "Controle SIREN: unicite + cle de Luhn + lien API SIRENE",
+          "status": "blocked-flow",
+          "completion": 0.214
+        }
+      ]
+    },
+    {
+      "rg": "RG_STE_SIREN_03",
+      "module": "MP1",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.214,
+      "minCompletionScore": 0.214,
+      "rows": [
+        {
+          "issueKey": "ORI-773",
+          "caseId": "CT-STE-COORD-05",
+          "technique": "Boundary/Equivalence",
+          "scenario": "Controle SIREN: unicite + cle de Luhn + lien API SIRENE",
+          "status": "blocked-flow",
+          "completion": 0.214
+        }
+      ]
+    },
+    {
+      "rg": "RG_ETAB_SIRET_01",
+      "module": "MP1",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.214,
+      "minCompletionScore": 0.214,
+      "rows": [
+        {
+          "issueKey": "ORI-783",
+          "caseId": "CT-ETAB-03",
+          "technique": "Boundary/Equivalence",
+          "scenario": "Controle SIRET: unicite + lien Completer via SIRET",
+          "status": "blocked-flow",
+          "completion": 0.214
+        }
+      ]
+    },
+    {
+      "rg": "RG_ETAB_SIRET_02",
+      "module": "MP1",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.214,
+      "minCompletionScore": 0.214,
+      "rows": [
+        {
+          "issueKey": "ORI-783",
+          "caseId": "CT-ETAB-03",
+          "technique": "Boundary/Equivalence",
+          "scenario": "Controle SIRET: unicite + lien Completer via SIRET",
+          "status": "blocked-flow",
+          "completion": 0.214
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_LIST_05",
+      "module": "MP2",
+      "techniqueCount": 2,
+      "techniques": [
+        "Use Case / Scenario",
+        "State Transition"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.214,
+      "minCompletionScore": 0.139,
+      "rows": [
+        {
+          "issueKey": "ORI-1065",
+          "caseId": "CT-OPT-A-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA01+CA02: Affichage liste - avec habilitations (actives+inactives) vs sans habilitations (actives seules)",
+          "status": "blocked-flow",
+          "completion": 0.139
+        },
+        {
+          "issueKey": "ORI-1065",
+          "caseId": "CT-OPT-A-03",
+          "technique": "State Transition",
+          "scenario": "CA04+CA05+CA06: Filtres Statut (Actif/Inactif) + Marche + Taxe",
+          "status": "blocked-flow",
+          "completion": 0.29
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_LIST_06",
+      "module": "MP2",
+      "techniqueCount": 2,
+      "techniques": [
+        "Use Case / Scenario",
+        "State Transition"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.214,
+      "minCompletionScore": 0.139,
+      "rows": [
+        {
+          "issueKey": "ORI-1065",
+          "caseId": "CT-OPT-A-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA01+CA02: Affichage liste - avec habilitations (actives+inactives) vs sans habilitations (actives seules)",
+          "status": "blocked-flow",
+          "completion": 0.139
+        },
+        {
+          "issueKey": "ORI-1065",
+          "caseId": "CT-OPT-A-03",
+          "technique": "State Transition",
+          "scenario": "CA04+CA05+CA06: Filtres Statut (Actif/Inactif) + Marche + Taxe",
+          "status": "blocked-flow",
+          "completion": 0.29
+        }
+      ]
+    },
+    {
+      "rg": "RG_INT_ABACAD_1",
+      "module": "MP3",
+      "techniqueCount": 3,
+      "techniques": [
+        "Decision Table",
+        "Use Case / Scenario",
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 5,
+      "avgCompletionScore": 0.224,
+      "minCompletionScore": 0.1,
+      "rows": [
+        {
+          "issueKey": "ORI-956",
+          "caseId": "CT-ABH-11",
+          "technique": "Decision Table",
+          "scenario": "RG_INT_ABACAD_1 (A) - Calcul et affichage de la duree en jours (modes de decompte) (CA F1-F4)",
+          "status": "blocked-flow",
+          "completion": 0.1
+        },
+        {
+          "issueKey": "ORI-956",
+          "caseId": "CT-ABH-12",
+          "technique": "Decision Table",
+          "scenario": "RG_INT_ABACAD_1 (A) - Droit local Alsace-Moselle et priorite des concepts (CA F5)",
+          "status": "blocked-flow",
+          "completion": 0.167
+        },
+        {
+          "issueKey": "ORI-956",
+          "caseId": "CT-ABH-13",
+          "technique": "Decision Table",
+          "scenario": "RG_INT_ABACAD_1 (B) - Calcul et affichage de la duree en heures (dates =) (CA F6-F8)",
+          "status": "assertion-low",
+          "completion": 0.5
+        },
+        {
+          "issueKey": "ORI-956",
+          "caseId": "CT-ABH-14",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_INT_ABACAD_1 (C) - Duree = 0 : message bloquant",
+          "status": "blocked-flow",
+          "completion": 0.167
+        },
+        {
+          "issueKey": "ORI-956",
+          "caseId": "CT-ABH-15",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_INT_ABADUR_1 - Controle du nombre de jours max (dates <>) (CA F9-F11)",
+          "status": "blocked-flow",
+          "completion": 0.188
+        }
+      ]
+    },
+    {
+      "rg": "(RG non identifiée)",
+      "module": "MP1",
+      "techniqueCount": 4,
+      "techniques": [
+        "Boundary/Equivalence",
+        "Use Case / Scenario",
+        "Decision Table",
+        "State Transition"
+      ],
+      "testCaseCount": 42,
+      "avgCompletionScore": 0.225,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-773",
+          "caseId": "CT-STE-COORD-08",
+          "technique": "Boundary/Equivalence",
+          "scenario": "Controles de format: longueur max, email, telephone",
+          "status": "blocked-flow",
+          "completion": 0.179
+        },
+        {
+          "issueKey": "ORI-783",
+          "caseId": "CT-ETAB-09",
+          "technique": "Boundary/Equivalence",
+          "scenario": "Controles format: longueur max, dates, alphanumeriques",
+          "status": "blocked-flow",
+          "completion": 0.167
+        },
+        {
+          "issueKey": "ORI-872",
+          "caseId": "CT-HAB-F1-07",
+          "technique": "Use Case / Scenario",
+          "scenario": "Navigation fil d Ariane + retour liste",
+          "status": "blocked-data",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-723",
+          "caseId": "CT-DUR-11",
+          "technique": "Decision Table",
+          "scenario": "Coherence des dependances entre champs (propagation des recalculs)",
+          "status": "blocked-flow",
+          "completion": 0.063
+        },
+        {
+          "issueKey": "ORI-723",
+          "caseId": "CT-DUR-12",
+          "technique": "Decision Table",
+          "scenario": "Persistance BACK et mise a disposition des modules aval",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-1039",
+          "caseId": "CT-DURF-11",
+          "technique": "Decision Table",
+          "scenario": "Conformite maquette Figma et enchainement des affichages conditionnels (UI globale)",
+          "status": "blocked-flow",
+          "completion": 0.063
+        },
+        {
+          "issueKey": "ORI-1039",
+          "caseId": "CT-DURF-12",
+          "technique": "Decision Table",
+          "scenario": "Accessibilite et etats des champs (focus, tab, aria, etats desactives)",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-91",
+          "caseId": "CT-NOTIF-06",
+          "technique": "Decision Table",
+          "scenario": "RG_NOTIFCREA_01/MOD_01 - Inclusion conditionnelle des blocs optionnels (renseigne uniquement)",
+          "status": "blocked-flow",
+          "completion": 0.05
+        },
+        {
+          "issueKey": "ORI-91",
+          "caseId": "CT-NOTIF-07",
+          "technique": "Use Case / Scenario",
+          "scenario": "Bloc Competences reserve aux intervenants (absent pour operationnel agence)",
+          "status": "blocked-flow",
+          "completion": 0.125
+        },
+        {
+          "issueKey": "ORI-91",
+          "caseId": "CT-NOTIF-08",
+          "technique": "Use Case / Scenario",
+          "scenario": "Cardinalite : un seul message ficheCollaborateur par collaborateur (multi-societe)",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-91",
+          "caseId": "CT-NOTIF-09",
+          "technique": "Decision Table",
+          "scenario": "Correlation idCollaborateur entre ficheCollaborateur et contrat",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-91",
+          "caseId": "CT-NOTIF-10",
+          "technique": "Use Case / Scenario",
+          "scenario": "Contenu attendu par le consommateur MP5 Planning",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-91",
+          "caseId": "CT-NOTIF-11",
+          "technique": "Decision Table",
+          "scenario": "Contenu attendu par Pleiade + decoupage NIR (7 segments) et IBAN (9 segments)",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-91",
+          "caseId": "CT-NOTIF-12",
+          "technique": "Use Case / Scenario",
+          "scenario": "Transcodification des identifiants Orion vers valeurs Pleiade",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-91",
+          "caseId": "CT-NOTIF-13",
+          "technique": "Decision Table",
+          "scenario": "Cas RGPD : purge puis reembauche -> nouvel idCollaborateur et flux Create",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-956",
+          "caseId": "CT-ABH-01",
+          "technique": "Decision Table",
+          "scenario": "RG_INT_ABAHED/ABAHEF_1 - Visibilite des champs heure selon 'Heures possibles'",
+          "status": "assertion-low",
+          "completion": 0.5
+        },
+        {
+          "issueKey": "ORI-956",
+          "caseId": "CT-ABH-16",
+          "technique": "Decision Table",
+          "scenario": "Reutilisation des RG sur les ecrans Modification et Visualisation d'une absence",
+          "status": "blocked-flow",
+          "completion": 0.35
+        },
+        {
+          "issueKey": "ORI-1356",
+          "caseId": "CT-VIS-01",
+          "technique": "Boundary/Equivalence",
+          "scenario": "Affichage en lecture seule de l'ecran Visualiser une absence (aucun controle, aucun calcul)",
+          "status": "assertion-low",
+          "completion": 0.5
+        },
+        {
+          "issueKey": "ORI-745",
+          "caseId": "CT-UX-01",
+          "technique": "Decision Table",
+          "scenario": "Icone 'Valide' (task_alt) sur Vue generale RDV Commercial + Drawer et Fiche client/prospect",
+          "status": "assertion-low",
+          "completion": 0.5
+        },
+        {
+          "issueKey": "ORI-745",
+          "caseId": "CT-UX-02",
+          "technique": "Decision Table",
+          "scenario": "Icones 'Agence' (Storefront) et 'Duree' sur la Vue generale RDV Commercial",
+          "status": "assertion-low",
+          "completion": 0.5
+        },
+        {
+          "issueKey": "ORI-745",
+          "caseId": "CT-UX-03",
+          "technique": "Decision Table",
+          "scenario": "Icone 'Identite' (contact_page) sur Modification et Creation prospect/lead",
+          "status": "passed",
+          "completion": 1
+        },
+        {
+          "issueKey": "ORI-745",
+          "caseId": "CT-UX-04",
+          "technique": "Decision Table",
+          "scenario": "Icones 'Telephone/contact' (phone) et 'Service/Produit' (extension)",
+          "status": "passed",
+          "completion": 1
+        },
+        {
+          "issueKey": "ORI-745",
+          "caseId": "CT-UX-05",
+          "technique": "State Transition",
+          "scenario": "Distinction Tag (statut) vs Alerte (completude/anomalie)",
+          "status": "assertion-low",
+          "completion": 0.5
+        },
+        {
+          "issueKey": "ORI-745",
+          "caseId": "CT-UX-06",
+          "technique": "Decision Table",
+          "scenario": "Multi-elements : affichage compact et expansion au clic (listes Clients prospect et Entites juridiques)",
+          "status": "blocked-flow",
+          "completion": 0.15
+        },
+        {
+          "issueKey": "ORI-745",
+          "caseId": "CT-UX-07",
+          "technique": "Decision Table",
+          "scenario": "Conformite maquette et coherence transverse des icones remplaces",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-745",
+          "caseId": "CT-UX-08",
+          "technique": "Use Case / Scenario",
+          "scenario": "Non-regression fonctionnelle des elements dont l'icone/tag a change",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-769",
+          "caseId": "CT-LOC-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "Affichage de la localisation (carte + adresse + pin) dans le drawer d'un RDV avec adresse",
+          "status": "passed",
+          "completion": 0.95
+        },
+        {
+          "issueKey": "ORI-769",
+          "caseId": "CT-LOC-02",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RDV sans adresse renseignee : etat vide de la zone localisation",
+          "status": "assertion-low",
+          "completion": 0.5
+        },
+        {
+          "issueKey": "ORI-769",
+          "caseId": "CT-LOC-03",
+          "technique": "Use Case / Scenario",
+          "scenario": "Source de l'adresse affichee : RDV a domicile vs RDV en agence",
+          "status": "assertion-low",
+          "completion": 0.5
+        },
+        {
+          "issueKey": "ORI-769",
+          "caseId": "CT-LOC-04",
+          "technique": "Use Case / Scenario",
+          "scenario": "Robustesse : echec de chargement de la carte (GEOWS/reseau KO) - mode degrade",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-769",
+          "caseId": "CT-LOC-05",
+          "technique": "Use Case / Scenario",
+          "scenario": "Adresse non geocodable : affichage texte sans pin precis",
+          "status": "assertion-low",
+          "completion": 0.5
+        },
+        {
+          "issueKey": "ORI-769",
+          "caseId": "CT-LOC-06",
+          "technique": "Decision Table",
+          "scenario": "Interaction sur la carte / bouton itineraire (si present)",
+          "status": "blocked-flow",
+          "completion": 0.083
+        },
+        {
+          "issueKey": "ORI-769",
+          "caseId": "CT-LOC-07",
+          "technique": "Decision Table",
+          "scenario": "Localisation en lecture seule pour un RDV annule ou passe (historique)",
+          "status": "assertion-low",
+          "completion": 0.5
+        },
+        {
+          "issueKey": "ORI-368",
+          "caseId": "CT-BSN-01",
+          "technique": "Decision Table",
+          "scenario": "CA-A01 - Affichage du tableau des besoins et alimentation automatique (statut A qualifier)",
+          "status": "assertion-low",
+          "completion": 0.5
+        },
+        {
+          "issueKey": "ORI-667",
+          "caseId": "CT-FILT-06",
+          "technique": "Decision Table",
+          "scenario": "Application immediate du filtrage (sans bouton) et coherence avec le tableau",
+          "status": "blocked-flow",
+          "completion": 0.125
+        },
+        {
+          "issueKey": "ORI-728",
+          "caseId": "CT-DIS-05",
+          "technique": "Boundary/Equivalence",
+          "scenario": "Scenarios 8/9 - Message sans intervenant (listeIdsIntervenants vide) : verification sautee",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-750",
+          "caseId": "CT-ERR-02",
+          "technique": "Use Case / Scenario",
+          "scenario": "Scenario 16 - Agence inconnue : notification d'erreur",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-750",
+          "caseId": "CT-ERR-03",
+          "technique": "Decision Table",
+          "scenario": "Scenarios 14/15 - Client inconnu et intervenant inconnu : notification d'erreur",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-750",
+          "caseId": "CT-ERR-05",
+          "technique": "Use Case / Scenario",
+          "scenario": "Scenario 13 - Serie d'interventions deja existante : notification d'erreur",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-750",
+          "caseId": "CT-ERR-02",
+          "technique": "Use Case / Scenario",
+          "scenario": "Scenario 16 - Agence inconnue : notification d'erreur",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-750",
+          "caseId": "CT-ERR-03",
+          "technique": "Decision Table",
+          "scenario": "Scenarios 14/15 - Client inconnu et intervenant inconnu : notification d'erreur",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-750",
+          "caseId": "CT-ERR-05",
+          "technique": "Use Case / Scenario",
+          "scenario": "Scenario 13 - Serie d'interventions deja existante : notification d'erreur",
+          "status": "blocked-flow",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "rg": "RG_INT_CPTT_1c",
+      "module": "MP3",
+      "techniqueCount": 3,
+      "techniques": [
+        "Use Case / Scenario",
+        "Boundary/Equivalence",
+        "Decision Table"
+      ],
+      "testCaseCount": 3,
+      "avgCompletionScore": 0.229,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-936",
+          "caseId": "CT-CPT-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_INT_CPTS_1 - Affichage par defaut de l'ecran a la date du jour",
+          "status": "assertion-low",
+          "completion": 0.5
+        },
+        {
+          "issueKey": "ORI-936",
+          "caseId": "CT-CPT-05",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_INT_CPTT_1c / CA-CPT-04 - Alerte rouge 'X demande(s) en attente de validation'",
+          "status": "blocked-flow",
+          "completion": 0.188
+        },
+        {
+          "issueKey": "ORI-936",
+          "caseId": "CT-CPT-12",
+          "technique": "Decision Table",
+          "scenario": "Conformite maquette et lecture seule des champs de l'ecran principal",
+          "status": "blocked-flow",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "rg": "RG_CONT_Hhebdo_13",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.25,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-723",
+          "caseId": "CT-DUR-01",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_CONT_Hhebdo_13 - Controles de saisie des heures hebdomadaires (obligatoire, > 0, format, bornes)",
+          "status": "blocked-flow",
+          "completion": 0
+        },
+        {
+          "issueKey": "ORI-1039",
+          "caseId": "CT-DURF-01",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_CONT_Hhebdo_13 - Champ heures hebdomadaires : affichage, saisie UI, format et messages",
+          "status": "assertion-low",
+          "completion": 0.5
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_FILT_04",
+      "module": "MP4",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.25,
+      "minCompletionScore": 0.25,
+      "rows": [
+        {
+          "issueKey": "ORI-667",
+          "caseId": "CT-FILT-03",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_BSN_FILT_04 / CA-B04 - Application cumulative des criteres (logique ET)",
+          "status": "blocked-flow",
+          "completion": 0.25
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_FILT_03",
+      "module": "MP4",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.25,
+      "minCompletionScore": 0.25,
+      "rows": [
+        {
+          "issueKey": "ORI-667",
+          "caseId": "CT-FILT-04",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_BSN_FILT_03 / CA-B05 - Reinitialiser les filtres (retour valeurs par defaut + tri par defaut)",
+          "status": "blocked-flow",
+          "completion": 0.25
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_QUAL_03",
+      "module": "MP4",
+      "techniqueCount": 2,
+      "techniques": [
+        "Decision Table",
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.25,
+      "minCompletionScore": 0,
+      "rows": [
+        {
+          "issueKey": "ORI-1068",
+          "caseId": "CT-RND-02",
+          "technique": "Decision Table",
+          "scenario": "Types de widgets supportes et mapping Design System Orion",
+          "status": "assertion-low",
+          "completion": 0.5
+        },
+        {
+          "issueKey": "ORI-1068",
+          "caseId": "CT-RND-05",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_BSN_QUAL_03/07 - Validation des champs et completude d'etape",
+          "status": "blocked-flow",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "rg": "RG_FAM_UPD_14",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.261,
+      "minCompletionScore": 0.261,
+      "rows": [
+        {
+          "issueKey": "ORI-657",
+          "caseId": "CT-PIM-D-08",
+          "technique": "Decision Table",
+          "scenario": "CA19 a CA22: Famille parente (desactivee si sous-familles) + conversion sous-famille/racine",
+          "status": "blocked-flow",
+          "completion": 0.261
+        }
+      ]
+    },
+    {
+      "rg": "RG_FAM_UPD_15",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.261,
+      "minCompletionScore": 0.261,
+      "rows": [
+        {
+          "issueKey": "ORI-657",
+          "caseId": "CT-PIM-D-08",
+          "technique": "Decision Table",
+          "scenario": "CA19 a CA22: Famille parente (desactivee si sous-familles) + conversion sous-famille/racine",
+          "status": "blocked-flow",
+          "completion": 0.261
+        }
+      ]
+    },
+    {
+      "rg": "RG_FAM_UPD_16",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.261,
+      "minCompletionScore": 0.261,
+      "rows": [
+        {
+          "issueKey": "ORI-657",
+          "caseId": "CT-PIM-D-08",
+          "technique": "Decision Table",
+          "scenario": "CA19 a CA22: Famille parente (desactivee si sous-familles) + conversion sous-famille/racine",
+          "status": "blocked-flow",
+          "completion": 0.261
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_FILT_02",
+      "module": "MP4",
+      "techniqueCount": 2,
+      "techniques": [
+        "Decision Table",
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.261,
+      "minCompletionScore": 0.146,
+      "rows": [
+        {
+          "issueKey": "ORI-667",
+          "caseId": "CT-FILT-02",
+          "technique": "Decision Table",
+          "scenario": "RG_BSN_FILT_02 / CA-B02 - Filtre 'Statut' (cases a cocher multi-selection) et valeur par defaut 'Tous'",
+          "status": "blocked-flow",
+          "completion": 0.146
+        },
+        {
+          "issueKey": "ORI-667",
+          "caseId": "CT-FILT-05",
+          "technique": "Boundary/Equivalence",
+          "scenario": "RG_BSN_FILT_02 - Etat vide filtre (aucun besoin ne correspond)",
+          "status": "blocked-flow",
+          "completion": 0.375
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_CREATE_09",
+      "module": "MP2",
+      "techniqueCount": 2,
+      "techniques": [
+        "Use Case / Scenario",
+        "Decision Table"
+      ],
+      "testCaseCount": 3,
+      "avgCompletionScore": 0.271,
+      "minCompletionScore": 0.094,
+      "rows": [
+        {
+          "issueKey": "ORI-1067",
+          "caseId": "CT-OPT-B-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "CA01+CA02: Acces formulaire creation (habilitations + pre-remplissage defauts)",
+          "status": "blocked-flow",
+          "completion": 0.094
+        },
+        {
+          "issueKey": "ORI-1067",
+          "caseId": "CT-OPT-B-06",
+          "technique": "Decision Table",
+          "scenario": "CA11+CA12: Periodicite conditionnelle (Recurrent=visible, Ponctuel=masque) + label dynamique Quantite",
+          "status": "assertion-low",
+          "completion": 0.5
+        },
+        {
+          "issueKey": "ORI-1067",
+          "caseId": "CT-OPT-B-07",
+          "technique": "Decision Table",
+          "scenario": "CA13: Quantite facturable invalide (< 1 ou > 9999)",
+          "status": "blocked-flow",
+          "completion": 0.219
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_ABAND_01",
+      "module": "MP4",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.275,
+      "minCompletionScore": 0.05,
+      "rows": [
+        {
+          "issueKey": "ORI-368",
+          "caseId": "CT-BSN-05",
+          "technique": "Decision Table",
+          "scenario": "RG_BSN_ABAND_01 / CA1-16-18 - Regle d'abandon selon presence de devis",
+          "status": "assertion-low",
+          "completion": 0.5
+        },
+        {
+          "issueKey": "ORI-995",
+          "caseId": "CT-ABD-01",
+          "technique": "Decision Table",
+          "scenario": "Disponibilite de l'action Abandonner selon le statut et les devis associes",
+          "status": "blocked-flow",
+          "completion": 0.05
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_ABAND_VALID_01",
+      "module": "MP4",
+      "techniqueCount": 2,
+      "techniques": [
+        "Use Case / Scenario",
+        "Decision Table"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.313,
+      "minCompletionScore": 0.125,
+      "rows": [
+        {
+          "issueKey": "ORI-995",
+          "caseId": "CT-ABD-02",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_BSN_ABAND_MOTIF_01 / CA-01 - Abandon avec un motif standard (different de 'Autre')",
+          "status": "blocked-flow",
+          "completion": 0.125
+        },
+        {
+          "issueKey": "ORI-995",
+          "caseId": "CT-ABD-06",
+          "technique": "Decision Table",
+          "scenario": "RG_BSN_ABAND_VALID_01 - Etat post-abandon : irreversibilite et actions restantes (Consulter seul)",
+          "status": "assertion-low",
+          "completion": 0.5
+        }
+      ]
+    },
+    {
+      "rg": "RG_PAP_NAV_01",
+      "module": "MP6",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.333,
+      "minCompletionScore": 0.333,
+      "rows": [
+        {
+          "issueKey": "ORI-790",
+          "caseId": "CT-AF-01",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_PAP_NAV_01 / CA_PAP_NAV_01 - Clic fleche/carte : navigation vers la sous-page de detail (3B)",
+          "status": "blocked-flow",
+          "completion": 0.333
+        }
+      ]
+    },
+    {
+      "rg": "RG_ETAB_INACTIV_HERIT",
+      "module": "MP1",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.367,
+      "minCompletionScore": 0.367,
+      "rows": [
+        {
+          "issueKey": "ORI-783",
+          "caseId": "CT-ETAB-07",
+          "technique": "State Transition",
+          "scenario": "Heritage inactivation parent + blocage ACTIF vers INACTIF",
+          "status": "blocked-flow",
+          "completion": 0.367
+        }
+      ]
+    },
+    {
+      "rg": "RG_ETAB_MODIF_INTERDIT_ACTIF_VERS_INACTIF",
+      "module": "MP1",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.367,
+      "minCompletionScore": 0.367,
+      "rows": [
+        {
+          "issueKey": "ORI-783",
+          "caseId": "CT-ETAB-07",
+          "technique": "State Transition",
+          "scenario": "Heritage inactivation parent + blocage ACTIF vers INACTIF",
+          "status": "blocked-flow",
+          "completion": 0.367
+        }
+      ]
+    },
+    {
+      "rg": "RG_ETAB_SIRET_MODIF_INTERDITE_SI_ACTIF",
+      "module": "MP1",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.5,
+      "minCompletionScore": 0.5,
+      "rows": [
+        {
+          "issueKey": "ORI-783",
+          "caseId": "CT-ETAB-05",
+          "technique": "Decision Table",
+          "scenario": "SIRET verrouille sur etab ACTIF (RG_ETAB_SIRET_MODIF_INTERDITE_SI_ACTIF)",
+          "status": "assertion-low",
+          "completion": 0.5
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_LIST_13",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.5,
+      "minCompletionScore": 0.5,
+      "rows": [
+        {
+          "issueKey": "ORI-1065",
+          "caseId": "CT-OPT-A-04",
+          "technique": "Decision Table",
+          "scenario": "CA07: Colonne Periodicite conditionnelle (Recurrent vs Ponctuel)",
+          "status": "assertion-low",
+          "completion": 0.5
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_CREATE_17",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.5,
+      "minCompletionScore": 0.5,
+      "rows": [
+        {
+          "issueKey": "ORI-1067",
+          "caseId": "CT-OPT-B-04",
+          "technique": "Decision Table",
+          "scenario": "CA06: Bouton Enregistrer desactive si champs obligatoires manquants ou invalides",
+          "status": "assertion-low",
+          "completion": 0.5
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_CREATE_06",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.5,
+      "minCompletionScore": 0.5,
+      "rows": [
+        {
+          "issueKey": "ORI-1067",
+          "caseId": "CT-OPT-B-04",
+          "technique": "Decision Table",
+          "scenario": "CA06: Bouton Enregistrer desactive si champs obligatoires manquants ou invalides",
+          "status": "assertion-low",
+          "completion": 0.5
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_CREATE_04",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.5,
+      "minCompletionScore": 0.5,
+      "rows": [
+        {
+          "issueKey": "ORI-1067",
+          "caseId": "CT-OPT-B-05",
+          "technique": "Boundary/Equivalence",
+          "scenario": "CA07+CA08+CA09+CA10+CA16: Controles code (filtrage auto, normalisation, min 3, max 20, backend)",
+          "status": "assertion-low",
+          "completion": 0.5
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_CREATE_15",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.5,
+      "minCompletionScore": 0.5,
+      "rows": [
+        {
+          "issueKey": "ORI-1067",
+          "caseId": "CT-OPT-B-05",
+          "technique": "Boundary/Equivalence",
+          "scenario": "CA07+CA08+CA09+CA10+CA16: Controles code (filtrage auto, normalisation, min 3, max 20, backend)",
+          "status": "assertion-low",
+          "completion": 0.5
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_CREATE_05",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Boundary/Equivalence"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.5,
+      "minCompletionScore": 0.5,
+      "rows": [
+        {
+          "issueKey": "ORI-1067",
+          "caseId": "CT-OPT-B-05",
+          "technique": "Boundary/Equivalence",
+          "scenario": "CA07+CA08+CA09+CA10+CA16: Controles code (filtrage auto, normalisation, min 3, max 20, backend)",
+          "status": "assertion-low",
+          "completion": 0.5
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_CREATE_08",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.5,
+      "minCompletionScore": 0.5,
+      "rows": [
+        {
+          "issueKey": "ORI-1067",
+          "caseId": "CT-OPT-B-06",
+          "technique": "Decision Table",
+          "scenario": "CA11+CA12: Periodicite conditionnelle (Recurrent=visible, Ponctuel=masque) + label dynamique Quantite",
+          "status": "assertion-low",
+          "completion": 0.5
+        }
+      ]
+    },
+    {
+      "rg": "RG_CONT_ATT_18",
+      "module": "MP3",
+      "techniqueCount": 2,
+      "techniques": [
+        "Use Case / Scenario",
+        "Decision Table"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.5,
+      "minCompletionScore": 0.5,
+      "rows": [
+        {
+          "issueKey": "ORI-723",
+          "caseId": "CT-DUR-06",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_CONT_ATT_18 - Bloc annualisation du temps de travail (hors simulateur)",
+          "status": "assertion-low",
+          "completion": 0.5
+        },
+        {
+          "issueKey": "ORI-1039",
+          "caseId": "CT-DURF-06",
+          "technique": "Decision Table",
+          "scenario": "RG_CONT_ATT_18 - Affichage du bloc ATT et alerte de depassement (hors simulateur)",
+          "status": "assertion-low",
+          "completion": 0.5
+        }
+      ]
+    },
+    {
+      "rg": "RG_INT_CPTT_1",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.5,
+      "minCompletionScore": 0.5,
+      "rows": [
+        {
+          "issueKey": "ORI-936",
+          "caseId": "CT-CPT-04",
+          "technique": "Decision Table",
+          "scenario": "RG_INT_CPTT_1 / 1c - Affichage des types de conges selon le parametrage (libelle + periode)",
+          "status": "assertion-low",
+          "completion": 0.5
+        }
+      ]
+    },
+    {
+      "rg": "RG_INT_CLOSTA_1",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.5,
+      "minCompletionScore": 0.5,
+      "rows": [
+        {
+          "issueKey": "ORI-1356",
+          "caseId": "CT-VIS-06",
+          "technique": "Decision Table",
+          "scenario": "RG_INT_CLOSTA_1 / CA J1-J3 - Onglet Cloturés : contenu et actions restreintes",
+          "status": "assertion-low",
+          "completion": 0.5
+        }
+      ]
+    },
+    {
+      "rg": "RG_INT_ABSHOR_1",
+      "module": "MP3",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.5,
+      "minCompletionScore": 0.5,
+      "rows": [
+        {
+          "issueKey": "ORI-1356",
+          "caseId": "CT-VIS-07",
+          "technique": "State Transition",
+          "scenario": "RG_INT_ABSHOR_1 / CA B8/J5 - Historique d'une absence (cycle de vie)",
+          "status": "assertion-low",
+          "completion": 0.5
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_CONSULT_01",
+      "module": "MP4",
+      "techniqueCount": 2,
+      "techniques": [
+        "Use Case / Scenario",
+        "Decision Table"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.5,
+      "minCompletionScore": 0.5,
+      "rows": [
+        {
+          "issueKey": "ORI-368",
+          "caseId": "CT-BSN-07",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_BSN_CONSULT_01 / CA-A19 - Action Consulter d'un besoin Abandonne (lecture seule)",
+          "status": "assertion-low",
+          "completion": 0.5
+        },
+        {
+          "issueKey": "ORI-995",
+          "caseId": "CT-ABD-06",
+          "technique": "Decision Table",
+          "scenario": "RG_BSN_ABAND_VALID_01 - Etat post-abandon : irreversibilite et actions restantes (Consulter seul)",
+          "status": "assertion-low",
+          "completion": 0.5
+        }
+      ]
+    },
+    {
+      "rg": "RG_PAP_HER_01",
+      "module": "MP6",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.5,
+      "minCompletionScore": 0.5,
+      "rows": [
+        {
+          "issueKey": "ORI-790",
+          "caseId": "CT-AF-03",
+          "technique": "Decision Table",
+          "scenario": "RG_PAP_HER_01/02 - Bandeau 'Herite du CDA' et champs en lecture seule",
+          "status": "assertion-low",
+          "completion": 0.5
+        }
+      ]
+    },
+    {
+      "rg": "RG_PAP_PEC_01",
+      "module": "MP6",
+      "techniqueCount": 1,
+      "techniques": [
+        "Use Case / Scenario"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.5,
+      "minCompletionScore": 0.5,
+      "rows": [
+        {
+          "issueKey": "ORI-790",
+          "caseId": "CT-AF-04",
+          "technique": "Use Case / Scenario",
+          "scenario": "RG_PAP_PEC_01 / CA_PAP_PEC_01/02 - Calcul bidirectionnel taux PEC <-> montant PEC",
+          "status": "assertion-low",
+          "completion": 0.5
+        }
+      ]
+    },
+    {
+      "rg": "RG_PAP_ABC_01",
+      "module": "MP6",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.5,
+      "minCompletionScore": 0.5,
+      "rows": [
+        {
+          "issueKey": "ORI-790",
+          "caseId": "CT-AF-08",
+          "technique": "Decision Table",
+          "scenario": "RG_PAP_ABC/FORF/ABO/TRJ - Affichage conditionnel du detail selon le format de facturation",
+          "status": "assertion-low",
+          "completion": 0.5
+        }
+      ]
+    },
+    {
+      "rg": "RG_PAP_FORF_01",
+      "module": "MP6",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.5,
+      "minCompletionScore": 0.5,
+      "rows": [
+        {
+          "issueKey": "ORI-790",
+          "caseId": "CT-AF-08",
+          "technique": "Decision Table",
+          "scenario": "RG_PAP_ABC/FORF/ABO/TRJ - Affichage conditionnel du detail selon le format de facturation",
+          "status": "assertion-low",
+          "completion": 0.5
+        }
+      ]
+    },
+    {
+      "rg": "RG_PAP_ABO_01",
+      "module": "MP6",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.5,
+      "minCompletionScore": 0.5,
+      "rows": [
+        {
+          "issueKey": "ORI-790",
+          "caseId": "CT-AF-08",
+          "technique": "Decision Table",
+          "scenario": "RG_PAP_ABC/FORF/ABO/TRJ - Affichage conditionnel du detail selon le format de facturation",
+          "status": "assertion-low",
+          "completion": 0.5
+        }
+      ]
+    },
+    {
+      "rg": "RG_PAP_TRJ_01",
+      "module": "MP6",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.5,
+      "minCompletionScore": 0.5,
+      "rows": [
+        {
+          "issueKey": "ORI-790",
+          "caseId": "CT-AF-08",
+          "technique": "Decision Table",
+          "scenario": "RG_PAP_ABC/FORF/ABO/TRJ - Affichage conditionnel du detail selon le format de facturation",
+          "status": "assertion-low",
+          "completion": 0.5
+        }
+      ]
+    },
+    {
+      "rg": "RG_PLA_HRD_01",
+      "module": "MP5",
+      "techniqueCount": 2,
+      "techniques": [
+        "Decision Table",
+        "State Transition"
+      ],
+      "testCaseCount": 4,
+      "avgCompletionScore": 0.503,
+      "minCompletionScore": 0.063,
+      "rows": [
+        {
+          "issueKey": "ORI-688",
+          "caseId": "CT-PTG-01",
+          "technique": "Decision Table",
+          "scenario": "RG_PLA_HRD_01 - Presence des 2 icones (debut et fin) sur la carte d'intervention",
+          "status": "assertion-low",
+          "completion": 0.5
+        },
+        {
+          "issueKey": "ORI-688",
+          "caseId": "CT-PTG-02",
+          "technique": "Decision Table",
+          "scenario": "RG_PLA_HRD_01 - Icone selon le type de pointage (Aucun pointage / Scan QR / Manuel / Force)",
+          "status": "assertion-low",
+          "completion": 0.5
+        },
+        {
+          "issueKey": "ORI-688",
+          "caseId": "CT-PTG-05",
+          "technique": "State Transition",
+          "scenario": "RG_PLA_HRD_01 - Affichage identique de l'etat des pointages dans la vue 'Clients'",
+          "status": "passed",
+          "completion": 0.95
+        },
+        {
+          "issueKey": "ORI-688",
+          "caseId": "CT-PTG-06",
+          "technique": "State Transition",
+          "scenario": "Mise a jour de l'etat des pointages a la reception/forcage d'un pointage",
+          "status": "blocked-flow",
+          "completion": 0.063
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_LIST_01",
+      "module": "MP2",
+      "techniqueCount": 2,
+      "techniques": [
+        "Decision Table",
+        "State Transition"
+      ],
+      "testCaseCount": 2,
+      "avgCompletionScore": 0.62,
+      "minCompletionScore": 0.29,
+      "rows": [
+        {
+          "issueKey": "ORI-1065",
+          "caseId": "CT-OPT-A-02",
+          "technique": "Decision Table",
+          "scenario": "CA03: Recherche par libelle commercial ou code (partielle, insensible casse)",
+          "status": "passed",
+          "completion": 0.95
+        },
+        {
+          "issueKey": "ORI-1065",
+          "caseId": "CT-OPT-A-03",
+          "technique": "State Transition",
+          "scenario": "CA04+CA05+CA06: Filtres Statut (Actif/Inactif) + Marche + Taxe",
+          "status": "blocked-flow",
+          "completion": 0.29
+        }
+      ]
+    },
+    {
+      "rg": "RG_OPT_LIST_08",
+      "module": "MP2",
+      "techniqueCount": 1,
+      "techniques": [
+        "Decision Table"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.95,
+      "minCompletionScore": 0.95,
+      "rows": [
+        {
+          "issueKey": "ORI-1065",
+          "caseId": "CT-OPT-A-02",
+          "technique": "Decision Table",
+          "scenario": "CA03: Recherche par libelle commercial ou code (partielle, insensible casse)",
+          "status": "passed",
+          "completion": 0.95
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_TRILST_01",
+      "module": "MP4",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.95,
+      "minCompletionScore": 0.95,
+      "rows": [
+        {
+          "issueKey": "ORI-368",
+          "caseId": "CT-BSN-02",
+          "technique": "State Transition",
+          "scenario": "RG_BSN_TRILST_01 / CA-A02 - Tri par defaut (statut puis date de creation croissante)",
+          "status": "passed",
+          "completion": 0.95
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_SERV_01",
+      "module": "MP4",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.95,
+      "minCompletionScore": 0.95,
+      "rows": [
+        {
+          "issueKey": "ORI-368",
+          "caseId": "CT-BSN-08",
+          "technique": "State Transition",
+          "scenario": "Contenu des colonnes Service / Statut / Responsable / Date de creation",
+          "status": "passed",
+          "completion": 0.95
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_STAT_01",
+      "module": "MP4",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.95,
+      "minCompletionScore": 0.95,
+      "rows": [
+        {
+          "issueKey": "ORI-368",
+          "caseId": "CT-BSN-08",
+          "technique": "State Transition",
+          "scenario": "Contenu des colonnes Service / Statut / Responsable / Date de creation",
+          "status": "passed",
+          "completion": 0.95
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_RESP_01",
+      "module": "MP4",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.95,
+      "minCompletionScore": 0.95,
+      "rows": [
+        {
+          "issueKey": "ORI-368",
+          "caseId": "CT-BSN-08",
+          "technique": "State Transition",
+          "scenario": "Contenu des colonnes Service / Statut / Responsable / Date de creation",
+          "status": "passed",
+          "completion": 0.95
+        }
+      ]
+    },
+    {
+      "rg": "RG_BSN_DATCREA_01",
+      "module": "MP4",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.95,
+      "minCompletionScore": 0.95,
+      "rows": [
+        {
+          "issueKey": "ORI-368",
+          "caseId": "CT-BSN-08",
+          "technique": "State Transition",
+          "scenario": "Contenu des colonnes Service / Statut / Responsable / Date de creation",
+          "status": "passed",
+          "completion": 0.95
+        }
+      ]
+    },
+    {
+      "rg": "RG_PLAC_BAI_01",
+      "module": "MP5",
+      "techniqueCount": 1,
+      "techniques": [
+        "State Transition"
+      ],
+      "testCaseCount": 1,
+      "avgCompletionScore": 0.95,
+      "minCompletionScore": 0.95,
+      "rows": [
+        {
+          "issueKey": "ORI-688",
+          "caseId": "CT-PTG-05",
+          "technique": "State Transition",
+          "scenario": "RG_PLA_HRD_01 - Affichage identique de l'etat des pointages dans la vue 'Clients'",
+          "status": "passed",
+          "completion": 0.95
+        }
+      ]
+    }
+  ]
+}

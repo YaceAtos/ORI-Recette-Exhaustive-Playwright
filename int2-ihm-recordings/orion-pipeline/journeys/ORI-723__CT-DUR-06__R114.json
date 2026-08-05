@@ -33,5 +33,5 @@
   "rules": [
     "RG_CONT_ATT_18"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-042ec-de-travail-hors-simulateur--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-042ec-de-travail-hors-simulateur--orion-pipeline"
 }

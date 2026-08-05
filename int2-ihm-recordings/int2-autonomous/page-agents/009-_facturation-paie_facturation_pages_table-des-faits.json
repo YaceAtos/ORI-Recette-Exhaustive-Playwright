@@ -2,7 +2,7 @@
   "pageId": "/facturation-paie/facturation/pages/table-des-faits",
   "pageUrl": "https://orion-int2.itsap.net/facturation-paie/facturation/pages/table-des-faits",
   "agentId": "page-agent-009",
-  "runAt": "2026-07-21T08:20:20.396Z",
+  "runAt": "2026-08-05T10:10:44.363Z",
   "success": true,
   "error": null,
   "extract": {
@@ -327,13 +327,13 @@
           "Statut",
           "Date de collecte"
         ],
-        "rows": 5
+        "rows": 2
       }
     ],
     "dialogs": [],
     "alerts": [
       {
-        "text": "info Clôture J-10",
+        "text": "info Clôture J-26",
         "tag": "div",
         "id": null,
         "className": "alert-container alert-info gap-lg p-x-lg p-y-sm container-no-msg",
@@ -348,20 +348,6 @@
       },
       {
         "text": "warning_amber Supérieures à 7 jours",
-        "tag": "div",
-        "id": null,
-        "className": "error gap-md p-x-sm p-y-xs tag-container",
-        "role": null
-      },
-      {
-        "text": "warning_amber Anomalie",
-        "tag": "div",
-        "id": null,
-        "className": "error gap-md p-x-sm p-y-xs tag-container",
-        "role": null
-      },
-      {
-        "text": "+7j",
         "tag": "div",
         "id": null,
         "className": "error gap-md p-x-sm p-y-xs tag-container",
@@ -381,7 +367,7 @@
       "options": 0,
       "tables": 1,
       "dialogs": 0,
-      "alerts": 5,
+      "alerts": 3,
       "textBlocks": 3
     }
   }

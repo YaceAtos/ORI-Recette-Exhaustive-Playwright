@@ -30,5 +30,5 @@
   "rules": [
     "RG_CONT_TauxP_16"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-94877-atique-du-taux-temps-plein--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-94877-atique-du-taux-temps-plein--orion-pipeline"
 }

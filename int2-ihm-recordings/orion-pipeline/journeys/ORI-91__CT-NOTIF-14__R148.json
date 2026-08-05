@@ -33,5 +33,5 @@
   "rules": [
     "RG_INT_NOTIF_01"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-5ef89--aux-autres-domaines-etude--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-5ef89--aux-autres-domaines-etude--orion-pipeline"
 }

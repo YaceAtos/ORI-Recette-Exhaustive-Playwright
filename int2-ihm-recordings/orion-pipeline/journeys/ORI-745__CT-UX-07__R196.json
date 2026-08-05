@@ -1,0 +1,32 @@
+{
+  "canonicalId": "ORI-745::CT-UX-07::R196",
+  "issueKey": "ORI-745",
+  "caseId": "CT-UX-07",
+  "module": "MP4 > SP4.1",
+  "priority": "P2",
+  "type": "Nominal",
+  "scenario": "Conformite maquette et coherence transverse des icones remplaces",
+  "route": "https://orion-int2.itsap.net/crm/pages/clients-prospects",
+  "reachedRecord": false,
+  "openedModal": null,
+  "fieldsFilled": 0,
+  "progressedSteps": 0,
+  "totalSteps": 3,
+  "blocker": {
+    "step": 1,
+    "reason": "Étape \"Parcourir chaque page impactee\" : élément cible introuvable sur INT2 (parcours bloqué ici)"
+  },
+  "assertion": {
+    "met": 0,
+    "total": 1,
+    "misses": [
+      {
+        "text": "Nouveaux"
+      }
+    ]
+  },
+  "severity": "bloquant",
+  "status": "blocked-flow",
+  "rules": [],
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-35ee3-sverse-des-icones-remplaces-orion-pipeline"
+}

@@ -1,124 +1,85 @@
 {
-  "generatedAt": "2026-07-24T13:22:10.212Z",
-  "query": "loop engineering primitives maker checker memory state",
+  "generatedAt": "2026-08-05T13:52:18.873Z",
+  "query": "SIRET etablissement unicite",
   "queryTokens": [
-    "loop",
-    "engineering",
-    "primitives",
-    "maker",
-    "checker",
-    "memory",
-    "state"
+    "siret",
+    "etablissement",
+    "unicite"
   ],
-  "totalMatches": 22,
+  "totalMatches": 9,
   "topK": 8,
   "results": [
     {
-      "id": "external::loop-engineering::external-repos/loop-engineering/docs/concepts.md",
-      "url": "file://external-repos/loop-engineering/docs/concepts.md",
-      "brique": "external-loop-engineering",
-      "score": 14.64246859,
+      "id": "hybrid-report::ORI-783::CT-ETAB-03::R16",
+      "url": "jira://ORI-783#CT-ETAB-03",
+      "brique": "hybrid-report",
+      "score": 13.36844144,
       "matchedTokens": [
-        "loop",
-        "engineering",
-        "primitives",
-        "maker",
-        "checker",
-        "memory",
-        "state"
+        "siret",
+        "unicite"
       ]
     },
     {
-      "id": "external::loop-engineering::external-repos/loop-engineering/docs/primitives.md",
-      "url": "file://external-repos/loop-engineering/docs/primitives.md",
-      "brique": "external-loop-engineering",
-      "score": 12.53140635,
-      "matchedTokens": [
-        "loop",
-        "engineering",
-        "primitives",
-        "maker",
-        "checker",
-        "memory",
-        "state"
-      ]
-    },
-    {
-      "id": "external::loop-engineering::external-repos/loop-engineering/docs/primitives-matrix.md",
-      "url": "file://external-repos/loop-engineering/docs/primitives-matrix.md",
-      "brique": "external-loop-engineering",
-      "score": 10.95590429,
-      "matchedTokens": [
-        "loop",
-        "engineering",
-        "primitives",
-        "maker",
-        "checker",
-        "memory",
-        "state"
-      ]
-    },
-    {
-      "id": "external::loop-engineering::external-repos/loop-engineering/README.md",
-      "url": "file://external-repos/loop-engineering/README.md",
-      "brique": "external-loop-engineering",
-      "score": 10.86104381,
-      "matchedTokens": [
-        "loop",
-        "engineering",
-        "primitives",
-        "maker",
-        "checker",
-        "memory",
-        "state"
-      ]
-    },
-    {
-      "id": "external::loop-engineering::external-repos/loop-engineering/docs/loop-design-checklist.md",
-      "url": "file://external-repos/loop-engineering/docs/loop-design-checklist.md",
-      "brique": "external-loop-engineering",
-      "score": 10.01783722,
-      "matchedTokens": [
-        "loop",
-        "engineering",
-        "maker",
-        "checker",
-        "memory",
-        "state"
-      ]
-    },
-    {
-      "id": "knowledge::int2-ihm-knowledge/external/loop-engineering-ingest.md",
-      "url": "file://int2-ihm-knowledge/external/loop-engineering-ingest.md",
+      "id": "knowledge::int2-ihm-knowledge/validators/checksum.yaml",
+      "url": "file://int2-ihm-knowledge/validators/checksum.yaml",
       "brique": "knowledge",
-      "score": 7.77667415,
+      "score": 6.52773658,
       "matchedTokens": [
-        "loop",
-        "engineering",
-        "primitives"
+        "siret"
       ]
     },
     {
-      "id": "external::loop-engineering::external-repos/loop-engineering/docs/distribution/substack-score-climbs-then-budget-burns.md",
-      "url": "file://external-repos/loop-engineering/docs/distribution/substack-score-climbs-then-budget-burns.md",
-      "brique": "external-loop-engineering",
-      "score": 7.20612836,
+      "id": "hybrid-report::ORI-773::CT-STE-COORD-05::R9",
+      "url": "jira://ORI-773#CT-STE-COORD-05",
+      "brique": "hybrid-report",
+      "score": 6.46255252,
       "matchedTokens": [
-        "loop",
-        "engineering",
-        "maker",
-        "state"
+        "unicite"
       ]
     },
     {
-      "id": "external::loop-engineering::external-repos/loop-engineering/docs/distribution/v1.6.0-social-drafts.md",
-      "url": "file://external-repos/loop-engineering/docs/distribution/v1.6.0-social-drafts.md",
-      "brique": "external-loop-engineering",
-      "score": 6.77920957,
+      "id": "hybrid-report::ORI-657::CT-PIM-D-03::R82",
+      "url": "jira://ORI-657#CT-PIM-D-03",
+      "brique": "hybrid-report",
+      "score": 6.46255252,
       "matchedTokens": [
-        "loop",
-        "engineering",
-        "state"
+        "unicite"
+      ]
+    },
+    {
+      "id": "knowledge::int2-ihm-knowledge/semantic/company.yaml",
+      "url": "file://int2-ihm-knowledge/semantic/company.yaml",
+      "brique": "knowledge",
+      "score": 5.92211725,
+      "matchedTokens": [
+        "siret"
+      ]
+    },
+    {
+      "id": "knowledge::int2-ihm-knowledge/generators/faker.yaml",
+      "url": "file://int2-ihm-knowledge/generators/faker.yaml",
+      "brique": "knowledge",
+      "score": 5.81374599,
+      "matchedTokens": [
+        "siret"
+      ]
+    },
+    {
+      "id": "hybrid-report::ORI-783::CT-ETAB-05::R18",
+      "url": "jira://ORI-783#CT-ETAB-05",
+      "brique": "hybrid-report",
+      "score": 5.67660897,
+      "matchedTokens": [
+        "siret"
+      ]
+    },
+    {
+      "id": "knowledge::int2-ihm-knowledge/validators/regex.yaml",
+      "url": "file://int2-ihm-knowledge/validators/regex.yaml",
+      "brique": "knowledge",
+      "score": 5.19423227,
+      "matchedTokens": [
+        "siret"
       ]
     }
   ]

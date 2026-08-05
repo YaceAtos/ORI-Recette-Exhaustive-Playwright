@@ -1,7 +1,7 @@
 meta:
-  generatedAt: '2026-07-21T08:20:25.520Z'
+  generatedAt: '2026-08-05T10:10:48.646Z'
   baseUrl: https://orion-int2.itsap.net
-  sourceGraphGeneratedAt: '2026-07-21T08:19:48.119Z'
+  sourceGraphGeneratedAt: '2026-08-05T09:45:56.902Z'
   mode: multi-agent-deep-extract
   agent_count: 17
   success_count: 17
@@ -937,10 +937,10 @@ briques:
                 - Type
                 - Statut
                 - Date de collecte
-              rows: 5
+              rows: 2
           dialogs: []
           alerts:
-            - text: info Clôture J-10
+            - text: info Clôture J-26
               tag: div
               id: null
               className: alert-container alert-info gap-lg p-x-lg p-y-sm container-no-msg
@@ -951,16 +951,6 @@ briques:
               className: error gap-md p-x-sm p-y-xs tag-container
               role: null
             - text: warning_amber Supérieures à 7 jours
-              tag: div
-              id: null
-              className: error gap-md p-x-sm p-y-xs tag-container
-              role: null
-            - text: warning_amber Anomalie
-              tag: div
-              id: null
-              className: error gap-md p-x-sm p-y-xs tag-container
-              role: null
-            - text: +7j
               tag: div
               id: null
               className: error gap-md p-x-sm p-y-xs tag-container
@@ -977,7 +967,7 @@ briques:
             options: 0
             tables: 1
             dialogs: 0
-            alerts: 5
+            alerts: 3
             textBlocks: 3
       - page_id: /facturation-paie/reglementaire/pages
         page_url: https://orion-int2.itsap.net/facturation-paie/reglementaire/pages

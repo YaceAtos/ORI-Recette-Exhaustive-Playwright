@@ -39,5 +39,5 @@
   "rules": [
     "RG_STE_ADRESS_HERIT_ETAB"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-cf352-x-RG-STE-ADRESS-HERIT-ETAB--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-cf352-x-RG-STE-ADRESS-HERIT-ETAB--orion-pipeline"
 }

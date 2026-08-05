@@ -1,0 +1,32 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "autoupdate": false,
+  "instructions": [
+    "LANGUE — REGLE ABSOLUE NON NEGOCIABLE : francais exclusif.",
+    "Ce dossier docs/ (document) est ISOLE du pack skills Orion racine.",
+    "Ne charge PAS les skills de recette/pipeline Orion (orion-playwright-pipeline, orion-spec-*, etc.).",
+    "Lire docs/AGENTS.md. Skills locales docs uniquement si presentes.",
+    "LECTURE BINAIRES : pdfplumber / python-docx / openpyxl / python-pptx / markitdown."
+  ],
+  "permission": {
+    "skill": {
+      "*": "deny",
+      "input-preprocessor": "allow",
+      "docx-generate-edit": "allow",
+      "writing-skills": "allow",
+      "confluence-conventions": "allow"
+    }
+  },
+  "mcp": {
+    "atlassian-itsap-orion": {
+      "type": "remote",
+      "url": "https://mcp.atlassian.com/v1/mcp",
+      "enabled": true
+    },
+    "figma-itsap-orion": {
+      "type": "remote",
+      "url": "http://127.0.0.1:3845/mcp",
+      "enabled": true
+    }
+  }
+}

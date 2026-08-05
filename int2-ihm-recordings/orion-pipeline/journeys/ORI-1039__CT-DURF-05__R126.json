@@ -36,5 +36,5 @@
   "rules": [
     "RG_CONT_ModOrg_38_V2"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-1a320-que-affichage-conditionnel--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-1a320-que-affichage-conditionnel--orion-pipeline"
 }

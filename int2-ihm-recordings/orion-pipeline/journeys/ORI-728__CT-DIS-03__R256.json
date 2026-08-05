@@ -36,5 +36,5 @@
   "rules": [
     "RG_CRT_SIN_08"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-94272-une-occurrence-Non-pourvue--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-94272-une-occurrence-Non-pourvue--orion-pipeline"
 }

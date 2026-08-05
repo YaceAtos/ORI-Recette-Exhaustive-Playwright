@@ -39,5 +39,5 @@
   "rules": [
     "RG_BSN_ABAND_COMM_01"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-94caf-aire-affiche-et-obligatoire-orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-94caf-aire-affiche-et-obligatoire-orion-pipeline"
 }

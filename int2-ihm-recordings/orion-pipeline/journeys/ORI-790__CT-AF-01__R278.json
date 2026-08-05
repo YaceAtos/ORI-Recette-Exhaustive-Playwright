@@ -26,5 +26,5 @@
   "rules": [
     "RG_PAP_NAV_01"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-c489e--la-sous-page-de-detail-3B--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-c489e--la-sous-page-de-detail-3B--orion-pipeline"
 }

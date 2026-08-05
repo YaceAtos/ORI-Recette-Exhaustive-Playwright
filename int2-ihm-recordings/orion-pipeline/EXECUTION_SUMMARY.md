@@ -1,10 +1,10 @@
 # Bilan execution Playwright Orion
 
-- Genere le : 2026-07-30T13:38:11.939Z
-- Tests executes : 253
-- Passes : 199
-- Echecs : 4
+- Genere le : 2026-08-05T12:47:02.734Z
+- Tests executes : 382
+- Passes : 297
+- Echecs : 35
 - Ignored/skipped : 50
-- Rapport HTML : int2-ihm-test-results/orion-pipeline-headed/html/index.html
+- Rapport HTML : int2-ihm-test-results/orion-pipeline/html/index.html
 
 

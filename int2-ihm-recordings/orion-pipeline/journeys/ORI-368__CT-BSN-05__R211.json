@@ -33,5 +33,5 @@
   "rules": [
     "RG_BSN_ABAND_01"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-e24fb-don-selon-presence-de-devis-orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-e24fb-don-selon-presence-de-devis-orion-pipeline"
 }

@@ -39,5 +39,5 @@
   "rules": [
     "RG_INT_ABACHE_2"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-4ad0a-1-2-journee-dates-CA-E7-E8--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-4ad0a-1-2-journee-dates-CA-E7-E8--orion-pipeline"
 }

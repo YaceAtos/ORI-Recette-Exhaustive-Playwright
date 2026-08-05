@@ -28,5 +28,5 @@
   "severity": "bloquant",
   "status": "blocked-flow",
   "rules": [],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-e0135-egments-et-IBAN-9-segments--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-e0135-egments-et-IBAN-9-segments--orion-pipeline"
 }

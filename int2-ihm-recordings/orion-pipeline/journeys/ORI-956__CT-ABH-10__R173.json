@@ -39,5 +39,5 @@
   "rules": [
     "RG_INT_ABACHE_2"
   ],
-  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline-headed/artifacts/orion-autonomous-catalog-O-9d546-vs-conge-journee-CA-E9-E10--orion-headed"
+  "artifactDir": "/Users/yacinebenhamou/Documents/playwrightOrion/int2-ihm-test-results/orion-pipeline/artifacts/orion-autonomous-catalog-O-9d546-vs-conge-journee-CA-E9-E10--orion-pipeline"
 }
